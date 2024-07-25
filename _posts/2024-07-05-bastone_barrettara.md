@@ -263,12 +263,12 @@ lines above the vocal part delineate vocal phrase lengths, which
 represent my own hearing of phrase structure without any necessary
 correspondence to slurs in Mozart's score.
 
-{% include center_column_img.html src='/assets/articles/bastone_barrettara/img/ex_1.png' img_size='60' fig_num='1' fig_caption='Mozart, &quot;Wer ein Liebchen hat gefunden,&quot; text and translation (Schaubhut Smith, 1991, 88--89).' %}
+{% include center_column_img.html src='assets/articles/bastone_barrettara/img/ex_1.png' img_size='60' fig_num='1' fig_caption='Mozart, &quot;Wer ein Liebchen hat gefunden,&quot; text and translation (Schaubhut Smith, 1991, 88--89).' %}
 
 
 {% include full_width_two_img.html 
-src1='/assets/articles/bastone_barrettara/img/ex_2_0.png' img_size='100'
-src2='/assets/articles/bastone_barrettara/img/ex_2_1.png' img_size='100' fig_num2='2' fig_caption2='Mozart, &quot;Wer ein Liebchen hat gefunden&quot; (piano-vocal reduction), mm. 1--20.'%}
+src1='assets/articles/bastone_barrettara/img/ex_2_0.png' img_size='100'
+src2='assets/articles/bastone_barrettara/img/ex_2_1.png' img_size='100' fig_num2='2' fig_caption2='Mozart, &quot;Wer ein Liebchen hat gefunden&quot; (piano-vocal reduction), mm. 1--20.'%}
 
 
 The first two couplets each outfit a four-measure vocal phrase
@@ -390,10 +390,10 @@ granted by both composers and listeners. Virtually every piece or
 movement was written with one time signature from beginning to end"
 (2008, 83).
 
-{% include center_column_img.html src='/assets/articles/bastone_barrettara/img/ex_3a.png' img_size='50' fig_num='3a' fig_caption='Mozart, &quot;Solche hergelauf\'ne Laffen,&quot; text and translation (Schaubhut Smith 1991, 93--94).' %}
+{% include center_column_img.html src='assets/articles/bastone_barrettara/img/ex_3a.png' img_size='50' fig_num='3a' fig_caption='Mozart, &quot;Solche hergelauf\'ne Laffen,&quot; text and translation (Schaubhut Smith 1991, 93--94).' %}
 
 
-{% include center_column_img.html src='/assets/articles/bastone_barrettara/img/ex_3b.png' img_size='100' fig_num='3b' fig_caption='Mozart, &quot;Solche hergelauf\'ne Laffen,&quot; formal outline.' %}
+{% include center_column_img.html src='assets/articles/bastone_barrettara/img/ex_3b.png' img_size='100' fig_num='3b' fig_caption='Mozart, &quot;Solche hergelauf\'ne Laffen,&quot; formal outline.' %}
 
 
 Gerold Gruber descriptively writes that Osmin "crashes, trips, and
@@ -437,10 +437,10 @@ without having a short rehearsal for the singers" (Anderson 1997, 808).
 Tending to agree with Croll's assessment that the first measure is not
 Mozart's own, I will not account for it here.
 
-{% include center_column_img.html src='/assets/articles/bastone_barrettara/img/ex_4.png' img_size='100' fig_num='4' fig_caption='Mozart, &quot;Solche hergelauf\'ne Laffen,&quot; mm. 2--8.' %}
+{% include center_column_img.html src='assets/articles/bastone_barrettara/img/ex_4.png' img_size='100' fig_num='4' fig_caption='Mozart, &quot;Solche hergelauf\'ne Laffen,&quot; mm. 2--8.' %}
 
 
-{% include center_column_img.html src='/assets/articles/bastone_barrettara/img/ex_5.png' img_size='100' fig_num='5' fig_caption='Mozart, &quot;Solche hergelauf\'ne Laffen,&quot; mm. 2--8, two
+{% include center_column_img.html src='assets/articles/bastone_barrettara/img/ex_5.png' img_size='100' fig_num='5' fig_caption='Mozart, &quot;Solche hergelauf\'ne Laffen,&quot; mm. 2--8, two
 interpretations.' %}
 
 
@@ -513,12 +513,12 @@ beginning at m. 8, Osmin's odd-numbered and inconsistent phrase lengths:
 3 + 5 + 3.{% include footnote.html footnote_number='23' footnote_text=page.footnote_23%}
 
 {% include full_width_two_img.html 
-src1='/assets/articles/bastone_barrettara/img/ex_6_0.png'
-src2='/assets/articles/bastone_barrettara/img/ex_6_1.png' %}
+src1='assets/articles/bastone_barrettara/img/ex_6_0.png'
+src2='assets/articles/bastone_barrettara/img/ex_6_1.png' %}
 
 {% include full_width_two_img.html 
-src1='/assets/articles/bastone_barrettara/img/ex_6_2.png'
-src2='/assets/articles/bastone_barrettara/img/ex_6_3.png' fig_num2='6' fig_caption2='Mozart, &quot;Solche hergelauf\'ne Laffen,&quot; mm. 8--31.' %}
+src1='assets/articles/bastone_barrettara/img/ex_6_2.png'
+src2='assets/articles/bastone_barrettara/img/ex_6_3.png' fig_num2='6' fig_caption2='Mozart, &quot;Solche hergelauf\'ne Laffen,&quot; mm. 8--31.' %}
 
 
 Such a volatile, pattern-avoidant phrase structure suggests that Osmin's
@@ -629,11 +629,11 @@ rhythmic emphases using a typical variety of conventional rhythmic
 profiles of the day.
 
 {% include full_width_two_img.html 
-src1='/assets/articles/bastone_barrettara/img/ex_7a.png' img_size='100' fig_num1='7a' fig_caption1='Mozart, &quot;Solche hergelauf\'ne Laffen,&quot; common rhythmic profiles. Pure *ottonario*, mm. 16--18.'
-src2='/assets/articles/bastone_barrettara/img/ex_7b.png' img_size='100' fig_num2='7b' fig_caption2='*Ottonario* with midpoint caesura, mm. 32--33.'%}
+src1='assets/articles/bastone_barrettara/img/ex_7a.png' img_size='100' fig_num1='7a' fig_caption1='Mozart, &quot;Solche hergelauf\'ne Laffen,&quot; common rhythmic profiles. Pure *ottonario*, mm. 16--18.'
+src2='assets/articles/bastone_barrettara/img/ex_7b.png' img_size='100' fig_num2='7b' fig_caption2='*Ottonario* with midpoint caesura, mm. 32--33.'%}
 {% include full_width_two_img.html 
-src1='/assets/articles/bastone_barrettara/img/ex_7c.png' img_size='100' fig_num1='7c' fig_caption1='Agogic downbeat profile, mm. 46--47.'
-src2='/assets/articles/bastone_barrettara/img/ex_7d.png' img_size='100' fig_num2='7d' fig_caption2='Downbeat syllabic stress profile, mm. 12--15.'%}
+src1='assets/articles/bastone_barrettara/img/ex_7c.png' img_size='100' fig_num1='7c' fig_caption1='Agogic downbeat profile, mm. 46--47.'
+src2='assets/articles/bastone_barrettara/img/ex_7d.png' img_size='100' fig_num2='7d' fig_caption2='Downbeat syllabic stress profile, mm. 12--15.'%}
 
 
 
@@ -653,7 +653,7 @@ the unwavering harmonic stability and Osmin's otherwise mechanical
 declamation. If it is in the second coda that his rage boils over, then
 surely it begins to simmer here.{% include footnote.html footnote_number='32' footnote_text=page.footnote_32%}
 
-{% include center_column_img.html src='/assets/articles/bastone_barrettara/img/ex_8.png' img_size='60' fig_num='8' fig_caption='Mozart, &quot;Solche hergelauf\'ne Laffen,&quot; mm. 126--128 (wind parts omitted).' %}
+{% include center_column_img.html src='assets/articles/bastone_barrettara/img/ex_8.png' img_size='60' fig_num='8' fig_caption='Mozart, &quot;Solche hergelauf\'ne Laffen,&quot; mm. 126--128 (wind parts omitted).' %}
 
 </section>
 <section markdown="1" >
@@ -692,8 +692,8 @@ concerned with the refrain and episode 2, both of which are marked by
 metric and phrase-structural turbulence.
 
 {% include full_width_two_img.html 
-src1='/assets/articles/bastone_barrettara/img/ex_9a.png' img_size='60' fig_num1='9a' fig_caption1='Mozart, &quot;O! wie will ich triumphieren,&quot; text and translation (Schaubhut Smith 1991, 142).'
-src2='/assets/articles/bastone_barrettara/img/ex_9b.png' img_size='100' fig_num2='9b' fig_caption2='Mozart, &quot;O! wie will ich triumphieren,&quot; formal outline.' %}
+src1='assets/articles/bastone_barrettara/img/ex_9a.png' img_size='60' fig_num1='9a' fig_caption1='Mozart, &quot;O! wie will ich triumphieren,&quot; text and translation (Schaubhut Smith 1991, 142).'
+src2='assets/articles/bastone_barrettara/img/ex_9b.png' img_size='100' fig_num2='9b' fig_caption2='Mozart, &quot;O! wie will ich triumphieren,&quot; formal outline.' %}
 
 
 An irrepressible, maniacal glee brims every refrain as Osmin envisages
@@ -714,8 +714,8 @@ in a non-duple meter, it commonly reverts to duple hypermeter later on,
 as if to emphasize that its beginning was metrically abnormal" (1989,
 39).{% include footnote.html footnote_number='35' footnote_text=page.footnote_35%}
 
-{% include center_column_img.html src='/assets/articles/bastone_barrettara/img/ex_10_0.png' img_size='60' fig_num='10' %}
-{% include center_column_img.html src='/assets/articles/bastone_barrettara/img/ex_10_1.png' img_size='60' fig_num='10' fig_caption='Mozart, &quot;O! wie will ich triumphieren&quot; (piano-vocal reduction), mm. 20--41.' %}
+{% include center_column_img.html src='assets/articles/bastone_barrettara/img/ex_10_0.png' img_size='60' fig_num='10' %}
+{% include center_column_img.html src='assets/articles/bastone_barrettara/img/ex_10_1.png' img_size='60' fig_num='10' fig_caption='Mozart, &quot;O! wie will ich triumphieren&quot; (piano-vocal reduction), mm. 20--41.' %}
 
 
 What should we make of this only-in-hindsight abnormality? Mozart again
@@ -766,12 +766,12 @@ of F, the harmony initiates a modulation to that key that will occupy
 the music through m. 111 (but more on that later).
 
 {% include full_width_two_img.html 
-src1='/assets/articles/bastone_barrettara/img/ex_11_0.png' img_size='100'
-src2='/assets/articles/bastone_barrettara/img/ex_11_1.png' img_size='100' %}
+src1='assets/articles/bastone_barrettara/img/ex_11_0.png' img_size='100'
+src2='assets/articles/bastone_barrettara/img/ex_11_1.png' img_size='100' %}
 {% include full_width_two_img.html
-src1='/assets/articles/bastone_barrettara/img/ex_11_2.png' img_size='100'
-src2='/assets/articles/bastone_barrettara/img/ex_11_3.png' img_size='100' %}
-{% include full_width_img.html src='/assets/articles/bastone_barrettara/img/ex_11_4.png' img_size='50' fig_num='11' fig_caption='Mozart, &quot;O! wie will ich triumphieren,&quot; mm. 87--132 (wind parts omitted).' %}
+src1='assets/articles/bastone_barrettara/img/ex_11_2.png' img_size='100'
+src2='assets/articles/bastone_barrettara/img/ex_11_3.png' img_size='100' %}
+{% include full_width_img.html src='assets/articles/bastone_barrettara/img/ex_11_4.png' img_size='50' fig_num='11' fig_caption='Mozart, &quot;O! wie will ich triumphieren,&quot; mm. 87--132 (wind parts omitted).' %}
 
 
 One could argue that Osmin supports the regular alternation of strong
@@ -907,7 +907,7 @@ weak measure of Blonde's phrase.{% include footnote.html footnote_number='42' fo
 halfway through m. 64, visually separating Osmin's contribution from the
 rest.
 
-{% include center_column_img.html src='/assets/articles/bastone_barrettara/img/ex_12.png' img_size='100' fig_num='12' fig_caption='Mozart, &quot;Nie werd\' ich deine Huld verkennen&quot; (piano-vocal reduction), mm. 61--68.' %}
+{% include center_column_img.html src='assets/articles/bastone_barrettara/img/ex_12.png' img_size='100' fig_num='12' fig_caption='Mozart, &quot;Nie werd\' ich deine Huld verkennen&quot; (piano-vocal reduction), mm. 61--68.' %}
 
 
 It is a briefly humanizing moment for the dour caretaker. Osmin had

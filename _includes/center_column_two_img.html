@@ -1,14 +1,14 @@
 {% if include.fig_num1 and include.fig_caption1 %}
 <div class="multi_img">
 	<div>
-		<a id="ex-{{include.fig_num1}}"><img src="{{include.src1}}" alt="{{include.fig_caption1}}" /></a>
+		<a id="ex-{{include.fig_num1}}"><img src="{{ site.baseurl }}/{{include.src1}}" alt="{{include.fig_caption1}}" /></a>
 		<figure>
 		
 			<span class="fignote"><span class="fig-number">Example {{include.fig_num1}}.</span> {{include.fig_caption1}}</span>
 		</figure>
 	</div>
 	<div>
-		<a id="ex-{{include.fig_num2}}"><img src="{{include.src2}}" alt="{{include.fig_caption2}}" /></a>
+		<a id="ex-{{include.fig_num2}}"><img src="{{ site.baseurl }}/{{include.src2}}" alt="{{include.fig_caption2}}" /></a>
 		<figure>
 			<span class="fignote"><span class="fig-number">Example {{include.fig_num2}}.</span> {{include.fig_caption2}}</span>
 		</figure>
@@ -17,10 +17,10 @@
 {% elsif  include.fig_num2 and include.fig_caption2%}
 <div class="multi_img">
 	<div>
-		<a id="ex-{{include.fig_num2}}"><img src="{{include.src1}}" alt="{{include.fig_caption2}}" /></a>
+		<a id="ex-{{include.fig_num2}}"><img src="{{ site.baseurl }}/{{include.src1}}" alt="{{include.fig_caption2}}" /></a>
 	</div>
 	<div>
-		<a id="ex-{{include.fig_num2}}"><img src="{{include.src2}}" alt="{{include.fig_caption2}}" /></a>
+		<a id="ex-{{include.fig_num2}}"><img src="{{ site.baseurl }}/{{include.src2}}" alt="{{include.fig_caption2}}" /></a>
 	</div>
 		<figure>
 			<span class="fignote"><span class="fig-number">Example {{include.fig_num2}}.</span> {{include.fig_caption2}}</span>
@@ -30,10 +30,10 @@
 {% else %}
 <div class="multi_img">
 	<div>
-		<a id="ex-{{include.fig_num2}}"><img src="{{include.src1}}" alt="{{include.fig_caption2}}" /></a>
+		<a id="ex-{{include.fig_num2}}"><img src="{{ site.baseurl }}/{{include.src1}}" alt="{{include.fig_caption2}}" /></a>
 	</div>
 	<div>
-		<a id="ex-{{include.fig_num2}}"><img src="{{include.src2}}" alt="{{include.fig_caption2}}" /></a>
+		<a id="ex-{{include.fig_num2}}"><img src="{{ site.baseurl }}/{{include.src2}}" alt="{{include.fig_caption2}}" /></a>
 	</div>
 </div>
 
