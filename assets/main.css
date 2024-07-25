@@ -1,0 +1,822 @@
+@charset "UTF-8";
+
+/* Import ET Book styles
+   adapted from https://github.com/edwardtufte/et-book/blob/gh-pages/et-book.css */
+
+@font-face {
+    font-family: "et-book";
+    src: url("serif/et-book-roman-line-figures/et-book-roman-line-figures.eot");
+    src: url("serif/et-book-roman-line-figures/et-book-roman-line-figures.eot?#iefix") format("embedded-opentype"), url("serif/et-book-roman-line-figures/et-book-roman-line-figures.woff") format("woff"), url("serif/et-book-roman-line-figures/et-book-roman-line-figures.ttf") format("truetype"), url("serif/et-book-roman-line-figures/et-book-roman-line-figures.svg#etbookromanosf") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "et-book";
+    src: url("serif/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.eot");
+    src: url("serif/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.eot?#iefix") format("embedded-opentype"), url("serif/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.woff") format("woff"), url("serif/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.ttf") format("truetype"), url("serif/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.svg#etbookromanosf") format("svg");
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "et-book";
+    src: url("serif/et-book-bold-line-figures/et-book-bold-line-figures.eot");
+    src: url("serif/et-book-bold-line-figures/et-book-bold-line-figures.eot?#iefix") format("embedded-opentype"), url("serif/et-book-bold-line-figures/et-book-bold-line-figures.woff") format("woff"), url("serif/et-book-bold-line-figures/et-book-bold-line-figures.ttf") format("truetype"), url("serif/et-book-bold-line-figures/et-book-bold-line-figures.svg#etbookromanosf") format("svg");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "et-book-roman-old-style";
+    src: url("serif/et-book-roman-old-style-figures/et-book-roman-old-style-figures.eot");
+    src: url("serif/et-book-roman-old-style-figures/et-book-roman-old-style-figures.eot?#iefix") format("embedded-opentype"), url("serif/et-book-roman-old-style-figures/et-book-roman-old-style-figures.woff") format("woff"), url("serif/et-book-roman-old-style-figures/et-book-roman-old-style-figures.ttf") format("truetype"), url("serif/et-book-roman-old-style-figures/et-book-roman-old-style-figures.svg#etbookromanosf") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    
+}
+
+@font-face {
+    font-family: "trade-gothic-light";
+    src: url("sans/trade-gothic-light/trade-gothic-light.eot");
+    src: url("sans/trade-gothic-light/trade-gothic-light.eot?#iefix") format("embedded-opentype"), url("sans/trade-gothic-light/trade-gothic-light.woff") format("woff"), url("sans/trade-gothic-light/trade-gothic-light.ttf") format("truetype"), url("sans/trade-gothic-light/trade-gothic-light.svg#TradeGothicLTW01-Light") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    }
+    
+@font-face {
+    font-family: "trade-gothic-lt";
+    src: url("sans/trade-gothic-lt/trade-gothic-lt.eot");
+    src: url("sans/trade-gothic-lt/trade-gothic-lt.eot?#iefix") format("embedded-opentype"), url("sans/trade-gothic-lt/trade-gothic-lt.woff") format("woff"), url("sans/trade-gothic-lt/trade-gothic-lt.ttf") format("truetype"), url("sans/trade-gothic-lt/trade-gothic-lt.svg#TradeGothic") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    }
+    
+@font-face {
+    font-family: "trade-gothic-lt-bold";
+    src: url("sans/trade-gothic-lt-bold/trade-gothic-lt-bold.eot");
+    src: url("sans/trade-gothic-lt-bold/trade-gothic-lt-bold.eot?#iefix") format("embedded-opentype"), url("sans/trade-gothic-lt-bold/trade-gothic-lt-bold.woff") format("woff"), url("sans/trade-gothic-lt-bold/trade-gothic-lt-bold.ttf") format("truetype"), url("sans/trade-gothic-lt-bold/trade-gothic-lt-bold.svg#TradeGothicBoldTwo") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    }
+    
+@font-face {
+    font-family: "trade-gothic-lt-bold-ext";
+    src: url("sans/trade-gothic-lt-bold-ext/trade-gothic-lt-bold-ext.eot");
+    src: url("sans/trade-gothic-lt-bold-ext/trade-gothic-lt-bold-ext.eot?#iefix") format("embedded-opentype"), url("sans/trade-gothic-lt-bold-ext/trade-gothic-lt-bold-ext.woff") format("woff"), url("sans/trade-gothic-lt-bold-ext/trade-gothic-lt-bold-ext.ttf") format("truetype"), url("sans/trade-gothic-lt-bold-ext/trade-gothic-lt-bold-ext.svg#TradeGothicLTW03-BoldExt") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    }
+    
+@font-face {
+    font-family: "trade-gothic-lt-light-oblique";
+    src: url("sans/trade-gothic-light/trade-gothic-light.eot");
+    src: url("sans/trade-gothic-light/trade-gothic-light.eot?#iefix") format("embedded-opentype"), url("sans/trade-gothic-light/trade-gothic-light.woff") format("woff"), url("sans/trade-gothic-light/trade-gothic-light.ttf") format("truetype"), url("sans/trade-gothic-light/trade-gothic-light.svg#TradeGothicLTW01-Light") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    }
+    
+    
+@font-face {
+    font-family: "music";
+    src: url("music/BravuraText.woff") format("woff"), url("music/BravuraText.ttf") format("truetype"), url("music/BravuraText.svg#BravuraText") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    }    
+
+/* Tufte CSS styles */
+html {
+    font-size: 15px;
+}
+
+body {
+    width: 87.5%;
+    position: relative;
+    font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+    background-color: #ffffff;
+    color: #363737;
+    counter-reset: sidenote-counter;
+    margin: 0;
+}
+
+.page-wrapper {
+  max-width: 1400px; /* Limit the main content width */
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 150px;
+}
+
+/* Adds dark mode */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #151515;
+        color: #ddd;
+    }
+}
+
+h1 {
+    font-family: trade-gothic-lt-bold-ext; 
+    font-weight: 400;
+    margin-top: 4rem;
+    margin-bottom: 1.5rem;
+    font-size: 3.2rem;
+    line-height: 1;
+}
+
+h2 {
+    font-family: trade-gothic-lt-bold-ext;
+    font-weight: 400;
+    margin-top: 2.1rem;
+    margin-bottom: 1.4rem;
+    font-size: 2.2rem;
+    line-height: 1;
+}
+
+section h2 {
+	width: 80%;
+}
+
+h3 {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 1.7rem;
+    margin-top: 2rem;
+    margin-bottom: 1.4rem;
+    line-height: 1;
+}
+
+hr {
+    display: block;
+    height: 1px;
+	max-width: 100vw;
+    border: 0;
+    border-top: 1px solid #000000;
+    padding: 0;
+}
+
+p.subtitle {
+    font-style: italic;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    display: block;
+    line-height: 1;
+}
+
+.reviewed-book {
+	padding-left: 2em;
+}
+
+.numeral {
+    font-family: et-book-roman-old-style;
+}
+
+.danger {
+    color: red;
+}
+
+.author {
+	font-family: trade-gothic-lt;
+	text-transform: uppercase;
+}
+
+.works-cited {
+    width: 100%;
+}
+
+article {
+    padding: 5rem 0rem;
+}
+
+abstract {
+	font-family: trade-gothic-lt;
+	text-align: justify;
+ 	text-justify: inter-word;
+}
+
+abstract > p {
+	font-size: 1.2rem;
+	margin-right: 13%;
+}
+
+section {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+p,
+dl,
+ol,
+ul {
+    font-size: 1.4rem;
+    line-height: 2rem;
+}
+
+p {
+    margin-top: 1.4rem;
+    margin-bottom: 1.4rem;
+    padding-right: 0;
+    vertical-align: baseline;
+}
+
+.music-font {
+    font-family: music;
+}
+
+/* Chapter Epigraphs */
+div.epigraph {
+    margin: 5em 0;
+}
+
+div.epigraph > blockquote {
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+div.epigraph > blockquote,
+div.epigraph > blockquote > p {
+    font-style: italic;
+}
+
+div.epigraph > blockquote > footer {
+    font-style: normal;
+}
+
+div.epigraph > blockquote > footer > cite {
+    font-style: italic;
+}
+
+
+
+sup {
+	font-size: 12px;
+	line-height: 0; 
+	vertical-align: 5px;
+	padding-left: 1.25px;
+	}
+	
+sub {
+	font-size: 12px;
+	line-height: 0; 
+	vertical-align: -5px;
+	padding-left: 1.25px;
+}
+
+/* end chapter epigraphs styles */
+
+/* Header */
+
+.header-wrapper {
+  width: 100vw; /* Full viewport width */
+  position: relative; /* Required for absolute positioning */
+  top: 0;
+  left: 0;
+}
+
+header {
+  width: 100%; /* Relative to .header-wrapper */
+  background-color: #fff;
+}
+
+.header-content {
+  width: 87.5%;
+  margin: 0 auto;
+  max-width: 100vw;
+padding-top: 5px;
+   
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-text {
+	font-size: 2em; 
+	font-family: trade-gothic-lt-bold-ext; 
+	color: #FAF4A7; 
+	text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; 
+    text-align: center;
+
+}
+
+.logo a:link {
+	text-decoration: none;
+}
+
+/* Navigation Menu */
+.nav-menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-menu li {
+  margin-right: 1.5rem;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: #333;
+}
+
+
+button {
+  background-color: #e8981d; /* Orange color from the website */
+  color: white;
+  padding: 10px 20px;   /* Adjust padding for desired size */
+  border: none;          
+  border-radius: 300px;    /* Rounded corners */
+  font-weight: bold;
+  cursor: pointer;       /* Indicate that it's clickable */
+  transition: background-color 0.3s; /* Smooth color transition on hover */
+}
+
+.button:hover {
+  background-color: #c57c00; /* Slightly darker orange on hover */
+}
+
+
+
+/* User Actions 
+.user-actions {
+  display: flex;
+  align-items: center;
+}
+
+.user-actions button {
+  margin-left: 1rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.search-button {
+  background-color: #eee;
+  color: #333;
+}
+
+.sign-in-button {
+  background-color: #008080; /* Teal */
+  color: white;
+}
+
+/*.get-started-button {
+  background-color: #000;
+  color: white;
+}
+*/
+
+
+/* Footer */
+.footer {
+  width: 100vw; /* Make footer span full width */
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #e6e6e6;
+}
+
+.footer-container {
+  display: flex; /* Enable Flexbox */
+  flex-direction: column; /* Arrange items vertically */
+  width: 87.5%; /* Keep the content within the desired width */
+  margin: 0 auto; /* Center the container horizontally */
+}
+
+.footer-row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-row:first-child {
+  margin-bottom: 10px;
+}
+
+/**/
+
+blockquote {
+    font-size: 1.4rem;
+}
+
+blockquote p {
+    width: 70%;
+    margin-right: 40px;
+}
+
+blockquote footer {
+    width: 70%;
+    font-size: 1.1rem;
+    text-align: right;
+}
+
+section > p,
+section > footer,
+section > table {
+    width: 80%;
+}
+
+#works-cited {
+    width: 90%;
+    word-wrap: break-word;
+}
+
+/* 50 + 5 == 55, to be the same width as paragraph */
+section > dl,
+section > ol,
+section > ul {
+    width: 50%;
+    -webkit-padding-start: 5%;
+}
+
+section#works-cited p {
+	width: 90%;
+}
+
+dt:not(:first-child),
+li:not(:first-child) {
+    margin-top: 0.25rem;
+}
+
+figure {
+    padding: 0;
+    border: px;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    max-width: 100%;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+    margin: 1em 0 1em 0;
+}
+
+figcaption {
+    float: right;
+    clear: right;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    vertical-align: baseline;
+    position: relative;
+    max-width: 40%;
+}
+
+figure.fullwidth figcaption {
+    margin-right: 24%;
+}
+
+/* Links: replicate underline that clears descenders */
+a:link,
+a:visited {
+    color: inherit;
+}
+
+.no-tufte-underline:link {
+    background: unset;
+    text-shadow: unset;
+}
+
+a:link, .tufte-underline, .hover-tufte-underline:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 1px; 
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+    a:link, .tufte-underline, .hover-tufte-underline:hover {
+        background-position-y: 87%, 87%, 87%;
+    }
+}
+
+/* Adds dark mode */
+@media (prefers-color-scheme: dark) {
+    a:link, .tufte-underline, .hover-tufte-underline:hover {
+        text-shadow: 0.03em 0 #151515, -0.03em 0 #151515, 0 0.03em #151515, 0 -0.03em #151515, 0.06em 0 #151515, -0.06em 0 #151515, 0.09em 0 #151515, -0.09em 0 #151515, 0.12em 0 #151515, -0.12em 0 #151515, 0.15em 0 #151515, -0.15em 0 #151515;
+    }
+}
+
+a:link::selection,
+a:link::-moz-selection {
+    text-shadow: 0.03em 0 #b4d5fe, -0.03em 0 #b4d5fe, 0 0.03em #b4d5fe, 0 -0.03em #b4d5fe, 0.06em 0 #b4d5fe, -0.06em 0 #b4d5fe, 0.09em 0 #b4d5fe, -0.09em 0 #b4d5fe, 0.12em 0 #b4d5fe, -0.12em 0 #b4d5fe, 0.15em 0 #b4d5fe, -0.15em 0 #b4d5fe;
+    background: #b4d5fe;
+}
+
+/* Sidenotes, margin notes, figures, captions, references */
+img {
+    max-width: 95%;
+   /* border: 3px solid black;*/
+    padding: 15px;
+}
+
+.sidenote,
+.marginnote {
+    float:right;
+    font-family: trade-gothic-lt;
+    clear: right;
+    margin-right: -40%;
+    width: 30%;
+    margin-top: 1rem;
+    margin-bottom: 0;
+    font-size: 1rem;
+    line-height: 1.3;
+    vertical-align: baseline;
+    position: relative;
+}
+
+
+.fignote {
+    font-family: trade-gothic-lt;
+    font-size: 1.1rem;
+    text-align: center;
+    display: block;
+    margin: 0.5rem auto 2rem auto; 
+}
+
+.sidenote-number {
+    counter-increment: sidenote-counter;
+}
+
+.sidenote-number:after,
+.sidenote:before {
+    font-family: et-book-roman-old-style;
+    position: relative;
+    vertical-align: baseline;
+}
+
+.sidenote-number:after {
+    content: counter(sidenote-counter);
+    font-size: 1rem;
+    top: -0.5rem;
+    left: 0.1rem;
+    text-decoration: none;
+}
+
+.fig-number {
+	font-family: trade-gothic-lt-bold-ext;
+}
+
+.sidenote:before {
+    font-family: trade-gothic-lt;
+    content: counter(sidenote-counter) " ";
+    font-size: 1rem;
+    top: -0.5rem;
+}
+
+blockquote .sidenote,
+blockquote .marginnote {
+    margin-right: -82%;
+    min-width: 59%;
+    text-align: left;
+}
+
+.small-screen {
+	display: none;
+}
+
+.multi_img {
+    display: flex;
+    flex-wrap: wrap;      /* Allow wrapping to the next line on smaller screens */
+    justify-content: center;
+    align-items: flex-end;  
+    gap: 1rem;               /* Add spacing between the items */
+}
+
+.multi_img > div { 
+    flex: 1 1 45%;       /* Each div will take up at least 45% of the container's width, and grow if space allows */
+    margin: 1em 0;        /* Add a little top/bottom margin for spacing */
+}
+
+.multi_img img {
+    max-width: 100%;       /* Make sure the images scale down responsively */
+    height: auto;         /* Maintain the aspect ratio */
+}
+
+div.fullwidth,
+table.fullwidth {
+    width: 100%;
+}
+
+div.table-wrapper {
+    overflow-x: auto;
+    font-family: "Trebuchet MS", "Gill Sans", "Gill Sans MT", sans-serif;
+}
+
+.sans {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+    letter-spacing: .03em;
+}
+
+code, pre > code {
+    font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    font-size: 1.0rem;
+    line-height: 1.42;
+    -webkit-text-size-adjust: 100%; /* Prevent adjustments of font size after orientation changes in iOS. See https://github.com/edwardtufte/tufte-css/issues/81#issuecomment-261953409 */
+}
+
+.sans > code {
+    font-size: 1.2rem;
+}
+
+h1 > code,
+h2 > code,
+h3 > code {
+    font-size: 0.80em;
+}
+
+.marginnote > code,
+.sidenote > code {
+    font-size: 1rem;
+}
+
+pre > code {
+    font-size: 0.9rem;
+    width: 52.5%;
+    margin-left: 2.5%;
+    overflow-x: auto;
+    display: block;
+}
+
+pre.fullwidth > code {
+    width: 90%;
+}
+
+.fullwidth {
+    max-width: 100%;
+    clear:both;
+}
+
+span.newthought {
+    font-variant: small-caps;
+    font-size: 1.2em;
+}
+
+input.margin-toggle {
+    display: none;
+}
+
+label.sidenote-number {
+    display: inline-block;
+    max-height: 2rem; /* should be less than or equal to paragraph line-height */
+}
+
+label.margin-toggle:not(.sidenote-number) {
+    display: none;
+}
+
+.iframe-wrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+}
+
+.iframe-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+@media (max-width: 760px) {
+    body {
+        width: 84%;
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+
+    hr,
+    section > p,
+    section > footer,
+    section > table {
+        width: 100%;
+    }
+
+    pre > code {
+        width: 97%;
+    }
+
+    section > dl,
+    section > ol,
+    section > ul {
+        width: 90%;
+    }
+
+   
+   .full-screen {
+	display: none;
+}
+
+   
+    figure {
+    }
+    
+	figure {
+		max-width: 90%;
+		display: flex;           /* Make the figure a flex container */
+		flex-direction: column;  /* Align image and caption vertically */
+		align-items: center;      /* Center items horizontally within the figure */
+	}
+	
+	.figure-container {
+	  display: flex;
+	  flex-direction: column;
+	}
+	
+	.figure-container img,  
+	.figure-container .fignote {
+	   align-self: center; 
+	   margin: 0.5rem 0;  
+	}
+
+    figcaption,
+    figure.fullwidth figcaption {
+        margin-right: 0%;
+        max-width: none;
+    }
+
+    .multi_img {
+        flex-direction: column;   /* Stack divs vertically on small screens */
+    }
+
+    .multi_img > div {
+        flex-basis: auto;       /* Allow divs to take up full width on small screens */
+        width: 100%; 
+    }
+
+    blockquote {
+        margin-left: 1.5em;
+        margin-right: 0em;
+    }
+
+    blockquote p,
+    blockquote footer {
+        width: 100%;
+    }
+
+    label.margin-toggle:not(.sidenote-number) {
+        display: inline;
+    }
+
+    .sidenote,
+    .marginnote {
+        display: none;
+        float: left;
+        left: 1rem;
+        clear: both;
+        width: 95%;
+        margin: 1rem 2.5%;
+        vertical-align: baseline;
+        position: relative;
+    }
+
+    .margin-toggle:checked + .sidenote,
+    .margin-toggle:checked + .marginnote {
+        display: block;
+        float: left;
+        left: 1rem;
+        clear: both;
+        width: 95%;
+        margin: 1rem 2.5%;
+        vertical-align: baseline;
+        position: relative;
+    }
+
+.sidenote-number:after {
+    text-decoration: underline;
+}
+
+
+    label {
+        cursor: pointer;
+    }
+
+    div.table-wrapper,
+    table {
+        width: 85%;
+    }
+
+    img {
+        width: 100%;
+        padding: 0;
+    }
+}

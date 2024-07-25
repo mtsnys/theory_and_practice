@@ -1,0 +1,33 @@
+---
+layout: default
+---
+<article>
+    
+<h1> {{ page.title}}</h1>
+
+{% for book in page.reviewed %}
+      <div class="reviewed-book">
+		  <h2><em>{{ book.title}}</em></h2>
+		  <p>{{ book.author }}<br>{{ book.publisher }}</p>
+	</div>
+	{% endfor %}
+      
+{%- if page.author -%}
+      <p><em>reviewed by</em><br>
+        <span class="author">{{ page.author }}<br>
+        {%- if page.volume -%}
+        <span class="author">{{ page.volume }}</p>
+{%- endif -%}
+{%- endif -%}
+
+{%- if page.abstract -%}
+  <abstract>
+    {{ page.abstract }}<br><br>
+  </abstract>
+{%- endif -%}  
+    <hr>
+    <hr>
+  {{ content }}
+</article>
+
+

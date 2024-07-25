@@ -1,0 +1,27 @@
+{% if include.fig_num and include.fig_caption %}
+<div class="full-screen" style="max-width: {{include.img_size}}%; padding-right: 30%; margin: 0 auto; @media (max-width: 760px) {max-width: 100%;} ">
+  <figure class="figure-container">
+    <a id="ex-{{include.fig_num}}"><img src="{{include.src}}" alt="{{include.fig_caption}}"/></a>
+    <span class="fignote"><span class="fig-number">Example {{include.fig_num}}.</span> {{include.fig_caption}}</span>
+  </figure>
+</div>
+
+<div class="figure-container small-screen">
+  <figure>
+    <a id="ex-{{include.fig_num}}"><img src="{{include.src}}" alt="{{include.fig_caption}}" /></a>
+    <span class="fignote"><span class="fig-number">Example {{include.fig_num}}.</span> {{include.fig_caption}}</span>
+  </figure>
+</div>
+{% else %}
+<div class="full-screen" style="max-width: {{include.img_size}}%; padding-right: 30%; margin: 0 auto; @media (max-width: 760px) {max-width: 100%;} ">
+  <figure class="figure-container">
+    <img src="{{include.src}}" alt="">
+  </figure>
+</div>
+
+<div class="figure-container small-screen">
+  <figure>
+    <img src="{{include.src}}" alt="">
+  </figure>
+</div>
+{% endif %}

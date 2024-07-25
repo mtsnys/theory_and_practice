@@ -1,0 +1,57 @@
+---
+layout: default
+---
+
+<div >
+    {{ content }}
+
+  {%- if site.posts.size > 0 -%}
+    <h2>{{ page.list_title | default: "Current Volume" }}</h2>
+    
+<h2 class="logo-text" >Articles</h2>
+    <ul class="post-list" style="list-style-type:none;">
+    {% for post in site.posts %}
+  	{% if post.layout == 'article' %}
+  	
+      <li>
+        <p style = "font-family: trade-gothic-lt-bold-ext;">{{post.author}}</p>
+        <p style = "font-family: trade-gothic-lt;">
+          <a style = "text-decoration: none;" class="post-link" href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
+          </a>
+        </p>
+        
+        {%- endif -%}
+      {%- endfor -%}
+      </ul>
+	 
+ <h2 class="logo-text">Reviews</h2>
+	  <ul class="post-list" style="list-style-type:none;">
+
+
+{% assign review_pages = site.posts | where: "layout", "review_article" %}
+
+{% if review_pages.size > 0 %}
+
+  {% for review_page in review_pages %}
+   <p style = "font-family: trade-gothic-lt-bold-ext;">{{ review_page.author }}</p>
+    {% if review_page.reviewed.size == 2 %}
+      <p style= "padding-left: 36px;
+    text-indent: -36px;
+">Review of <em>{{ review_page.reviewed[0].title }}</em>,<br> by {{ review_page.reviewed[0].author }}</p>
+       <p style= "padding-left: 36px;
+    text-indent: -36px;
+">and <em>{{ review_page.reviewed[1].title }}</em>,<br> by {{ review_page.reviewed[1].author }}</p>
+    {% else %}
+      {% for book in review_page.reviewed %}
+        <p style= "padding-left: 36px;
+    text-indent: -36px;
+">Review of <em>{{ review_page.reviewed[0].title }}</em>,<br> {{ review_page.reviewed[0].author }}</p>
+      {% endfor %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
+{% endif %}
+</div>
+
+
