@@ -531,10 +531,13 @@ body .article-grid .grid-item .more {
 
   body .article-grid {
     grid-template-columns: 1fr;  /* This will make items stack in a single column */
+    }
     
-.grid-item {
-    border: none; /* Remove all borders on smaller screens */
-  }
+  
+  body .article-grid .grid-item { 
+    border-bottom: 1px solid lightgray; /* Add bottom border on smaller screens */
+    border-right: none;
+    padding: 15px; 
 
   }
 }
@@ -579,8 +582,6 @@ body .masthead {
 
 
 
-
-
 @media (max-width: 768px) { /* Adjust breakpoint as needed */
   .logo-column.journal-title {
     display: none;
@@ -606,7 +607,7 @@ body .masthead {
 
 
   .left-section, .right-section {
-    text-align: left; /* Align text to the left */
+    text-align: center; /* Align text to the left */
     width: 100%; /* Make sections full width */
   }
   
