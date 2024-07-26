@@ -324,14 +324,29 @@ header a:visited {
 
 
 /* Logo styling */
-div.logo a {
-    font-size: 2em;
-    font-family: "trade-gothic-lt-bold-ext", sans-serif;
-    color: #FAF4A7; 
-    -webkit-text-stroke: 1px black;
-    text-decoration: none;
+.logo {
+  display: flex; /* Enable flexbox for the container */
 }
 
+.logo-column {
+  text-align: left; /* Center text within each column */
+}
+
+div .logo-column a {
+  font-size: 2em;
+  font-family: "trade-gothic-lt-bold-ext", sans-serif;
+  color: #FAF4A7;
+  -webkit-text-stroke: 1px black;
+  text-decoration: none;
+}
+
+/* Bottom-align text in the second column */
+.logo-column.journal-title {
+  display: flex; /* Enable flexbox for this column */
+  flex-direction: column; /* Arrange content vertically */
+  justify-content: flex-end; /* Align items to the bottom */
+  padding-bottom: 5px;
+}
 
 
 /* Navigation styling */
@@ -411,27 +426,27 @@ nav ul li a
 
 /* Footer */
 .footer {
-  width: 100vw; /* Make footer span full width */
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  background-color: #e6e6e6;
+  background-color: rgba(0, 0, 0, 0.03);
+  padding: 20px;
+  /* Removed: width: 100vw; */ /* This was causing the footer to be too wide */
+  margin: 0 auto;  /* Center the footer horizontally */
+  max-width: 1400px; /* Limit the maximum width of the footer (match page-wrapper) */
 }
 
-.footer-container {
-  display: flex; /* Enable Flexbox */
-  flex-direction: column; /* Arrange items vertically */
-  width: 87.5%; /* Keep the content within the desired width */
-  margin: 0 auto; /* Center the container horizontally */
+.footer-container { /* No changes needed here */
+  width: 90%;
+  margin: 0 auto;
 }
 
-.footer-row {
-  display: flex;
-  justify-content: space-around;
+.footer-column { /* No changes needed here */
+  flex: 1;
+  text-align: center;
 }
 
-.footer-row:first-child {
-  margin-bottom: 10px;
+.footer p { /* No changes needed here */
+  font-family: "trade-gothic-lt", sans-serif;
+  font-size: 17px;
+  margin: 0;
 }
 
 /* Homepage Styles */
@@ -474,6 +489,11 @@ body .article-grid .grid-item {
   border-top: 1px solid lightgray; 
 }
 
+body .article-grid + .article-grid .grid-item:nth-last-child(-n+2) {
+  border-top: none; /* Remove top border for the second article grid */
+}
+
+
 body .article-grid .grid-item a.title{ 
   font-family: "trade-gothic-lt-bold-ext";
   font-size: 1em; 
@@ -497,23 +517,26 @@ body .article-grid .grid-item .abstract{
 
 }
 
-.more {
-    font-size: 20px;
-    text-decoration: underline;
-    font-family: "trade-gothic-lt-bold-ext", sans-serif;
-    color: #FAF4A7; 
-    -webkit-text-stroke: 1px black;
-    text-decoration: none;
-    font-style: none;
-}
-	
+body .article-grid .grid-item .more {
+  font-size: 20px;
+  text-decoration: none; /* Remove default underline */
+  font-family: "trade-gothic-lt-bold-ext", sans-serif;
+  color: #FAF4A7 !important; 
+  -webkit-text-stroke: 1px black !important;
+  font-style: normal !important; 
 }
 
 @media (max-width: 768px) { 
-  }
-    .grid-item:nth-child(-n + 2) {
-    border-bottom: none; /* Remove border for single-column layout */
+  /* ... other styles ... */
 
+  body .article-grid {
+    grid-template-columns: 1fr;  /* This will make items stack in a single column */
+    
+.grid-item {
+    border: none; /* Remove all borders on smaller screens */
+  }
+
+  }
 }
 
 @media (max-width: 480px) { 
@@ -529,8 +552,8 @@ body .article-grid .grid-item .abstract{
 
 body .masthead {
   display: flex;
-  justify-content: space-between; /* Space elements apart */
-  align-items: center;        /* Vertically align items */
+  justify-content: space-between;
+  align-items: center;
   width: 90%;
   margin: 0 auto;
   line-height: 1;
@@ -555,13 +578,43 @@ body .masthead {
 }
 
 
-/*.divider {
-  flex-grow: 1;                
-  border-top: 1px solid #ccc; /* Top line */
-  border-bottom: 1px solid #ccc; /* Bottom line */
-  margin: 0 10px;             
-}*/
 
+
+
+@media (max-width: 768px) { /* Adjust breakpoint as needed */
+  .logo-column.journal-title {
+    display: none;
+  }
+
+  .logo {
+    justify-content: center; /* Center the remaining logo element */
+  }
+  
+  body .masthead {
+    flex-direction: column; /* Stack sections vertically */
+    align-items: flex-start; /* Align items to the left */
+    gap: 1rem; /* Add some space between sections */
+  }
+  
+  .left-section {
+  padding-top:0.5rem;
+  }
+
+  .right-section {
+  padding-bottom:0.5rem;
+  }
+
+
+  .left-section, .right-section {
+    text-align: left; /* Align text to the left */
+    width: 100%; /* Make sections full width */
+  }
+  
+.left-section p,  .right-section p {
+    margin: 0; /* Remove default paragraph margins */
+    line-height: 1.2; /* Adjust line height for tighter spacing */
+}
+}
 
 
 
@@ -852,11 +905,6 @@ label.margin-toggle:not(.sidenote-number) {
 
 
 @media (max-width: 760px) {
-    body {
-        width: 84%;
-        padding-left: 8%;
-        padding-right: 8%;
-    }
 
     hr,
     section > p,

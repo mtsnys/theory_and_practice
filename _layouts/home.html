@@ -7,24 +7,22 @@ layout: default
 <div class="article-grid" style="width: 90%;">
 
 {% for post in site.posts %}
-    {% if post.layout == 'article' %}
-    <div class="grid-item">
-      <p>
-        <a class="title" href="{{ post.url | relative_url }}">
-          {{ post.title | escape }}
-        </a>
-      </p>
-      <p class="author">{{ post.author }}</p>
-      <p class="abstract">{{ post.abstract | truncate: 150 }}... </p><p class="more"><a class="title" href="{{ post.url | relative_url }}">MORE</a></p>
-
-    </div>
-    {% endif %}
+  {% if post.layout == 'article' %}
+  <div class="grid-item">
+    <p>
+      <a class="title" href="{{ post.url | relative_url }}">
+        {{ post.title | escape }}
+      </a>
+    </p>
+    <p class="author">{{ post.author }}</p>
+    <p class="abstract">{{ post.abstract | truncate: 150 }}... <a class="more" href="{{ post.url | relative_url }}">MORE</a></p> </div>
+  {% endif %}
 {% endfor %}
 </div>
 
 <div class="grid-heading">Reviews</div>
 
-<div class="article-grid" style="width: 90%;">
+<div class="article-grid" style="width: 90%; border-top: none !important;">
 
     {% assign review_pages = site.posts | where: "layout", "review_article" %}
 
@@ -37,7 +35,7 @@ layout: default
                         Review of <em>{{ review_page.reviewed[0].title }}</em>,<br> by {{ review_page.reviewed[0].author }}
                     </p>
                     <p style = "padding-left: 36px; text-indent: -36px;">
-                        and <em>{{ review_page.reviewed[1].title }}</em>,<br> by {{ review_page.reviewed[1].author }}
+                        <em>{{ review_page.reviewed[1].title }}</em>,<br> by {{ review_page.reviewed[1].author }}
                     </p>
                 {% else %}
                     {% for book in review_page.reviewed %}
