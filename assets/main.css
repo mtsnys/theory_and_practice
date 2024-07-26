@@ -368,7 +368,7 @@ nav ul li a
 
 /* Button styling */
 .join-button {
-    background-color: black; 
+    background-color: #656C85; 
     color: white;
     padding: 10px 20px;   /* Adjust padding for desired button size */
     border: none;          /* Remove default button border */
@@ -434,7 +434,137 @@ nav ul li a
   margin-bottom: 10px;
 }
 
-/**/
+/* Homepage Styles */
+
+
+div .grid-heading {
+    text-align: center;
+    font-size: 2em;
+    font-family: "trade-gothic-lt-bold-ext", sans-serif;
+    color: #656C85; 
+    -webkit-text-stroke: 1px black;
+    text-decoration: none;
+    margin: 20px 0;
+}
+
+body .article-grid { /* More specific selector */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr)); 
+  margin: 0 auto; /* Center horizontally */
+  width: 90%;   /* Adjust width as needed */
+  text-align: center; 
+}
+
+body .article-grid .grid-item { 
+  padding: 15px; 
+}
+
+
+.grid-item {
+  border-right: 1px solid #ccc;
+}
+
+/* Remove right border from last item in each row */
+.grid-item:nth-child(2n) { 
+  border-right: none;
+}
+
+/* Add top border to items in the last row */
+.grid-item:nth-last-child(-n+2) { /* Select last two items in the grid */
+  border-top: 1px solid lightgray; 
+}
+
+body .article-grid .grid-item a.title{ 
+  font-family: "trade-gothic-lt-bold-ext";
+  font-size: 1em; 
+  text-decoration: none;
+}
+
+body .article-grid .grid-item .author{ 
+  font-family: "trade-gothic-lt";
+  font-size: 1.25em; 
+  text-transform: none;
+}
+
+body .article-grid .grid-item .abstract{ 
+	
+	text-align: center; 
+	width: 75%; 
+	margin: auto; 
+	hyphens: auto;
+	font-style: italic;
+	font-size: 1.25em;
+
+}
+
+.more {
+    font-size: 20px;
+    text-decoration: underline;
+    font-family: "trade-gothic-lt-bold-ext", sans-serif;
+    color: #FAF4A7; 
+    -webkit-text-stroke: 1px black;
+    text-decoration: none;
+    font-style: none;
+}
+	
+}
+
+@media (max-width: 768px) { 
+  }
+    .grid-item:nth-child(-n + 2) {
+    border-bottom: none; /* Remove border for single-column layout */
+
+}
+
+@media (max-width: 480px) { 
+  .article-grid {
+    grid-template-columns: 1fr; 
+  }
+}
+
+.page-wrapper .editorial-info { /* Target specifically */
+  max-width: unset; /* Remove max-width restriction */
+  margin: 0 auto;  /* Center the section */
+}
+
+body .masthead {
+  display: flex;
+  justify-content: space-between; /* Space elements apart */
+  align-items: center;        /* Vertically align items */
+  width: 90%;
+  margin: 0 auto;
+  line-height: 1;
+}
+
+.left-section, .right-section {
+  text-align: center;          /* Center text within sections */
+  
+}
+
+.left-section p {
+   font-style: italic;
+    font-weight: 400;
+    font-size: 1.75rem;
+    
+}
+
+.right-section p {
+   font-family: "trade-gothic-lt";
+    font-weight: 400;
+    font-size: 17px;
+}
+
+
+/*.divider {
+  flex-grow: 1;                
+  border-top: 1px solid #ccc; /* Top line */
+  border-bottom: 1px solid #ccc; /* Bottom line */
+  margin: 0 10px;             
+}*/
+
+
+
+
 
 blockquote {
     font-size: 1.4rem;

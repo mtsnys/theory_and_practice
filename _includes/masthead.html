@@ -1,0 +1,18 @@
+<div class="masthead">
+  <div class="left-section">
+    {%- if site.posts.size > 0 -%}
+      <p>{{ page.list_title | default: "Current Volume" }}</p>
+    {% endif %}
+  </div>
+  <div class="divider"></div>
+  <div class="right-section">
+    <p>
+      {% for editor in page.editors %}
+        {{ editor.name }}
+        {% unless forloop.last %} and {% endunless %}
+      {% endfor %} Editors | 
+      {{ page.reviews_editor.name }}, Reviews Editor
+    </p>
+  </div>
+</div>
+<div class="header-divider"></div>
