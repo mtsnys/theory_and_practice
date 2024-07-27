@@ -3,8 +3,8 @@ layout: article
 volume: Volume 38, June 2024
 title: "Mozart's Osmin and the Phrasing of Discomposure"
 author: "Danielle Bastone Barrettara"
-abstract: "Perhaps the most memorable character in Mozart's *Die Entführung aus dem
-Serail* is Osmin, the grumpy harem overseer whose angry antics receive
+abstract: "Perhaps the most memorable character in Mozart's <em>Die Entführung aus dem
+Serail</em> is Osmin, the grumpy harem overseer whose angry antics receive
 some of the cleverest dramaturgic settings in the opera. Analysts often
 seek to identify moments in which Osmin's music assumes a narrative
 function, taking their cues in part from a letter in which Mozart

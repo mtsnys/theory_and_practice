@@ -472,12 +472,37 @@ body .article-grid { /* More specific selector */
 
 body .article-grid .grid-item { 
   padding: 15px; 
+  box-sizing: border-box; /* Ensure padding and border are included in the width */
+
 }
 
 
 .grid-item {
   border-right: 1px solid #ccc;
+  border-bottom: none;            /* Remove bottom border initially */
+
 }
+
+/* Add bottom border to items on smaller screens (including iPads) */
+@media (max-width: 1024px) { /* Adjust this breakpoint for iPads */
+  body .article-grid .grid-item {
+    border-bottom: 1px solid lightgray; 
+    border-right: none;            /* Remove right border on smaller screens */
+    padding: 20px; /* Increase padding on smaller screens */
+  }
+
+  body .article-grid .grid-item:nth-last-child(-n+2) { /* Last two in first grid */
+   border-bottom: 1px solid lightgray; 
+   border-top: none;
+   padding: 20px; 
+  }
+
+  body .article-grid + .article-grid .grid-item {
+   border: none;
+  }
+
+}
+
 
 /* Remove right border from last item in each row */
 .grid-item:nth-child(2n) { 
@@ -514,8 +539,11 @@ body .article-grid .grid-item .abstract{
 	hyphens: auto;
 	font-style: italic;
 	font-size: 1.25em;
+	overflow-wrap: break-word; 
+
 
 }
+
 
 body .article-grid .grid-item .more {
   font-size: 20px;
