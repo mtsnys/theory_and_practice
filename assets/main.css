@@ -364,6 +364,10 @@ div .logo-column a {
   text-decoration: none;
 }
 
+.logo-column:first-child { /* or .logo-column + .logo-column */
+    margin-right: 1rem; /* Adjust the value for desired spacing */
+}
+
 /* Bottom-align text in the second column */
 .logo-column.journal-title {
   display: flex; /* Enable flexbox for this column */
@@ -527,6 +531,16 @@ body .article-grid .grid-item {
   border-top: none; /* Remove the top border for all review grid items */
 }
 
+.reviews .grid-item:first-child {
+  border-right: 1px solid #ccc; /* Add the right border */
+  border-top: none;
+}
+
+.reviews .grid-item:not(:first-child) {
+  border-right: none;
+   border-top: none; 
+}
+
 /* Remove right border from last item in each row */
 .grid-item:nth-child(2n) { 
   border-right: none;
@@ -641,7 +655,11 @@ body .masthead {
 
 
 
-
+@media (max-width: 768px) { 
+    .logo-column.journal-title {
+        display: none; /* Hide the journal title on iPad */
+    }
+}
 
 @media (max-width: 768px) { /* Adjust breakpoint as needed */
   .logo-column.journal-title {
