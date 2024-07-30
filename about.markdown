@@ -1,18 +1,14 @@
+--- 
+layout: default 
+title: About 
+volume: "Volume 38 | Spring 2024"
+editors:
+  - name: Trevor de Clercq
+  - name: Kyle Hutchinson
+reviews_editor:
+  name: Daphne Tan
+permalink: /about/ 
 ---
-layout: default
-title: About
-permalink: /about/
----
+Theory and Practice is the journal of the Music Theory Society of New York State (MTSNYS), published annually since 1975. The journal has featured a wide range of topics in music theory, including analysis, history, pedagogy, and theoretical approaches to various musical genres and styles, and it has acted as a venue for emerging scholars in the field of music theory through the Society's Patricia Carpenter Emerging Scholar Award.  
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+Article submissions should be sent to emailed to theoryandpractice@mtsnys.org in two file formats, PDF and DOCX. Any large files (e.g., audio examples) should be submitted as links rather than through e-mail. Theory and Practice is digitally archived in JSTOR and ProQuest (including future volumes), and published authors are provided with both a print and PDF version of their article.

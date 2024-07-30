@@ -452,9 +452,9 @@ nav ul li a
 .footer {
   background-color: rgba(0, 0, 0, 0.03);
   padding: 20px;
-  /* Removed: width: 100vw; */ /* This was causing the footer to be too wide */
-  margin: 0 auto;  /* Center the footer horizontally */
-  max-width: 1400px; /* Limit the maximum width of the footer (match page-wrapper) */
+  width: 100vw; /* Make the footer full width */
+  margin: 0;    /* Remove any default margins */
+  box-sizing: border-box; /* Ensure padding is included in width calculation */
 }
 
 .footer-container { /* No changes needed here */
@@ -497,14 +497,11 @@ body .article-grid { /* More specific selector */
 body .article-grid .grid-item { 
   padding: 15px; 
   box-sizing: border-box; /* Ensure padding and border are included in the width */
-
 }
-
 
 .grid-item {
   border-right: 1px solid #ccc;
   border-bottom: none;            /* Remove bottom border initially */
-
 }
 
 /* Add bottom border to items on smaller screens (including iPads) */
@@ -524,9 +521,11 @@ body .article-grid .grid-item {
   body .article-grid + .article-grid .grid-item {
    border: none;
   }
-
 }
 
+.article-grid + .article-grid.reviews .grid-item { 
+  border-top: none; /* Remove the top border for all review grid items */
+}
 
 /* Remove right border from last item in each row */
 .grid-item:nth-child(2n) { 
@@ -614,10 +613,14 @@ body .masthead {
   line-height: 1;
 }
 
-.left-section, .right-section {
+.left-section {
   text-align: center;          /* Center text within sections */
-  
 }
+
+.right-section {
+  text-align: right; /* Align the entire section to the right */
+}
+
 
 .left-section p {
    font-style: italic;
@@ -626,11 +629,17 @@ body .masthead {
     
 }
 
-.right-section p {
-   font-family: "trade-gothic-lt";
+
+.right-section p { /* Adjust if using a different element */
+    margin: 0; /* Remove default margin for tighter spacing */
+    line-height: 1.2; /* Adjust line height as needed */
+       font-family: "trade-gothic-lt";
     font-weight: 400;
     font-size: 17px;
 }
+
+
+
 
 
 
@@ -698,6 +707,13 @@ section > table {
     word-wrap: break-word;
 }
 
+/* More specific selector for citations list */
+section > .citations-list {
+    list-style-type: none; 
+    padding-left: 0; 
+    width: 100%; 
+}
+
 /* 50 + 5 == 55, to be the same width as paragraph */
 section > dl,
 section > ol,
@@ -706,9 +722,6 @@ section > ul {
     -webkit-padding-start: 5%;
 }
 
-section#works-cited p {
-	width: 90%;
-}
 
 dt:not(:first-child),
 li:not(:first-child) {

@@ -10,6 +10,7 @@ reviewed:
   author: Yoel Greenberg
   publisher: Oxford University Press, 2022, 264 pages.    
 author: "Caitlin Martinkus"
+short-name: "martinkus"
 abstract: ""
 ---
 
@@ -377,87 +378,6 @@ monolithic and should not be treated as such.
  
 <h2>Works Cited</h2>
 
-Burstein, Poundie L. 2020. *Journeys through Galant Expositions*. New
-York: Oxford University Press.
+{% include citations.html %}
 
-Caplin, William E. 1998. *Classical Form: A Theory of Formal Functions
-for the Instrumental Music of Haydn, Mozart, and Beethoven.* New York:
-Oxford University Press.
-
-Caplin, William E., and Nathan John Martin. 2016. "The 'Continuous
-Exposition' and the Concept of Subordinate Theme." *Music Analysis* 35
-(1): 4­--43.
-
-Dawkins, Richard. 1976. *The Selfish Gene*. Oxford: Oxford University
-Press.
-
-Greenberg, Yoel. 2022. *How Sonata Forms*. New York: Oxford University
-Press.
-
-Hepokoski, James and Warren Darcy. 2006. *Elements of Sonata Theory:
-Norms, Types, and Deformations in the Late-Eighteenth-Century Sonata*.
-New York: Oxford University Press.
-
-Horton, Julian. 2015. "Formal Type and Formal Function in the
-Postclassical Piano Concerto." In *Formal Functions in Perspective:
-Essays on Musical Form from Haydn to Adorno*, edited by Steven Vande
-Moortele, Julie Pedneault-Deslauriers, and Nathan Martin, 77--122.
-Rochester: University of Rochester Press.
-
----------. 2017. "Criteria for a Theory of Nineteenth-Century Sonata
-Form." *Music Theory and Analysis* 4 (2): 147­--91.
-
----------. 2022. "First-Theme Syntax in Brahms's Sonata Forms." In
-*Rethinking Brahms*, edited by Nicole Grimes and Reuben Phillips,
-195--228. Oxford: Oxford University Press.
-
-Hyland, Anne. 2016. "In Search of Liberated Time, or Schubert's Quartet
-in G Major, D. 887: Once More Between Sonata and Variation." *Music
-Theory Spectrum* 38 (1): 85­--108.
-
----------. 2023. *Schubert's String Quartets: The Teleology of Lyric
-Form*. Cambridge: Cambridge University Press.
-
-Martinkus, Caitlin. 2017. "The Urge to Vary: Schubert's Variation
-Practice from Schubertiades to Sonata Forms." PhD diss., The University
-of Toronto.
-
----------. 2018. "Thematic Expansion and Elements of Variation in
-Schubert's C Major Symphony, D. 944/i." *Music Theory and Analysis* 5
-(2): 190--202.
-
----------. 2021. "Schubert's Large-Scale Sentences: Exploring the
-Function of Repetition in Schubert's First-Movement Sonata Forms."
-*Music Theory Online* 27 (3).
-
-Mirka, Danuta. 2022. Review of *Journeys Through Galant Expositions* by
-L. Poundie Burstein. *Journal of Music Theory* 66 (2): 273--79.
-
-Neuwirth, Markus. 2013. "Surprise Without a Cause." *Zeitschrift der
-Gesellschaft für Musiktheorie* 2: 259--91.
-
-Ratner, Leonard G. 1980. *Classic Music: Expression, Form, and Style*.
-New York: Schirmer Books.
-
-Rose, Charles. 1980. *Sonata Forms*. New York: W. W. Norton.
-
-Schmalfeldt, Janet. 2011. *In the Process of Becoming: Analytic and
-Philosophical Perspectives on Form in Early Nineteenth-Century Music*.
-New York: Oxford University Press.
-
-Taylor, Benedict. 2011. *Mendelssohn, Time and Memory: The Romantic
-Conception of Cyclic Form*. Cambridge: Cambridge University Press.
-
----------. 2021. "Clara Wieck's A Minor Piano Concerto: Formal
-Innovation and the Problem of Parametric Disconnect in Early Romantic
-Music." *Music Theory and Analysis* 8 (2): 215­--43.
-
-Vande Moortele, Steven. 2013. "In Search of Romantic Form." *Music
-Analysis* 32 (3): 404--31.
-
----------. 2017. *The Romantic Overture and Musical Form from Rossini to
-Wagner*. Cambridge: Cambridge University Press.
-
----------. 2021. "Apparent Type 2 Sonatas and Reversed Recapitulations
-in the Nineteenth Century." *Music Analysis* 40 (3): 501­­­--33.
 </section>

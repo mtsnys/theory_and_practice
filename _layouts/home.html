@@ -8,21 +8,35 @@ layout: default
 
 {% for post in site.posts %}
   {% if post.layout == 'article' %}
-  <div class="grid-item">
+<div class="grid-item">
     <p>
-      <a class="title" href="{{ post.url | relative_url }}">
-        {{ post.title | escape }}
-      </a>
+        <a class="title" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
     </p>
     <p class="author">{{ post.author }}</p>
-    <p class="abstract">{{ post.abstract | truncate: 150 }}... <a class="more" href="{{ post.url | relative_url }}">MORE</a></p> </div>
+    <p class="abstract">
+        {{ post.abstract | strip_html | truncate: 150 }}
+        {% if post.abstract.size > 150 %}
+            <a class="more" href="{{ post.url | relative_url }}">MORE</a>
+        {% endif %}
+    </p> 
+</div>
   {% endif %}
 {% endfor %}
 </div>
 
+
+<div class="grid-item">
+    <p>
+        <a class="title" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+    </p>
+    <p class="author">{{ post.author }}</p>
+    <p class="abstract">
+        
+
+
 <div class="grid-heading">Reviews</div>
 
-<div class="article-grid" style="width: 90%; border-top: none !important;">
+<div class="article-grid reviews">
 
     {% assign review_pages = site.posts | where: "layout", "review_article" %}
 

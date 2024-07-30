@@ -1,21 +1,22 @@
 <div class="masthead">
   <div class="left-section">
-    {%- if site.posts.size > 0 -%}
-      <p>{{ page.volume | default: "Current Volume" }}</p>
+    {% if page.volume %}
+      <p>{{ page.volume }}</p>
     {% endif %}
   </div>
-  
-  {%- unless page.layout == 'article' -%}
+
+  {% unless page.layout == 'article' %}
     <div class="right-section">
-      <p>
+      <p class="editors">
         {% for editor in page.editors %}
           {{ editor.name }}
           {% unless forloop.last %} and {% endunless %}
-        {% endfor %} Editors | 
+        {% endfor %} Editors
+      </p>
+      <p class="reviews-editor">
         {{ page.reviews_editor.name }}, Reviews Editor
       </p>
     </div>
-  {%- endunless -%}
+  {% endunless %}
 </div>
-
 <div class="header-divider"></div>

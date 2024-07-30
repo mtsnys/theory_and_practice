@@ -1,0 +1,8 @@
+<ul class="citations-list">
+
+{% assign citation_data = site.data[page.short-name] %}
+
+{% for name in citation_data %}
+  <li>{{ name.citation | markdownify }}</li>  
+{% endfor %}
+</ul>
