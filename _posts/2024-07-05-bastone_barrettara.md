@@ -1,6 +1,6 @@
 ---
 layout: article
-volume: Volume 38, June 2024
+volume: Volume 48, June 2024
 title: "Mozart's Osmin and the Phrasing of Discomposure"
 author: "Danielle Bastone Barrettara"
 short-name: "bastone-barrettara"
