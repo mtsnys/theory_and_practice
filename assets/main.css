@@ -672,7 +672,8 @@ section>p, section>footer, section>table {
 
 section>.citations-list {
 	list-style-type: none;
-	padding-left: 0;
+	padding-left: 36px;
+	text-indent: -36px;
 	width: 100%;
 }
 /* 50 + 5 == 55, to be the same width as paragraph */
