@@ -4,13 +4,13 @@
 		<a id="ex-{{include.fig_num1}}"><img src="{{ site.baseurl }}/{{include.src1}}" alt="{{include.fig_caption1}}" /></a>
 		<figure>
 		
-			<span class="fignote"><span class="fig-number">Example {{include.fig_num1}}.</span> {{include.fig_caption1}}</span>
+			<span class="fignote"><span class="fig-number">Example {{include.fig_num1}}.</span> {% assign fig_caption_emdash = include.fig_caption1 | replace: "--", "—" %} {{ fig_caption_emdash }}</span>
 		</figure>
 	</div>
 	<div>
 		<a id="ex-{{include.fig_num2}}"><img src="{{ site.baseurl }}/{{include.src2}}" alt="{{include.fig_caption2}}" /></a>
 		<figure>
-			<span class="fignote"><span class="fig-number">Example {{include.fig_num2}}.</span> {{include.fig_caption2}}</span>
+			<span class="fignote"><span class="fig-number">Example {{include.fig_num2}}.</span> {% assign fig_caption_emdash = include.fig_caption2 | replace: "--", "—" %} {{ fig_caption_emdash }}</span>
 		</figure>
 	</div>
 </div>
@@ -23,7 +23,7 @@
 		<a id="ex-{{include.fig_num2}}"><img src="{{ site.baseurl }}/{{include.src2}}" alt="{{include.fig_caption2}}" /></a>
 	</div>
 		<figure>
-			<span class="fignote"><span class="fig-number">Example {{include.fig_num2}}.</span> {{include.fig_caption2}}</span>
+			<span class="fignote"><span class="fig-number">Example {{include.fig_num2}}.</span> {% assign fig_caption_emdash = include.fig_caption2 | replace: "--", "—" %} {{ fig_caption_emdash }}</span>
 		</figure>
 </div>
 

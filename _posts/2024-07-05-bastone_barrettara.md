@@ -492,7 +492,7 @@ those blasted "dandies"---Osmin abandons his orderly delivery and
 wanders off in a melisma. The dotted rhythms of mm. 4--6 twitch with his
 agitation, their emphasis on the semitone between E and F seeming to
 reflect and widen a crack in his composure. He lingers so long on the
-syllable "Laf-" that it takes a first-time listener four measures to
+syllable "Laf-&#x201D; that it takes a first-time listener four measures to
 discern what word he even intends to sing. And the chromatic ascent of
 m. 7 subverts the tonic before it is clear whether the tonality is major
 or minor. To hear mm. 5--7 as metrically weak, then, is to understand
