@@ -21,7 +21,7 @@ footnote_2: "It should be noted that the distinctive low notes and broad leaps o
 footnote_3: "For broader reflections on the relationship between rhythm and meter, see Rothstein (1989; 2008; 2011) and Hasty (1997); on this relationship in Mozart's music, see Mirka (2009) and Klorman (2016). "
 footnote_4: "In a quadruple hypermeasure, for instance, the first measure is strong, the second weak, the third slightly less strong than the first, and the fourth weakest of all. The term \"hypermeasure\" originates in Cone (1968). "
 footnote_5: "For analyses that probe the expressive potential of irregular hypermeter, see Cohn (1992) and Rodgers (2011). On types of metric dissonances beyond the hypermetric, see Krebs (1987). "
-footnote_6: "^6^ Rothstein observes that pieces which intentionally invoke improvisation, such as the Baroque toccata or Classical fantasia, \"avoid forming hypermeasures in order to preserve a rhapsodic or capricious quality\" (1989, 13). "
+footnote_6: "Rothstein observes that pieces which intentionally invoke improvisation, such as the Baroque toccata or Classical fantasia, \"avoid forming hypermeasures in order to preserve a rhapsodic or capricious quality\" (1989, 13). "
 footnote_7: "Such accents, as Malin importantly qualifies, are not the type dependent upon the interpretation of the performer but rather those that inherently \"draw attention to themselves\" (2010, 41); Krebs further notes that they can represent \"any perceptible deviation from an established pattern\" (1999, 23). Regarding the assessment of strong and weak measures, see also Lerdahl and Jackendoff (1983) and Rothstein (2011); for more on the determination of metric hierarchy within and outside of hypermeter, see Malin (2010, 35--66). "
 footnote_8: "The *accento comune* is the accented penultimate syllable typical of Italian verse. "
 footnote_9: "As summarized by Rothstein, metrical preference rules (MPRs) \"provide criteria for deciding which of the possible structures is preferred by a listener in a given instance\" (2011, 94). These include, for example, the \"Harmony Rule\" (aligning strong beats with harmonic changes) and the \"Linguistic Stress Rule\" (aligning strong beats with stressed syllables). For more on MPRs see Lerdahl and Jackendoff (1983), Temperley (2001), and Rothstein (2011). "
@@ -612,10 +612,10 @@ some of the most frequently used profiles for three- and four-stress
 textual lines in German (and Italian) opera of the time. The first of
 these is the pure *ottonario* profile, which privileges the third and
 seventh syllables, or the second and fourth syllabic stresses, with
-downbeat placement, as shown in [Example 7](#ex-7). The second
+downbeat placement, as shown in [Example 7a](#ex-7). The second
 is the *ottonario* with midpoint caesura; this distributes the syllables
 much like the pure *ottonario* but inserts a rest after the first two
-poetic feet, as shown in [Example 7](#ex-7). A third profile,
+poetic feet, as shown in [Example 7b](#ex-7). A third profile,
 which aligns the first and third syllabic stresses with downbeats and
 uses an agogic accent for the first, is shown in [Example 7c](#ex-7c). Finally, there is the profile that aligns each
 syllabic stress with a downbeat, as shown in [Example 7d](#ex-7d). This profile saturates the numbers of the
@@ -864,7 +864,9 @@ no pulses to mark the time. It is like a bolt from the blue, then, that
 the refrain returns in m. 132 with its startling downbeat exclamation
 and boisterous rhythms. The cat has pounced again.
 
-<span style="font-family: music; text-align: center; font-size: 10rem;">&#xE4C6;</span>
+<br>
+<br>
+<p style="text-align: center; vertical-align: middle;"><span style="font-family: music; font-size: 10rem;">&#xE4C6;</span></p>
 
 In the letter quoted at the outset of this article, Mozart wrote of a
 man whose rage causes him to overstep "all the bounds of order,
