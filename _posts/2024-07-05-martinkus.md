@@ -90,7 +90,16 @@ which is formally introduced in chapter 7 and summarized here in
 [Example 1](#ex_1) presents a useful heuristic for
 understanding the construction of Galant expositions.
 
-{% include center_column_img.html src='assets/articles/martinkus/img/ex_1.png' img_size='100' fig_num='1' fig_caption='Standard punctuation sequence in a major-mode Galant exposition'%}
+figure_1:
+  - figure:
+      number: "1"
+      caption: >
+        "Standard punctuation sequence in a major-mode Galant exposition"
+      url: "assets/articles/martinkus/img/ex_1.png"
+      alt: "Test"
+      border: true
+      scale: "100"
+ {% include figure_grid.html columns=1 figure_key="figure_1" %}
 
 Chapter 7 lays the framework for the analyses of expositions presented
 in chapters 8­­--13. Chapter 8 illustrates what modern theorists might
@@ -134,9 +143,27 @@ Flute and Continuo in F Major, third movement) I hear the *Grundabsatz*
 and *Quintabsatz* grouping together, forming a main theme (cbi +
 continuation) that ends with a half cadence (see [Example 3](#ex-3)).{% include footnote.html footnote_number='9' footnote_text=footnote_9%}
 
-{% include center_column_img.html src='assets/articles/martinkus/img/ex_2.png' img_size='100' fig_num='2' fig_caption='Replica of Burstein\'s 7.3d (Antonio Brioschi, Symphony in G Major, op. 2 no. 59, first movement \[outer voices\])'%}
+figure_2:
+  - figure:
+      number: "2"
+      caption: >
+        "Replica of Burstein\'s 7.3d (Antonio Brioschi, Symphony in G Major, op. 2 no. 59, first movement \[outer voices\])"
+      url: "assets/articles/martinkus/img/ex_2.png"
+      alt: "Test"
+      border: true
+      scale: "100"
+ {% include figure_grid.html columns=1 figure_key="figure_2" %}
 
-{% include center_column_img.html src='assets/articles/martinkus/img/ex_3.png' img_size='100' fig_num='3' fig_caption='Replica of Burstein\'s 7.3g with additional form-functional annotations above the staff (Anna Amalia of Prussia, Sonata for Flute and Continuo in F Major, third movement)'%}
+figure_3:
+  - figure:
+      number: "3"
+      caption: >
+        "Replica of Burstein\'s 7.3g with additional form-functional annotations above the staff (Anna Amalia of Prussia, Sonata for Flute and Continuo in F Major, third movement)"
+      url: "assets/articles/martinkus/img/ex_3.png"
+      alt: "Test"
+      border: true
+      scale: "100"
+ {% include figure_grid.html columns=1 figure_key="figure_3" %}
 
 As indicated by the title, in *Journeys Through Galant Expositions*
 Burstein urges the reader and future analyst to think of formal sections

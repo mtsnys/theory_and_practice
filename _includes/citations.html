@@ -1,6 +1,6 @@
 <ul class="citations-list">
 
-{% assign citation_data = site.data[page.short-name] %}
+{% assign citation_data = site.data[page.short-name].citations %}
 
 {% for name in citation_data %}
   <li>{{ name.citation | markdownify }}</li>  

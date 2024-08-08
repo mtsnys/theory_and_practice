@@ -84,6 +84,11 @@
 
 /* Main CSS styles */
 
+:root {
+  --page-wrapper-width: 1400px; 
+  --article-padding-left: 2.5rem;
+}
+
 html {
 	font-size: 15px;
 }
@@ -696,17 +701,8 @@ figure {
 	-webkit-margin-end: 0;
 	margin: 1em 0 1em 0;
 }
-figcaption {
-	float: right;
-	clear: right;
-	margin-top: 0;
-	margin-bottom: 0;
-	font-size: 1.1rem;
-	line-height: 1.6;
-	vertical-align: baseline;
-	position: relative;
-	max-width: 40%;
-}
+
+
 figure.fullwidth figcaption {
 	margin-right: 24%;
 }
@@ -748,7 +744,7 @@ a:link::-moz-selection {
 /* Sidenotes, margin notes, figures, captions, references */
 
 img {
-	max-width: 95%;
+	max-width: 90%;
 	/* border: 3px solid black;*/
 	padding: 15px;
 }
@@ -809,9 +805,7 @@ img {
 	left: 0.1rem;
 	text-decoration: none;
 }
-.fig-number {
-	font-family: trade-gothic-lt-bold-ext;
-}
+
 .sidenote:before {
 	font-family: trade-gothic-lt;
 	content: counter(sidenote-counter) " ";
@@ -847,9 +841,54 @@ blockquote .sidenote, blockquote .marginnote {
 	height: auto;
 	/* Maintain the aspect ratio */
 }
-div.fullwidth, table.fullwidth {
-	width: 100%;
+
+
+/* Figure Stuff */
+
+article section div.figure-container {
+  width: 100vw; /* 100% of viewport width */
+  margin-left: calc((100vw - var(--page-wrapper-width)) / -2); /* Adjust left margin to center */
+  box-sizing: border-box; /* Include padding and border in the total width */
 }
+
+
+.figure-grid {
+  display: grid;
+  grid-template-columns: repeat(var(--columns), 1fr);
+  gap: 1rem;
+}
+
+.figure-grid-item {
+  /* Style grid items as needed */
+}
+
+.figure-grid-item img {
+  width: 100%;
+  height: auto; /* Maintain aspect ratio */
+}
+
+.figure-grid-item figcaption {
+  text-align: center; /* Center the text within the figcaption */
+	 font-family: trade-gothic-lt;
+	 font-size: 1.1rem;
+	 margin: 0.5rem auto 2rem auto;
+  width: 90%; /* Ensure the figcaption takes up the full width of its container */
+  line-height: 1.6;
+  vertical-align: baseline;
+	 position: relative;
+}
+
+.fig-number {
+	font-family: trade-gothic-lt-bold-ext;
+}
+
+.with-border { /* Border style for figures */
+  border: 1px solid black;
+}
+
+/************/
+
+
 div.table-wrapper {
 	overflow-x: auto;
 	font-family: "Trebuchet MS", "Gill Sans", "Gill Sans MT", sans-serif;

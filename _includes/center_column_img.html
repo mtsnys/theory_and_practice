@@ -2,14 +2,14 @@
 <div class="full-screen" style="max-width: {{include.img_size}}%; padding-right: 30%; margin: 0 auto; @media (max-width: 760px) {max-width: 100%;} ">
   <figure class="figure-container">
     <a id="ex-{{include.fig_num}}"><img src="{{ site.baseurl }}/{{include.src}}" alt="{{include.fig_caption}}"/></a>
-    <span class="fignote"><span class="fig-number">Example {{include.fig_num}}.</span> {% assign fig_caption_emdash = include.fig_caption | replace: "--", "—" %} {{ fig_caption_emdash }}</span> 
+    <span class="fignote"><span class="fig-number">Example {{include.fig_num}}.</span> {{include.fig_caption}}</span>
   </figure>
 </div>
 
 <div class="figure-container small-screen">
   <figure>
     <a id="ex-{{include.fig_num}}"><img src="{{ site.baseurl }}/{{include.src}}" alt="{{include.fig_caption}}" /></a>
-    <span class="fignote"><span class="fig-number">Example {{include.fig_num}}.</span> {% assign fig_caption_emdash = include.fig_caption | replace: "--", "—" %} {{ fig_caption_emdash }}</span>
+    <span class="fignote"><span class="fig-number">Example {{include.fig_num}}.</span> {{include.fig_caption}}</span>
   </figure>
 </div>
 {% else %}
@@ -24,5 +24,4 @@
     <img src="{{ site.baseurl }}/{{include.src}}" alt="">
   </figure>
 </div>
-{% endif %} 
-
+{% endif %}

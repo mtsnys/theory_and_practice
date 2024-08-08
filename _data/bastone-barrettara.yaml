@@ -1,4 +1,212 @@
----
+figure_1:
+  - figure:
+      number: "1"
+      caption: >
+        "Mozart, &quot;Wer ein Liebchen hat gefunden,&quot; text and translation (Schaubhut Smith, 1991, 88--89)."
+      url: "assets/articles/bastone_barrettara/img/ex_1.png"
+      alt: "Test"
+      border: true
+      scale: .6
+figure_2:
+  - figure:
+      number: "2_0_"
+      caption: 
+      url: "assets/articles/bastone_barrettara/img/ex_2_0.png"
+      alt: "Test"
+      border: true
+      scale: 1
+  - figure:
+      number: "2_1_"
+      caption: > 
+        "Mozart, &quot;Wer ein Liebchen hat gefunden&quot; (piano-vocal reduction), mm. 1--20."
+      url: "assets/articles/bastone_barrettara/img/ex_2_1.png"
+      alt: "Test"
+      border: true
+      scale: 1
+figure_3:
+  - figure:
+      number: "3a"
+      caption: >
+        "Mozart, &quot;Solche hergelauf\'ne Laffen,&quot; text and translation (Schaubhut Smith 1991, 93--94)."
+      url: "assets/articles/bastone_barrettara/img/ex_3a.png"
+      alt: "Test"
+      border: true
+      scale: "50"
+  - figure:
+      number: "3b"
+      caption: >
+        "Mozart, &quot;Solche hergelauf\'ne Laffen,&quot; formal outline."
+      url: "assets/articles/bastone_barrettara/img/ex_3b.png"
+      alt: "Test"
+      border: true
+      scale: "100"
+figure_4:
+  - figure:
+      number: "4"
+      caption: >
+        "Mozart, &quot;Solche hergelauf\'ne Laffen,&quot; mm. 2--8."
+      url: "assets/articles/bastone_barrettara/img/ex_4.png"
+      alt: "Test"
+      border: true
+      scale: "100"
+figure_5:
+  - figure:
+      number: "5"
+      caption: >
+        "Mozart, &quot;Solche hergelauf\'ne Laffen,&quot; mm. 2--8, two interpretations."
+      url: "assets/articles/bastone_barrettara/img/ex_5.png"
+      alt: "Test"
+      border: true
+      scale: "100"
+figure_6:
+  - figure:
+      number: "6_0_"
+      caption: 
+      url: "assets/articles/bastone_barrettara/img/ex_6_0.png"
+      alt: "Test"
+      border: true
+      scale: 1
+  - figure:
+      number: "6_1_"
+      caption: 
+      url: "assets/articles/bastone_barrettara/img/ex_6_1.png"
+      alt: "Test"
+      border: true
+      scale: 1
+figure_6.1:
+  - figure:
+      number: "6_2_"
+      caption: 
+      url: "assets/articles/bastone_barrettara/img/ex_6_2.png"
+      alt: "Test"
+      border: true
+      scale: 1
+  - figure:
+      number: "6_3_"
+      caption: > 
+        "Mozart, &quot;Solche hergelauf\'ne Laffen,&quot; mm. 8--31."
+      url: "assets/articles/bastone_barrettara/img/ex_6_3.png"
+      alt: "Test"
+      border: true
+      scale: 1
+figure_7:
+  - figure:
+      number: "7a"
+      caption: > 
+        "Mozart, &quot;Solche hergelauf\'ne Laffen,&quot; common rhythmic profiles. Pure *ottonario*, mm. 16--18."
+      url: "assets/articles/bastone_barrettara/img/ex_7a.png"
+      alt: "Test"
+      border: true
+      scale: 1
+  - figure:
+      number: "7b"
+      caption: > 
+        "*Ottonario* with midpoint caesura, mm. 32--33."
+      url: "assets/articles/bastone_barrettara/img/ex_7b.png"
+      alt: "Test"
+      border: true
+      scale: 1
+figure_7.1:
+  - figure:
+      number: "7c"
+      caption: > 
+        "Agogic downbeat profile, mm. 46--47."
+      url: "assets/articles/bastone_barrettara/img/ex_7c.png"
+      alt: "Test"
+      border: true
+      scale: 1
+  - figure:
+      number: "7d"
+      caption: > 
+        "Downbeat syllabic stress profile, mm. 12--15."
+      url: "assets/articles/bastone_barrettara/img/ex_7d.png"
+      alt: "Test"
+      border: true
+      scale: 1
+figure_8:
+  - figure:
+      number: "8"
+      caption: >
+        "Mozart, &quot;Solche hergelauf\'ne Laffen,&quot; mm. 126--128 (wind parts omitted)."
+      url: "assets/articles/bastone_barrettara/img/ex_8.png"
+      alt: "Test"
+      border: true
+      scale: "60"
+figure_9:
+  - figure:
+      number: "9a"
+      caption: >
+        "Mozart, "O! wie will ich triumphieren," text and translation (Schaubhut Smith 1991, 142)."
+      url: "assets/articles/bastone_barrettara/img/ex_9a.png"
+      alt: "Test"
+      border: true
+      scale: 1
+  - figure:
+      number: "9b"
+      caption: > 
+        "Mozart, "O! wie will ich triumphieren," formal outline."
+      url: "assets/articles/bastone_barrettara/img/ex_9b.png"
+      alt: "Test"
+      border: true
+      scale: 1
+figure_10:
+  - figure:
+      number: "10"
+      caption: >
+        "Mozart, &quot;O! wie will ich triumphieren&quot; (piano-vocal reduction), mm. 20--41."
+      url: "assets/articles/bastone_barrettara/img/ex_10_1.png"
+      alt: "Test"
+      border: true
+      scale: "60"
+figure_11:
+  - figure:
+      number: "11_0_"
+      caption: 
+      url: "assets/articles/bastone_barrettara/img/ex_11_0.png"
+      alt: "Test"
+      border: true
+      scale: 1
+  - figure:
+      number: "11_1"
+      caption: 
+      url: "assets/articles/bastone_barrettara/img/ex_11_1.png"
+      alt: "Test"
+      border: true
+      scale: 1
+figure_11.1:
+  - figure:
+      number: "11_2"
+      caption: 
+      url: "assets/articles/bastone_barrettara/img/ex_11_2.png"
+      alt: "Test"
+      border: true
+      scale: 1
+  - figure:
+      number: "11_3"
+      caption: 
+      url: "assets/articles/bastone_barrettara/img/ex_11_3.png"
+      alt: "Test"
+      border: true
+      scale: 1
+figure_11.2:
+  - figure:
+      number: "11"
+      caption: > 
+        "Mozart, &quot;O! wie will ich triumphieren,&quot; mm. 87--132 (wind parts omitted)."
+      url: "assets/articles/bastone_barrettara/img/ex_11_4.png"
+      alt: "Test"
+      border: true
+      scale: 1
+figure_12:
+  - figure:
+      number: "12"
+      caption: >
+        "Mozart, &quot;Nie werd\' ich deine Huld verkennen&quot; (piano-vocal reduction), mm. 61--68."
+      url: "assets/articles/bastone_barrettara/img/ex_12.png"
+      alt: "Test"
+      border: true
+      scale: "100"
+citations:
 - name: Abert_2007
   citation: >
     Abert, Hermann. \[1919--1921]. 2007. *W.A. Mozart*. Translated by Stewart Spencer. Edited by Cliff Eisen. New Haven: Yale University Press.
