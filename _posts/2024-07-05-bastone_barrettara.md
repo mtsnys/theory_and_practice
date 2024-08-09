@@ -389,9 +389,8 @@ granted by both composers and listeners. Virtually every piece or
 movement was written with one time signature from beginning to end"
 (2008, 83).
 
-{% include figure_grid.html columns=2 figure_key="figure_3" %}
-
-
+{% include figure_grid.html columns=1 figure_key="figure_3a" %}
+{% include figure_grid.html columns=1 figure_key="figure_3b" %}
 
 Gerold Gruber descriptively writes that Osmin "crashes, trips, and
 stumbles" (1994, 494; my translation) into the aria, an impression he
@@ -435,7 +434,6 @@ Tending to agree with Croll's assessment that the first measure is not
 Mozart's own, I will not account for it here.
 
 {% include figure_grid.html columns=1 figure_key="figure_4" %}
-{% include figure_grid.html columns=1 figure_key="figure_5" %}
 
 Osmin's opening gambit is what Hepokoski-Darcy would call a "weak-launch
 option": a P that opens *piano* with "the onset of some sort of bustling
@@ -445,6 +443,9 @@ ascent to the dominant (mm. 7--8). A melisma on the first syllable of
 "Laffen" ("dandies") starts on the downbeat of m. 4 and occupies more
 than half of the phrase. It is a brooding and asymmetrical preamble that
 anticipates Osmin's imminent eruption. It is also a bit fiddly to parse.
+
+{% include figure_grid.html columns=1 figure_key="figure_5" %}
+
 
 One could make the case, as shown in [Example 5](#ex-5), for a
 regular alternation of strong and weak measures. Measure 2 is strong
@@ -675,7 +676,9 @@ concerned with the refrain and episode 2, both of which are marked by
 metric and phrase-structural turbulence.
 
 
-{% include figure_grid.html columns=2 figure_key="figure_9" %}
+{% include figure_grid.html columns=1 figure_key="figure_9a" %}
+{% include figure_grid.html columns=1 figure_key="figure_9b" %}
+
 
 
 An irrepressible, maniacal glee brims every refrain as Osmin envisages
@@ -750,9 +753,6 @@ the music through m. 111 (but more on that later).
 {% include figure_grid.html columns=2 figure_key="figure_11" %}
 {% include figure_grid.html columns=2 figure_key="figure_11.1" %}
 {% include figure_grid.html columns=1 figure_key="figure_11.2" %}
-
-
-
 
 
 One could argue that Osmin supports the regular alternation of strong
