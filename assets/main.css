@@ -86,7 +86,6 @@
 
 :root {
   --page-wrapper-width: 1400px; 
-  --article-padding-left: 2.5rem;
 }
 
 html {
@@ -119,7 +118,7 @@ header h1, header h2, header h3, header a {
 	/* Add styles for how you want the mobile nav to look */
 }
 .page-wrapper {
-	max-width: 1400px;
+	max-width: 90%;
 	/* Limit the main content width */
 	margin-left: auto;
 	margin-right: auto;
@@ -203,7 +202,7 @@ p.subtitle {
 }
 article {
 	padding: 2.5rem 0rem;
-	max-width: 90%;
+	max-width: 95%;
 	/* Constrain article width */
 	margin: 0 auto;
 	/* Center the article */
@@ -657,9 +656,10 @@ blockquote {
 	font-size: 1.4rem;
 }
 blockquote p {
-	width: 70%;
-	margin-right: 40px;
+	width: 80%;
 }
+
+
 blockquote footer {
 	width: 70%;
 	font-size: 1.1rem;
@@ -668,6 +668,22 @@ blockquote footer {
 section>p, section>footer, section>table {
 	width: 80%;
 }
+
+@media (max-width: 1024px) and (orientation: portrait) { 
+  /* ... other styles ... */
+
+  section > p, section > footer, section > table {
+    width: auto; /* Reset the width to auto */
+    max-width: 100%; 
+   
+  }
+
+			blockquote > p {
+				width: auto;
+				max-width: 100%;
+			}
+}
+
 #works-cited {
 	width: 90%;
 	word-wrap: break-word;
@@ -752,9 +768,9 @@ img {
 	float: right;
 	font-family: trade-gothic-lt;
 	clear: right;
-	margin-right: -40%;
+	margin-right: -30%;
 	/* Default value for larger screens */
-	width: 30%;
+	width: 25%;
 	margin-top: 1rem;
 	margin-bottom: 0;
 	font-size: 1rem;
@@ -764,16 +780,36 @@ img {
 }
 /* Sidenote adjustment for iPads */
 
-@media (max-width: 1024px) {
-	/* Adjust this breakpoint for iPads */
-	.sidenote, .marginnote {
-		margin-right: -25%;
-		/* Adjusted margin for iPads */
-		width: 20%;
-		/* Adjusted width for iPads */
+@media (max-width: 1024px) and (orientation: portrait) { 
+  /* ... other styles ... */
+
+  /* Target sidenotes and margin notes */
+  .sidenote, .marginnote {
+    display: none; /* Initially hide on tablet portrait */
+    float: left;
+    left: 1rem;
+    clear: both;
+    width: 95%;
+    margin: 1rem 2.5%;
+    vertical-align: baseline;
+    position: relative;
+  }
+
+	.margin-toggle:checked+.sidenote, .margin-toggle:checked+.marginnote {
+		display: block;
+		float: left;
+		left: 1rem;
+		clear: both;
+		width: 95%;
+		margin: 1rem 2.5%;
+		vertical-align: baseline;
+		position: relative;
 	}
-}
-/* Sidenote adjustment for iPads in landscape */
+	.sidenote-number:after {
+		text-decoration: underline;
+	}
+	}
+
 
 @media (max-width: 1366px) and (orientation: landscape) {
 	.sidenote, .marginnote {
@@ -843,43 +879,85 @@ blockquote .sidenote, blockquote .marginnote {
 }
 
 
-/* Figure Stuff */
+/* Figures */
 
 article section div.figure-container {
-  width: 100vw; /* 100% of viewport width */
-  margin-left: calc((100vw - var(--page-wrapper-width)) / -2); /* Adjust left margin to center */
-  box-sizing: border-box; /* Include padding and border in the total width */
+  max-width: 80%;
 }
 
+@media (max-width: 1024px) and (orientation: portrait) { 
+  article section div.figure-container {
+    max-width: 100%; 
+  }
+}
 
 .figure-grid {
+  /* ... your existing figure-grid styles ... */
+  width: 100%; /* Make the grid take up the full width of its container (.figure-container) */
+  max-width: 100vw; /* Prevent the grid from exceeding the viewport width */
   display: grid;
   grid-template-columns: repeat(var(--columns), 1fr);
   gap: 1rem;
 }
 
+@media (max-width: 1024px) and (orientation: portrait) { /* Adjust the breakpoint as needed */
+  .figure-grid {
+    grid-template-columns: 1fr; /* Single column layout */
+  }
+}
+
 .figure-grid-item {
-  /* Style grid items as needed */
+  display: grid;
+  place-items: center; /* Center items both horizontally and vertically */
 }
 
 .figure-grid-item img {
-  width: 100%;
-  height: auto; /* Maintain aspect ratio */
+  width: 100%; /* Or set a specific width */
+  height: auto;
+  object-fit: contain; /* Maintain aspect ratio and center the image */
+}
+
+figcaption {
+	 margin: 1rem 0 1rem 0;
 }
 
 .figure-grid-item figcaption {
+  text-align: center; 
+  width: 90%; /* Or any other desired width value */
+  max-width: none; /* Override the inherited max-width */
+  margin: 0.5rem auto; /* Center the figcaption horizontally */
+}
+
+
+figcaption>p {
   text-align: center; /* Center the text within the figcaption */
 	 font-family: trade-gothic-lt;
 	 font-size: 1.1rem;
-	 margin: 0.5rem auto 2rem auto;
+	 margin: 0rem auto 2rem auto;
   width: 90%; /* Ensure the figcaption takes up the full width of its container */
   line-height: 1.6;
   vertical-align: baseline;
 	 position: relative;
 }
 
+
+.main-caption-wrapper {
+  max-width: none; 
+  display: block;
+  justify-content: center; /* Center the figcaption horizontally */
+  grid-column: 1 / -1; /* Span the entire grid width */
+}
+
+.main-caption {
+  max-width: none;  /* Override inherited max-width */
+  width: 100%;      /* Or set a specific width if needed */
+}
+
+
 .fig-number {
+	display: block;
 	font-family: trade-gothic-lt-bold-ext;
+	  text-align: center; /* Center the text within the figcaption */
 }
 
 .with-border { /* Border style for figures */
