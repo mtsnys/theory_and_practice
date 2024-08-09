@@ -1,23 +1,41 @@
+<div class="figure-container"> 
 {% if include.columns %}
 <div class="figure-grid" style="--columns: {{ include.columns }};">
-  {% for item in site.data.bastone-barrettara.[include.figure_key] %}
+  {% for item in site.data[page.short-name][include.figure_key].figures %}
     <figure class="figure-grid-item">
-      <img src="{{ site.baseurl }}/{{ item.figure.url }}" alt="{{ item.figure.alt }}" {% if item.figure.border %}class="with-border"{% endif %} style="width: {{ item.figure.scale | times: 100 }}%; height: auto;">
+      <img src="{{ site.baseurl }}/{{ item.figure.url }}" alt="{{ item.figure.alt }}" 
+           {% if item.figure.border %}class="with-border"{% endif %}
+           style="width: {{ item.figure.scale | times: 100 }}%; height: auto;">
       {% if item.figure.caption %}
-        <figcaption><span class="fig-number">Example {{ item.figure.number }}.</span> {{ item.figure.caption }}</figcaption>
+        <figcaption><span class="fig-number">Example {{ item.figure.number }}.</span> {{ item.figure.caption | markdownify  }}</figcaption>
       {% endif %}
     </figure>
   {% endfor %}
+
+  {%- if site.data[page.short-name][include.figure_key].main_caption -%} 
+    <div class="main-caption-wrapper"> 
+      <figcaption><span class="fig-number">Example {{ site.data[page.short-name][include.figure_key].main_number }}.</span> {{ site.data[page.short-name][include.figure_key].main_caption | markdownify  }} </figcaption>
+    </div>
+  {%- endif -%}
 </div>
 {% else %}
 <div class="figure-grid" style="--columns: 1;">
-  {% for item in site.data.bastone-barrettara.[include.figure_key] %}
+  {% for item in site.data[page.short-name][include.figure_key].figures %}
     <figure class="figure-grid-item">
-      <img src="{{ site.baseurl }}/{{ item.figure.url }}" alt="{{ item.figure.alt }}" {% if item.figure.border %}class="with-border"{% endif %} style="width: {{ item.figure.scale | times: 100 }}%; height: auto;">
+      <img src="{{ site.baseurl }}/{{ item.figure.url }}" alt="{{ item.figure.alt }}" 
+           {% if item.figure.border %}class="with-border"{% endif %}
+           style="width: {{ item.figure.scale | times: 100 }}%; height: auto;">
       {% if item.figure.caption %}
-        <figcaption><span class="fig-number">Example {{ item.figure.number }}.</span> {{ item.figure.caption }}</figcaption>
+        <figcaption><span class="fig-number">Example {{ item.figure.number | markdownify  }}.</span> {{ item.figure.caption }}</figcaption>
       {% endif %}
     </figure>
   {% endfor %}
+
+  {%- if site.data[page.short-name][include.figure_key].main_caption -%} 
+    <div class="main-caption-wrapper"> 
+      <figcaption class="main-caption">{{ site.data[page.short-name][include.figure_key].main_caption | markdownify  }}</figcaption>
+    </div>
+  {%- endif -%}
 </div>
 {% endif %}
+</div>
