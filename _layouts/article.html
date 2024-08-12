@@ -1,20 +1,28 @@
 ---
 layout: default
 ---
-<article>
-    <h1 id="tufte-css">{{ page.title}}</h1>
+	{% include toc.html %} 
 
-    <p>
-      {%- if page.author -%}
-        <p class="author">{{ page.author }}
-      {%- endif -%}</p>
+<div class="title-author-wrapper">
+	<h1>{{ page.title}}</h1>
+	{%- if page.author -%}
+	<p class="author">{{ page.author }}
+	{%- endif -%}</p>
+</div>
 
-  <abstract>
-    {{ page.abstract }}<br><br>
-  </abstract>
-    <hr>
-    <hr>
+<div class="abstract-wrapper">
+	<hr>
+ <hr>
+	<abstract>
+	{{ page.abstract }}<br><br>
+	</abstract>
+	<hr>
+ <hr>
+</div>
+
+
+
+<article class="main-article">
   {{ content }}
 </article>
-
 

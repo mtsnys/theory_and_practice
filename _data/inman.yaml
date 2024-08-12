@@ -1,3 +1,398 @@
+#Figures
+figure_1:
+  main_number:
+  main_caption:
+  figures:
+    - figure:
+        number: "1"
+        caption: >
+          Nineteenth- and twentieth-century composers Ewazen cites as influences.
+        url: "assets/articles/inman/img/ex_1.png"
+        alt: "Test"
+        border: false
+        scale: .8
+figure_2:
+  main_number:
+  main_caption:
+  figures:
+    - figure:
+        number: "2"
+        caption: >
+          Collection shifts and repetition in Ewazen, Sonata for Trumpet and Piano/II.
+        url: "assets/articles/inman/img/ex_2.png"
+        alt: "Test"
+        border: false
+        scale: .8
+figure_3:
+  main_number:
+  main_caption:
+  figures:
+    - figure:
+        number: "3"
+        caption: >
+          Diatonic tonalities related by fixed domain to D Dorian on the Table of Diatonic Relations (Bates 2012, 39, Ex. 10).
+        url: "assets/articles/inman/img/ex_3.png"
+        alt: "Test"
+        border: false
+        scale: 1
+figure_4:
+  main_number:
+  main_caption:
+  figures:
+    - figure:
+        number: "4"
+        caption: >
+          Root-position triads in Ewazen, Sonata for Horn and Piano/III.
+        url: "assets/articles/inman/img/ex_4.png"
+        alt: "Test"
+        border: false
+        scale: .8
+figure_5:
+  main_number:
+  main_caption:
+  figures:
+    - figure:
+        number: "5"
+        caption: >
+          Quartal/quintal harmonies and pedal tone in Ewazen, Sonata No. 2 for Flute and Piano/I.
+        url: "assets/articles/inman/img/ex_5.png"
+        alt: "Test"
+        border: false
+        scale: .8
+figure_6:
+  main_number:
+  main_caption:
+  figures:
+    - figure:
+        number: "6"
+        caption: >
+          Extra-musical associations of mixture progressions in the music of John Williams identified in Schneller 2013.
+        url: "assets/articles/inman/img/ex_6.png"
+        alt: "Test"
+        border: false
+        scale: .6
+figure_7:
+  main_number:
+  main_caption:
+  figures:
+    - figure:
+        number: "7"
+        caption: >
+          Major triads and modal mixture in Ewazen, Sonata for Euphonium and Piano/III.
+        url: "assets/articles/inman/img/ex_7.png"
+        alt: "Test"
+        border: false
+        scale: .8
+figure_8:
+  main_number:
+  main_caption:
+  figures:
+    - figure:
+        number: "8"
+        caption: >
+          Cadence types.
+        url: "assets/articles/inman/img/ex_8.png"
+        alt: "Test"
+        border: false
+        scale: .6
+figure_9:
+  main_number:
+  main_caption:
+  figures:
+    - figure:
+        number: "9"
+        caption: >
+          Form, Ewazen, Sonata No. 1 for Flute and Piano/I.
+        url: "assets/articles/inman/img/ex_9.png"
+        alt: "Test"
+        border: false
+        scale: .8
+figure_10:
+  main_number:
+  main_caption:
+  figures:
+    - figure:
+        number: "10a"
+        caption: >
+          Main theme transformations, Ewazen, Sonata No. 1 for Flute and Piano/I.
+        url: "assets/articles/inman/img/ex_10a.png"
+        alt: "Test"
+        border: false
+        scale: 1
+    - figure:
+        number: "10b"
+        caption: >
+          Main theme transformations, Ewazen, Sonata No. 1 for Flute and Piano/I.
+        url: "assets/articles/inman/img/ex_10b.png"
+        alt: "Test"
+        border: false
+        scale: 1        
+    - figure:
+        number: "10c"
+        caption: >
+          Main theme transformations, Ewazen, Sonata No. 1 for Flute and Piano/I.
+        url: "assets/articles/inman/img/ex_10c.png"
+        alt: "Test"
+        border: false
+        scale: 1
+figure_11:
+  main_number:
+  main_caption:
+  figures:
+    - figure:
+        number: "11"
+        caption: >
+          Exposition, transition, Ewazen, Sonata No. 1 for Flute and Piano/I.
+        url: "assets/articles/inman/img/ex_11.png"
+        alt: "Test"
+        border: false
+        scale: .8
+figure_12:
+  main_number:
+  main_caption:
+  figures:
+    - figure:
+        number: "12"
+        caption: >
+          Exposition, subordinate theme, Ewazen, Sonata No. 1 for Flute and Piano/I.
+        url: "assets/articles/inman/img/ex_12.png"
+        alt: "Test"
+        border: false
+        scale: .7
+figure_13:
+  main_number:
+  main_caption:
+  figures:
+    - figure:
+        number: "13"
+        caption: >
+          Three readings of the exposition, Ewazen, Sonata No. 1 for Flute and Piano/I.
+        url: "assets/articles/inman/img/ex_13.png"
+        alt: "Test"
+        border: false
+        scale: .3
+figure_14:
+  main_number:
+  main_caption:
+  figures:
+    - figure:
+        number: "14a"
+        caption: >
+          Tonal trajectories in the exposition, Ewazen, Sonata No. 1 for Flute and Piano/I.
+        url: "assets/articles/inman/img/ex_14a.png"
+        alt: "Test"
+        border: false
+        scale: .8
+    - figure:
+        number: "14b"
+        caption: >
+          Tonal trajectories in the exposition, Ewazen, Sonata No. 1 for Flute and Piano/I.
+        url: "assets/articles/inman/img/ex_14b.png"
+        alt: "Test"
+        border: false
+        scale: 1
+    - figure:
+        number: "14c"
+        caption: >
+          Tonal trajectories in the exposition, Ewazen, Sonata No. 1 for Flute and Piano/I.
+        url: "assets/articles/inman/img/ex_14c.png"
+        alt: "Test"
+        border: false
+        scale: .8
+figure_15_16:
+  main_number:
+  main_caption:
+  figures:
+    - figure:
+        number: "15"
+        caption: >
+          Tonal trajectories in the development, Ewazen, Sonata No. 1 for Flute and Piano/I.
+        url: "assets/articles/inman/img/ex_15.png"
+        alt: "Test"
+        border: false
+        scale: 1
+    - figure:
+        number: "16"
+        caption: >
+          Tonal trajectories in the recapitulation and coda, Ewazen, Sonata No. 1 for Flute and Piano/I.
+        url: "assets/articles/inman/img/ex_16.png"
+        alt: "Test"
+        border: false
+        scale: 1
+figure_17:
+  main_number:
+  main_caption:
+  figures:
+    - figure:
+        number: "17"
+        caption: >
+          Theme a, Ewazen, Sonata No. 1 for Flute and Piano/II.
+        url: "assets/articles/inman/img/ex_17.png"
+        alt: "Test"
+        border: false
+        scale: .7
+figure_18:
+  main_number:
+  main_caption:
+  figures:
+    - figure:
+        number: "18"
+        caption: >
+          Set comparison, Ewazen, Sonata No. 1 for Flute and Piano/II.
+        url: "assets/articles/inman/img/ex_18.png"
+        alt: "Test"
+        border: false
+        scale: .6
+figure_19:
+  main_number:
+  main_caption:
+  figures:
+    - figure:
+        number: "19"
+        caption: >
+          Theme b, Ewazen, Sonata No. 1 for Flute and Piano/II.
+        url: "assets/articles/inman/img/ex_19.png"
+        alt: "Test"
+        border: false
+        scale: .7
+figure_20:
+  main_number:
+  main_caption:
+  figures:
+    - figure:
+        number: "20"
+        caption: >
+          Form, Ewazen, Sonata No. 1 for Flute and Piano/II.
+        url: "assets/articles/inman/img/ex_20.png"
+        alt: "Test"
+        border: false
+        scale: .9
+figure_21:
+  main_number:
+  main_caption:
+  figures:
+    - figure:
+        number: "21"
+        caption: >
+          Tonal trajectories in Section A, Ewazen, Sonata No. 1 for Flute and Piano/II.
+        url: "assets/articles/inman/img/ex_21.png"
+        alt: "Test"
+        border: false
+        scale: .2
+figure_22:
+  main_number:
+  main_caption:
+  figures:
+    - figure:
+        number: "22"
+        caption: >
+          Episode 2, theme g, Ewazen, Sonata No. 1 for Flute and Piano/II.
+        url: "assets/articles/inman/img/ex_22.png"
+        alt: "Test"
+        border: false
+        scale: .7
+figure_23:
+  main_number:
+  main_caption:
+  figures:
+    - figure:
+        number: "23"
+        caption: >
+          Episode 2, reduction of theme j, Ewazen, Sonata No. 1 for Flute and Piano/II.
+        url: "assets/articles/inman/img/ex_23.png"
+        alt: "Test"
+        border: false
+        scale: .7
+figure_24:
+  main_number:
+  main_caption:
+  figures:
+    - figure:
+        number: "24"
+        caption: >
+          Form, Ewazen, Sonata No. 1 for Flute and Piano/III.
+        url: "assets/articles/inman/img/ex_24.png"
+        alt: "Test"
+        border: false
+        scale: .9
+figure_25_26_27:
+  main_number:
+  main_caption:
+  figures:
+    - figure:
+        number: "25"
+        caption: >
+          Tonal trajectories in refrain 1 and episode 1, Ewazen, Sonata No. 1 for Flute and Piano/III.
+        url: "assets/articles/inman/img/ex_25.png"
+        alt: "Test"
+        border: false
+        scale: 1
+    - figure:
+        number: "26"
+        caption: >
+          Tonal trajectories in refrain 2 and episode 2, Ewazen, Sonata No. 1 for Flute and Piano/III.
+        url: "assets/articles/inman/img/ex_26.png"
+        alt: "Test"
+        border: false
+        scale: 1
+    - figure:
+        number: "27"
+        caption: >
+          Tonal trajectories in refrain 3 and coda, Ewazen, Sonata No. 1 for Flute and Piano/III.
+        url: "assets/articles/inman/img/ex_27.png"
+        alt: "Test"
+        border: false
+        scale: 1
+figure_28_a:
+  main_number:
+  main_caption:
+  figures:
+    - figure:
+        number: "28a"
+        caption: >
+          Modal transformation, Ewazen, Sonata No. 1 for Flute and Piano/III.
+        url: "assets/articles/inman/img/ex_28a.png"
+        alt: "Test"
+        border: false
+        scale: 1
+figure_28_b:
+  main_number:
+  main_caption:
+  figures:
+    - figure:
+        number: "28b"
+        caption: >
+          Modal transformation, Ewazen, Sonata No. 1 for Flute and Piano/III.
+        url: "assets/articles/inman/img/ex_28b.png"
+        alt: "Test"
+        border: false
+        scale: 1
+figure_29:
+  main_number:
+  main_caption:
+  figures:
+    - figure:
+        number: "29"
+        caption: >
+          Retransition, Ewazen, Sonata No. 1 for Flute and Piano/III.
+        url: "assets/articles/inman/img/ex_29.png"
+        alt: "Test"
+        border: false
+        scale: .7
+figure_30:
+  main_number:
+  main_caption:
+  figures:
+    - figure:
+        number: "30"
+        caption: >
+          Summary of influences on Ewazen, Sonata No. 1 for Flute and Piano.
+        url: "assets/articles/inman/img/ex_30.png"
+        alt: "Test"
+        border: false
+        scale: .6
+
+citations:
 - name: Altman_2005
   citation: >
     Altman, Timothy Meyer. 2005. "An Analysis for Performance of Two Chamber Works with Trumpet by Eric Ewazen: *. . . to cast a shadow again (a song cycle for voice, trumpet and piano)* and *Trio for Trumpet, Violin and Piano*." DMA diss., University of Kentucky.

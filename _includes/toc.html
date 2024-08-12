@@ -1,0 +1,11 @@
+<header class="toc">
+    <nav>
+        <ul>
+        {% for item in page.sections %}
+           <li><a class="link" href="#{{ item.header.id }}">{{ item.header.text }}</a>
+            </li>
+        {% endfor %}
+        </ul>
+        <a href="#" class="back-to-top">Back to top</a>
+    </nav>
+</header>

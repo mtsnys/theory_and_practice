@@ -16,7 +16,8 @@ generally neglect to account for the metric phenomena of the musical
 dramaturgy. This essay demonstrates how Mozart uses varied phrase
 structures, hypermetric deferment, and text-setting as dramaturgic tools
 in the portrayal of Osmin's discomposure across his three solo numbers."
-footnote_1: "I am grateful to Mark Anson-Cartwright, Loretta Terrigno, and Allan W. Atlas for comments and insights that strengthened every draft of this article. Important studies among these include Melamed (2010) on the use of Osmin's low register in contrapuntal settings, Gruber (1994) on musical heterogeneity in \"Solche hergelauf'ne Laffen,\" and both Bauman (1987, 62--71) and Mahling (1973) on the dramaturgic use of the eighteenth-century *alla turca* style in Osmin's music. For more general considerations of Osmin's character, see Abert ([1919--1921] 2007, 658--85), Betzwieser (1991), and Fábián (1989). For a concise and eloquent account of the syntactical musical challenge that Osmin's rage presented Mozart, see Kivy (1999, 59--61). "
+marginnote_1: "I am grateful to Mark Anson-Cartwright, Loretta Terrigno, and Allan W. Atlas for comments and insights that strengthened every draft of this article."
+footnote_1: "Important studies among these include Melamed (2010) on the use of Osmin's low register in contrapuntal settings, Gruber (1994) on musical heterogeneity in \"Solche hergelauf'ne Laffen,\" and both Bauman (1987, 62--71) and Mahling (1973) on the dramaturgic use of the eighteenth-century *alla turca* style in Osmin's music. For more general considerations of Osmin's character, see Abert ([1919--1921] 2007, 658--85), Betzwieser (1991), and Fábián (1989). For a concise and eloquent account of the syntactical musical challenge that Osmin's rage presented Mozart, see Kivy (1999, 59--61). "
 footnote_2: "It should be noted that the distinctive low notes and broad leaps of Osmin's vocal lines, though often employed dramaturgically by Mozart, were included in no small part to exploit the particular abilities of Ludwig Fischer (1745--1825), the star bass-baritone who premiered the role. Fischer was known for his exceptionally wide range as well as for the fluidity with which he traversed it. For more on his life, voice, and Viennese popularity, see Fischer (2016) and Bauman (1987). "
 footnote_3: "For broader reflections on the relationship between rhythm and meter, see Rothstein (1989; 2008; 2011) and Hasty (1997); on this relationship in Mozart's music, see Mirka (2009) and Klorman (2016). "
 footnote_4: "In a quadruple hypermeasure, for instance, the first measure is strong, the second weak, the third slightly less strong than the first, and the fourth weakest of all. The term \"hypermeasure\" originates in Cone (1968). "
@@ -58,11 +59,26 @@ footnote_39: "The repetition features new figuration in the accompaniment and th
 footnote_40: "The quoted passage is that which opens the aria's second coda with the text \"Erst geköpft, dann gehangen\" (in the aria, starting at m. 147; in the finale, at m. 75). "
 footnote_41: "On Osmin's interest in Blonde and its effect on his character, see Fábián (1989), Mahling (1973), and Joncus (2010). "
 footnote_42: "Osmin continues with a regular quadruple hypermeter thereafter."
+sections:  
+    - header: 
+        text: "Osmin's Introduction"
+        id: "osmins-introduction"
+    - header: 
+        text: "Osmin's Anger"
+        id: "osmins-anger"
+    - header: 
+        text: "Osmin's Triumph"
+        id: "osmins-triumph" 
+    - header: 
+        text: "Works Cited"
+        id: "works-cited" 
 ---
+
+
 
 <section markdown="1" >
 
-When Mozart wrote to his father on September 26, 1781, about the
+{% include marginnote.html footnote_number='1' footnote_text=page.marginnote_1%}When Mozart wrote to his father on September 26, 1781, about the
 composition of *Die Entführung aus dem Serail*, he could hardly have
 known that his letter would rouse so much interest among readers other
 than its addressee. And he might have been pleased at the fuss we have
@@ -218,7 +234,7 @@ my hope that this study lays the groundwork for similar analyses of even
 larger networks toward wide-ranging comparisons and conclusions.{% include footnote.html footnote_number='12' footnote_text=page.footnote_12%}
 </section>
 <section markdown="1" >
-<h2>Osmin's Introduction</h2>
+<h2 id="osmins-introduction">Osmin's Introduction</h2>
 
 Osmin sings about the fickle fidelities of women and the capitalizing
 designs of men who would lure them from their partners throughout his
@@ -267,7 +283,8 @@ correspondence to slurs in Mozart's score.
 {% include figure_grid.html columns=1 figure_key="figure_1" %}
 
 
-{% include figure_grid.html columns=2 figure_key="figure_2" %}
+{% include figure_grid.html columns=1 figure_key="figure_2" %}
+
 
 
 The first two couplets each outfit a four-measure vocal phrase
@@ -367,7 +384,7 @@ product of the ill-founded Eastern stereotyping so commonplace in
 Austria at the close of the eighteenth century.{% include footnote.html footnote_number='20' footnote_text=page.footnote_20%}
 </section>
 <section markdown="1" >
-<h2>Osmin's Anger</h2>
+<h2 id="osmins-anger">Osmin's Anger</h2>
 
 "Solche hergelauf'ne Laffen" is in F major, common time, and marked
 *allegro con brio*. Its text is provided in [Example 3a](#ex-3a). My analysis begins with a brief review of its form,
@@ -506,8 +523,8 @@ accentuate the juncture between P and TR (mm. 18, 19). Note also,
 beginning at m. 8, Osmin's odd-numbered and inconsistent phrase lengths:
 3 + 5 + 3.{% include footnote.html footnote_number='23' footnote_text=page.footnote_23%}
 
-{% include figure_grid.html columns=2 figure_key="figure_6" %}
-{% include figure_grid.html columns=2 figure_key="figure_6.1" %}
+{% include figure_grid.html columns=1 figure_key="figure_6" %}
+{% include figure_grid.html columns=1 figure_key="figure_6.1" %}
 
 
 Such a volatile, pattern-avoidant phrase structure suggests that Osmin's
@@ -642,7 +659,7 @@ surely it begins to simmer here.{% include footnote.html footnote_number='32' fo
 </section>
 <section markdown="1" >
 
-<h2>Osmin's Triumph</h2>
+<h2 id="osmins-triumph">Osmin's Triumph</h2>
 
 Osmin offers his exuberant victory aria "O! wie will ich triumphieren"
 after his minions catch the Western captives escaping from the palace
@@ -750,8 +767,8 @@ of F, the harmony initiates a modulation to that key that will occupy
 the music through m. 111 (but more on that later).
 
 
-{% include figure_grid.html columns=2 figure_key="figure_11" %}
-{% include figure_grid.html columns=2 figure_key="figure_11.1" %}
+{% include figure_grid.html columns=1 figure_key="figure_11" %}
+{% include figure_grid.html columns=1 figure_key="figure_11.1" %}
 {% include figure_grid.html columns=1 figure_key="figure_11.2" %}
 
 
@@ -908,7 +925,7 @@ not yet found for himself.
 
 <section id="works-cited" markdown="1" >
 
-<h2>Works Cited</h2>
+<h2 id="works-cited">Works Cited</h2>
 
 {% include citations.html %}
 
