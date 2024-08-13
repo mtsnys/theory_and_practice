@@ -1,8 +1,10 @@
 ---
 layout: default
 ---
-<article>
-    
+
+	{% include toc.html %} 
+    <article>
+
 <h1> {{ page.title}}</h1>
 
 {% for book in page.reviewed %}
@@ -16,6 +18,7 @@ layout: default
       <p><em>reviewed by</em><br>
         <span class="author">{{ page.author }}<br>
 {%- endif -%}
+
 
 {%- if page.abstract -%}
   <abstract>

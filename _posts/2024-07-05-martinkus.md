@@ -12,6 +12,19 @@ reviewed:
 author: "Caitlin Martinkus"
 short-name: "martinkus"
 abstract: ""
+sections:  
+    - header: 
+        text: "Introduction"
+        id: "introduction"
+    - header: 
+        text: "Journeys Through Galant Expositions"
+        id: "journeys"
+    - header: 
+        text: "How Sonata Forms"
+        id: "how-sonata-forms"
+    - header: 
+        text: "From How to Now: A Journey Forward"
+        id: "from-how"  
 ---
 
 {% capture footnote_1 %} Indeed, all have published at least one monograph and multiple articles that engage predominantly with nineteenth-century music since 2011: for example, Horton (2015, 2017, and 2022); Hyland (2016 and 2023); Schmalfeldt (2011); Taylor (2011 and 2021); Vande Moortele (2017 and 2021). {% endcapture %}
@@ -36,7 +49,7 @@ abstract: ""
 
 <section markdown="1" >
 
-<h2>Introduction</h2>
+<h2 id="introduction">Introduction</h2>
 
 Two monographs delving into eighteenth-century sonata forms---L. Poundie
 Burstein's *Journeys Through Galant Expositions* and Yoel Greenberg's
@@ -72,7 +85,7 @@ to the new *Formenlehre*.
 
 <section markdown="1" >
 
-<h2>Journeys Through Galant Expositions</h2>
+<h2 id="journeys">Journeys Through Galant Expositions</h2>
 
 Burstein's monograph focuses on Galant sonata forms which, for him,
 means pieces composed between 1750 and 1780 (11). The book has two
@@ -190,7 +203,7 @@ era and beyond.
 
 <section markdown="1" >
 
-<h2>How Sonata Forms</h2>
+<h2 id='how-sonata-forms'>How Sonata Forms</h2>
 
 The title of Greenberg's monograph, much like Burstein's, is apropos.
 Interested quite literally in how sonata form came to be, Greenberg
@@ -338,7 +351,7 @@ framework for historically contextualizing sonata forms.
 </section>
 
 <section markdown="1" >
-<h2>From How to Now: A Journey Forward</h2>
+<h2 id='from-how'>From How to Now: A Journey Forward</h2>
 
 Read together, *Journeys Through Galant Expositions* and *How Sonata
 Forms* offer a robust picture of sonata-form composition in the
