@@ -48,7 +48,7 @@ figure_1:
     - figure:
         number: '1'
         caption: >
-          Beethoven, Sonata in B<span style="font-family: music;”>&#x266D;</span> major, op. 106, first movement, mm. 96-100.
+          Beethoven, Sonata in B flat major, op. 106, first movement, mm. 96-100.
         url: 'assets/articles/mackay/img/ex_1.png'
         alt: 'Test'
         border: false
@@ -60,7 +60,7 @@ figure_2:
     - figure:
         number: '2'
         caption: >
-          Beethoven, Sonata in E<span style="font-family: music;”>&#x266D;</span> major, op. 7, second movement, mm. 3--8.
+          Beethoven, Sonata in E flat major, op. 7, second movement, mm. 3--8.
         url: 'assets/articles/mackay/img/ex_2.png'
         alt: 'Test'
         border: false
@@ -144,7 +144,7 @@ figure_6:
     - figure:
         number: '6'
         caption: >
-          Beethoven, Sonata in E<span style="font-family: music;”>&#x266D;</span> Major ("Das Lebewohl"), op. 81a, first movement,
+          Beethoven, Sonata in E flat Major ("Das Lebewohl"), op. 81a, first movement,
         url: 'assets/articles/mackay/img/ex_6.png'
         alt: 'Test'
         border: false
@@ -156,7 +156,7 @@ figure_7a:
     - figure:
         number: '7a'
         caption: >
-          Selections from Beethoven, Sonata in A<span style="font-family: music;”>&#x266D;</span> major, op. 110, first movement: Measures 33–38.
+          Selections from Beethoven, Sonata in A flat major, op. 110, first movement: Measures 33–38.
         url: 'assets/articles/mackay/img/ex_7a.png'
         alt: 'Test'
         border: false
@@ -168,7 +168,7 @@ figure_7b:
     - figure:
         number: '7b'
         caption: >
-          Selections from Beethoven, Sonata in A<span style="font-family: music;”>&#x266D;</span> major, op. 110, first movement: Measures 92–100.
+          Selections from Beethoven, Sonata in A flat major, op. 110, first movement: Measures 92–100.
         url: 'assets/articles/mackay/img/ex_7b.png'
         alt: 'Test'
         border: false
@@ -180,7 +180,7 @@ figure_8:
     - figure:
         number: '8'
         caption: >
-          Beethoven, Sonata in A<span style="font-family: music;”>&#x266D;</span> Major, op. 110: link between first movement (mm. 111–116, end of coda) and second movement (mm. 1–16).
+          Beethoven, Sonata in A flat Major, op. 110: link between first movement (mm. 111–116, end of coda) and second movement (mm. 1–16).
         url: 'assets/articles/mackay/img/ex_8.png'
         alt: 'Test'
         border: false
