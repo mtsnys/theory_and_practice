@@ -90,16 +90,8 @@ which is formally introduced in chapter 7 and summarized here in
 [Example 1](#ex_1) presents a useful heuristic for
 understanding the construction of Galant expositions.
 
-figure_1:
-  - figure:
-      number: "1"
-      caption: >
-        "Standard punctuation sequence in a major-mode Galant exposition"
-      url: "assets/articles/martinkus/img/ex_1.png"
-      alt: "Test"
-      border: true
-      scale: "100"
- {% include figure_grid.html columns=1 figure_key="figure_1" %}
+{% include figure_grid.html columns=1 figure_key='figure_1' %}
+
 
 Chapter 7 lays the framework for the analyses of expositions presented
 in chapters 8­­--13. Chapter 8 illustrates what modern theorists might
@@ -143,27 +135,11 @@ Flute and Continuo in F Major, third movement) I hear the *Grundabsatz*
 and *Quintabsatz* grouping together, forming a main theme (cbi +
 continuation) that ends with a half cadence (see [Example 3](#ex-3)).{% include footnote.html footnote_number='9' footnote_text=footnote_9%}
 
-figure_2:
-  - figure:
-      number: "2"
-      caption: >
-        "Replica of Burstein\'s 7.3d (Antonio Brioschi, Symphony in G Major, op. 2 no. 59, first movement \[outer voices\])"
-      url: "assets/articles/martinkus/img/ex_2.png"
-      alt: "Test"
-      border: true
-      scale: "100"
- {% include figure_grid.html columns=1 figure_key="figure_2" %}
+{% include figure_grid.html columns=1 figure_key='figure_2' %}
 
-figure_3:
-  - figure:
-      number: "3"
-      caption: >
-        "Replica of Burstein\'s 7.3g with additional form-functional annotations above the staff (Anna Amalia of Prussia, Sonata for Flute and Continuo in F Major, third movement)"
-      url: "assets/articles/martinkus/img/ex_3.png"
-      alt: "Test"
-      border: true
-      scale: "100"
- {% include figure_grid.html columns=1 figure_key="figure_3" %}
+
+{% include figure_grid.html columns=1 figure_key='figure_3' %}
+
 
 As indicated by the title, in *Journeys Through Galant Expositions*
 Burstein urges the reader and future analyst to think of formal sections
@@ -306,10 +282,10 @@ frequently together and requoted increasingly more material (100).
 Following the data, the recapitulatory rotation (as a unit in-and-of
 itself) emerged between 1740 and 1760. Through a comparison of two
 keyboard sonatas by C. P. E. Bach, one from 1744 (Sonata in C Major, Wq.
-62 no. 7), the other from 1757 (Sonata in B<span style="font-family: music;”>&#x266D;</span> Major, Wq. 62 no. 16),
+62 no. 7), the other from 1757 (Sonata in B<span style="font-family: music;">&#x266D;</span> Major, Wq. 62 no. 16),
 Greenberg illustrates this emergence. The double return in the C Major
 Sonata is followed by nearly twenty measures not explained vis-à-vis
-rotational logic before realigning with the exposition, while the Bb
+rotational logic before realigning with the exposition, while the B<span style="font-family: music;">&#x266D;</span>
 Major Sonata's "post double-return space" is clearly a recapitulatory
 rotation.{% include footnote.html footnote_number='16' footnote_text=footnote_16%} Chapter 6 illustrates combinations of elements that did
 not coalesce into a higher-level formal unit. Specifically, Greenberg

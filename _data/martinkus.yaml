@@ -1,3 +1,5 @@
+# Citations
+citations:
 - name: Burstein_2020
   citation: >
     Burstein, Poundie L. 2020. *Journeys through Galant Expositions*. New York: Oxford University Press.
@@ -70,3 +72,42 @@
 - name: Vande Moortele_2021
   citation: >
     Vande Moortele, Steven. 2021. "Apparent Type 2 Sonatas and Reversed Recapitulations in the Nineteenth Century." *Music Analysis* 40 (3): 501­­­--33.
+
+# Figures
+
+figure_1:
+  main_number:
+  main_caption:
+  figures:
+    - figure:
+        number: '1'
+        caption: >
+          Standard punctuation sequence in a major-mode Galant exposition
+        url: 'assets/articles/martinkus/img/ex_1.png'
+        alt: 'Test'
+        border: false
+        scale: .9
+figure_2:
+  main_number:
+  main_caption:
+  figures:
+    - figure:
+        number: '2'
+        caption: >
+          Replica of Burstein's 7.3d (Antonio Brioschi, Symphony in G Major, op. 2 no. 59, first movement [outer voices]).
+        url: 'assets/articles/martinkus/img/ex_2.png'
+        alt: 'Test'
+        border: false
+        scale: .9
+figure_3:
+  main_number:
+  main_caption:
+  figures:
+    - figure:
+        number: '3'
+        caption: >
+          Replica of Burstein's 7.3g with additional form-functional annotations above the staff (Anna Amalia of Prussia, Sonata for Flute and Continuo in F Major, third movement)
+        url: 'assets/articles/martinkus/img/ex_3.png'
+        alt: 'Test'
+        border: false
+        scale: .9
