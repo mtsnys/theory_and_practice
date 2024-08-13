@@ -1,166 +1,334 @@
----
-- name: Anku, Willie_2000
+## Footnotes
+
+footnote_1: >
+  For much more on the socio-political and musical motivations for Still's move to Los Angeles, see DjeDje 2000. Still was likely motivated to move there because of growing disillusionment with musical life in New York and because of the high concentration of diverse and talented musicians working in Hollywood. At the time, however, it was still a risky adventure, and so the echoes of Greeley's famous advice, "Go west, young man," despite Still's more advanced age, are impossible to ignore.
+footnote_2: >
+  The word "autochthonous" comes to us from Ancient Greece where it applied to the indigenous inhabitants of a territory as opposed to colonists or settlers and their descendants---autochthonous individuals are products of the soil itself. Still's use of the term suggests a metaphorical autochthony as opposed to a literal one, since, while he alludes to the truly autochthonous music of American aboriginals, his artistic vision combines it with the music of the descendants of colonists, immigrants, and slaves. While "autochthony" also had darker, proto-nationalistic connotations, it is clear that Still intends for the word to connote inclusivity and pluralism. For more on the term and its Athenian roots, see Blok 2009.
+footnote_3: >
+  Haas describes the movement as being formally "free" while alluding to sonata-allegro form (1987, 43) and somewhat mystifyingly claims that the piece proceeds from D major to C major to D major. I believe the piece adheres rather closely to sonata form. Still himself wrote that while sketching a new piece "my usual practice is to map out a plan which conforms loosely to the established rules of musical form, and then deviate from it as I see fit." (1987a, 109). His statement implies that he uses sonata form as a generic backdrop for his music despite superficial deviations from established norms.
+footnote_4: >
+  For more on organicism in music and its relationship to philosophy and the arts, see Solie 1980 and Neubauer 2009. While organicism is frequently described in Western philosophical terms---where it begins with Aristotle, passes through German romanticism to Spengler, and continues to influence contemporary thought---what Thorsten Botz-Bornstein describes as "micro-macro" thought is common also to non-Western culture. Botz-Bornstein interprets organicist thought in Chinese, Japanese, Russian, Arab, and Bantu cultures: the Bantu concept of *ugumwe*---roughly, "oneness"---denotes a political, collective solidarity between members of families, clans, and tribes (127).
+footnote_5: >
+  My approach to thematic transformation is indebted to Rudolph Reti's (1951) method in which the motives comprising a larger theme may be freely rearranged ("interverted") and varied. Reti contends that thematic transformations and relationships of this sort are central to the aesthetics of post-Beethovenian organic form, in which small motives mutate and grow across a work---a thematic conception eerily similar to Still's own above. Solie (1980) argues that Reti's method exemplifies organicist conceptualization and analysis of music. More recent motivic theories similarly consider permutation and more distant motivic relationships; see for example Auerbach 2021.
+footnote_6: >
+  The pentatonic collection can also be found in other American music from the first half of the twentieth century, for example in the music of Aaron Copland, see Heertderks (2011). The music likely borrows from or alludes to African contributions to American music.
+footnote_7: >
+  See for instance Kubik's discussion of the Gogo tone system which includes at least seven pitches corresponding closely to the harmonic series (1994, 179) as well as hexatonic and heptatonic scales found in Cameroon, Angola, and Zambia (1994, 174).
+footnote_8: >
+  David Temperley has noted that syncopations, especially anticipatory ones, are commonly found in late 19^th^-century ragtime music and in recordings made contemporaneously by African-American singers (2021). Kubik (1994) similarly traces syncopation practices in a wide variety of sub-Saharan African cultures.
+footnote_9: >
+  Numerous sources describe both variation techniques in jazz, West African, and sub-Saharan music, see William Austin (1966), Gunther Schuller (1968), Gerhard Kubik (1994), and especially Simha Arom (1993), who argues that sub-Saharan music is frequently characterized by a "cyclic structure that generates numerous improvised variations: repetition and variation is one of the most fundamental principles of all Central African musics, as indeed of many other musics in Black Africa" (134). Clearly, the "unity-in-diversity" principle of organicism does not belong solely to Europe.
+footnote_10: >
+  Simultaneous appoggiaturas may be found, for example, in Mozart's G-minor Symphony and elsewhere, as shown by Schoenberg in his *Harmonielehre* (1911, 368).
+footnote_11: >
+  Discussing the role of politics in art, Still writes "In my humble opinion, politics as such should not enter into the consciousness of a true artist when his work is concerned. He should, however, be interested in the human problems that are a part of our lives, and should balance this with his interest in the abstract elements of his art form. It was the human need that impelled me to write such a composition as 'In Memoriam: The Colored Soldiers Who Died for Democracy,' rather than any political consideration, for whatever my political views or however I vote in the little curtained booth, these things have nothing whatever to do with the music I write" (Spencer 1992, 149). It could of course be argued, however, that Still's music reflects the political context of his time, whether consciously or not.
+footnote_12: >
+  For more on these transformations, see Cohn 2012. While Riemannian and neo-Riemannian analysis rarely coexist, I have opted to include both here in order to illustrate how Still's piece engages with different aesthetics simultaneously: the first subject is tonal-functional but includes the extended harmonies captured well by Riemannian functional theory, while the second subject draws on a sequential logic better described by transformational (or neo-Riemannian) analysis. For more on the distinction between the two approaches, see Rings 2011. In my analysis, the local transformations serve to expand the subdominant function, since in D major/minor, Eß, G, and B function as *^o^Sp*, *S^+^*, and *S^+^ of* , respectively.
+footnote_13: >
+  The bass's large-scale motion depicted in Example 6 is supported by formal articulations: the first eight measures sustain Eß, the next two repetitions of the compound basic idea sustain E as an upper neighbor, and the continuation phrase reintroduces Eß in m. 47, initiating an increase in harmonic rhythm: G in mm. 49--52, Bß in 53--57, and the goal D in 58. Since m. 49 brings back the initial (0148) sonority, I hear the Eß--G motion as one unit. The Bß--D motion in the bass in mm. 53--58 has a transformational/motivic function, in that it repeats the earlier bass motion Eß--G, but it also forms part of a functional tonal cadence that ends the second subject, VI--ii--V--I in D minor.
+footnote_14: >
+  Blues scales typically feature scale-degree ƒ4/ß5 in addition to a minor third above the tonic. For more on blues scales see Chodos 2018, which summarizes different theoretical approaches to the blues scale and questions its validity as a theoretical construct. Most theories of the scale include \^ß3, \^∂3, \^ƒ4, \^ß7, and \^∂7 without \^ß6. In the passage cited, Still combines the sound of the blue scale with passages that correspond more closely to the minor mode, for example the inclusion of \^ß6 and short melodic-minor scale-fragments, A--B--Cƒ--D.
+footnote_15: >
+  Paul Oliver (1991) also charts the history of the blues and of pioneering musicological studies of it by Rudi Blesh, Gunther Schuller and others. One common thread among the many different theories provided for the origin of blues is its combination of African and European elements, though historians disagree about its relationship to jazz, when and where it originated, etc.
+footnote_16: >
+  See, for instance, the rhythmic-set structure of sub-Saharan drumming in Anku (2000) and Kubik (1994). Layered *ostinati* are common to many different African cultures.
+footnote_17: >
+  Similar crises may be found in passages from major nineteenth-century symphonies. Famous examples include dissonant minor-mode passages in the third movement of Bruckner's Ninth Symphony, the first movement of Mahler's Tenth Symphony, the finales of Beethoven's Eighth and Ninth Symphonies among others. The "negative climax" in Still's Fourth is perhaps less dramatic and extreme than some of these examples, but the effect is similar.
+
+## Figure Captions
+
+figure_1:
+  main_number:
+  main_caption:
+  figures:
+    - figure:
+        number: '1'
+        caption: >
+          Formal overview of the first movement of Still's Fourth Symphony
+        url: 'assets/articles/hier/img/ex_1.png'
+        alt: 'Test'
+        border: false
+        scale: 1
+figure_2:
+  main_number:
+  main_caption:
+  figures:
+    - figure:
+        number: '2'
+        caption: >
+          Still, Symphony No. 4. The first movement's thematic material
+        url: 'assets/articles/hier/img/ex_2.png'
+        alt: 'Test'
+        border: false
+        scale: 1
+figure_3:
+  main_number:
+  main_caption:
+  figures:
+    - figure:
+        number: '3'
+        caption: >
+          Still, Symphony No. 4, mm. 9--17. Piano reduction of the first subject.
+        url: 'assets/articles/hier/img/ex_3.png'
+        alt: 'Test'
+        border: false
+        scale: 1
+figure_4:
+  main_number:
+  main_caption:
+  figures:
+    - figure:
+        number: '4'
+        caption: >
+          Still, Symphony No. 4, mm. 9--17. Rhythmic displacement in the first subject.
+        url: 'assets/articles/hier/img/ex_4.png'
+        alt: 'Test'
+        border: false
+        scale: 1
+figure_5:
+  main_number:
+  main_caption:
+  figures:
+    - figure:
+        number: '5'
+        caption: >
+          Still, Symphony No. 4, mm. 25--57. Piano reduction of the second subject.
+        url: 'assets/articles/hier/img/ex_5.png'
+        alt: 'Test'
+        border: false
+        scale: 1
+figure_6:
+  main_number:
+  main_caption:
+  figures:
+    - figure:
+        number: '6'
+        caption: >
+          Still, Symphony No. 4, mm. 25--57. Transformational analysis of the second subject
+        url: 'assets/articles/hier/img/ex_6.png'
+        alt: 'Test'
+        border: false
+        scale: 1
+figure_7:
+  main_number:
+  main_caption:
+  figures:
+    - figure:
+        number: '7'
+        caption: >
+          Still, Symphony No. 4, mm. 25--32. Functional analysis and harmonic dissonance in the second subject
+        url: 'assets/articles/hier/img/ex_7.png'
+        alt: 'Test'
+        border: false
+        scale: 1
+figure_8:
+  main_number:
+  main_caption:
+  figures:
+    - figure:
+        number: '8'
+        caption: >
+          Still, Symphony No. 4, mm. 57--64. Piano reduction of development rotation A1.
+        url: 'assets/articles/hier/img/ex_8.png'
+        alt: 'Test'
+        border: false
+        scale: 1
+figure_9:
+  main_number:
+  main_caption:
+  figures:
+    - figure:
+        number: '9'
+        caption: >
+          Still, Symphony No. 4, mm. 75--91. Piano reduction of development rotation A2.
+        url: 'assets/articles/hier/img/ex_9.png'
+        alt: 'Test'
+        border: false
+        scale: 1
+figure_10:
+  main_number:
+  main_caption:
+  figures:
+    - figure:
+        number: '10'
+        caption: >
+          Still, Symphony No. 4, mm. 65--75. Piano reduction of development rotation B1.
+        url: 'assets/articles/hier/img/ex_10.png'
+        alt: 'Test'
+        border: false
+        scale: 1
+figure_11:
+  main_number:
+  main_caption:
+  figures:
+    - figure:
+        number: '11'
+        caption: >
+          Still, Symphony No. 4, mm. 97--104. Rhythm and harmony in development rotation B2.
+        url: 'assets/articles/hier/img/ex_11.png'
+        alt: 'Test'
+        border: false
+        scale: 1
+figure_12:
+  main_number:
+  main_caption:
+  figures:
+    - figure:
+        number: '12'
+        caption: >
+          Still, Symphony No. 4, mm. 113--132. Piano reduction of development rotation B3.
+        url: 'assets/articles/hier/img/ex_12.png'
+        alt: 'Test'
+        border: false
+        scale: 1
+figure_13:
+  main_number:
+  main_caption:
+  figures:
+    - figure:
+        number: '13'
+        caption: >
+          Still, Symphony No. 4, mm. 117--128. Harmonic reduction of example 12.
+        url: 'assets/articles/hier/img/ex_13.png'
+        alt: 'Test'
+        border: false
+        scale: 1
+figure_14:
+  main_number:
+  main_caption:
+  figures:
+    - figure:
+        number: '14'
+        caption: >
+          Still, Symphony No. 4, mm. 175--181. Piano reduction of the recapitulation's second subject.
+        url: 'assets/articles/hier/img/ex_14.png'
+        alt: 'Test'
+        border: false
+        scale: 1
+figure_15:
+  main_number:
+  main_caption:
+  figures:
+    - figure:
+        number: '15'
+        caption: >
+          Still, Symphony No. 4, mm. 183--190. Piano reduction of the coda.
+        url: 'assets/articles/hier/img/ex_15.png'
+        alt: 'Test'
+        border: false
+        scale: 1
+
+## Works Cited
+
+citations:
+- name: Anku_2000
   citation: >
-    Anku, Willie. 2000. "Circles and Time: A Theory of Structural
-    Organization of Rhythm in African Music." *Music Theory Online* 6 (1).
-- name: Arom, Simha_1993
+    Anku, Willie. 2000. "Circles and Time: A Theory of Structural Organization of Rhythm in African Music." *Music Theory Online* 6 (1).
+- name: Arom_1993
   citation: >
-    Arom, Simha. 1993. *African Polyphony and Polyrhythm: Musical
-    Structure and Methodology.* Translated by Martin Thom, Barbara Tuckett, and
-    Raymond Boyd. New York: Cambridge University Press.
-- name: Arvey, Verna_1972
+    Arom, Simha. 1993. *African Polyphony and Polyrhythm: Musical Structure and Methodology.* Translated by Martin Thom, Barbara Tuckett, and Raymond Boyd. New York: Cambridge University Press.
+- name: Arvey_1972
   citation: >
-    Arvey, Verna. 1972. "With His Roots in the Soil." In *William Grant
-    Still and the Fusion of Cultures in American Music*, edited by Robert
-    Bartlett Haas, 82--87. Los Angeles: Black Sparrow Press.
-- name: Auerbach, Brent_2021
+    Arvey, Verna. 1972. "With His Roots in the Soil." In *William Grant Still and the Fusion of Cultures in American Music*, edited by Robert Bartlett Haas, 82--87. Los Angeles: Black Sparrow Press.
+- name: Auerbach_2021
   citation: >
-    Auerbach, Brent. 2021. *Musical Motives: A Theory and Method for
-    Analyzing Shape in Music.* Oxford: Oxford University Press.
-- name: Austin, William_1966
-  citation: |
+    Auerbach, Brent. 2021. *Musical Motives: A Theory and Method for Analyzing Shape in Music.* Oxford: Oxford University Press.
+- name: Austin_1966
+  citation: >
     Austin, William. 1966. *Music in the Twentieth Century.* New York: Norton.
-- name: Barg, Lisa_2000
+- name: Barg_2000
   citation: >
-    Barg, Lisa. 2000. "Black Voices/White Sounds: Race and Representation
-    in Virgil Thomson's Four Saints in Three Acts." *American Music* 18 (2):
-    121--61.
-- name: Blok, Josine H_2009
+    Barg, Lisa. 2000. "Black Voices/White Sounds: Race and Representation in Virgil Thomson's Four Saints in Three Acts." *American Music* 18 (2): 121--61.
+- name: Blok_2009
   citation: >
-    Blok, Josine H. 2009. "Gentrifying Genealogy: On the Genesis of the
-    Athenian Autochthony Myth." In *Antike Mythe: Medien, Transformationen und
-    Konstruktionen*, edited by Ueli Dill and Christine Walde, 251--74. Berlin:
-    Walter de Gruyter.
-- name: Botz-Bornstein, Thorsten_2020
+    Blok, Josine H. 2009. "Gentrifying Genealogy: On the Genesis of the Athenian Autochthony Myth." In *Antike Mythe: Medien, Transformationen und Konstruktionen*, edited by Ueli Dill and Christine Walde, 251--74. Berlin: Walter de Gruyter.
+- name: Botz-Bornstein_2020
   citation: >
-    Botz-Bornstein, Thorsten. 2020. *Micro and Macro Philosophy:
-    Organicism in Biology, Philosophy, and Politics.* Leiden, Netherlands:
-    Brill.
-- name: Caplin, William_1998
+    Botz-Bornstein, Thorsten. 2020. *Micro and Macro Philosophy: Organicism in Biology, Philosophy, and Politics.* Leiden, Netherlands: Brill.
+- name: Caplin_1998
   citation: >
-    Caplin, William. 1998. *Classical Form: A Theory of Formal Functions
-    for the Instrumental Music of Haydn, Mozart, and Beethoven.* New York:
-    Oxford University Press.
-- name: ---------_2021
+    Caplin, William. 1998. *Classical Form: A Theory of Formal Functions for the Instrumental Music of Haydn, Mozart, and Beethoven.* New York: Oxford University Press.
+- name: Caplin_2021
   citation: >
-    ---------. 2021. "The 'Iconic Cadence': A Post-Romantic Case of
-    Cadential Nostalgia and Irony." EUROMAC 2021, Moscow, Russia. Unpublished
-    conference paper.
-- name: Chodos, Asher_2018
+    Caplin, William. 2021. "The 'Iconic Cadence': A Post-Romantic Case of Cadential Nostalgia and Irony." EUROMAC 2021, Moscow, Russia. Unpublished conference paper.
+- name: Chodos_2018
   citation: >
-    Chodos, Asher. 2018. "The Blues Scale: Historical and Epistemological
-    Considerations." *Jazz Perspectives* 11 (2): 139--71.
-- name: Cohn, Richard_2012
+    Chodos, Asher. 2018. "The Blues Scale: Historical and Epistemological Considerations." *Jazz Perspectives* 11 (2): 139--71.
+- name: Cohn_2012
   citation: >
-    Cohn, Richard. 2012. *Audacious Euphony: Chromatic Harmony and the
-    Triad's Second Nature*. Oxford: Oxford University Press.
-- name: Crist, Elizabeth B_2005
+    Cohn, Richard. 2012. *Audacious Euphony: Chromatic Harmony and the Triad's Second Nature*. Oxford: Oxford University Press.
+- name: Crist_2005
   citation: >
-    Crist, Elizabeth B. 2005. *Music for the Common Man: Aaron Copland
-    During the Depression and War*. Oxford: Oxford University Press.
-- name: DjeDje, Jacqueline Codgell_2011
+    Crist, Elizabeth B. 2005. *Music for the Common Man: Aaron Copland During the Depression and War*. Oxford: Oxford University Press.
+- name: DjeDje_2011
   citation: >
-    DjeDje, Jacqueline Codgell. 2011. "Context and Creativity: William
-    Grant Still in Los Angeles." *Black Music Research Journal* 31 (1): 1--27.
-- name: Du Bois, W.E.B._2018
+    DjeDje, Jacqueline Codgell. 2011. "Context and Creativity: William Grant Still in Los Angeles." *Black Music Research Journal* 31 (1): 1--27.
+- name: DuBois_2018
   citation: >
-    Du Bois, W.E.B. 2018 [1903]. "Of the Training of Black Men" In *The
-    Souls of Black Folk*, edited by Patricia H. Hinchey, 71--86. Gorham, ME:
-    Myers.
-- name: Edwards, Griffith_1987
+    Du Bois, W.E.B. 2018 \[1903\]. "Of the Training of Black Men" In *The Souls of Black Folk*, edited by Patricia H. Hinchey, 71--86*.* Gorham, ME: Myers.
+- name: Edwards_1987
   citation: >
-    Edwards, Griffith. 1987. "The Life of William Grant Still." PhD
-    Diss., Harvard University.
-- name: Haas, Robert Bartlett, ed_1972
+    Edwards, Griffith. 1987. "The Life of William Grant Still." PhD Diss., Harvard University.
+- name: Haas_1972
+  citation: > 
+    Haas, Robert Bartlett, ed. 1972. *William Grant Still and the Fusion of Cultures in American Music*. Los Angeles: Black Sparrow Press.
+- name: Heetderks_2011
   citation: >
-    Haas, Robert Bartlett, ed. 1972. *William Grant Still and the Fusion
-    of Cultures in American Music*. Los Angeles: Black Sparrow Press.
-- name: Heetderks, David J_2011
+    Heetderks, David J. 2011. "A Tonal Revolution in Fifths and Semitones: Aaron Copland's Quiet City." *Music Theory Online* 17 (2).
+- name: Hepokoski_Darcy_2006
   citation: >
-    Heetderks, David J. 2011. "A Tonal Revolution in Fifths and
-    Semitones: Aaron Copland's Quiet City." *Music Theory Online* 17 (2).
-- name: Hepokoski, James and Darcy, Warren_2006
+    Hepokoski, James and Darcy, Warren. 2006. *Elements of Sonata Theory: Norms, Types, and Deformations in the Late Eighteenth-Century Sonata.* New York: Oxford University Press.
+- name: Hughes_1999
   citation: >
-    Hepokoski, James and Darcy, Warren. 2006. *Elements of Sonata Theory:
-    Norms, Types, and Deformations in the Late Eighteenth-Century Sonata.* New
-    York: Oxford University Press.
-- name: Hughes, Langston_1999
+    Hughes, Langston. 1999 \[1926\]. "The Negro Artist and the Racial Mountain." In *Keeping Time: Readings in Jazz History*, edited by Robert Walser, 55--57. New York: Oxford University Press.
+- name: Jenkins_2019
   citation: >
-    Hughes, Langston. 1999 \[1926\]. "The Negro Artist and the Racial
-    Mountain." In *Keeping Time: Readings in Jazz History*, edited by Robert
-    Walser, 55--57. New York: Oxford University Press.
-- name: Jenkins, Christopher_2019
+    Jenkins, Christopher. 2019. "Signifyin(g) within African American Classical Music: Linking Gates, Hip-Hop, and Perkinson." *The Journal of Aesthetics and Art Criticism* 77 (4): 391--400.
+- name: Kern_2011
   citation: >
-    Jenkins, Christopher. 2019. "Signifyin(g) within African American
-    Classical Music: Linking Gates, Hip-Hop, and Perkinson." *The Journal of
-    Aesthetics and Art Criticism* 77 (4): 391--400.
-- name: Kern, Stephen_2011
+    Kern, Stephen. 2011. *The Modernist Novel: A Critical Introduction.* New York: Cambridge University Press.
+- name: Kubik_1994
   citation: >
-    Kern, Stephen. 2011. *The Modernist Novel: A Critical Introduction.*
-    New York: Cambridge University Press.
-- name: Kubik, Gerhard_1994
+    Kubik, Gerhard. 1994. *Theory of African Music, Volume I*. Chicago: The University Press of Chicago.
+- name: Locke_1997
   citation: >
-    Kubik, Gerhard. 1994. *Theory of African Music, Volume I*. Chicago:
-    The University Press of Chicago.
-- name: Locke, Alain_1997
+    Locke, Alain. 1997 \[1925\]. *The New Negro*. New York: Simon & Schuster Inc.
+- name: Murchison_2000
   citation: >
-    Locke, Alain. 1997 \[1925\]. *The New Negro*. New York: Simon &
-    Schuster Inc.
-- name: Murchison, Gayle_2000
+    Murchison, Gayle. 2000. "'Dean of Afro-American Composers' or 'Harlem Renaissance Man': The New Negro and the Musical Poetics of William Grant Still." In *William Grant Still: A Study in Contradictions,* edited by Catherine Parsons Smith, 39--65. Berkeley, CA : University of California Press.
+- name: Neubauer_2009
   citation: >
-    Murchison, Gayle. 2000. "'Dean of Afro-American Composers' or 'Harlem
-    Renaissance Man': The New Negro and the Musical Poetics of William Grant
-    Still." In *William Grant Still: A Study in Contradictions,* edited by
-    Catherine Parsons Smith, 39--65. Berkeley, CA : University of California
-    Press.
-- name: Neubauer, John_2009
+    Neubauer, John. 2009. "Organicism and Music Theory." In *New Paths: Aspects of Music Theory and Aesthetics in the Age of Romanticism*, edited by John Neubauer, Janet Schmalfeldt, Scott Burnham, Susan Youens, and Jim Samson, 11--36. Leuven, Belgium: Leuven University Press.
+- name: Oja_1992
   citation: >
-    Neubauer, John. 2009. "Organicism and Music Theory." In *New Paths:
-    Aspects of Music Theory and Aesthetics in the Age of Romanticism*, edited by
-    John Neubauer, Janet Schmalfeldt, Scott Burnham, Susan Youens, and Jim
-    Samson, 11--36. Leuven, Belgium: Leuven University Press.
-- name: Oja, Carole_1992
+    Oja, Carole. 1992. "'New Music' and the 'New Negro': The Background of William Grant Still's *Afro-American Symphony*." *Black Music Research Journal* 12 (2): 145--69.
+- name: Oliver_1991
   citation: >
-    Oja, Carole. 1992. "'New Music' and the 'New Negro': The Background
-    of William Grant Still's *Afro-American Symphony*." *Black Music Research
-    Journal* 12 (2): 145--69.
-- name: Oliver, Paul_1991
+    Oliver, Paul. 1991. "That Certain Feeling: Blues and Jazz . . . in 1890?" *Popular Music* 10 (1): 11--19.
+- name: Peretti_2009
   citation: >
-    Oliver, Paul. 1991. "That Certain Feeling: Blues and Jazz . . . in
-    1890?" *Popular Music* 10 (1): 11--19.
-- name: Peretti, Burton_2009
+    Peretti, Burton. 2009. *Lift Every Voice: The History of African American Music*. Lanham, MD: Rowman and Littlefield Publishers.
+- name: Reti_1951
   citation: >
-    Peretti, Burton. 2009. *Lift Every Voice: The History of African
-    American Music*. Lanham, MD: Rowman and Littlefield Publishers.
-- name: Reti, Rudolph_1951
-  citation: |
     Reti, Rudolph. 1951. *The Thematic Process in Music.* New York: Macmillan.
-- name: Rings, Steven_2011
+- name: Rings_2011
   citation: >
-    Rings, Steven. 2011. *Tonality and Transformation.* Oxford: Oxford
-    University Press.
-- name: Schoenberg, Arnold_1911
-  citation: |
+    Rings, Steven. 2011. *Tonality and Transformation.* Oxford: Oxford University Press.
+- name: Schoenberg_1911
+  citation: >
     Schoenberg, Arnold. 1911. *Harmonielehre*. Vienna: Universal Edition.
-- name: Schuller, Gunther_1968
+- name: Schuller_1968
   citation: >
-    Schuller, Gunther. 1968. *Early Jazz: Its Roots and Musical
-    Development*. Oxford: Oxford University Press.
-- name: Smith, Catherine Parsons_2000
+    Schuller, Gunther. 1968. *Early Jazz: Its Roots and Musical Development*. Oxford: Oxford University Press.
+- name: Smith_2000
   citation: >
-    Smith, Catherine Parsons. 2000. "'Harlem Renaissance Man' Revisited:
-    The Politics of Race and Class in Still's Late Career." In *William Grant
-    Still: A Study in Contradictions,* edited Catherine Parsons Smith, 182--212.
-    Berkeley, CA : University of California Press.
-- name: Solie, Ruth A_1980
+    Smith, Catherine Parsons. 2000. "'Harlem Renaissance Man' Revisited: The Politics of Race and Class in Still's Late Career." In *William Grant Still: A Study in Contradictions,* edited Catherine Parsons Smith, 182--212. Berkeley, CA : University of California Press.
+- name: Solie_1980
   citation: >
-    Solie, Ruth A. 1980. "The Living Work: Organicism and Musical
-    Analysis." *19<sup>th</sup>-Century Music* 4 (2): 147--56.
-- name: Spencer, Jon Michael, ed_1992
+    Solie, Ruth A. 1980. "The Living Work: Organicism and Musical Analysis." *19^th^-Century Music* 4 (2): 147--56.
+- name: Spencer_1992
   citation: >
-    Spencer, Jon Michael, ed. 1992. *The William Grant Still Reader:
-    Essays on American Music.* Durham, NC: Durham University Press.
-- name: Temperley, David_2021
+    Spencer, Jon Michael, ed. 1992. *The William Grant Still Reader: Essays on American Music.* Durham, NC: Durham University Press.
+- name: Temperley_2021
   citation: >
-    Temperley, David. 2021. "The Origins of Syncopation in American
-    Popular Music." *Popular Music* 40 (1): 18--41.
+    Temperley, David. 2021. "The Origins of Syncopation in American Popular Music." *Popular Music* 40 (1): 18--41.

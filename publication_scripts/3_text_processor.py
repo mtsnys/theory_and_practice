@@ -103,8 +103,8 @@ sections:
         f.write(new_content)
 
 if __name__ == "__main__":
-    input_file = "mckay.md"
-    output_file = "mckay_processed.md"
+    input_file = "hier.md"
+    output_file = "hier_processed.md"
     process_markdown(input_file, output_file)
 
 

@@ -46,7 +46,7 @@ def extract_and_combine(markdown_file, output_file):
     print("Footnotes, citations, and figure captions extracted and combined successfully!")
 
 # Example usage
-markdown_file = 'mckay.md'  # Author's markdown file here.
+markdown_file = 'hier.md'  # Author's markdown file here.
 output_file = 'captions_citations_footnotes_pre_yaml.md'  # Replace with your desired output file name
 
 extract_and_combine(markdown_file, output_file)
