@@ -1,31 +1,221 @@
+## Footnotes
+
+footnote_1: >
+  Cf. Caplin (1998, 97); Burstein (2020, 38); Hepokoski and Darcy (2006, 169).
+footnote_2: >
+  Richards (2012, 218--219), like the authors cited above, permits the IAC as the subordinate theme's concluding cadence as an infrequent alternative to the PAC.
+footnote_3: >
+  The arrow signifies one formal unit "becoming" another: see Schmalfeldt (2011, 38).
+footnote_4: >
+  On a related note, Robert Gjerdingen's (2017) schema theory discusses many historic cadence types from the Renaissance and Baroque eras, along with their use and adaptation by mid-eighteenth-century composers.
+footnote_5: >
+  MacKay (2017, 1) proposes such an exclusion on historic grounds.
+footnote_6: >
+  Nicholas Marston (2001, 143), in a review of Caplin's *Classical Form*, was the first author to use this term, later taken up by multiple authors in reference to the revival of *Formenlehre* by Caplin, Schmalfeldt, and others.
+footnote_7: >
+  Earlier authors, e.g., Green (1979, 13), have a broader definition, allowing V^6^--I and vii^o6^--I progressions as IACs. This article follows Caplin's stricter criteria.
+footnote_8: >
+  Cf. Gjerdingen (2007, 139--41).
+footnote_9: >
+  Defined in Schmalfeldt 1992, 2.
+footnote_10: >
+  This technique often occurs at the phrase level as well; e.g., the main theme of Beethoven's Sonata in C major, Opus 2 no. 3, featuring a second phrase that terminates with an IAC, followed by a "one more time" reprise that ends conclusively with a PAC.
+footnote_11: >
+  Caplin (1998, 270, n.10) labels the IAC of m. 54 as the *end* of the subordinate theme, implicitly reading the tonic arrival of m. 28 (or 37?) as this theme's onset. This reading is contrary to previous authors, including Grave and Grave (2006, 298), Keller (1986, 283), Landon (1976, Vol. 3, 480), and Barrett-Ayres (1974, 206). Hepokoski and Darcy (2006, 169) do not discuss this movement, though it fits their discussion of the C-space taking on some responsibilities of cadential articulation.
+footnote_12: >
+  On "popular style" in closing zones, see Miyake (2009, 34) and Rosen (1998a, 327--350).
+footnote_13: >
+  If one labels m. 58 as the beginning of the codetta---Donald Francis Tovey (1998, 190) calls it a "cadence theme"---the analytical result for mm. 50--65 (Subordinate Theme→Codetta fused function) remains unchanged.
+footnote_14: >
+  Larsen discusses this type of exposition as illustrating one of many "sonata form problems" (Graue 2013, 9-10). Caplin and Martin (2016, 5--7) label such a segment as Transition/Subordinate Theme, suggesting a fusion of middle and ending formal roles. Hepokoski and Darcy (2006, 53) invoke Schmalfeldt's "becoming" rather than formal fusion, labeling this central unit as TR→FS (Transition→*Fortspinnung*).
+footnote_15: >
+  Schmalfeldt (2011, 67) describes this reinterpretation as retransition→recapitulation, which focuses on the specific formal joint that the composer reinterprets.
+footnote_16: >
+  This cadence is a "covered PAC," described in Zhang (2022, 6--7). Yust (2016) presents a related case (Beethoven, op. 59, no. 2, first movement).
+footnote_17: >
+  The formal design of this part of the exposition corresponds to the "Elaboration Section" described in Larsen (1978/2013, 9--10), "Continuous Exposition," subtype 1, from Hepokoski and Darcy (2006, 52--60), and Transition/Subordinate Theme fusion, discussed in Caplin (1998, 203).
+footnote_18: >
+  Caplin (2018, 4) posits "a lack of cadential closure for thematic units" as a hallmark of early Romantic style. A later passage from Schumann's *Carnaval*, discussed in Caplin (2018, 15), provides a strategy similar to Beethoven's op. 110: a cover tone (\^5) obscures an expected PAC at the end of a formal unit.
+footnote_19: >
+  Gjerdingen (2007, 139--76) summarizes this earlier concept of cadence.
+
+## Figure Captions
+
+figure_1:
+  main_number:
+  main_caption:
+  figures:
+    - figure:
+        number: '1'
+        caption: >
+          Beethoven, Sonata in B<span style="font-family: music;”>&#x266D;</span> major, op. 106, first movement, mm. 96-100.
+        url: 'assets/articles/mackay/img/ex_1.png'
+        alt: 'Test'
+        border: false
+        scale: 1
+figure_2:
+  main_number:
+  main_caption:
+  figures:
+    - figure:
+        number: '2'
+        caption: >
+          Beethoven, Sonata in E<span style="font-family: music;”>&#x266D;</span> major, op. 7, second movement, mm. 3--8.
+        url: 'assets/articles/mackay/img/ex_2.png'
+        alt: 'Test'
+        border: false
+        scale: 1
+figure_3:
+  main_number:
+  main_caption:
+  figures:
+    - figure:
+        number: '3'
+        caption: >
+          Haydn, Sonata in E major, Hob. XVI: 31, first movement, mm. 1--8.
+        url: 'assets/articles/mackay/img/ex_3.png'
+        alt: 'Test'
+        border: false
+        scale: 1
+figure_4a:
+  main_number:
+  main_caption:
+  figures:
+    - figure:
+        number: '4a'
+        caption: >
+          Excerpts from Clementi, Sonata in G Minor, op. 34, no. 2: Measures 74–83
+        url: 'assets/articles/mackay/img/ex_4a.png'
+        alt: 'Test'
+        border: false
+        scale: 1
+figure_4b:
+  main_number:
+  main_caption:
+  figures:
+    - figure:
+        number: '4b'
+        caption: >
+          Excerpts from Clementi, Sonata in G Minor, op. 34, no. 2: Measures 233–236.
+        url: 'assets/articles/mackay/img/ex_4b.png'
+        alt: 'Test'
+        border: false
+        scale: 1
+figure_4c:
+  main_number:
+  main_caption:
+  figures:
+    - figure:
+        number: '4c'
+        caption: >
+          Excerpts from Clementi, Sonata in G Minor, op. 34, no. 2: Measures 251–256.
+        url: 'assets/articles/mackay/img/ex_4c.png'
+        alt: 'Test'
+        border: false
+        scale: 1
+figure_5a:
+  main_number:
+  main_caption:
+  figures:
+    - figure:
+        number: '5a'
+        caption: >
+          Selections from Haydn, String Quartet in G Minor ("Rider"), op. 74, no. 3, first movement: Measures 54–78. 
+        url: 'assets/articles/mackay/img/ex_5a.png'
+        alt: 'Test'
+        border: false
+        scale: 1
+figure_5b:
+  main_number:
+  main_caption:
+  figures:
+    - figure:
+        number: '5b'
+        caption: >
+          Selections from Haydn, String Quartet in G Minor ("Rider"), op. 74, no. 3, first movement: Measures 168–197.
+        url: 'assets/articles/mackay/img/ex_5b.png'
+        alt: 'Test'
+        border: false
+        scale: 1
+figure_6:
+  main_number:
+  main_caption:
+  figures:
+    - figure:
+        number: '6'
+        caption: >
+          Beethoven, Sonata in E<span style="font-family: music;”>&#x266D;</span> Major ("Das Lebewohl"), op. 81a, first movement,
+        url: 'assets/articles/mackay/img/ex_6.png'
+        alt: 'Test'
+        border: false
+        scale: 1
+figure_7a:
+  main_number:
+  main_caption:
+  figures:
+    - figure:
+        number: '7a'
+        caption: >
+          Selections from Beethoven, Sonata in A<span style="font-family: music;”>&#x266D;</span> major, op. 110, first movement: Measures 33–38.
+        url: 'assets/articles/mackay/img/ex_7a.png'
+        alt: 'Test'
+        border: false
+        scale: 1
+figure_7b:
+  main_number:
+  main_caption:
+  figures:
+    - figure:
+        number: '7b'
+        caption: >
+          Selections from Beethoven, Sonata in A<span style="font-family: music;”>&#x266D;</span> major, op. 110, first movement: Measures 92–100.
+        url: 'assets/articles/mackay/img/ex_7b.png'
+        alt: 'Test'
+        border: false
+        scale: 1
+figure_8:
+  main_number:
+  main_caption:
+  figures:
+    - figure:
+        number: '8'
+        caption: >
+          Beethoven, Sonata in A<span style="font-family: music;”>&#x266D;</span> Major, op. 110: link between first movement (mm. 111–116, end of coda) and second movement (mm. 1–16).
+        url: 'assets/articles/mackay/img/ex_8.png'
+        alt: 'Test'
+        border: false
+        scale: 1
+
+## Works Cited
+citations:
 - name: Barrett-Ayres_1974
   citation: >
     Barrett-Ayres, Reginald. 1974. *Joseph Haydn and the String Quartet*. London: Barrie & Jenkins.
 - name: Burstein_2015
-  citation: >
-    Burstein, L. Poundie. 2015. "The Half Cadence and Related Analytic Fictions." In *What Is a Cadence? Theoretical and Analytical Perspectives on Cadence in the Classical Repertoire*, edited by Markus Neuwirth and Pieter Berg�, 86--155. Leuven: Leuven University Press.
+  citation: >  
+    Burstein, L. Poundie. 2015. "The Half Cadence and Related Analytic Fictions." In *What Is a Cadence? Theoretical and Analytical Perspectives on Cadence in the Classical Repertoire*, edited by Markus Neuwirth and Pieter Bergé, 86--155. Leuven: Leuven University Press.
 - name: Burstein_2020
-  citation: >
+  citation: > 
     Burstein, L. Poundie. 2020. *Journeys Through Galant Expositions.* New York: Oxford University Press.
 - name: Caplin_1998
   citation: >
-    Caplin, William E. 1998. *Classical Form: [A Theory of Formal Functions for the Instrumental Music of Haydn, Mozart, and Beethoven]*[. New York: Oxford University Press.]
+    Caplin, William E. 1998. *Classical Form: A Theory of Formal Functions for the Instrumental Music of Haydn, Mozart, and Beethoven*. New York: Oxford University Press.
 - name: Caplin_2004
-  caption: >
-    Caplin, William E. [2004. "The Classical Cadence: Conceptions and Misconceptions." *Journal of the American Musicological Society* 57 (1): 52--118.]
+  citation: >
+    Caplin, William E. 2004. "The Classical Cadence: Conceptions and Misconceptions." *Journal of the American Musicological Society* 57 (1): 52--118.
 - name: Caplin_2018
   citation: >
     Caplin, William E. 2018. "Beyond the Classical Cadence: Thematic Closure in Early Romantic Music." *Music Theory Spectrum* 40 (1): 1--26.
-- name: Caplin_2016
-  citation: >
+- name: Caplin_Martin_2016
+  citation: > 
     Caplin, William E., and Nathan John Martin. 2016. "The 'Continuous Exposition' and the Concept of Subordinate Theme." *Music Analysis* 35 (1): 4--43.
 - name: Gjerdingen_2007
   citation: >
-    Gjerdingen, Robert O. 2007. *Music in the Galant Style*. [New York: Oxford University Press.]
+    Gjerdingen, Robert O. 2007. *Music in the Galant Style*. New York: Oxford University Press.
 - name: Graue_2013
   citation: >
     Graue, Jerald C. 2013. "Sonata Form Problems by Jens Peter Larsen (1963), Translated by Jerald C. Graue (1978)." *HAYDN: The Online Journal of the Haydn Society of North America* 3 (2). https://remix.berklee.edu/haydn-journal/vol3/iss2/16.
-- name: Grave_2006
+- name: Grave_Grove_2006
   citation: >
     Grave, Floyd, and Margaret Grave. 2006. *The String Quartets of Joseph Haydn*. New York: Oxford University Press.
 - name: Green_1979
@@ -34,24 +224,24 @@
 - name: Hepokoski_2021
   citation: >
     Hepokoski, James. 2021. *A Sonata Theory Handbook*. New York: Oxford University Press.
-- name: Hepokoski_2006
+- name: Hepokoski_Darcy_2006
   citation: >
-    Hepokoski, James, and Warren Darcy. 2006. *Elements of Sonata Theory: [Norms, Types, and Deformations in the Late-Eighteenth-Century Sonata. ]*[New York: Oxford University Press.]
+    Hepokoski, James, and Warren Darcy. 2006. *Elements of Sonata Theory: Norms, Types, and Deformations in the Late-Eighteenth-Century Sonata.* New York: Oxford University Press.
 - name: Keller_1986
   citation: >
     Keller, Hans. 1986. *The Great Haydn Quartets: Their Interpretation*. London: Dent.
-- name: Koch_1983
+- name: Koch_1793
   citation: >
     Koch, Heinrich Christoph. 1983 (1793). *Introductory Essay on Composition: The Mechanical Rules of Melody, Sections 3 and 4,* translated and edited by Nancy Kovaleff Baker. New Haven: Yale University Press.
 - name: Landon_1976
   citation: >
-    Landon, H. C. Robbins. 1976. *Haydn: Chronicle and Works. Volume III: Haydn in England, 1791*]--[*1795.* Bloomington: Indiana University Press.
+    Landon, H. C. Robbins. 1976. *Haydn: Chronicle and Works. Volume III: Haydn in England, 1791*--*1795.* Bloomington: Indiana University Press.
 - name: MacKay_2017
   citation: >
     MacKay, James. 2017. "A Case for Declassifying the IAC as a Cadence Type: Cadence and Thematic Design in Selected Early-to Middle-Period Haydn Sonatas." *Ad Parnassum: A Journal of Late Eighteenth- and Nineteenth-Century Instrumental Music* 15 (30): 1--27.
 - name: Marston_2001
   citation: >
-    Marston, Nicholas. 2001. "Review of *Classical Form: [A Theory of Formal Functions for the Instrumental Music of Haydn, Mozart, and Beethoven]*[.]" *Music Analysis* 20 (1): 143--49.
+    Marston, Nicholas. 2001. "Review of *Classical Form: A Theory of Formal Functions for the Instrumental Music of Haydn, Mozart, and Beethoven*." *Music Analysis* 20 (1): 143--49.
 - name: Miyake_2009
   citation: >
     Miyake, Jan. 2009. "Readdressing Haydn's Formal Models: Common Paths Through Expositions." *Theory and Practice* 34: 31--46.
@@ -61,6 +251,9 @@
 - name: Richards_2012
   citation: >
     Richards, Mark. 2012. "Teaching Sonata Expositions Through Their Order of Cadences." *Journal of Music Theory Pedagogy* 26.
+- name: Digital_collection
+  citation: >
+    [https://digitalcollections.lipscomb.edu/jmtp/vol26/iss1/7](https://digitalcollections.lipscomb.edu/jmtp/vol26/iss1/7)
 - name: Rosen_1998a
   citation: >
     Rosen, Charles. 1998a. *The Classical Style*: *Haydn, Mozart, Beethoven*. Expanded edition. New York: W. W. Norton & Company.
@@ -73,7 +266,7 @@
 - name: Schmalfeldt_2011
   citation: >
     Schmalfeldt, Janet. 2011. *In the Process of Becoming: Analytic and Philosophical Perspectives on Form in Early Nineteenth-Century Music*. New York: Oxford University Press.
-- name: Tovey_1998_
+- name: Tovey_1998
   citation: >
     Tovey, Donald Francis 1998. *A Companion to Beethoven's Piano Sonatas*. Revised edition. London: The Associated Board of the Royal Schools of Music.
 - name: Vande Moortele_2009

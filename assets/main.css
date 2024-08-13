@@ -308,7 +308,7 @@ div header.toc {
 .toc nav ul>li {
     font-family: trade-gothic-lt;
     font-size: 1.15rem;
-    margin-bottom: .4rem;
+    margin-bottom: 1rem;
     list-style: none;
 }
 
@@ -317,6 +317,10 @@ div header.toc {
     font-size: 1rem;
     padding-left: 1.5rem;
     margin-top: 1rem;
+}
+
+.toc li {
+  line-height: 1.2;
 }
 
 .toc a {
@@ -1006,6 +1010,11 @@ article section div.figure-container {
   display: grid;
   grid-template-columns: repeat(var(--columns), 1fr);
   gap: 1rem;
+  align-items: end;
+}
+
+.figure-grid a {
+		text-decoration: none;
 }
 
 @media (max-width: 1024px) and (orientation: portrait) { /* Adjust the breakpoint as needed */

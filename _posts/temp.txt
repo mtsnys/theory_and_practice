@@ -1,48 +1,22 @@
-- name: Aarseth_1997
-  citation: >
-    Aarseth, Espen. 1997. *Cybertext: Perspectives on Ergodic Literature*. Baltimore: Johns Hopkins University Press.
-- name: Altice_2015
-  citation: >
-    Altice, Nathan. 2015. *I Am Error: The Nintendo Family Computer / Entertainment System Platform*. Cambridge, MA: MIT Press.
-- name: Austin_2016
-  citation: >
-    Austin, Michael, ed. 2016. *Music Video Games: Performance, Politics, and Play*. London: Bloomsbury Academic.
-- name: Calleja_2011
-  citation: >
-    Calleja, Gordon. 2011. *In-Game: From Immersion to Incorporation*. Cambridge, MA: MIT Press.
-- name: Collins_2012
-  citation: >
-    Collins, K. C. 2012. "One-Bit Wonders: Video Game Sound Before the Crash." In *Before the Crash: Early Video Game History*, ed. Mark J. P. Wolf, 119--137. Detroit: Wayne State University Press.
-- name: Consalvo_2016
-  citation: >
-    Consalvo, Mia. 2016. *Atari to Zelda: Japan's Videogames in Global Contexts*. Cambridge, MA: MIT Press.
-- name: Golding_2021
-  citation: >
-    Golding, Dan. 2021. "Finding *Untitled Goose Game*'s Dynamic Music in the World of Silent Cinema." *Journal of Sound and Music in Games* 2, no. 1 (Winter): 1--16.
-- name: Kocurek_2015
-  citation: >
-    Kocurek, Carly. 2015. *Coin-Operated Americans: Rebooting Boyhood at the Video Game Arcade*. Minneapolis: University of Minnesota Press.
-- name: Lehman_2018
-  citation: >
-    Lehman, Frank. 2018. *Hollywood Harmony: Musical Wonder and the Sound of Cinema*. New York: Oxford University Press.
-- name: Lewin_1983
-  citation: >
-    Lewin, David. 1983. *Generalized Musical Intervals and Transformations.* New Haven and London: Yale University Press.
-- name: Miller_2012
-  citation: >
-    Miller, Kiri. 2012. *Playing Along: Digital Games, YouTube, and Virtual Performance*. New York: Oxford University Press.
-- name: Moseley_2013
-  citation: >
-    Moseley, Roger. 2013. "Playing Games with Music, a Vice Versa: Performance and Recreation in *Guitar Hero* and *Rock Band*." In *Taking it to the Bridge: Music as Performance*, ed. Nicholas Cook and Richard Pettengill, 279--318. Ann Arbor: University of Michigan Press.
-- name: Murphy_2006
-  citation: >
-    Murphy, Scott. 2006. "The Major Tritone Progression in Recent Hollywood Science Fiction Films." *Music Theory Online* 12 (2). https://www.mtosmt.org/issues/mto.06.12.2/mto.06.12.2.murphy.html
-- name: Murphy_2006
-  citation: >
-    Murphy, Scott. 2006. "S as a Latter-Day H: Mortally Liminal SLIDEs in Recent Popular Film and Television." *Theory and Practice* 44: 165--194.
-- name: Reale_2015
-  citation: >
-    Reale, Steven. 2015. "A Musical Atlas of Hyrule: Videogames and Spatial Listening." Paper presented at the annual meeting of the Society for Music Theory, St. Louis, Missouri. <https://www.youtube.com/watch?v=FneDpLxcWBY>.
-- name: Whalen_2004
-  citation: >
-    Whalen, Zach. 2004. "Play Along: An Approach to Videogame Music." *Game Studies* 4 (1). https://www.gamestudies.org/0401/whalen/
+**Example 1** Beethoven, Sonata in Bß major, op. 106, first movement, mm. 96-100.
+**Example 2**
+
+Beethoven, Sonata in Eß major, op. 7, second movement, mm. 3--8.
+**Example 3**
+
+Haydn, Sonata in E major, Hob. XVI: 31, first movement, mm. 1--8.
+**Example 4**
+
+Excerpts from Clementi, Sonata in G Minor, op. 34, no. 2.
+~/Downloads/vol_47-48/220104_mackay/mackay.md:91: **Example 5**
+
+Selections from Haydn, String Quartet in G Minor ("Rider"), op. 74, no. 3, first movement.
+~/Downloads/vol_47-48/220104_mackay/mackay.md:103: **Example 6**
+
+Beethoven, Sonata in Eß Major ("Das Lebewohl"), op. 81a, first movement, mm. 50--65.
+~/Downloads/vol_47-48/220104_mackay/mackay.md:119: **Example 7**
+
+Selections from Beethoven, S0nata in Aß major, op. 110, first movement.
+~/Downloads/vol_47-48/220104_mackay/mackay.md:135: **Example 8**
+
+Beethoven, Sonata in Aß Major, op. 110: link between first movement (mm. 111--116, end of coda) and second movement (mm. 1--16).

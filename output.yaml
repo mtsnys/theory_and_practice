@@ -66,11 +66,11 @@ figure_1:
   main_caption:
   figures:
     - figure:
-        number: '1'
+        number: \"1\"
         caption: >
-          Nineteenth- and twentieth-century composers Ewazen cites as influences.
-        url: 'assets/articles/inman/img/ex_1.png'
-        alt: 'Test'
+          Nineteenth- and twentieth-century composers Ewazen cites as influences..
+        url: \"assets/articles/*******/img/ex_1.png\"
+        alt: \"Test\"
         border: false
         scale: 1
 figure_2:
@@ -78,23 +78,23 @@ figure_2:
   main_caption:
   figures:
     - figure:
-        number: '2'
+        number: \"2\"
         caption: >
-          Collection shifts and repetition in Ewazen, Sonata for Trumpet and Piano/II.
-        url: 'assets/articles/inman/img/ex_2.png'
-        alt: 'Test'
+          Collection shifts and repetition in Ewazen, Sonata for Trumpet and Piano/II..
+        url: \"assets/articles/*******/img/ex_2.png\"
+        alt: \"Test\"
         border: false
-        scale: .9
+        scale: 1
 figure_3:
   main_number:
   main_caption:
   figures:
     - figure:
-        number: '3'
+        number: \"3\"
         caption: >
-          Diatonic tonalities related by fixed domain to D Dorian on the Table of Diatonic Relations (Bates 2012, 39, Ex. 10).
-        url: 'assets/articles/inman/img/ex_3.png'
-        alt: 'Test'
+          Diatonic tonalities related by fixed domain to D Dorian on the Table of Diatonic Relations (Bates 2012, 39, Ex. 10)..
+        url: \"assets/articles/*******/img/ex_3.png\"
+        alt: \"Test\"
         border: false
         scale: 1
 figure_4:
@@ -102,35 +102,35 @@ figure_4:
   main_caption:
   figures:
     - figure:
-        number: '4'
+        number: \"4\"
         caption: >
-          Root-position triads in Ewazen, Sonata for Horn and Piano/III.
-        url: 'assets/articles/inman/img/ex_4.png'
-        alt: 'Test'
+          Root-position triads in Ewazen, Sonata for Horn and Piano/III..
+        url: \"assets/articles/*******/img/ex_4.png\"
+        alt: \"Test\"
         border: false
-        scale: .9
+        scale: 1
 figure_5:
   main_number:
   main_caption:
   figures:
     - figure:
-        number: '5'
+        number: \"5\"
         caption: >
-          Quartal/quintal harmonies and pedal tone in Ewazen, Sonata No. 2 for Flute and Piano/I.
-        url: 'assets/articles/inman/img/ex_5.png'
-        alt: 'Test'
+          Quartal/quintal harmonies and pedal tone in Ewazen, Sonata No. 2 for Flute and Piano/I..
+        url: \"assets/articles/*******/img/ex_5.png\"
+        alt: \"Test\"
         border: false
-        scale: .9
+        scale: 1
 figure_6:
   main_number:
   main_caption:
   figures:
     - figure:
-        number: '6'
+        number: \"6\"
         caption: >
-          Extra-musical associations of mixture progressions in the music of John Williams identified in Schneller 2013.
-        url: 'assets/articles/inman/img/ex_6.png'
-        alt: 'Test'
+          Extra-musical associations of mixture progressions in the music of John Williams identified in Schneller 2013..
+        url: \"assets/articles/*******/img/ex_6.png\"
+        alt: \"Test\"
         border: false
         scale: 1
 figure_7:
@@ -138,23 +138,23 @@ figure_7:
   main_caption:
   figures:
     - figure:
-        number: '7'
+        number: \"7\"
         caption: >
-          Major triads and modal mixture in Ewazen, Sonata for Euphonium and Piano/III.
-        url: 'assets/articles/inman/img/ex_7.png'
-        alt: 'Test'
+          Major triads and modal mixture in Ewazen, Sonata for Euphonium and Piano/III..
+        url: \"assets/articles/*******/img/ex_7.png\"
+        alt: \"Test\"
         border: false
-        scale: .9
+        scale: 1
 figure_8:
   main_number:
   main_caption:
   figures:
     - figure:
-        number: '8'
+        number: \"8\"
         caption: >
           Cadence types..
-        url: 'assets/articles/inman/img/ex_8.png'
-        alt: 'Test'
+        url: \"assets/articles/*******/img/ex_8.png\"
+        alt: \"Test\"
         border: false
         scale: 1
 figure_9:
@@ -162,134 +162,167 @@ figure_9:
   main_caption:
   figures:
     - figure:
-        number: '9'
+        number: \"9\"
         caption: >
-          Form, Ewazen, Sonata No. 1 for Flute and Piano/I.
-        url: 'assets/articles/inman/img/ex_9.png'
-        alt: 'Test'
+          Form, Ewazen, Sonata No. 1 for Flute and Piano/I..
+        url: \"assets/articles/*******/img/ex_9.png\"
+        alt: \"Test\"
         border: false
         scale: 1
-
+figure_10:
+  main_number:
+  main_caption:
+  figures:
+    - figure:
+        number: \"10\"
+        caption: >
+          Main theme transformations, Ewazen, Sonata No. 1 for Flute and Piano/I..
+        url: \"assets/articles/*******/img/ex_10.png\"
+        alt: \"Test\"
+        border: false
+        scale: 1
 figure_10a:
   main_number:
   main_caption:
   figures:
     - figure:
-        number: '10a'
+        number: \"10a\"
         caption: >
-          Main theme transformations, Ewazen, Sonata No. 1 for Flute and Piano/I: Exposition.
-        url: 'assets/articles/inman/img/ex_10a.png'
-        alt: 'Test'
+          Exposition.
+        url: \"assets/articles/*******/img/ex_10a.png\"
+        alt: \"Test\"
         border: false
-        scale: .9
+        scale: 1
 figure_10b:
   main_number:
   main_caption:
   figures:
     - figure:
-        number: '10b'
+        number: \"10b\"
         caption: >
-          Main theme transformations, Ewazen, Sonata No. 1 for Flute and Piano/I: Development.
-        url: 'assets/articles/inman/img/ex_10b.png'
-        alt: 'Test'
+          Development.
+        url: \"assets/articles/*******/img/ex_10b.png\"
+        alt: \"Test\"
         border: false
-        scale: .9
+        scale: 1
 figure_10c:
   main_number:
   main_caption:
   figures:
     - figure:
-        number: '10c'
+        number: \"10c\"
         caption: >
-          Main theme transformations, Ewazen, Sonata No. 1 for Flute and Piano/I: Coda.
-        url: 'assets/articles/inman/img/ex_10c.png'
-        alt: 'Test'
+          Coda.
+        url: \"assets/articles/*******/img/ex_10c.png\"
+        alt: \"Test\"
         border: false
-        scale: .9
+        scale: 1
 figure_11:
   main_number:
   main_caption:
   figures:
     - figure:
-        number: '11'
+        number: \"11\"
         caption: >
-          Exposition, transition, Ewazen, Sonata No. 1 for Flute and Piano/I.
-        url: 'assets/articles/inman/img/ex_11.png'
-        alt: 'Test'
+          Exposition, transition, Ewazen, Sonata No. 1 for Flute and Piano/I..
+        url: \"assets/articles/*******/img/ex_11.png\"
+        alt: \"Test\"
         border: false
-        scale: .9
+        scale: 1
 figure_12:
   main_number:
   main_caption:
   figures:
     - figure:
-        number: '12'
+        number: \"12\"
         caption: >
-          Exposition, subordinate theme, Ewazen, Sonata No. 1 for Flute and Piano/I.
-        url: 'assets/articles/inman/img/ex_12.png'
-        alt: 'Test'
+          Exposition, subordinate theme, Ewazen, Sonata No. 1 for Flute and Piano/I..
+        url: \"assets/articles/*******/img/ex_12.png\"
+        alt: \"Test\"
         border: false
-        scale: .9
+        scale: 1
 figure_13:
   main_number:
   main_caption:
   figures:
     - figure:
-        number: '13'
+        number: \"13\"
         caption: >
-          Three readings of the exposition, Ewazen, Sonata No. 1 for Flute and Piano/I.
-        url: 'assets/articles/inman/img/ex_13.png'
-        alt: 'Test'
+          Three readings of the exposition, Ewazen, Sonata No. 1 for Flute and Piano/I..
+        url: \"assets/articles/*******/img/ex_13.png\"
+        alt: \"Test\"
         border: false
-        scale: .3
-
+        scale: 1
 figure_14:
-  main_number: '14'
-  main_caption: >
-    Tonal trajectories in the exposition, Ewazen, Sonata No. 1 for Flute and Piano/I.
-  figures:
-    - figure:
-        number: '14a'
-        caption: >
-          Main theme (tightest).
-        url: 'assets/articles/inman/img/ex_14a.png'
-        alt: 'Test'
-        border: false
-        scale: 1
-    - figure:
-        number: '14b'
-        caption: >
-          Transition (loosest).
-        url: 'assets/articles/inman/img/ex_14b.png'
-        alt: 'Test'
-        border: false
-        scale: 1
-    - figure:
-        number: '14c'
-        caption: >
-          Subordinate theme.
-        url: 'assets/articles/inman/img/ex_14c.png'
-        alt: 'Test'
-        border: false
-        scale: 1
-figure_15_16:
   main_number:
   main_caption:
   figures:
     - figure:
-        number: '15'
+        number: \"14\"
         caption: >
-          Tonal trajectories in the development, Ewazen, Sonata No. 1 for Flute and Piano/I.
-        url: 'assets/articles/inman/img/ex_15.png'
-        alt: 'Test'
+          Tonal trajectories in the exposition, Ewazen, Sonata No. 1 for Flute and Piano/I..
+        url: \"assets/articles/*******/img/ex_14.png\"
+        alt: \"Test\"
         border: false
         scale: 1
+figure_14a:
+  main_number:
+  main_caption:
+  figures:
     - figure:
-        number: '16'
+        number: \"14a\"
         caption: >
-          Tonal trajectories in the recapitulation and coda, Ewazen, Sonata No. 1 for Flute and Piano/I.
-        url: 'assets/articles/inman/img/ex_16.png'
-        alt: 'Test'
+          Main theme (tightest).
+        url: \"assets/articles/*******/img/ex_14a.png\"
+        alt: \"Test\"
+        border: false
+        scale: 1
+figure_14b:
+  main_number:
+  main_caption:
+  figures:
+    - figure:
+        number: \"14b\"
+        caption: >
+          Transition (loosest).
+        url: \"assets/articles/*******/img/ex_14b.png\"
+        alt: \"Test\"
+        border: false
+        scale: 1
+figure_14c:
+  main_number:
+  main_caption:
+  figures:
+    - figure:
+        number: \"14c\"
+        caption: >
+          Subordinate theme.
+        url: \"assets/articles/*******/img/ex_14c.png\"
+        alt: \"Test\"
+        border: false
+        scale: 1
+figure_15:
+  main_number:
+  main_caption:
+  figures:
+    - figure:
+        number: \"15\"
+        caption: >
+          Tonal trajectories in the development, Ewazen, Sonata No. 1 for Flute and Piano/I..
+        url: \"assets/articles/*******/img/ex_15.png\"
+        alt: \"Test\"
+        border: false
+        scale: 1
+figure_16:
+  main_number:
+  main_caption:
+  figures:
+    - figure:
+        number: \"16\"
+        caption: >
+          Tonal trajectories in the recapitulation and coda,.
+        url: \"assets/articles/*******/img/ex_16.png\"
+        alt: \"Test\"
         border: false
         scale: 1
 figure_17:
@@ -297,11 +330,11 @@ figure_17:
   main_caption:
   figures:
     - figure:
-        number: '17'
+        number: \"17\"
         caption: >
-          Theme a, Ewazen, Sonata No. 1 for Flute and Piano/II.
-        url: 'assets/articles/inman/img/ex_17.png'
-        alt: 'Test'
+          Theme a, Ewazen, Sonata No. 1 for Flute and Piano/II..
+        url: \"assets/articles/*******/img/ex_17.png\"
+        alt: \"Test\"
         border: false
         scale: 1
 figure_18:
@@ -309,23 +342,23 @@ figure_18:
   main_caption:
   figures:
     - figure:
-        number: '18'
+        number: \"18\"
         caption: >
-          Set comparison, Ewazen, Sonata No. 1 for Flute and Piano/II.
-        url: 'assets/articles/inman/img/ex_18.png'
-        alt: 'Test'
+          Set comparison, Ewazen, Sonata No. 1 for Flute and Piano/II..
+        url: \"assets/articles/*******/img/ex_18.png\"
+        alt: \"Test\"
         border: false
-        scale: .9
+        scale: 1
 figure_19:
   main_number:
   main_caption:
   figures:
     - figure:
-        number: '19'
+        number: \"19\"
         caption: >
-          Theme b, Ewazen, Sonata No. 1 for Flute and Piano/II.
-        url: 'assets/articles/inman/img/ex_19.png'
-        alt: 'Test'
+          Theme b, Ewazen, Sonata No. 1 for Flute and Piano/II..
+        url: \"assets/articles/*******/img/ex_19.png\"
+        alt: \"Test\"
         border: false
         scale: 1
 figure_20:
@@ -333,11 +366,11 @@ figure_20:
   main_caption:
   figures:
     - figure:
-        number: '20'
+        number: \"20\"
         caption: >
-          Form, Ewazen, Sonata No. 1 for Flute and Piano/II.
-        url: 'assets/articles/inman/img/ex_20.png'
-        alt: 'Test'
+          Form, Ewazen, Sonata No. 1 for Flute and Piano/II..
+        url: \"assets/articles/*******/img/ex_20.png\"
+        alt: \"Test\"
         border: false
         scale: 1
 figure_21:
@@ -345,23 +378,23 @@ figure_21:
   main_caption:
   figures:
     - figure:
-        number: '21'
+        number: \"21\"
         caption: >
-          Tonal trajectories in Section A, Ewazen, Sonata No. 1 for Flute and Piano/II.
-        url: 'assets/articles/inman/img/ex_21.png'
-        alt: 'Test'
+          Tonal trajectories in Section A, Ewazen, Sonata No. 1 for Flute and Piano/II..
+        url: \"assets/articles/*******/img/ex_21.png\"
+        alt: \"Test\"
         border: false
-        scale: .3
+        scale: 1
 figure_22:
   main_number:
   main_caption:
   figures:
     - figure:
-        number: '22'
+        number: \"22\"
         caption: >
-          Episode 2, theme g, Ewazen, Sonata No. 1 for Flute and Piano/II.
-        url: 'assets/articles/inman/img/ex_22.png'
-        alt: 'Test'
+          Episode 2, theme g, Ewazen, Sonata No. 1 for Flute and Piano/II..
+        url: \"assets/articles/*******/img/ex_22.png\"
+        alt: \"Test\"
         border: false
         scale: 1
 figure_23:
@@ -369,11 +402,11 @@ figure_23:
   main_caption:
   figures:
     - figure:
-        number: '23'
+        number: \"23\"
         caption: >
-          Episode 2, reduction of theme j, Ewazen, Sonata No. 1 for Flute and Piano/II.
-        url: 'assets/articles/inman/img/ex_23.png'
-        alt: 'Test'
+          Episode 2, reduction of theme j, Ewazen, Sonata No. 1 for Flute and Piano/II..
+        url: \"assets/articles/*******/img/ex_23.png\"
+        alt: \"Test\"
         border: false
         scale: 1
 figure_24:
@@ -381,39 +414,59 @@ figure_24:
   main_caption:
   figures:
     - figure:
-        number: '24'
+        number: \"24\"
         caption: >
           Form, Ewazen, Sonata No. 1 for Flute and Piano/III..
-        url: 'assets/articles/inman/img/ex_24.png'
-        alt: 'Test'
+        url: \"assets/articles/*******/img/ex_24.png\"
+        alt: \"Test\"
         border: false
         scale: 1
-figure_25_26_27:
+figure_25:
   main_number:
   main_caption:
   figures:
     - figure:
-        number: '25'
+        number: \"25\"
         caption: >
-          Tonal trajectories in refrain 1 and episode 1, Ewazen, Sonata No. 1 for Flute and Piano/III.
-        url: 'assets/articles/inman/img/ex_25.png'
-        alt: 'Test'
+          Tonal trajectories in refrain 1 and episode 1, Ewazen, Sonata No. 1 for Flute and Piano/III..
+        url: \"assets/articles/*******/img/ex_25.png\"
+        alt: \"Test\"
         border: false
         scale: 1
+figure_26:
+  main_number:
+  main_caption:
+  figures:
     - figure:
-        number: '26'
+        number: \"26\"
         caption: >
-          Tonal trajectories in refrain 2 and episode 2, Ewazen, Sonata No. 1 for Flute and Piano/III.
-        url: 'assets/articles/inman/img/ex_26.png'
-        alt: 'Test'
+          Tonal trajectories in refrain 2 and episode 2, Ewazen, Sonata No. 1 for Flute and Piano/III..
+        url: \"assets/articles/*******/img/ex_26.png\"
+        alt: \"Test\"
         border: false
         scale: 1
+figure_27:
+  main_number:
+  main_caption:
+  figures:
     - figure:
-        number: '27'
+        number: \"27\"
         caption: >
-          Tonal trajectories in refrain 3 and coda, Ewazen, Sonata No. 1 for Flute and Piano/III.
-        url: 'assets/articles/inman/img/ex_27.png'
-        alt: 'Test'
+          Tonal trajectories in refrain 3 and coda, Ewazen, Sonata No. 1 for Flute and Piano/III..
+        url: \"assets/articles/*******/img/ex_27.png\"
+        alt: \"Test\"
+        border: false
+        scale: 1
+figure_28:
+  main_number:
+  main_caption:
+  figures:
+    - figure:
+        number: \"28\"
+        caption: >
+          Modal transformation, Ewazen, Sonata No. 1 for Flute and Piano/III..
+        url: \"assets/articles/*******/img/ex_28.png\"
+        alt: \"Test\"
         border: false
         scale: 1
 figure_28a:
@@ -421,11 +474,11 @@ figure_28a:
   main_caption:
   figures:
     - figure:
-        number: '28a'
+        number: \"28a\"
         caption: >
-          Modal transformation, Ewazen, Sonata No. 1 for Flute and Piano/III: Refrain 1, theme a.
-        url: 'assets/articles/inman/img/ex_28a.png'
-        alt: 'Test'
+          Refrain 1, theme a.
+        url: \"assets/articles/*******/img/ex_28a.png\"
+        alt: \"Test\"
         border: false
         scale: 1
 figure_28b:
@@ -433,11 +486,11 @@ figure_28b:
   main_caption:
   figures:
     - figure:
-        number: '28b'
+        number: \"28b\"
         caption: >
-          Modal transformation, Ewazen, Sonata No. 1 for Flute and Piano/III: Coda.
-        url: 'assets/articles/inman/img/ex_28b.png'
-        alt: 'Test'
+          Coda.
+        url: \"assets/articles/*******/img/ex_28b.png\"
+        alt: \"Test\"
         border: false
         scale: 1
 figure_29:
@@ -445,23 +498,23 @@ figure_29:
   main_caption:
   figures:
     - figure:
-        number: '29'
+        number: \"29\"
         caption: >
-          Retransition, Ewazen, Sonata No. 1 for Flute and Piano/III.
-        url: 'assets/articles/inman/img/ex_29.png'
-        alt: 'Test'
+          Retransition, Ewazen, Sonata No. 1 for Flute and Piano/III..
+        url: \"assets/articles/*******/img/ex_29.png\"
+        alt: \"Test\"
         border: false
-        scale: .9
+        scale: 1
 figure_30:
   main_number:
   main_caption:
   figures:
     - figure:
-        number: '30'
+        number: \"30\"
         caption: >
-          Summary of influences on Ewazen, Sonata No. 1 for Flute and Piano.
-        url: 'assets/articles/inman/img/ex_30.png'
-        alt: 'Test'
+          Summary of influences on Ewazen, Sonata No. 1 for Flute and Piano..
+        url: \"assets/articles/*******/img/ex_30.png\"
+        alt: \"Test\"
         border: false
         scale: 1
 
@@ -494,7 +547,7 @@ citations:
     Caplin, William E. 1998. *Classical Form: A Theory of Formal Functions for the Instrumental Music of Haydn, Mozart, and Beethoven*. New York: Oxford University Press.
 - name: Caplin_2009
   citation: >
-    Caplin, William E 2009. "What are Formal Functions?" In *Musical Form, Forms, and Formenlehre: Three Methodological Reflections*, edited by Pieter Bergé, 21--40. Leuven: Leuven University Press.
+    Caplin, William E. 2009. "What are Formal Functions?" In *Musical Form, Forms, and Formenlehre: Three Methodological Reflections*, edited by Pieter Bergé, 21--40. Leuven: Leuven University Press.
 - name: Clement_2013
   citation: >
     Clement, Brett. 2013. "Modal Tonicization in Rock: The Special Case of the Lydian Scale." *Gamut: Online Journal of the Music Theory Society of the Mid-Atlantic* 6 (1): 95­--141. <https://trace.tennessee.edu/gamut/vol6/iss1/4>.
@@ -525,9 +578,6 @@ citations:
 - name: Ewazen_2016
   citation: >
     Ewazen, Eric. 2016. *Sonata for Euphonium and Piano*. Theodore Presser Company.
-- name: Ewazen_nd
-  citation: >
-    Ewazen, Eric. n.d. "Music." The Music of Eric Ewazen. <https://www.ericewazen.com/themusic.php>.
 - name: Feldman_2015
   citation: >
     Feldman, Evan. 2015. "Ewazen, Eric." *Grove Music Online.* <https://doi.org/10.1093/gmo/9781561592630.article.A2284315>.
@@ -543,9 +593,6 @@ citations:
 - name: Hepokoski_2006
   citation: >
     Hepokoski, James and Warren Darcy. 2006. *Elements of Sonata Theory: Norms, Types, and Deformations in the Late-Eighteenth-Century Sonata*. New York: Oxford University Press.
-- name: HipBoneMusic_2017
-  citation: >
-    HipBoneMusic. 2017. "Bone2Pick: Eric Ewazen Interview." <https://www.youtube.com/watch?v=I6xGmv8SZy0>.
 - name: Hook_2008
   citation: >
     Hook, Julian. 2008. "Signature Transformations." In *Music Theory and Mathematics: Chords, Collections, and Transformations*, edited by Jack Douthett, Martha M. Hyde, and Charles J. Smith, 137--160. Rochester, NY: University of Rochester Press.
