@@ -133,13 +133,17 @@ header h1, header h2, header h3, header a {
     text-align: center;
 }
 
+.title-author-wrapper h1 {
+    font-family: trade-gothic-lt-bold-ext;
+}
+
 .abstract-wrapper {
     max-width: 53%;
     margin: auto;
 }
 
 /* Media query for smaller screens */
-@media (max-width: 768px) { /* Adjust the breakpoint as needed */
+@media (max-width: 1024px) { /* Adjust the breakpoint as needed */
     .title-author-wrapper, 
     .abstract-wrapper {
         max-width: 90%; /* Or a different percentage to control the width */
@@ -172,7 +176,7 @@ h1 {
 	/* For phones */
 	/* ... (your existing styles) ... */
 	h1 {
-		font-size: 2.4rem;
+		font-size: 1.5rem;
 		/* Reduce h1 size on phones */
 	}
 }
@@ -544,8 +548,9 @@ nav ul li a text-decoration: none;
 }
 @media (max-width: 768px) {
 	.menu-toggle {
-		display: block;
+		display: none;
 	}
+	
 	nav {
 		display: none;
 		/* Hide on mobile initially */
