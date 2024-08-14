@@ -263,7 +263,7 @@ figure_14:
         url: 'assets/articles/inman/img/ex_14b.png'
         alt: 'Test'
         border: false
-        scale: 1
+        scale: 1.5
     - figure:
         number: '14c'
         caption: >
