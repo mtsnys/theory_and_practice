@@ -151,11 +151,13 @@ header h1, header h2, header h3, header a {
 
 
 /* Adds dark mode */
+/* 
 
 @media (prefers-color-scheme: dark) {
 	body {
 		background-color: #151515;
 		color: #ddd;
+ */
 	}
 }
 h1 {
