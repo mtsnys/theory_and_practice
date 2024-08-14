@@ -25,6 +25,13 @@ sections:
     - header: 
         text: "From How to Now: A Journey Forward"
         id: "from-how"  
+author-info: "<strong>Caitlin Martinkus</strong> is a faculty member at the Cleveland Institute of Music. Her research interests
+include musical form in the nineteenth century, the music of Franz Schubert, and historical and
+contemporaneous theories of musical form. Caitlin has presented at the Society for Music Theory’s
+annual meeting as well as EuroMAC and NewMAC, and published in Music Theory and Analysis and
+Music Theory Online. She is an affiliate of the Centre for the Study of Nineteenth-Century Music at
+the University of Toronto."
+permalink: vol47/martinkus
 ---
 
 {% capture footnote_1 %} Indeed, all have published at least one monograph and multiple articles that engage predominantly with nineteenth-century music since 2011: for example, Horton (2015, 2017, and 2022); Hyland (2016 and 2023); Schmalfeldt (2011); Taylor (2011 and 2021); Vande Moortele (2017 and 2021). {% endcapture %}

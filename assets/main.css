@@ -221,6 +221,34 @@ p.subtitle {
 .author {
 	font-family: trade-gothic-lt;
 }
+
+.author-bio {
+  display: none;
+}
+
+/* Target the bio when the checkbox is checked */
+#author-bio:checked ~ .author-bio {
+  display: block;
+		float: left;
+		left: 1rem;
+		clear: both;
+		width: 95%;
+		line-height: 1.25;
+		margin: 1rem 2.5%;
+		vertical-align: baseline;
+		position: inherit;
+		text-align: left;
+		font-size: 15px;
+
+}
+
+/* Optional: Hide the checkbox itself */
+.margin-toggle {
+  display: none;
+}
+
+
+
 .works-cited {
 	width: 100%;
 }
@@ -572,7 +600,7 @@ div .grid-heading {
 body .article-grid {
 	/* More specific selector */
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+	grid-template-columns: repeat(2, 1fr);
 	margin: 0 auto;
 	/* Center horizontally */
 	width: 90%;

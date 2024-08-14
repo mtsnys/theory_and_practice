@@ -167,7 +167,7 @@ figure_7:
           Pure *ottonario*, mm. 16--18.
         url: "assets/articles/bastone_barrettara/img/ex_7a.png"
         alt: "Test"
-        border: true
+        border: false
         scale: 1
     - figure:
         number: "7b"
@@ -175,7 +175,7 @@ figure_7:
           *Ottonario* with midpoint caesura, mm. 32--33.
         url: "assets/articles/bastone_barrettara/img/ex_7b.png"
         alt: "Test"
-        border: true
+        border: false
         scale: 1
     - figure:
         number: "7c"
@@ -183,7 +183,7 @@ figure_7:
           Agogic downbeat profile, mm. 46--47.
         url: "assets/articles/bastone_barrettara/img/ex_7c.png"
         alt: "Test"
-        border: true
+        border: false
         scale: 1
     - figure:
         number: "7d"
@@ -191,7 +191,7 @@ figure_7:
           Downbeat syllabic stress profile, mm. 12--15.
         url: "assets/articles/bastone_barrettara/img/ex_7d.png"
         alt: "Test"
-        border: true
+        border: false
         scale: 1
 figure_8:
   main_number: 6

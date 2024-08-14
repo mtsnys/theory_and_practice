@@ -72,6 +72,16 @@ sections:
     - header: 
         text: "Works Cited"
         id: "works-cited" 
+author-info: "<strong>Danielle Bastone Barrettara</strong> is a Researcher and Cataloger at Wurlitzer-Bruck Music
+Antiquarians. Her research focuses on text-setting, rhythm, and meter in Mozart’s early Singspiels.
+As a longtime editor at the Music in Gotham project, she is also interested in the musical history of
+New York City. Bastone Barrettara holds a Ph.D. in Musicology from The Graduate Center of The City
+University of New York, where her dissertation on Mozart’s Entführung was nominated for the Barry
+S. Brook Dissertation Award, and her earlier work on Don Giovanni has appeared in the Newsletter
+of the Society for Eighteenth-Century Music. She previously taught at the Conservatory of Music at
+Purchase College and the Aaron Copland School of Music."
+permalink: vol47/bastone-barrettara
+
 ---
 
 
@@ -515,7 +525,7 @@ harmonic ambiguity.
 
 The opening passage also serves as a catalyst for the irregular vocal
 phrase structure that will prevent the establishment of a hypermeter
-until the onset of S. [Example 6](#ex-6) provides an
+until the onset of S. [Example 6](#ex-6_0) provides an
 interpretation of the vocal phrases in P and TR beginning at m. 8. To
 begin, note the consecutive strong measures that mark Osmin's reentrance
 (mm. 8, 9), delineate between two of his phrases (mm. 11, 12), and
