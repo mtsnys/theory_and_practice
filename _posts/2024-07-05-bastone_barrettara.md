@@ -282,7 +282,7 @@ although the accompaniment changes more substantially than does the
 vocal part as the song unfolds. Three six-line stanzas of trochaic
 tetrameter comprise the text, which is provided in [Example 1](#ex-1). Mozart sets each stanza as a verse with the same
 phrase structure, so we can take the first verse, which is provided in
-[Example 2](#ex-2), to represent all three.{% include footnote.html footnote_number='15' footnote_text=page.footnote_15%} In this
+[Example 2](#ex-2_0), to represent all three.{% include footnote.html footnote_number='15' footnote_text=page.footnote_15%} In this
 example as well as in those that follow, arrows indicate measure
 strength (↓ = strong; ↑ = weak); horizontal brackets with Arabic
 numbers, placed above the staves, indicate hypermeasures; and dotted
@@ -627,10 +627,10 @@ some of the most frequently used profiles for three- and four-stress
 textual lines in German (and Italian) opera of the time. The first of
 these is the pure *ottonario* profile, which privileges the third and
 seventh syllables, or the second and fourth syllabic stresses, with
-downbeat placement, as shown in [Example 7a](#ex-7). The second
+downbeat placement, as shown in [Example 7a](#ex-7a). The second
 is the *ottonario* with midpoint caesura; this distributes the syllables
 much like the pure *ottonario* but inserts a rest after the first two
-poetic feet, as shown in [Example 7b](#ex-7). A third profile,
+poetic feet, as shown in [Example 7b](#ex-7b). A third profile,
 which aligns the first and third syllabic stresses with downbeats and
 uses an agogic accent for the first, is shown in [Example 7c](#ex-7c). Finally, there is the profile that aligns each
 syllabic stress with a downbeat, as shown in [Example 7d](#ex-7d). This profile saturates the numbers of the
@@ -711,7 +711,7 @@ metric and phrase-structural turbulence.
 An irrepressible, maniacal glee brims every refrain as Osmin envisages
 the new prisoners at the scaffold. Mozart writes three variants of the
 refrain, but we will begin with that labeled A in Example 9b, the
-hypermeter and vocal phrase structure of which is provided in [Example 10](#ex-10). The section opens with two triple hypermeasures (the
+hypermeter and vocal phrase structure of which is provided in [Example 10](#ex-10_0). The section opens with two triple hypermeasures (the
 outer constituent measures of which are strong and the middle weak) made
 up of two vocal phrases of equal lengths. The third vocal phrase is also
 three measures long (mm. 26--28) and initially suggests another triple
@@ -763,7 +763,7 @@ made easily perceptible by the orchestra and harmonic plan---Osmin
 superimposes vocal phrases of changing lengths that begin and/or end in
 conflict with every hypermeasure.
 
-[Example 11](#ex-11) provides episode 2 in full; through its
+[Example 11](#ex-11_0) provides episode 2 in full; through its
 first nine measures, the strings project a quadruple hypermeter by
 articulating in strong measures and resolving in weak ones. To begin,
 the second violins, violas, cellos, and basses offer stepwise descending
@@ -932,12 +932,5 @@ wonders if perhaps it is not only the presence of the *Laffen* and
 *Liebchen*---which, unlike the men he cautions in his first aria, he has
 not yet found for himself.
 </section>
-
-<section id="works-cited" markdown="1" >
-
-<h2 id="works-cited">Works Cited</h2>
-
-{% include citations.html %}
-
 
 
