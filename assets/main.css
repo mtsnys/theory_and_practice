@@ -96,8 +96,8 @@ body {
 	/* Make body full width */
 	position: relative;
 	font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
-	background-color: #ffffff;
-	color: #363737;
+	background-color: #fdfdfd;
+	color: #4d4643;
 	counter-reset: sidenote-counter;
 	margin: 0;
 }
@@ -140,6 +140,7 @@ header h1, header h2, header h3, header a {
 .abstract-wrapper {
     max-width: 53%;
     margin: auto;
+    /* display: flex; */
 }
 
 /* Media query for smaller screens */
@@ -303,9 +304,10 @@ article.main-article section p {
 
 
 abstract {
+	padding-top: 1rem;
 	font-family: trade-gothic-lt;
 	text-align: justify;
-	text-justify: inter-word;
+	display: block;
 }
 abstract>p {
 	font-size: 1.2rem;
@@ -341,9 +343,11 @@ div header.toc {
 
 .toc nav ul>li {
     font-family: trade-gothic-lt;
-    font-size: 1.15rem;
+    font-size: 1rem;
     margin-bottom: 1rem;
     list-style: none;
+    		color: #6d6360;
+
 }
 
 .toc .back-to-top{
@@ -351,6 +355,8 @@ div header.toc {
     font-size: 1rem;
     padding-left: 1.5rem;
     margin-top: 1rem;
+    		color: #6d6360;
+
 }
 
 .toc li {
@@ -377,7 +383,7 @@ div header.toc {
 /*----*/
 
 section {
-	padding-top: 3rem;
+	padding-top: 2rem;
 	padding-bottom: 1rem;
 	padding-right: 1rem;
 	padding-left: 1rem;
@@ -922,6 +928,7 @@ a:link::-moz-selection {
 	vertical-align: baseline;
 	position: relative;
 	text-align: right;
+	color: #6d6360;
 }
 /* Sidenote adjustment for iPads */
 
