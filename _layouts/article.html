@@ -7,17 +7,15 @@ layout: default
 	{%- if page.author -%}
 <p class="author">
     <span class="author-name">{{ page.author }}</span>
-    <label for="author-bio">&#8853;</label>
-    <input type="checkbox" id="author-bio" class="margin-toggle"/> 
+<hr>
     <span class="author-bio">{{ page.author-info }}</span>
+    <hr>
 </p>
 	{%- endif -%}</p>
 </div>
 	{% include toc.html %} 
 
 <div class="abstract-wrapper">
-	<hr>
- <hr>
 	<abstract>
 	{{ page.abstract }}<br><br>
 	</abstract>
