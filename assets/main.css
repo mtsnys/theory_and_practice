@@ -205,7 +205,7 @@ hr {
 	height: 1px;
 	max-width: 100vw;
 	border: 0;
-	border-top: 1px solid #000000;
+	border-top: 1px solid #6d6360;
 	padding: 0;
 }
 p.subtitle {
@@ -232,6 +232,10 @@ p.subtitle {
 .author-bio {
   /* display: none; */
   font-family: 'trade-gothic-lt';
+  color: #6d6360;
+  font-size: 1rem;
+  line-height: 1rem;
+  
 }
 
 /* Target the bio when the checkbox is checked */
