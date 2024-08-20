@@ -143,6 +143,7 @@ header h1, header h2, header h3, header a {
     /* display: flex; */
 }
 
+
 /* Media query for smaller screens */
 @media (max-width: 1024px) { /* Adjust the breakpoint as needed */
     .title-author-wrapper, 
@@ -153,6 +154,30 @@ header h1, header h2, header h3, header a {
          text-align: justify;
     }
 }
+
+.about-page {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	margin: 0 auto;
+	/* Center horizontally */
+	width: 100%;
+	/* Adjust width as needed */
+	text-align: center;
+			
+}
+
+@media (max-width: 1024px) { /* Adjust the breakpoint as needed */
+.about-page {
+	display: grid;
+	grid-template-columns: 1fr;
+	margin: 0 auto;
+	/* Center horizontally */
+	width: 95%;
+	/* Adjust width as needed */
+	text-align: center;
+}
+
+
 
 
 /* Adds dark mode */
@@ -273,6 +298,15 @@ article {
 	overflow-wrap: break-word;
 }
 
+article.about {
+	width: 95%;
+	max-width: 100%;
+	/* Constrain article width */
+	margin: 0 auto;
+	/* Center the article */
+	overflow-wrap: break-word;
+}
+
 	
 @media (max-width: 1024px) and (orientation: portrait) { 
 article {
@@ -281,6 +315,17 @@ article {
 		/* Adjust for smaller screens */
 		/* padding: 1rem; */
 		/* Reduce padding for smaller screens */
+}
+
+
+
+article.about {
+	width: 95%;
+	max-width: 100%;
+	/* Constrain article width */
+	margin: 0 auto;
+	/* Center the article */
+	overflow-wrap: break-word;
 }
 
 	
