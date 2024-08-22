@@ -5,7 +5,7 @@
     {% endif %}
   </div>
 
-  {% unless page.layout == 'article' or 'review-article' %}
+  {% unless page.layout == 'article' or page.layout == 'review-article' %}
     <div class="right-section">
       <p class="editors">
         {% for editor in page.editors %}
@@ -20,3 +20,5 @@
   {% endunless %}
 </div>
 <div class="header-divider"></div>
+
+
