@@ -524,11 +524,11 @@ header a:visited {
 }
 
 .logo-column a {
-  font-family: "trade-gothic-lt-bold-ext", sans-serif;
   text-decoration: none;
 }
 
 .row1, .row2 {
+    font-family: "trade-gothic-lt-bold-ext", sans-serif;
   font-size: 2em;
    color: #FAF4A7;
   -webkit-text-stroke: 1px black;
@@ -538,6 +538,8 @@ header a:visited {
 
 .row3 {
   font-size: 1em;
+  font-family: "trade-gothic-lt", sans-serif;
+
 }
 
 
