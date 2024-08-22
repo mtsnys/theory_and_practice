@@ -16,12 +16,12 @@ layout: default
       
 	{%- if page.author -%}
 <p class="author">
-    <span class="author-name"><em>Reviewed by</em> {{ page.author }}</span>
-    <label for="author-bio">&#8853;</label>
-    <input type="checkbox" id="author-bio" class="margin-toggle"/> 
-    <span class="author-bio">{{ page.author-info }}</span>
+    <span class="author-name">{{ page.author }}</span>
 </p>
-	{%- endif -%}</p>
+<hr style="color: #6d6360;">
+    <span class="author-bio">{{ page.author-info }}</span>
+    <hr>
+	{%- endif -%}
 
 
 {%- if page.abstract -%}
@@ -33,5 +33,8 @@ layout: default
     <hr>
   {{ content }}
 </article>
+
+
+
 
 

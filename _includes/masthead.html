@@ -5,7 +5,7 @@
     {% endif %}
   </div>
 
-  {% unless page.layout == 'article' %}
+  {% unless page.layout == 'article' or 'review-article' %}
     <div class="right-section">
       <p class="editors">
         {% for editor in page.editors %}

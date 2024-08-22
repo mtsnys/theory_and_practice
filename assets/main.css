@@ -130,7 +130,7 @@ header h1, header h2, header h3, header a {
 .title-author-wrapper {
     max-width: 53%;
     margin: auto;
-    text-align: left;
+    text-align: center;
 }
 
 .title-author-wrapper h1 {
@@ -254,12 +254,13 @@ p.subtitle {
 	font-family: trade-gothic-lt;
 }
 
-.author-bio {
+span.author-bio {
   /* display: none; */
   font-family: 'trade-gothic-lt';
   color: #6d6360;
   font-size: 1rem;
   line-height: 1rem;
+  text-align: left;
   
 }
 
@@ -513,36 +514,51 @@ header a:visited {
 /* Logo styling */
 
 .logo {
-	display: flex;
-	/* Enable flexbox for the container */
+  display: grid;
+  grid-template-rows: 1fr; /* Define three rows */
+  align-items: center; /* Vertically center items */
 }
+
 .logo-column {
-	text-align: left;
-	/* Center text within each column */
+  text-align: left;
 }
-div .logo-column a {
-	font-size: 2em;
-	font-family: "trade-gothic-lt-bold-ext", sans-serif;
-	color: #FAF4A7;
-	-webkit-text-stroke: 1px black;
-	text-decoration: none;
+
+.logo-column a {
+  font-family: "trade-gothic-lt-bold-ext", sans-serif;
+  text-decoration: none;
 }
+
+.row1, .row2 {
+  font-size: 2em;
+   color: #FAF4A7;
+  -webkit-text-stroke: 1px black;
+  text-decoration: none;
+}
+
+
+.row3 {
+  font-size: 1em;
+}
+
+
 .logo-column:first-child {
-	/* or .logo-column + .logo-column */
-	margin-right: 1rem;
-	/* Adjust the value for desired spacing */
+  margin-right: 1rem;
 }
-/* Bottom-align text in the second column */
 
 .logo-column.journal-title {
-	display: flex;
-	/* Enable flexbox for this column */
-	flex-direction: column;
-	/* Arrange content vertically */
-	justify-content: flex-end;
-	/* Align items to the bottom */
-	padding-bottom: 5px;
+  padding-bottom: 5px; /* Maintain bottom padding */
 }
+
+.row1, .row2, .row3 {
+  display: block; /* Ensure each row occupies its own line */
+}
+
+@media (max-width: 768px) { /* Adjust the breakpoint as needed */
+  .row3 {
+    display: none;
+  }
+}
+
 /* Navigation styling */
 
 nav ul {
@@ -837,7 +853,7 @@ body .masthead {
 		/* Add some space between sections */
 	}
 	.left-section {
-		padding-top: 0.5rem;
+		/* padding-top: 0.5rem; */
 	}
 	.right-section {
 		padding-bottom: 0.5rem;
