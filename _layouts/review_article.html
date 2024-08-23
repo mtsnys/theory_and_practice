@@ -3,9 +3,9 @@ layout: default
 ---
 
 	{% include toc.html %} 
-    <article>
 
-<h1> {{ page.title}}</h1>
+<div class="title-author-wrapper">
+		<h1> {{ page.title}}</h1>
 
 {% for book in page.reviewed %}
       <div class="reviewed-book">
@@ -16,21 +16,23 @@ layout: default
       
 	{%- if page.author -%}
 <p class="author">
-    <span class="author-name">{{ page.author }}</span>
+    <span class="author-name">Reviewed by <a href=#{{page.short-name}}>{{ page.author }}</a></span>
 </p>
-<hr style="color: #6d6360;">
-    <span class="author-bio">{{ page.author-info }}</span>
-    <hr>
 	{%- endif -%}
+</div>
 
 
 {%- if page.abstract -%}
+<div class="abstract-wrapper">
   <abstract>
     {{ page.abstract }}<br><br>
   </abstract>
+    <hr>
+    <hr>
 {%- endif -%}  
-    <hr>
-    <hr>
+</div>
+
+<article class="main-article">
   {{ content }}</section>
 
 <div class="author-bio" id="{{page.short-name}}"> 
@@ -45,8 +47,6 @@ layout: default
 
 {% include citations.html %}
 </article>
-
-
 
 
 
