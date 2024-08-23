@@ -254,6 +254,11 @@ p.subtitle {
 	font-family: trade-gothic-lt;
 }
 
+.author a {
+		text-decoration: none;
+}
+
+
 .author-bio {
   /* display: none; */
   font-family: 'trade-gothic-lt';
@@ -261,7 +266,7 @@ p.subtitle {
   font-size: 1rem;
   line-height: 1rem;
   text-align: left;
-  width: 53%;
+  width: 95%;
   margin-left: auto;
   margin-right: auto;  
 }
