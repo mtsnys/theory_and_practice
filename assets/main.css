@@ -128,7 +128,7 @@ header h1, header h2, header h3, header a {
 }
 
 .title-author-wrapper {
-    max-width: 53%;
+    max-width: 73%;
     margin: auto;
     text-align: center;
 }
@@ -254,14 +254,16 @@ p.subtitle {
 	font-family: trade-gothic-lt;
 }
 
-span.author-bio {
+.author-bio {
   /* display: none; */
   font-family: 'trade-gothic-lt';
   color: #6d6360;
   font-size: 1rem;
   line-height: 1rem;
   text-align: left;
-  
+  width: 53%;
+  margin-left: auto;
+  margin-right: auto;  
 }
 
 /* Target the bio when the checkbox is checked */
