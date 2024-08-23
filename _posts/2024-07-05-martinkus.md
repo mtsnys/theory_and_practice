@@ -397,10 +397,4 @@ object with compositional intent. Taken together, these monographs serve
 as healthy reminders to analysts that sonata form has never been
 monolithic and should not be treated as such.
 </section>
-<section id="works-cited" markdown="1" >
  
-<h2>Works Cited</h2>
-
-{% include citations.html %}
-
-</section>

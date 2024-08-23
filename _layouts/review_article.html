@@ -31,8 +31,21 @@ layout: default
 {%- endif -%}  
     <hr>
     <hr>
-  {{ content }}
+  {{ content }}</section>
+
+<div class="author-bio" id="{{page.short-name}}"> 
+		<hr style="color: #6d6360;">
+    <span>{{ page.author-info }}</span>
+  <hr style="color: #6d6360;">
+</div>
+
+<section id="works-cited" markdown="1" >
+
+<h2 id="works-cited">Works Cited</h2>
+
+{% include citations.html %}
 </article>
+
 
 
 
