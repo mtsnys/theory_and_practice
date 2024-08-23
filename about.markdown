@@ -27,6 +27,20 @@ permalink: /about/
 		<li><strong>Subscriptions Manager</strong>: <a href="mailto:wmarvin@esm.rochester.edu">William Marvin</a> (Eastman School of Music)</li>
 		<li><strong>Awards Editor</strong>: <a href="mailto:esmith49@u.rochester.edu">Eron Smith</a> (Oberlin College & Conservatory of Music)</li>
 	</ul>
+
+
+<h2>Editorial Board</h2>
+	<ul style="list-style: none;">
+		<li>Knar Abrahamyan, Columbia University</li>
+		<li>Guy Capuzzo, University of North Carolina Greensboro</li>
+		<li>Samuel Ng, University of Cincinnati</li>
+		<li>John Peterson, James Madison University</li>
+		<li>Cara Stroud, Michigan State University</li>
+		<li>Fred Hosken, Butler University</li>
+		<li>Chris Segall, University of Cincinnati</li>
+		<li>Landon Morrison, Eastman School of Music</li>
+		<li>Matthew Poon, University of Wisconsin Eau Claire</li>
+	</ul>
 </div>
 
 <div><h2>MTSNYS Board of Directors</h2>

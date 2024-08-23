@@ -515,8 +515,8 @@ header a:visited {
 
 .logo {
   display: grid;
-  grid-template-rows: 1fr; /* Define three rows */
-  align-items: center; /* Vertically center items */
+  grid-template-rows: repeat(3, fit-content);
+  align-items: center; 
 }
 
 .logo-column {
@@ -535,6 +535,9 @@ header a:visited {
   text-decoration: none;
 }
 
+.row2 {
+  font-size: 2.25em;
+}
 
 .row3 {
   font-size: 1em;
