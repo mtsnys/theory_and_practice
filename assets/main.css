@@ -160,7 +160,7 @@ header h1, header h2, header h3, header a {
 	grid-template-columns: repeat(2, 1fr);
 	margin: 0 auto;
 	/* Center horizontally */
-	width: 100%;
+	width: 70%;
 	/* Adjust width as needed */
 	text-align: center;
 			
@@ -302,7 +302,7 @@ article {
 }
 
 article.about {
-	width: 95%;
+	width: 70%;
 	max-width: 100%;
 	/* Constrain article width */
 	margin: 0 auto;
