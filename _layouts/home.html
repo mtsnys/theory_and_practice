@@ -48,7 +48,7 @@ layout: default
                 {% else %}
                     {% for book in review_page.reviewed %}
                         <p style = "padding-left: 36px; text-indent: -36px;">
-                            <a href="{{ review_page.url | relative_url }}">Review of <em>{{ review_page.reviewed[0].title }}</em>,<br> by {{ review_page.reviewed[0].author }}</a>
+                            <a href="{{ review_page.url | relative_url }}">Review of <em>{{ review_page.reviewed[0].title }}</em>,<br>{{ review_page.reviewed[0].author }}</a>
                         </p>
                     {% endfor %}
                 {% endif %}
