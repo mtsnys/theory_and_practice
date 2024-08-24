@@ -4,7 +4,7 @@ layout: default
 
 <body>
 <div class="grid-heading">Articles</div>
-<div class="article-grid" style="width: 90%;">
+<div class="article-grid">
 
 {% for post in site.posts %}
   {% if post.layout == 'article' %}
@@ -30,31 +30,34 @@ layout: default
 
 <div class="grid-heading">Reviews</div>
 
-<div class="article-grid reviews">
+<div class="article-grid">
 
-    {% assign review_pages = site.posts | where: "layout", "review_article" %}
+{% for post in site.posts %}
+  {% if post.layout == 'review_article' %}
 
-    {% if review_pages.size > 0 %}
-        {% for review_page in review_pages %}
-            <div class="grid-item"> <p style = "font-family: trade-gothic-lt-bold-ext;">{{ review_page.author }}</p>
+{% if post.reviewed.size == 1 %}
+  <div class="grid-item">
+    <p style="margin-bottom:0;">
+      <a class="title" href="{{ post.url | relative_url }}"><em>{{ post.reviewed[0].title | escape }}</em></a>
+    </p>
+    <p class="author reviewed-author" style="margin-top:0;">{{ post.reviewed[0].author }}</p>
+    <p class="author">Reviewed by {{ post.author}}</p>
+  </div>
+{% elsif post.reviewed.size == 2 %}
+  <div class="grid-item">
+    <p style="margin-bottom:0;">
+      <a class="title" href="{{ post.url | relative_url }}"><em>{{ post.reviewed[0].title | escape }}</em></a>
+    </p>
+    <p class="author reviewed-author" style="margin-top:0;">{{ post.reviewed[0].author }}</p>
+    <p style="margin-bottom:0;">
+      <a class="title" href="{{ post.url | relative_url }}"><em>{{ post.reviewed[1].title | escape }}</em></a>
+    </p>
+    <p class="author reviewed-author" style="margin-top:0;">{{ post.reviewed[1].author }}</p>
+    <p class="author">Reviewed by {{ post.author}}</p> </div>
+{% endif %}
 
-                {% if review_page.reviewed.size == 2 %}
-                    <p style = "padding-left: 36px; text-indent: -36px; text-decoration: none;"><a href="{{ review_page.url | relative_url }}">
-                        Review of <em>{{ review_page.reviewed[0].title }}</em>,<br> by {{ review_page.reviewed[0].author }}
-                    </p>
-                    <p style = "padding-left: 36px; text-indent: -36px;">
-                        <em>{{ review_page.reviewed[1].title }}</em>,<br> by {{ review_page.reviewed[1].author }}</a>
-                    </p>
-                {% else %}
-                    {% for book in review_page.reviewed %}
-                        <p style = "padding-left: 36px; text-indent: -36px;">
-                            <a href="{{ review_page.url | relative_url }}">Review of <em>{{ review_page.reviewed[0].title }}</em>,<br>{{ review_page.reviewed[0].author }}</a>
-                        </p>
-                    {% endfor %}
-                {% endif %}
-            </div>
-        {% endfor %}
-    {% endif %}
+  {% endif %}
+{% endfor %}
 </div>
 </body>
 
