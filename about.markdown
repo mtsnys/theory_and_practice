@@ -23,7 +23,7 @@ permalink: /about/
 <div><h2>Theory and Practice Staff</h2>
 	<ul style="list-style: none;">
 		<li><strong>Editors</strong>: <a href="mailto:tdeclercq@mtsu.edu">Trevor de Clercq</a> (Middle Tennessee State) and <a href="mailto:khutchinson1@colgate.edu">Kyle Hutchinson</a> (Colgate)</li>
-		<li><strong>Reviews Editor</strong>: <a href="mailto:daphne.tan@utoronto.ca">Daphne Tan(University of Toronto)</a></li>
+		<li><strong>Reviews Editor</strong>: <a href="mailto:daphne.tan@utoronto.ca">Daphne Tan</a> (University of Toronto)</li>
 		<li><strong>Subscriptions Manager</strong>: <a href="mailto:wmarvin@esm.rochester.edu">William Marvin</a> (Eastman School of Music)</li>
 		<li><strong>Awards Editor</strong>: <a href="mailto:esmith9@oberlin.edu">Eron Smith</a> (Oberlin College & Conservatory of Music)</li>
 	</ul>

@@ -5,19 +5,21 @@
     {% endif %}
   </div>
 
-  {% unless page.layout == 'article' or page.layout == 'review_article' %}
-    <div class="right-section">
+{% unless page.layout == 'article' or page.layout == 'review_article' %}
+  <div class="right-section">
+    {% if page.editors %} 
       <p class="editors">
         {% for editor in page.editors %}
-          {{ editor.name }}
+          {{ editor.name }}{% if forloop.last %}, {% endif %}
           {% unless forloop.last %} and {% endunless %}
-        {% endfor %} Editors
+        {% endfor %}Editors 
       </p>
-      <p class="reviews-editor">
-        {{ page.reviews_editor.name }}, Reviews Editor
-      </p>
-    </div>
-  {% endunless %}
+    {% endif %}
+    <p class="reviews-editor">
+      {{ page.reviews_editor.name }}, Reviews Editor
+    </p>
+  </div>
+{% endunless %}
 </div>
 <div class="header-divider"></div> 
 
