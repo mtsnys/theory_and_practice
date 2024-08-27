@@ -687,17 +687,20 @@ div .grid-heading {
 	-webkit-text-stroke: 1px black;
 	text-decoration: none;
 	margin: 20px 0;
-}
-body .article-grid {
-	/* More specific selector */
 	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-	margin: 0 auto;
-	/* Center horizontally */
-	width: 90%;
-	/* Adjust width as needed */
-	text-align: center;
+ place-items: center; 
 }
+
+body .article-grid {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0px;
+  max-width: 90%;
+  margin: auto;
+}
+
+
 body .article-grid .grid-item {
 	padding: 15px;
 	box-sizing: border-box;
@@ -706,9 +709,11 @@ body .article-grid .grid-item {
 .grid-item {
 	border-right: 1px solid #ccc;
 	border-bottom: none;
-	/* Remove bottom border initially */
-}
+	place-items: center;
+	text-align: center;
+	}
 /* Add bottom border to items on smaller screens (including iPads) */
+
 
 @media (max-width: 1024px) {
 	/* Adjust this breakpoint for iPads */
@@ -719,7 +724,7 @@ body .article-grid .grid-item {
 		padding: 20px;
 		/* Increase padding on smaller screens */
 	}
-	body .article-grid .grid-item:nth-last-child(-n+2) {
+	body .article-grid .grid-item:nth-child(-n+2) {
 		/* Last two in first grid */
 		border-bottom: 1px solid lightgray;
 		border-top: none;
@@ -747,6 +752,15 @@ body .article-grid .grid-item {
 .grid-item:nth-child(2n) {
 	border-right: none;
 }
+
+.reviews.grid-item:first-child { /* Remove top border from first item in 2x1 grid */
+  border-top: none;
+}
+
+.reviews.grid-item:last-child { /* Remove top border from first item in 2x1 grid */
+  border-top: none;
+}
+
 /* Add top border to items in the last row */
 
 .grid-item:nth-last-child(-n+2) {
@@ -814,6 +828,7 @@ body .masthead {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	padding-top: 20px;
 	width: 90%;
 	margin: 0 auto;
 	line-height: 1;
@@ -827,10 +842,16 @@ body .masthead {
 	/* Align the entire section to the right */
 }
 .left-section p {
-	font-style: italic;
+	/* Adjust if using a different element */
+	margin: 0;
+	/* Remove default margin for tighter spacing */
+	line-height: 1.2;
+	/* Adjust line height as needed */
+	font-family: "trade-gothic-lt";
 	font-weight: 400;
-	font-size: 1.75rem;
+	font-size: 17px;
 }
+
 .right-section p {
 	/* Adjust if using a different element */
 	margin: 0;
