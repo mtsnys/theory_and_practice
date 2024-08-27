@@ -36,7 +36,7 @@ layout: default
   {% if post.layout == 'review_article' %}
 
 {% if post.reviewed.size == 1 %}
-  <div class="grid-item">
+  <div class="reviews grid-item">
     <p style="margin-bottom:0;">
       <a class="title" href="{{ post.url | relative_url }}"><em>{{ post.reviewed[0].title | escape }}</em></a>
     </p>
@@ -44,7 +44,7 @@ layout: default
     <p class="author">Reviewed by {{ post.author}}</p>
   </div>
 {% elsif post.reviewed.size == 2 %}
-  <div class="grid-item">
+  <div class="reviews grid-item">
     <p style="margin-bottom:0;">
       <a class="title" href="{{ post.url | relative_url }}"><em>{{ post.reviewed[0].title | escape }}</em></a>
     </p>
