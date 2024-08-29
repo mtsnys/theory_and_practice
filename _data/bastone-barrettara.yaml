@@ -53,7 +53,7 @@ figure_1:
         number: "1"
         caption: >
           Mozart, "Wer ein Liebchen hat gefunden," text and translation (Schaubhut Smith, 1991, 88--89).
-        url: "assets/articles/bastone_barrettara/img/ex_1.png"
+        url: "assets/articles/bastone-barrettara/img/ex_1.png"
         alt: "Test"
         border: false
         scale: .8
@@ -65,14 +65,14 @@ figure_2:
     - figure:
         number: "2_0"
         caption: 
-        url: "assets/articles/bastone_barrettara/img/ex_2_0.png"
+        url: "assets/articles/bastone-barrettara/img/ex_2_0.png"
         alt: "Test"
         border: false
         scale: 1
     - figure:
         number: "2_1"
         caption: 
-        url: "assets/articles/bastone_barrettara/img/ex_2_1.png"
+        url: "assets/articles/bastone-barrettara/img/ex_2_1.png"
         alt: "Test"
         border: false
         scale: 1     
@@ -84,7 +84,7 @@ figure_3a:
         number: "3a"
         caption: >
           Mozart, "Solche hergelauf'ne Laffen," text and translation (Schaubhut Smith 1991, 93--94).
-        url: "assets/articles/bastone_barrettara/img/ex_3a.png"
+        url: "assets/articles/bastone-barrettara/img/ex_3a.png"
         alt: "Test"
         border: false
         scale: .8
@@ -96,7 +96,7 @@ figure_3b:
         number: "3b"
         caption: >
           Mozart, "Solche hergelauf'ne Laffen," formal outline.
-        url: "assets/articles/bastone_barrettara/img/ex_3b.png"
+        url: "assets/articles/bastone-barrettara/img/ex_3b.png"
         alt: "Test"
         border: true
         scale: 1
@@ -108,7 +108,7 @@ figure_4:
         number: "4"
         caption: >
           Mozart, "Solche hergelauf'ne Laffen," mm. 2--8.
-        url: "assets/articles/bastone_barrettara/img/ex_4.png"
+        url: "assets/articles/bastone-barrettara/img/ex_4.png"
         alt: "Test"
         border: false
         scale: 1
@@ -120,7 +120,7 @@ figure_5:
         number: "5"
         caption: >
           Mozart, "Solche hergelauf'ne Laffen," mm. 2--8, two interpretations.
-        url: "assets/articles/bastone_barrettara/img/ex_5.png"
+        url: "assets/articles/bastone-barrettara/img/ex_5.png"
         alt: "Test"
         border: true
         scale: 1
@@ -132,28 +132,28 @@ figure_6:
     - figure:
         number: "6_0"
         caption: 
-        url: "assets/articles/bastone_barrettara/img/ex_6_0.png"
+        url: "assets/articles/bastone-barrettara/img/ex_6_0.png"
         alt: "Test"
         border: false
         scale: 1
     - figure: 
         number: "6_1"
         caption: 
-        url: "assets/articles/bastone_barrettara/img/ex_6_1.png"
+        url: "assets/articles/bastone-barrettara/img/ex_6_1.png"
         alt: "Test"
         border: false
         scale: 1
     - figure:
         number: "6_2"
         caption: 
-        url: "assets/articles/bastone_barrettara/img/ex_6_2.png"
+        url: "assets/articles/bastone-barrettara/img/ex_6_2.png"
         alt: "Test"
         border: false
         scale: 1
     - figure:
         number: "6_3"
         caption: 
-        url: "assets/articles/bastone_barrettara/img/ex_6_3.png"
+        url: "assets/articles/bastone-barrettara/img/ex_6_3.png"
         alt: "Test"
         border: false
         scale: 1            
@@ -165,7 +165,7 @@ figure_7:
         number: "7a"
         caption: >
           Pure *ottonario*, mm. 16--18.
-        url: "assets/articles/bastone_barrettara/img/ex_7a.png"
+        url: "assets/articles/bastone-barrettara/img/ex_7a.png"
         alt: "Test"
         border: false
         scale: 1
@@ -173,7 +173,7 @@ figure_7:
         number: "7b"
         caption: >
           *Ottonario* with midpoint caesura, mm. 32--33.
-        url: "assets/articles/bastone_barrettara/img/ex_7b.png"
+        url: "assets/articles/bastone-barrettara/img/ex_7b.png"
         alt: "Test"
         border: false
         scale: 1
@@ -181,7 +181,7 @@ figure_7:
         number: "7c"
         caption: >
           Agogic downbeat profile, mm. 46--47.
-        url: "assets/articles/bastone_barrettara/img/ex_7c.png"
+        url: "assets/articles/bastone-barrettara/img/ex_7c.png"
         alt: "Test"
         border: false
         scale: 1
@@ -189,7 +189,7 @@ figure_7:
         number: "7d"
         caption: >
           Downbeat syllabic stress profile, mm. 12--15.
-        url: "assets/articles/bastone_barrettara/img/ex_7d.png"
+        url: "assets/articles/bastone-barrettara/img/ex_7d.png"
         alt: "Test"
         border: false
         scale: 1
@@ -201,7 +201,7 @@ figure_8:
         number: "8"
         caption: >
           Mozart, "Solche hergelauf'ne Laffen," mm. 126--128 (wind parts omitted).
-        url: "assets/articles/bastone_barrettara/img/ex_8.png"
+        url: "assets/articles/bastone-barrettara/img/ex_8.png"
         alt: "Test"
         border: false
         scale: .7
@@ -213,7 +213,7 @@ figure_9a:
         number: "9a"
         caption: >
           Mozart, "O! wie will ich triumphieren," text and translation (Schaubhut Smith 1991, 142).
-        url: "assets/articles/bastone_barrettara/img/ex_9a.png"
+        url: "assets/articles/bastone-barrettara/img/ex_9a.png"
         alt: "Test"
         border: false
         scale: .8
@@ -225,7 +225,7 @@ figure_9b:
         number: "9b"
         caption: >
           Mozart, "O! wie will ich triumphieren," formal outline.
-        url: "assets/articles/bastone_barrettara/img/ex_9b.png"
+        url: "assets/articles/bastone-barrettara/img/ex_9b.png"
         alt: "Test"
         border: true
         scale: 1
@@ -237,14 +237,14 @@ figure_10:
     - figure:
         number: "10_0"
         caption:       
-        url: "assets/articles/bastone_barrettara/img/ex_10_0.png"
+        url: "assets/articles/bastone-barrettara/img/ex_10_0.png"
         alt: "Test"
         border: false
         scale: 1
     - figure:
         number: "10_1"
         caption: 
-        url: "assets/articles/bastone_barrettara/img/ex_10_1.png"
+        url: "assets/articles/bastone-barrettara/img/ex_10_1.png"
         alt: "Test"
         border: false
         scale: 1   
@@ -256,35 +256,35 @@ figure_11:
     - figure:
         number: "11_0"
         caption: 
-        url: "assets/articles/bastone_barrettara/img/ex_11_0.png"
+        url: "assets/articles/bastone-barrettara/img/ex_11_0.png"
         alt: "Test"
         border: false
         scale: 1
     - figure:
         number: "11_1"
         caption:       
-        url: "assets/articles/bastone_barrettara/img/ex_11_1.png"
+        url: "assets/articles/bastone-barrettara/img/ex_11_1.png"
         alt: "Test"
         border: false
         scale: 1
     - figure:
         number: "11_2"
         caption: 
-        url: "assets/articles/bastone_barrettara/img/ex_11_2.png"
+        url: "assets/articles/bastone-barrettara/img/ex_11_2.png"
         alt: "Test"
         border: false
         scale: 1     
     - figure:
         number: "11_3"
         caption:       
-        url: "assets/articles/bastone_barrettara/img/ex_11_3.png"
+        url: "assets/articles/bastone-barrettara/img/ex_11_3.png"
         alt: "Test"
         border: false
         scale: 1
     - figure:
         number: "11_4"
         caption:
-        url: "assets/articles/bastone_barrettara/img/ex_11_4.png"
+        url: "assets/articles/bastone-barrettara/img/ex_11_4.png"
         alt: "Test"
         border: false
         scale: 1     
@@ -296,7 +296,7 @@ figure_12:
         number: "12"
         caption: >
           Mozart, "Nie werd' ich deine Huld verkennen" (piano-vocal reduction), mm. 61--68.
-        url: "assets/articles/bastone_barrettara/img/ex_12.png"
+        url: "assets/articles/bastone-barrettara/img/ex_12.png"
         alt: "Test"
         border: false
         scale: 1

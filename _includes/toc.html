@@ -1,6 +1,7 @@
 <header class="toc">
     <nav>
         <ul>
+        <li><a class="active" style="text-decoration: underline;"href="{{ site.baseurl }}/assets/articles/{{ page.short-name }}/{{ page.short-name }}.pdf">Download a PDF</a></li>
         {% for item in page.sections %}
            <li><a class="link" href="#{{ item.header.id }}">{{ item.header.text }}</a>
             </li>
