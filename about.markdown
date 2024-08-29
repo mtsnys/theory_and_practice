@@ -11,12 +11,11 @@ permalink: /about/
 ---
 
 <article class="about">
-
-<div>
+<section markdown="1">
   <p><em>Theory and Practice</em> is the journal of the Music Theory Society of New York State (MTSNYS), published annually since 1975. The journal has featured a wide range of topics in music theory, including analysis, history, pedagogy, and theoretical approaches to various musical genres and styles, and it has acted as a venue for emerging scholars in the field of music theory through the Society's Patricia Carpenter Emerging Scholar Award. Volumes 1–46 are available in PDF at <a href="https://www.jstor.org/journal/theorypractice">JSTOR</a>. 
   </p>
-  <p>This online version of <em>Theory and Practice</em> was created by <a href="mailto:bmoseley@buffalo.edu">Brian Moseley</a>, drawing on an approach to information design pioneered by <a href="https://en.wikipedia.org/wiki/Edward_Tufte">Edward Tufte</a> and Dave Liepmann's <a href="https://edwardtufte.github.io/tufte-css/">Tufte CSS</a>.
-
+  <p>This online version of <em>Theory and Practice</em> was created by <a href="mailto:bmoseley@buffalo.edu">Brian Moseley</a>, drawing on an approach to information design pioneered by <a href="https://en.wikipedia.org/wiki/Edward_Tufte">Edward Tufte</a> and Dave Liepmann's <a href="https://edwardtufte.github.io/tufte-css/">Tufte CSS</a>.</p>
+</section>
 <hr>
 <hr>
 <div class="about-page">
