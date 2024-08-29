@@ -4,15 +4,18 @@ layout: default
 
 <div class="title-author-wrapper">
 	<h1>{{ page.title}}</h1>
-	{%- if page.author -%}
-		<p class="author">
-    <a href=#{{page.short-name}}><span class="author-name">{{ page.author }}</span></a>
-		</p>
 </div>
-	{%- endif -%}
 	{% include toc.html %} 
 
 <div class="abstract-wrapper">
+	
+		{%- if page.author -%}
+		{% include marginnote.html footnote_number='0' footnote_text=page.author-info%}
+		<p class="author">
+    <a href=#{{page.short-name}}><span class="author-name">{{ page.author }}</span></a>
+		</p>
+
+	{%- endif -%}
 	<abstract>
 	{{ page.abstract }}<br><br>
 	</abstract>
@@ -26,12 +29,6 @@ layout: default
   {{ content }}
 
 </section>
-
-<div class="author-bio" id="{{page.short-name}}"> 
-		<hr style="color: #6d6360;">
-    <span>{{ page.author-info }}</span>
-  <hr style="color: #6d6360;">
-</div>
 
 <section id="works-cited" markdown="1" >
 

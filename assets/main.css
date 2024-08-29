@@ -251,6 +251,7 @@ p.subtitle {
 }
 .author {
 	font-family: trade-gothic-lt;
+	text-align: center;
 }
 
 .author a {
