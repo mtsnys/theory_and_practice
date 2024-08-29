@@ -1,7 +1,7 @@
 --- 
 layout: default 
 title: About 
-volume: "Volume 38 | Spring 2024"
+volume: 
 editors:
   - name: Trevor de Clercq
   - name: Kyle Hutchinson
