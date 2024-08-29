@@ -10,9 +10,10 @@ layout: default
 <div class="abstract-wrapper">
 	
 		{%- if page.author -%}
-		{% include marginnote.html footnote_number='0' footnote_text=page.author-info%}
 		<p class="author">
     <a href=#{{page.short-name}}><span class="author-name">{{ page.author }}</span></a>
+    		  {% include marginnote.html marginnote_number='0' footnote_text=page.author-info%}
+
 		</p>
 
 	{%- endif -%}

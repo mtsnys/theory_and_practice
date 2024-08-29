@@ -88,7 +88,7 @@ permalink: vol47/bastone-barrettara
 
 <section markdown="1" >
 
-{% include marginnote.html footnote_number='1' footnote_text=page.marginnote_1%}When Mozart wrote to his father on September 26, 1781, about the
+{% include marginnote.html marginnote_number='1' footnote_text=page.marginnote_1%}When Mozart wrote to his father on September 26, 1781, about the
 composition of *Die Entführung aus dem Serail*, he could hardly have
 known that his letter would rouse so much interest among readers other
 than its addressee. And he might have been pleased at the fuss we have
