@@ -645,17 +645,12 @@ nav.desktop-nav .nav-grid li {
 
 /* Button styling */
 
-.join-button {
-	background-color: #656C85;
-	color: white;
-	padding: 10px 20px;
-	border: none;
-	border-radius: 300px;
-	cursor: pointer;
-	font-family: "trade-gothic-lt", sans-serif;
-	font-size: 17px;
-	transition: background-color 0.3s ease;
-	padding: 20px 30px;
+li a.join-button {
+    font-family: "trade-gothic-lt-bold-ext", sans-serif;
+    color: #656C85;
+    -webkit-text-stroke: 1px black;
+    text-decoration: none;
+    font-size: 1em;
 }
 .join-button:hover {
 	background-color: #333;
