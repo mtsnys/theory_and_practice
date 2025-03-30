@@ -1,8 +1,34 @@
-<ul class="citations-list">
-
 {% assign citation_data = site.data[page.short-name].citations %}
+{% assign media_citation_data = site.data[page.short-name].media_citations %}
+{% assign recording_data = site.data[page.short-name].recordings %}
 
-{% for name in citation_data %}
-  <li>{{ name.citation | markdownify }}</li>  
-{% endfor %}
+
+{% if citation_data %}
+<ul class="citations-list">
+  {% for name in citation_data %}
+    <li>{{ name.citation | markdownify }}</li>  
+  {% endfor %}
 </ul>
+{% endif %}
+
+{% if media_citation_data %}
+<section id="media-sources" markdown="1" >
+
+<h2 id="media-sources">Media Sources</h2>
+<ul class="citations-list">
+  {% for name in media_citation_data %}
+    <li>{{ name.citation | markdownify }}</li>  
+  {% endfor %}
+</ul>
+{% endif %}
+
+{% if recording_data %}
+<section id="recording-sources" markdown="1" >
+
+<h2 id="recordings">Recordings</h2>
+<ul class="citations-list">
+  {% for name in recording_data %}
+    <li>{{ name.citation | markdownify }}</li>  
+  {% endfor %}
+</ul>
+{% endif %}

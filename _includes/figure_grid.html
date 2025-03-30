@@ -1,25 +1,54 @@
-<div class="figure-container"> 
+<div class="figure-container">
 {% if include.columns %}
 <div class="figure-grid" style="--columns: {{ include.columns }};">
   {% for item in site.data[page.short-name][include.figure_key].figures %}
-    {% assign anchor_id = "ex-" | append: item.figure.number %} {%-  comment -%} Create a unique ID for each anchor {%- endcomment -%}
+    {% assign anchor_id = "ex-" | append: item.figure.number %} {%- comment -%} Create a unique ID for each anchor {%- endcomment -%}
     <a href="#{{ anchor_id }}" class="figure-grid-item-link"> {%- comment -%} Wrap the entire figure in an anchor tag {%- endcomment -%}
       <figure class="figure-grid-item" id="{{ anchor_id }}"> {%- comment -%} Add the ID to the figure itself {%- endcomment -%}
-        <img src="{{ site.baseurl }}/{{ item.figure.url }}" alt="{{ item.figure.alt }}" 
-             {% if item.figure.border %}class="with-border"{% endif %}
-             style="width: {{ item.figure.scale | times: 100 }}%; height: auto;">
-        {% if item.figure.caption %}
-          <figcaption><span class="fig-number">Example {{ item.figure.number }}.</span> {{ item.figure.caption | markdownify  }}</figcaption>
+        {% if include.figure_key contains "audio_" %}
+          <audio controls src="{{ site.baseurl }}/{{ item.figure.url }}">
+            Your browser does not support the audio element.
+          </audio>
+        {% else %}
+          <img src="{{ site.baseurl }}/{{ item.figure.url }}" alt="{{ item.figure.alt }}"
+               {% if item.figure.border %}class="with-border"{% endif %}
+               style="width: {{ item.figure.scale | times: 100 }}%; height: auto;">
         {% endif %}
+
+        {% assign figure_type = "Example" %}
+        {% if include.figure_key contains "table_" %}
+          {% assign figure_type = "Table" %}
+        {% elsif include.figure_key contains "audio_" %}
+          {% assign figure_type = "Audio Example" %}
+        {% endif %}
+
+        <figcaption>
+          {% if item.figure.number %}
+            <span class="fig-number">{{ figure_type }} {{ item.figure.number }}.</span>
+          {% endif %}
+          {% if item.figure.caption %}{{ item.figure.caption | markdownify }}{% endif %}
+        </figcaption>
+
       </figure>
-    </a> 
+    </a>
   {% endfor %}
 
-  {%- if site.data[page.short-name][include.figure_key].main_caption -%} 
-    <div class="main-caption-wrapper"> 
-      <figcaption><span class="fig-number">Example {{ site.data[page.short-name][include.figure_key].main_number }}.</span> {{ site.data[page.short-name][include.figure_key].main_caption | markdownify  }} </figcaption>
+  {% if site.data[page.short-name][include.figure_key].main_caption %}
+    {% assign figure_type = "Example" %}
+    {% if include.figure_key contains "table_" %}
+      {% assign figure_type = "Table" %}
+    {% elsif include.figure_key contains "audio_" %}
+      {% assign figure_type = "Audio Example" %}
+    {% endif %}
+    <div class="main-caption-wrapper">
+      <figcaption>
+        {% if site.data[page.short-name][include.figure_key].main_number %}
+          <span class="fig-number">{{ figure_type }} {{ site.data[page.short-name][include.figure_key].main_number }}.</span>
+        {% endif %}
+        {{ site.data[page.short-name][include.figure_key].main_caption | markdownify }}
+      </figcaption>
     </div>
-  {%- endif -%}
+  {% endif %}
 </div>
 {% else %}
 <div class="figure-grid" style="--columns: 1;">
@@ -27,21 +56,50 @@
     {% assign anchor_id = "ex-" | append: item.figure.number %}
     <a href="#{{ anchor_id }}" class="figure-grid-item-link">
       <figure class="figure-grid-item" id="{{ anchor_id }}">
-        <img src="{{ site.baseurl }}/{{ item.figure.url }}" alt="{{ item.figure.alt }}" 
-             {% if item.figure.border %}class="with-border"{% endif %}
-             style="width: {{ item.figure.scale | times: 100 }}%; height: auto;">
-        {% if item.figure.caption %}
-          <figcaption><span class="fig-number">Example {{ item.figure.number | markdownify  }}.</span> {{ item.figure.caption }}</figcaption>
+        {% if include.figure_key contains "audio_" %}
+          <audio controls src="{{ site.baseurl }}/{{ item.figure.url }}">
+            Your browser does not support the audio element.
+          </audio>
+        {% else %}
+          <img src="{{ site.baseurl }}/{{ item.figure.url }}" alt="{{ item.figure.alt }}"
+               {% if item.figure.border %}class="with-border"{% endif %}
+               style="width: {{ item.figure.scale | times: 100 }}%; height: auto;">
         {% endif %}
+
+        {% assign figure_type = "Example" %}
+        {% if include.figure_key contains "table_" %}
+          {% assign figure_type = "Table" %}
+        {% elsif include.figure_key contains "audio_" %}
+          {% assign figure_type = "Audio Example" %}
+        {% endif %}
+
+        <figcaption>
+          {% if item.figure.number %}
+            <span class="fig-number">{{ figure_type }} {{ item.figure.number | markdownify }}.</span>
+          {% endif %}
+          {% if item.figure.caption %}{{ item.figure.caption }}{% endif %}
+        </figcaption>
+
       </figure>
     </a>
   {% endfor %}
 
-  {%- if site.data[page.short-name][include.figure_key].main_caption -%} 
-    <div class="main-caption-wrapper"> 
-      <figcaption class="main-caption">{{ site.data[page.short-name][include.figure_key].main_caption | markdownify  }}</figcaption>
+  {% if site.data[page.short-name][include.figure_key].main_caption %}
+    {% assign figure_type = "Example" %}
+    {% if include.figure_key contains "table_" %}
+      {% assign figure_type = "Table" %}
+    {% elsif include.figure_key contains "audio_" %}
+      {% assign figure_type = "Audio Example" %}
+    {% endif %}
+    <div class="main-caption-wrapper">
+      <figcaption class="main-caption">
+        {% if site.data[page.short-name][include.figure_key].main_number %}
+          <span class="fig-number">{{ figure_type }} {{ site.data[page.short-name][include.figure_key].main_number }}.</span>
+        {% endif %}
+        {{ site.data[page.short-name][include.figure_key].main_caption | markdownify }}
+      </figcaption>
     </div>
-  {%- endif -%}
+  {% endif %}
 </div>
 {% endif %}
 </div>

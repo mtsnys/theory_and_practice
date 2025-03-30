@@ -1,0 +1,212 @@
+## Footnotes
+
+footnote_1: >
+  For those reading this article in print, the performance here, as well as all other video and audio examples referenced throughout the article, can be found on my website: https://www.issaaji.com. This particular performance serves as the basis for my analysis of the song's rhythmic-temporal disruptions, specifically the one occurring at 0:25.
+footnote_2: >
+  Following Hasty (1997), I describe listeners' embodied experience of meter and rhythm as a form of engaging with music's temporal unfolding. For more on the body's engagement with musical time, see also Kozak (2020).
+footnote_3: >
+  De Souza's (2017, 89) use of the terms "consistency" and "displacement" originates with Straus (2003). As it applies to voice leading, consistency measures general uniformity, counting the number of voices moving by the same interval (Straus 2003, 315). Displacement, by contrast, measures the total number of semitones traversed (ibid., 320). My application of the terms is described below.
+footnote_4: >
+  Scholars adhering to this view tend to follow a version of the intellectual tradition put forth by affect theory, where emotions are seen as rigid linguistic fixings of affect's immediate, corporeal, and asignifying "intensities," which cannot be adequately captured with the tools of language. According to Brian Massumi (2002, 61), who is arguably the most influential affect theorist today, emotions are "a contamination of empirical space by affect, which belongs to the body without an image." For insightful critiques of affect theory and its sharp bifurcation of emotion and affect, see Leys (2011), Brinkema (2014), Garcia (2020), and Grant (2020).
+footnote_5: >
+  For a systematic account of this process within the context of *ṭarab*, see Racy's discussion of the "ecstatic feedback model" (1991).
+footnote_6: >
+  My understanding of the participatory dynamics of *ṭarab* performance is informed by Thomas Turino's (2008, 28) conception of participation, the "sense of actively contributing to the sound and motion of a musical event through dancing, singing, clapping, and playing musical instruments when each of these activities is considered integral to the performance."
+footnote_7: >
+  This framework generally applies to all percussion instruments comprising a given percussion section within a particular performance setting. In the case of the NAO's performance of "Alf Leila wi Leila," the percussion section consists of two *ṭablah-s* (a vase-shaped single-headed drum), a *riqq* (a small, handheld tambourine), a set of bongos, and a *katim* (a large frame drum). For an image of these instruments, refer to 0:13 in the video above.
+footnote_8: >
+  To hear each *īqāʿ* shown in Example 2 in isolation, refer to the website cited in note 1.
+footnote_9: >
+  When the transliteration of Arabic nouns in their plural or possessive forms prove unnecessary or awkward, I use the English ending "-s" to end the word (e.g., *Bambi-s* and *ṭablah-s*).
+footnote_10: >
+  For a related discussion on tempo changes (specifically, tempo escalation) in Sufi music of North India and Pakistan, see Qureshi (1986, 204--5).
+footnote_11: >
+  Reading the *Maqsum* as more symmetrical than the *Bambi* relies, of course, on where one draws their axis of symmetry. My interpretation is based on the meaning of the Arabic word *maqsum* (meaning "divided" or "distributed"), which refers to the rhythm's simple division into two halves (see the vertical line connecting the two *dumm* beats at pulse numbers 0 and 8 in Example 6). For more on the *Maqsum-s* symmetrical division, see Farraj and Abu Shumays (2019, 107--8).
+footnote_12: >
+  Examples of rhythmic-temporal disruptions are widespread throughout the *ṭarab* repertoire. Some notable examples include the NAO's rendition of Umm Kulthūm's "Ghanni li Shwayya Shwayya" (2:52), ʿAbd al-Ḥalīm Ḥāfiẓ's "Zayy il-Hawa" (1:49), Ṣabāḥ Fakhrī's "Yā Māl al-Shām" (3:20), and Sayyid Darwīsh's "Yā Bahjat al-Rūh" (0:30). These performances can be found on the website cited in note 1. Timestamps apply only to those specific recordings, which are also referenced in the "Works Cited" list.
+
+## Figure Captions
+
+figure_1:
+  main_number:
+  main_caption:
+  figures:
+    - figure:
+        number: "1"
+        caption: >
+          Opening rhythmic shift (from *Bambi* to *Maqsum*) of the NAO's rendition of Umm Kulthūm's "Alf Leila wi Leila."
+        url: "assets/articles/aji/img/ex_1.png"
+        alt: "Test"
+        border: false
+        scale: 1
+figure_2:
+  main_number:
+  main_caption:
+  figures:
+    - figure:
+        number: "2"
+        caption: >
+          Notation of the *Bambi* and *Maqsum* including timbre/pitch content.
+        url: "assets/articles/aji/img/ex_2.png"
+        alt: "Test"
+        border: false
+        scale: 1
+figure_3:
+  main_number:
+  main_caption:
+  figures:
+    - figure:
+        number: "3"
+        caption: >
+          Consistency-displacement network for the move from *Bambi* to *Maqsum*.
+        url: "assets/articles/aji/img/ex_3.png"
+        alt: "Test"
+        border: false
+        scale: 1
+figure_4:
+  main_number:
+  main_caption:
+  figures:
+    - figure:
+        number: "4"
+        caption: >
+          Formal progression of *īqāʿāt* for the orchestral introduction (*muqaddima*) of the NAO's rendition of Umm Kulthūm's "Alf Leila wi Leila."
+        url: "assets/articles/aji/img/ex_4.png"
+        alt: "Test"
+        border: true
+        scale: 1
+figure_5a:
+  main_number:
+  main_caption:
+  figures:
+    - figure:
+        number: "5a"
+        caption: >
+          Consistency-displacement network for the move from *Maqsum* to *Baladi* (omitting tempo change).
+        url: "assets/articles/aji/img/ex_5a.png"
+        alt: "Test"
+        border: false
+        scale: 1
+figure_5b:
+  main_number:
+  main_caption:
+  figures:
+    - figure:
+        number: "5b"
+        caption: >
+          Consistency-displacement network for the move from *Maqsum* to *Baladi* (including tempo change).
+        url: "assets/articles/aji/img/ex_5b.png"
+        alt: "Test"
+        border: false
+        scale: 1
+figure_6:
+  main_number:
+  main_caption:
+  figures:
+    - figure:
+        number: "6"
+        caption: >
+          Consistency-displacement network for the move from *Bambi* to *Maqsum*.
+        url: "assets/articles/aji/img/ex_6.png"
+        alt: "Test"
+        border: false
+        scale: 1
+
+## Works Cited
+citations:
+- name: Berliner_1994
+  citation: >
+    Berliner, Paul F. 1994. *Thinking in Jazz: The Infinite Art of Improvisation*. Chicago: University of Chicago Press.
+- name: Brinkema_2014
+  citation: >
+    Brinkema, Eugenie. 2014. *The Forms of the Affects*. Durham: Duke University Press.
+- name: Butler_2006
+  citation: >
+    Butler, Mark J. 2006. *Unlocking the Groove: Rhythm, Meter, and Musical Design in Electronic Dance Music*. Bloomington: Indiana University Press.
+- name: Danielson_1997
+  citation: >
+    Danielson, Virginia. 1997. *The Voice of Egypt: Umm Kulthūm, Arabic Song, and Egyptian Society in the Twentieth Century*. Chicago: University of Chicago Press.
+- name: De_2017
+  citation: >
+    De Souza, Jonathan. 2017. *Music at Hand: Instruments, Bodies, and Cognition*. New York: Oxford University Press.
+- name: Durkheim_1915
+  citation: >
+    Durkheim, Émile. 1915. *The Elementary Forms of Religious Life: A Study in Religious Sociology*. Translated by Joseph Ward Swain. London: G. Allen & Unwin/Macmillan.
+- name: Farraj_2019
+  citation: >
+    Farraj, Johnny, and Sami Abu Shumays. 2019. *Inside Arabic Music: Arabic Maqam Performance and Theory in the 20th Century*. New York: Oxford University Press.
+- name: Frishkopf_2001
+  citation: >
+    Frishkopf, Michael. 2001. "*Tarab* ("Enchantment") in the Mystic Sufi Chant of Egypt." In *Colors of Enchantment: Theater, Dance, Music, and the Visual Arts of the Middle East*, edited by Sherifa Zuhur, 233--69. Cairo: American University in Cairo Press.
+- name: Garcia_2020
+  citation: >
+    Garcia, Luis-Manuel. 2020. "Feeling the Vibe: Sound, Vibration, and Affective Attunement in Electronic Dance Music Scenes." *Ethnomusicology Forum* 29 (1): 21--39.
+- name: Grant_2020
+  citation: >
+    Grant, Roger Mathew. 2020. *Peculiar Attunements: How Affect Theory Turned Musical*. New York: Fordham University Press.
+- name: Hasty_1997
+  citation: >
+    Hasty, Christopher F. 1997. *Meter as Rhythm*. New York: Oxford University Press.
+- name: Kozak_2020
+  citation: >
+    Kozak, Mariusz. 2020. *Enacting Musical Time: The Bodily Experience of New Music*. New York: Oxford University Press.
+- name: Leys_2011
+  citation: >
+    Leys, Ruth. 2011. "The Turn to Affect: A Critique." *Critical Inquiry* 37 (3): 434--72.
+- name: Massumi_2002
+  citation: >
+    Massumi, Brian. 2002. *Parables for the Virtual: Movement, Affect, Sensation*. Durham: Duke University Press.
+- name: Monson_1996
+  citation: >
+    Monson, Ingrid. 1996. *Saying Something: Jazz Improvisation and Interaction*. Chicago: University of Chicago Press.
+- name: Qureshi_1986
+  citation: >
+    Qureshi, Regula Burckhardt. 1986. *Sufi Music of India and Pakistan: Sound, Context and Meaning in Qawwali*. Cambridge: Cambridge University Press.
+- name: Racy_1991
+  citation: >
+    Racy, Ali Jihad. 1991. "Creativity and Ambience: An Ecstatic Feedback Model from Arab Music." *The World of Music* 33 (3): 7--28.
+- name: Racy_2003
+  citation: >
+    Racy, Ali Jihad. 2003. *Making Music in the Arab World: The Culture and Artistry of Ṭarab*. Cambridge: Cambridge University Press.
+- name: Schutz_1977
+  citation: >
+    Schutz, Alfred. 1977. "Making Music Together: A Study in Social Relationship." In *Symbolic Anthropology: A Reader in the Study of Symbols and Meanings*, edited by Janet L. Dolgin, David S. Kemnitzer, and David M. Schneider, 106­--19. New York: Columbia University Press.
+- name: Shannon_2003
+  citation: >
+    Shannon, Jonathan H. 2003. "Emotion, Performance, and Temporality in Arab Music: Reflections on *Tarab*." *Cultural Anthropology* 18 (1): 72--98.
+- name: Shannon_2006
+  citation: >
+    Shannon, Jonathan H. 2006. *Among the Jasmine Trees: Music and Modernity in Contemporary Syria*. Middletown: Wesleyan University Press.
+- name: Shelley_2019
+  citation: >
+    Shelley, Braxton D. 2019. "Analyzing Gospel." *Journal of the American Musicological Society* 72 (1): 181--243.
+- name: Straus_2003
+  citation: >
+    Straus, Joseph N. 2003. "Uniformity, Balance, and Smoothness in Atonal Voice Leading." *Music Theory Spectrum* 25 (2): 305--52.
+- name: Toussaint_2013
+  citation: >
+    Toussaint, Godfried T. 2013. *The Geometry of Musical Rhythm: What Makes a "Good" Rhythm Good?* Boca Raton: CRC Press.
+- name: Turino_2008
+  citation: >
+    Turino, Thomas. 2008. *Music as Social Life: The Politics of Participation*. Chicago: University of Chicago Press.
+- name: Witek_2017
+  citation: >
+    Witek, Maria A. G. 2017. "Filling In: Syncopation, Pleasure and Distributed Embodiment in Groove." *Music Analysis* 36 (1): 138--60.
+    
+## Media
+media_citations:
+- name: Hafez_2015
+  citation: >
+    Abdel Halim Hafez - [عبد الحليم حافظ]{dir="rtl"}. "Abdel Halim Hafez - Zay El Hawa[عبد الحليم حافظ - زى الهوا]{dir="rtl"} ." *YouTube*. August 12, 2015. Video, 38:35. <a href="https://www.youtube.com/watch?v=ARaIrRuxXdA.">https://www.youtube.com/watch?v=ARaIrRuxXdA.</a>
+- name: al-safi_2014
+  citation: >
+    Al-Safi, Fakhri, Shaheen - Topic. "Ya Maali [\']{dir="rtl"}sh-Shaam." *YouTube*. March 2, 2014. Video, 6:40. <a href="https://www.youtube.com/watch?v=lxrcDOqL3Io.">https://www.youtube.com/watch?v=lxrcDOqL3Io.</a>
+- name: araborchestra_2020
+  citation: >
+    National Arab Orchestra. "National Arab Orchestra - Alf Leila wi Leila / [الف ليلة وليلى]{dir="rtl"} -- Mai Farouk / [مي فاروق]{dir="rtl"}." *YouTube*. June 12, 2020. Video, 16:28. <a href="https://www.youtube.com/watch?v=Q_HoGYhk4x8.">https://www.youtube.com/watch?v=Q_HoGYhk4x8.</a>
+- name: araborchestra_2021
+  citation: >
+    National Arab Orchestra. "National Arab Orchestra - Ghanili Shway - Mai Farouk & Lubana Al Quntar / [القنطار]{dir="rtl"} [مي فاروق و لبنة]{dir="rtl"}." *YouTube*. February 26, 2021. Video, 9:06. <a href="https://www.youtube.com/watch?v=JAFTuss-Ekw.">https://www.youtube.com/watch?v=JAFTuss-Ekw.</a>
+- name: darwish_2016
+  citation: >
+    Sayed Darwish - Topic. "Ya Bahjet Errouh." *YouTube*. April 15, 2016. Video, 1:14. <a href="https://www.youtube.com/watch?v=XlhKY1ivRlo.">https://www.youtube.com/watch?v=XlhKY1ivRlo.</a>

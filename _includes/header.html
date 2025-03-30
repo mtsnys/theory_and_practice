@@ -1,3 +1,5 @@
+{% assign volume_data = site.data.volumes.volumes %}
+
 <header>
   <div class="header-content">
     <div class="logo">
@@ -5,12 +7,13 @@
         <a href="{{ site.baseurl }}/">
           <div class="row1">THEORY<span style="font-size: .75em;"> & </span></div>
           <div class="row2">PRACTICE</div> 
-          <div class="row3">The Journal of the Music Theory Society of New York State</div>
+          <div class="row3">Journal of the Music Theory Society of New York State</div>
         </a>
       </div>
     </div>
     <nav class="desktop-nav"> 
-      <ul class="nav-grid">  <li><a href="{{site.baseurl}}/about">About</a></li>
+      <ul class="nav-grid">  
+        <li><a href="{{site.baseurl}}/about">About</a></li>
         <li><a href="{{site.baseurl}}/submissions">Submit</a></li>
         <li><a class="join-button" href="https://mtsnys.org/donate">Support</a></li> 
       </ul>
@@ -18,3 +21,4 @@
   </div>
 </header>
 <div class="header-divider"></div> 
+

@@ -1,77 +1,137 @@
 ## Footnotes
 
-[^1]: For much more on the socio-political and musical motivations for Still's move to Los Angeles, see DjeDje 2000. Still was likely motivated to move there because of growing disillusionment with musical life in New York and because of the high concentration of diverse and talented musicians working in Hollywood. At the time, however, it was still a risky adventure, and so the echoes of Greeley's famous advice, "Go west, young man," despite Still's more advanced age, are impossible to ignore.
-[^2]: The word "autochthonous" comes to us from Ancient Greece where it applied to the indigenous inhabitants of a territory as opposed to colonists or settlers and their descendants---autochthonous individuals are products of the soil itself. Still's use of the term suggests a metaphorical autochthony as opposed to a literal one, since, while he alludes to the truly autochthonous music of American aboriginals, his artistic vision combines it with the music of the descendants of colonists, immigrants, and slaves. While "autochthony" also had darker, proto-nationalistic connotations, it is clear that Still intends for the word to connote inclusivity and pluralism. For more on the term and its Athenian roots, see Blok 2009.
-[^3]: Haas describes the movement as being formally "free" while alluding to sonata-allegro form (1987, 43) and somewhat mystifyingly claims that the piece proceeds from D major to C major to D major. I believe the piece adheres rather closely to sonata form. Still himself wrote that while sketching a new piece "my usual practice is to map out a plan which conforms loosely to the established rules of musical form, and then deviate from it as I see fit." (1987a, 109). His statement implies that he uses sonata form as a generic backdrop for his music despite superficial deviations from established norms.
-[^4]: For more on organicism in music and its relationship to philosophy and the arts, see Solie 1980 and Neubauer 2009. While organicism is frequently described in Western philosophical terms---where it begins with Aristotle, passes through German romanticism to Spengler, and continues to influence contemporary thought---what Thorsten Botz-Bornstein describes as "micro-macro" thought is common also to non-Western culture. Botz-Bornstein interprets organicist thought in Chinese, Japanese, Russian, Arab, and Bantu cultures: the Bantu concept of *ugumwe*---roughly, "oneness"---denotes a political, collective solidarity between members of families, clans, and tribes (127).
-[^5]: My approach to thematic transformation is indebted to Rudolph Reti's (1951) method in which the motives comprising a larger theme may be freely rearranged ("interverted") and varied. Reti contends that thematic transformations and relationships of this sort are central to the aesthetics of post-Beethovenian organic form, in which small motives mutate and grow across a work---a thematic conception eerily similar to Still's own above. Solie (1980) argues that Reti's method exemplifies organicist conceptualization and analysis of music. More recent motivic theories similarly consider permutation and more distant motivic relationships; see for example Auerbach 2021.
-[^6]: The pentatonic collection can also be found in other American music from the first half of the twentieth century, for example in the music of Aaron Copland, see Heertderks (2011). The music likely borrows from or alludes to African contributions to American music.
-[^7]: See for instance Kubik's discussion of the Gogo tone system which includes at least seven pitches corresponding closely to the harmonic series (1994, 179) as well as hexatonic and heptatonic scales found in Cameroon, Angola, and Zambia (1994, 174).
-[^8]: David Temperley has noted that syncopations, especially anticipatory ones, are commonly found in late 19^th^-century ragtime music and in recordings made contemporaneously by African-American singers (2021). Kubik (1994) similarly traces syncopation practices in a wide variety of sub-Saharan African cultures.
-[^9]: Numerous sources describe both variation techniques in jazz, West African, and sub-Saharan music, see William Austin (1966), Gunther Schuller (1968), Gerhard Kubik (1994), and especially Simha Arom (1993), who argues that sub-Saharan music is frequently characterized by a "cyclic structure that generates numerous improvised variations: repetition and variation is one of the most fundamental principles of all Central African musics, as indeed of many other musics in Black Africa" (134). Clearly, the "unity-in-diversity" principle of organicism does not belong solely to Europe.
-[^10]: Simultaneous appoggiaturas may be found, for example, in Mozart's G-minor Symphony and elsewhere, as shown by Schoenberg in his *Harmonielehre* (1911, 368).
-[^11]: Discussing the role of politics in art, Still writes "In my humble opinion, politics as such should not enter into the consciousness of a true artist when his work is concerned. He should, however, be interested in the human problems that are a part of our lives, and should balance this with his interest in the abstract elements of his art form. It was the human need that impelled me to write such a composition as 'In Memoriam: The Colored Soldiers Who Died for Democracy,' rather than any political consideration, for whatever my political views or however I vote in the little curtained booth, these things have nothing whatever to do with the music I write" (Spencer 1992, 149). It could of course be argued, however, that Still's music reflects the political context of his time, whether consciously or not.
-[^12]: For more on these transformations, see Cohn 2012. While Riemannian and neo-Riemannian analysis rarely coexist, I have opted to include both here in order to illustrate how Still's piece engages with different aesthetics simultaneously: the first subject is tonal-functional but includes the extended harmonies captured well by Riemannian functional theory, while the second subject draws on a sequential logic better described by transformational (or neo-Riemannian) analysis. For more on the distinction between the two approaches, see Rings 2011. In my analysis, the local transformations serve to expand the subdominant function, since in D major/minor, Eß, G, and B function as *^o^Sp*, *S^+^*, and *S^+^ of* , respectively.
-[^13]: The bass's large-scale motion depicted in Example 6 is supported by formal articulations: the first eight measures sustain Eß, the next two repetitions of the compound basic idea sustain E as an upper neighbor, and the continuation phrase reintroduces Eß in m. 47, initiating an increase in harmonic rhythm: G in mm. 49--52, Bß in 53--57, and the goal D in 58. Since m. 49 brings back the initial (0148) sonority, I hear the Eß--G motion as one unit. The Bß--D motion in the bass in mm. 53--58 has a transformational/motivic function, in that it repeats the earlier bass motion Eß--G, but it also forms part of a functional tonal cadence that ends the second subject, VI--ii--V--I in D minor.
-[^14]: Blues scales typically feature scale-degree ƒ4/ß5 in addition to a minor third above the tonic. For more on blues scales see Chodos 2018, which summarizes different theoretical approaches to the blues scale and questions its validity as a theoretical construct. Most theories of the scale include \^ß3, \^∂3, \^ƒ4, \^ß7, and \^∂7 without \^ß6. In the passage cited, Still combines the sound of the blue scale with passages that correspond more closely to the minor mode, for example the inclusion of \^ß6 and short melodic-minor scale-fragments, A--B--Cƒ--D.
-[^15]: Paul Oliver (1991) also charts the history of the blues and of pioneering musicological studies of it by Rudi Blesh, Gunther Schuller and others. One common thread among the many different theories provided for the origin of blues is its combination of African and European elements, though historians disagree about its relationship to jazz, when and where it originated, etc.
-[^16]: See, for instance, the rhythmic-set structure of sub-Saharan drumming in Anku (2000) and Kubik (1994). Layered *ostinati* are common to many different African cultures.
-[^17]: Similar crises may be found in passages from major nineteenth-century symphonies. Famous examples include dissonant minor-mode passages in the third movement of Bruckner's Ninth Symphony, the first movement of Mahler's Tenth Symphony, the finales of Beethoven's Eighth and Ninth Symphonies among others. The "negative climax" in Still's Fourth is perhaps less dramatic and extreme than some of these examples, but the effect is similar.
+[^1]: I borrow the "aria network" concept from Webster (1991).
+
+[^2]: For an expert account of this reevaluation and the nuanced views
+    of the theorists who undertook it (including Kirnberger, Vogler, and
+    Türk), see Rothstein (2008). On the eighteenth-century compound
+    measure, see Grave (1985).
+
+[^3]: On the *accento comune* and Italian prosody, see Rothstein (2011,
+    92--93); on setting the *accento comune* in the eighteenth century,
+    see Rothstein (2008, 122--23); on Mozart's Italian text-setting,
+    specifically, see Webster (1991, 133--37).
+
+[^4]: For a full reconstruction of the plot, see Berke (2003).
+
+[^5]: A line of iambic tetrameter contains four iambs (each containing
+    an unaccented syllable followed by an accented syllable). A line of
+    iambic trimeter contains three.
+
+[^6]: Rhythmic profiles are the rhythmic patterns suitable for each
+    verse type owing to their arrangements of stressed and unstressed
+    beats; see Webster (1991) and Lippmann (1978).
+
+[^7]: For the sake of space, the orchestral introduction and coda will
+    not receive special attention here. The introduction previews the
+    rhythmic profiles of the first three vocal phrases of each verse;
+    the coda recycles vocal phrases from the verses, respecting the
+    order in which they were first presented.
+
+[^8]: As in my article on the *Entführung* Osmin (Bastone Barrettara
+    2022--2023), the term "vocal phrase" refers to a melodic segment
+    circumscribed primarily by the poetic text and the pauses
+    necessitated by the singer's breathing and secondarily by melodic,
+    harmonic, and cadential rhythmic content.
+
+[^9]: On this rarity and Mozart's iambic habits (especially as pertains
+    to my discussion of Example 3), see Lippmann (1978), Schmid (2003),
+    and Bastone (2017).
+
+[^10]: The most familiar Mozartian example of such folksy German barring
+    is that of Papageno's "Der Vogelfänger bin ich ja" (assuming a
+    compound 4/4 measure, as does Lippmann \[1978\]).
+
+[^11]: The exercise of rebarring music, as I have done in Example 4, is
+    a useful tool for hypothesizing what a listener might hear, wants to
+    hear, or is unlikely to hear. I present Example 4 to demonstrate the
+    plausibility of an alternate barring; there is surely no right or
+    wrong way to hear these phrases. Proponents of Lerdahl and
+    Jackendoff's "strong beat early" preference rule (1983, 76) will be
+    more inclined to hear the barring of Example 4. Proponents of
+    end-accented phrases in the Riemannian tradition will gravitate
+    toward Mozart's original setting. (Riemann, of course, was a
+    notorious and unabashed rebarrer; for a succinct overview of his
+    metric theories, see Caplin 2011.)
+
+[^12]: Although Mozart treats Osmin's "Ha!" differently with each verse,
+    all but one of its elaborations are neutrally barred. The single
+    exception is a sputtering passage at the close of the second verse
+    (mm. 82--90), which cannot be categorized as a complete vocal
+    phrase.
+
+[^13]: Every mention of Osmin in this paragraph refers to the
+    *Entführung* character.
+
+[^14]: Regarding the racial stereotyping of Monostatos, see Cole (2005)
+    and Scott (2007).
+
+[^15]: Monostatos's textual repetition in mm. 19--21 enables this
+    normalization. It recalls Osmin's use of the textual fragment
+    "schnüren zu" as a hypermetrically normalizing element in the
+    refrain of "O! wie will ich triumphieren" (Bastone Barrettara
+    2022--2023, 21--24).
+
+[^16]: I should note that in interpreting m. 18 as strong and as the
+    start of a new vocal phrase, I privilege the harmony, linguistic
+    stress, and length preference rules as defined by Temperley (2001,
+    357--8). Doing so also allows Tetzel's parallelism rule (see
+    Rothstein 2011, 96) to apply to mm. 18--19 and 20--21. One could,
+    however, hear the phrase beginning in m. 15 as extending to the
+    downbeat of m. 19, resulting in a five-measure unit that corresponds
+    in length to the preceding vocal phrase (mm. 10--14). Such a
+    hearing, which may especially strike the ear of a first-time
+    listener, privileges the parallelism rule. Both interpretations are
+    possible; neither projects a normative phrase structure. I favor the
+    interpretation shown in Example 6, in part because it emphasizes the
+    revelatory nature of the text: "weil ein Schwarzer häßlich ist."
+
+[^17]: On the abnormality of triple hypermeters, see Rodgers (2011), De
+    Souza and Lokan (2019), and Rothstein (1989).
+
+[^18]: Closing areas often contain end-accented phrases (see Temperley
+    2003), but I still think it reasonable, in the context of this
+    metrically capricious aria, to hear Monostatos's end accents as
+    another quirk of his metric characterization. (The *Entführung*
+    Osmin produces a similar effect, though not in a closing section,
+    with his asynchronous phrases across mm. 87--111 of "O! wie will ich
+    triumphieren" \[Bastone Barrettara 2022--2023, 24--28\].)
 
 ## Figure Captions
 
-**Example 1** Formal overview of the first movement of Still's Fourth Symphony
-**Example 2** Still, Symphony No. 4. The first movement's thematic material
-**Example 3** Still, Symphony No. 4, mm. 9--17. Piano reduction of the first subject.
-**Example 4** Still, Symphony No. 4, mm. 9--17. Rhythmic displacement in the first subject.
-**Example 5** Still, Symphony No. 4, mm. 25--57. Piano reduction of the second subject.
-**Example 6** Still, Symphony No. 4, mm. 25--57. Transformational analysis of the second subject
-**Example 7** Still, Symphony No. 4, mm. 25--32. Functional analysis and harmonic dissonance in the second subject
-**Example 8** Still, Symphony No. 4, mm. 57--64. Piano reduction of development rotation A1.
-**Example 9** Still, Symphony No. 4, mm. 75--91. Piano reduction of development rotation A2.
-**Example 10** Still, Symphony No. 4, mm. 65--75. Piano reduction of development rotation B1.
-**Example 11**. Still, Symphony No. 4, mm. 97--104. Rhythm and harmony in development rotation B2.
-**Example 12** Still, Symphony No. 4, mm. 113--132. Piano reduction of development rotation B3.
-**Example 13** Still, Symphony No. 4, mm. 117--128. Harmonic reduction of example 12.
-**Example 14** Still, Symphony No. 4, mm. 175--181. Piano reduction of the recapitulation's second subject.
-**Example 15** Still, Symphony No. 4, mm. 183--190. Piano reduction of the coda.
+**Example 1a**: Mozart, "Wer hungrig bei der Tafel sitzt," text and translation (Williams 2014, 54--56).
+**Example 1b**: Mozart, "Wer hungrig bei der Tafel sitzt," formal outline.
+**Example 2**: Mozart, "Wer hungrig bei der Tafel sitzt," mm. 21--54.
+**Example 4**: "Wer hungrig bei der Tafel sitzt," alternate barring of mm. 21--27.
+**Example 5a**: Mozart, "Alles fühlt der Liebe Freude," text and translation (Schaubhut Smith 1991, 625).
+**Example 5b**: Mozart, "Alles fühlt der Liebe Freude," outline of the ternary form of the strophic verse.
+**Example 6**: Mozart, "Alles fühlt der Liebe Freuden" (piano-vocal reduction), mm. 10--43.
 
 ## Works Cited
 
-1.  Anku, Willie. 2000. "Circles and Time: A Theory of Structural Organization of Rhythm in African Music." *Music Theory Online* 6 (1).
-2.  Arom, Simha. 1993. *African Polyphony and Polyrhythm: Musical Structure and Methodology.* Translated by Martin Thom, Barbara Tuckett, and Raymond Boyd. New York: Cambridge University Press.
-3.  Arvey, Verna. 1972. "With His Roots in the Soil." In *William Grant Still and the Fusion of Cultures in American Music*, edited by Robert Bartlett Haas, 82--87. Los Angeles: Black Sparrow Press.
-4.  Auerbach, Brent. 2021. *Musical Motives: A Theory and Method for Analyzing Shape in Music.* Oxford: Oxford University Press.
-5.  Austin, William. 1966. *Music in the Twentieth Century.* New York: Norton.
-6.  Barg, Lisa. 2000. "Black Voices/White Sounds: Race and Representation in Virgil Thomson's Four Saints in Three Acts." *American Music* 18 (2): 121--61.
-7.  Blok, Josine H. 2009. "Gentrifying Genealogy: On the Genesis of the Athenian Autochthony Myth." In *Antike Mythe: Medien, Transformationen und Konstruktionen*, edited by Ueli Dill and Christine Walde, 251--74. Berlin: Walter de Gruyter.
-8.  Botz-Bornstein, Thorsten. 2020. *Micro and Macro Philosophy: Organicism in Biology, Philosophy, and Politics.* Leiden, Netherlands: Brill.
-9.  Caplin, William. 1998. *Classical Form: A Theory of Formal Functions for the Instrumental Music of Haydn, Mozart, and Beethoven.* New York: Oxford University Press.
-10. Caplin, William. 2021. "The 'Iconic Cadence': A Post-Romantic Case of Cadential Nostalgia and Irony." EUROMAC 2021, Moscow, Russia. Unpublished conference paper.
-11. Chodos, Asher. 2018. "The Blues Scale: Historical and Epistemological Considerations." *Jazz Perspectives* 11 (2): 139--71.
-12. Cohn, Richard. 2012. *Audacious Euphony: Chromatic Harmony and the Triad's Second Nature*. Oxford: Oxford University Press.
-13. Crist, Elizabeth B. 2005. *Music for the Common Man: Aaron Copland During the Depression and War*. Oxford: Oxford University Press.
-14. DjeDje, Jacqueline Codgell. 2011. "Context and Creativity: William Grant Still in Los Angeles." *Black Music Research Journal* 31 (1): 1--27.
-15. Du Bois, W.E.B. 2018 \[1903\]. "Of the Training of Black Men" In *The Souls of Black Folk*, edited by Patricia H. Hinchey, 71--86*.* Gorham, ME: Myers.
-16. Edwards, Griffith. 1987. "The Life of William Grant Still." PhD Diss., Harvard University.
-17. Haas, Robert Bartlett, ed. 1972. *William Grant Still and the Fusion of Cultures in American Music*. Los Angeles: Black Sparrow Press.
-18. Heetderks, David J. 2011. "A Tonal Revolution in Fifths and Semitones: Aaron Copland's Quiet City." *Music Theory Online* 17 (2).
-19. Hepokoski, James and Darcy, Warren. 2006. *Elements of Sonata Theory: Norms, Types, and Deformations in the Late Eighteenth-Century Sonata.* New York: Oxford University Press.
-20. Hughes, Langston. 1999 \[1926\]. "The Negro Artist and the Racial Mountain." In *Keeping Time: Readings in Jazz History*, edited by Robert Walser, 55--57. New York: Oxford University Press.
-21. Jenkins, Christopher. 2019. "Signifyin(g) within African American Classical Music: Linking Gates, Hip-Hop, and Perkinson." *The Journal of Aesthetics and Art Criticism* 77 (4): 391--400.
-22. Kern, Stephen. 2011. *The Modernist Novel: A Critical Introduction.* New York: Cambridge University Press.
-23. Kubik, Gerhard. 1994. *Theory of African Music, Volume I*. Chicago: The University Press of Chicago.
-24. Locke, Alain. 1997 \[1925\]. *The New Negro*. New York: Simon & Schuster Inc.
-25. Murchison, Gayle. 2000. "'Dean of Afro-American Composers' or 'Harlem Renaissance Man': The New Negro and the Musical Poetics of William Grant Still." In *William Grant Still: A Study in Contradictions,* edited by Catherine Parsons Smith, 39--65. Berkeley, CA : University of California Press.
-26. Neubauer, John. 2009. "Organicism and Music Theory." In *New Paths: Aspects of Music Theory and Aesthetics in the Age of Romanticism*, edited by John Neubauer, Janet Schmalfeldt, Scott Burnham, Susan Youens, and Jim Samson, 11--36. Leuven, Belgium: Leuven University Press.
-27. Oja, Carole. 1992. "'New Music' and the 'New Negro': The Background of William Grant Still's *Afro-American Symphony*." *Black Music Research Journal* 12 (2): 145--69.
-28. Oliver, Paul. 1991. "That Certain Feeling: Blues and Jazz . . . in 1890?" *Popular Music* 10 (1): 11--19.
-29. Peretti, Burton. 2009. *Lift Every Voice: The History of African American Music*. Lanham, MD: Rowman and Littlefield Publishers.
-30. Reti, Rudolph. 1951. *The Thematic Process in Music.* New York: Macmillan.
-31. Rings, Steven. 2011. *Tonality and Transformation.* Oxford: Oxford University Press.
-32. Schoenberg, Arnold. 1911. *Harmonielehre*. Vienna: Universal Edition.
-33. Schuller, Gunther. 1968. *Early Jazz: Its Roots and Musical Development*. Oxford: Oxford University Press.
-34. Smith, Catherine Parsons. 2000. "'Harlem Renaissance Man' Revisited: The Politics of Race and Class in Still's Late Career." In *William Grant Still: A Study in Contradictions,* edited Catherine Parsons Smith, 182--212. Berkeley, CA : University of California Press.
-35. Solie, Ruth A. 1980. "The Living Work: Organicism and Musical Analysis." *19^th^-Century Music* 4 (2): 147--56.
-36. Spencer, Jon Michael, ed. 1992. *The William Grant Still Reader: Essays on American Music.* Durham, NC: Durham University Press.
-37. Temperley, David. 2021. "The Origins of Syncopation in American Popular Music." *Popular Music* 40 (1): 18--41.
+1.	Abert, Hermann. \[1919--1921\] 2007. *W.A. Mozart*. Translated by Stewart Spencer. Edited by Cliff Eisen. New Haven: Yale University Press.
+2.	Bastone, Danielle. 2017. "The Analysis of Musical Dramaturgy in Mozart's *Die Entführung aus dem Serail*." PhD diss., The Graduate Center of the City University of New York.
+3.	Bastone Barrettara, Danielle. 2022--2023. "Mozart's Osmin and the Phrasing of Discomposure." *Theory and Practice* 47--48: 1--34.
+4.	Bent, Ian. 1994. *Music Analysis in the Nineteenth Century.* Cambridge: Cambridge University Press.
+5.	Berke, Dietrich. 2003. "Vorwort." In *Zaide (Das Serail), KV 344 (336^b^)*, composed by Wolfgang Amadeus Mozart. Vocal score based on the *NMA* Urtext (edited by Heinz Moehn). Kassel: Bärenreiter.
+6.	Caplin, William. 2011. "Criteria for Analysis: Perspectives on Riemann's Mature Theory of Meter." In *The Oxford Handbook of Neo-Riemannian Music Theories*, edited by Edward Gollin and Alexander Rehding, 419--39. Oxford: Oxford University Press.
+7.	Cole, Malcolm S. 2005. "Monostatos and his 'Sister': Racial Stereotype in *Die Zauberflöte* and its Sequel." *The Opera Quarterly* 21: 2--26.
+8.	De Souza, Jonathan and David Lokan. 2019. "Hypermetrical Irregularity in Sonata Form: A Corpus Study." *Empirical Musicology Review* 14 (3--4): 138--43.
+9.	Grave, Floyd K. 1985. "Metrical Displacement and the Compound Measure in Eighteenth-Century Theory and Practice." *Theoria* 1: 25--60.
+10.	Laskowski, Larry. 1991. "Voice Leading and Meter: An Unusual Mozart Autograph." In *Trends in Schenkerian Research*, edited by Allen Cadwallader, 41--49. New York: G. Schirmer.
+11.	Lerdahl, Fred and Ray Jackendoff. 1983. *A Generative Theory of Tonal Music*. Cambridge, MA: The MIT Press.
+12.	Lippmann, Friedrich. 1978. "Mozart und der Vers." In *Analecta Musicologica*, Vol. 18: *Colloquium Mozart und Italien (1974: Rom)*, edited by Friedrich Lippmann, 107--37. Cologne: A. Volk.
+13.	Riemann, Hugo. \[1903\] 2000. *System der musikalischen Rhythmik und Metrik*. Translated by Bradley C. Hunnicutt in "Hugo Reimann's *System der Musikalischen Rhythmik und Metrik*, Part Two: A Translation Preceded by Commentary." PhD diss., University of Wisconsin-Madison.
+14.	Riemann, Hugo. 1912. *Vademecum der Phrasierung*. Dritte Auflage. Leipzig: Max Hesses Verlag.
+15.	Rodgers, Stephen. 2011. "Thinking (and Singing) in Threes: Triple Hypermeter and the Songs of Fanny Hensel." *Music Theory Online* 17 (1).
+16.	Rothstein, William. 1989. *Phrase Rhythm in Tonal Music.* New York: Schirmer Books.
+17.	Rothstein, William. 2008. "National Metrical Types in Music of the Eighteenth and Early-Nineteenth Centuries." In *Communication in Eighteenth-Century Music*, edited by Danuta Mirka and Kofi Agawu, 112--59. Cambridge: Cambridge University Press.
+18.	Rothstein, William. 2011. "Metrical Theory and Verdi's Midcentury Operas." *Dutch Journal of Music Theory* 16: 93--111.
+19.	Schaubhut Smith, Judyth, *et al.*, translators. 1991. *The Metropolitan Opera Book of Mozart Operas*. New York: Harper Collins.
+20.	Schmid, Manfred Hermann. 2003. "Deutscher Vers, Taktstrich und Strophenschluss Notationstechnik und ihre Konsequenzen in Mozarts *Zauberflöte*." *Mozart Studien* 12: 115--45.
+21.	Scott, Derek B. 2007. "A Problem of Race in Directing *Die Zauberflöte*." In *"Regietheater": Konzeption und Praxis am Beispiel der Bühnenwerke Mozarts*. Series: Wort und Musik: Salzburger akademische Beiträge, No. 65. Austria: Müller-Speiser, Anif-Salzburg: 338--44.
+22.	Temperley, David. 2001. *The Cognition of Basic Musical Structures.* Cambridge, MA: MIT Press.
+23.	Temperley, David. 2003. "End-Accented Phrases: An Analytical Exploration." *Journal of Music Theory* 47 (1): 125--54.
+24.	Tyler, Linda. 1991. "'Zaide' in the Development of Mozart's Operatic Language." *Music & Letters* 72 (2): 214--35.
+25.	Webster, James. 1991. "The Analysis of Mozart's Arias." In *Mozart Studies*, edited by Cliff Eisen, 101--99. New York: Oxford University Press.
+26.	Williams, Clive. 2014. English translation of *Zaide* libretto included in pamphlet of Mozart, Wolfgang Amadeus. *Zaide*. Concentus Musicus Wien, Nikolaus Harnoncourt, with Tobias Moretti, Diana Damrau, and Michael Schade. Recorded 2006. Deutsche Harmonia Mundi. Compact disc.

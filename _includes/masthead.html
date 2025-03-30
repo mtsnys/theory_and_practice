@@ -1,27 +1,40 @@
+{% assign volume_data = site.data.volumes.volumes %}
+
 <div class="masthead">
-  <div class="left-section">
-    {% if page.volume %}
-      <p>{{ page.volume }}</p>
-    {% endif %}
-  </div>
+    <div class="left-section">
+        <select id="volume-select" onchange="location = this.value;">
+            <option value="" selected disabled hidden>Volumes</option>
+            {% for volume in volume_data %}
+                <option value="{{ volume.id | relative_url }}" {% if page.volume == volume.id %}selected{% endif %}>
+                    {{ volume.name }}
+                </option>
+            {% endfor %}
+        </select>
+    </div>
 
-{% unless page.layout == 'article' or page.layout == 'review_article' %}
-  <div class="right-section">
-    {% if page.editors %} 
-      <p class="editors">
-        {% for editor in page.editors %}
-          {{ editor.name }}{% if forloop.last %}, {% endif %}
-          {% unless forloop.last %} and {% endunless %}
-        {% endfor %}Editors 
-      </p>
-    {% endif %}
-    <p class="reviews-editor">
-      {{ page.reviews_editor.name }}, Reviews Editor
-    </p>
-  </div>
-{% endunless %}
+    {% unless page.layout == 'article' or page.layout == 'review_article' %}
+        <div class="right-section">
+            {% assign current_volume = volume_data | where: "id", page.volume | first %}
+
+            {% if current_volume.editors %}
+                <p class="editors">
+                    {% if current_volume.editors.size == 1 %}
+                        {{ current_volume.editors.first.name }}, Editor
+                    {% elsif current_volume.editors.size == 2 %}
+                        {{ current_volume.editors.first.name }} and {{ current_volume.editors.last.name }}, Editors
+                    {% else %}
+                        {% for editor in current_volume.editors %}
+                            {{ editor.name }}{% unless forloop.last %}{% if forloop.rindex == 2 %}, and {% else %}, {% endif %}{% endunless %}
+                        {% endfor %}, Editors
+                    {% endif %}
+                </p>
+            {% endif %}
+            {% if current_volume.reviews_editor %}
+                <p class="reviews-editor">
+                    {{ current_volume.reviews_editor.name }}, Reviews Editor
+                </p>
+            {% endif %}
+        </div>
+    {% endunless %}
 </div>
-<div class="header-divider"></div> 
-
-
-
+<div class="header-divider"></div>

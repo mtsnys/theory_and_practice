@@ -4,7 +4,8 @@ description: >-
   Theory and Practice is the annual journal of the Music Theory Society of New York State.
 baseurl: ""
 url: "tnp.mtsnys.org" 
-volume: "Volume 38 | 2022–2023"
+volume: "Volume 47/48 | 2022–2023"
+current_volume: vol47-48
 editors:
   - name: Trevor de Clercq
   - name: Kyle Hutchinson

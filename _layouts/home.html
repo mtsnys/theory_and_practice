@@ -6,20 +6,22 @@ layout: default
 <div class="grid-heading">Articles</div>
 <div class="article-grid">
 
-{% for post in site.posts %}
+{% assign current_volume = site.current_volume %}
+
+{% for post in site.categories[current_volume] %}
   {% if post.layout == 'article' %}
-<div class="grid-item">
-    <p>
+    <div class="grid-item">
+      <p>
         <a class="title" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-    </p>
-    <p class="author">{{ post.author }}</p>
-    <p class="abstract">
+      </p>
+      <p class="author">{{ post.author }}</p>
+      <p class="abstract">
         {{ post.abstract | strip_html | truncate: 150 }}
         {% if post.abstract.size > 150 %}
-            <a class="more" href="{{ post.url | relative_url }}">MORE</a>
+          <a class="more" href="{{ post.url | relative_url }}">MORE</a>
         {% endif %}
-    </p> 
-</div>
+      </p> 
+    </div>
   {% endif %}
 {% endfor %}
 </div>
@@ -29,10 +31,11 @@ layout: default
 
 
 <div class="grid-heading">Reviews</div>
-
 <div class="article-grid">
 
-{% for post in site.posts %}
+{% assign current_volume = site.current_volume %}
+
+{% for post in site.categories[current_volume] %}
   {% if post.layout == 'review_article' %}
 
 {% if post.reviewed.size == 1 %}

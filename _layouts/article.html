@@ -11,12 +11,10 @@ layout: default
 	
 		{%- if page.author -%}
 		<p class="author">
-    <a href=#{{page.short-name}}><span class="author-name">{{ page.author }}</span></a>
-    		  {% include marginnote.html marginnote_number='0' footnote_text=page.author-info%}
+            <a href=#{{page.short-name}}><span class="author-name">{{ page.author }}</span></a>
+    		{% include authornote.html marginnote_number='0' footnote_text=page.author-info-short%}
 		</p>
-
-
-	{%- endif -%}
+	    {%- endif -%}
 	<abstract>
 	{{ page.abstract }}<br><br>
 	</abstract>
@@ -29,6 +27,13 @@ layout: default
 <article class="main-article">
   {{ content }}
 </section>
+
+<div class="author-bio" id="{{page.short-name}}-full-bio"> 
+		<hr style="color: #6d6360;"><hr style="color: #6d6360;"><br>
+    <span>{{ page.author-info-long }}</span>
+</div>
+
+
 
 <section id="works-cited" markdown="1" >
 

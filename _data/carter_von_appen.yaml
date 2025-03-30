@@ -1,0 +1,761 @@
+## Footnotes
+
+footnote_1: >
+  MrMonte (Monte Mallin), reply to "Musicians: How Do You Explain Charlie's Technique to Drummers?," *It's Only Rock'n Roll* forum, March 9, 2012, <https://iorr.org/talk/read.php?1,1579013,page=1>.
+footnote_2: >
+  See https://www.izotope.com/ and http://moises.ai. We initially used iZotope RX 9's Music Rebalance tool to isolate the drums, but subsequently found that Moises could do the same job more efficiently, so we switched tools early in the study. Moises, built using a Python library called Spleeter, derives time-frequency masks using machine learning in order to perform source separation (Hennequin et al. 2020; Pang 2019).
+footnote_3: >
+  See <https://www.sonicvisualiser.org/> and <https://www.vamp-plugins.org/download.html>. In the BBC Rhythm: Onsets plugin, we used a Hann window shape, an FFT window size of 128 samples, and a window increment of 32. These settings allowed for a time resolution of 0.7 milliseconds. We started with a threshold setting of 3 and then increased or decreased it to automatically mark the quarter notes. In cases where the algorithm did not detect an attack that actually occurred, we lowered the threshold in a second layer and copied the resulting markers into the first layer. See Baume (2013) for a description of the plugin.
+footnote_4: >
+  Danielsen and others have discussed how there is not always a visual point in the representation of a waveform that will consistently align with human perception of the moment of attack---this is variable between instruments and versions of the same instrument (see also Hellmer and Madison 2015, 150). Identifying the moment of attack is easier with percussive attacks like drums, yet there is still no single timepoint that can be objectively identified. Identifying the moment of attack can also be complicated when there are near-simultaneous hits on multiple instruments within a drum kit (Hove et al. 2007; see also Câmara 2021, 35--41). The separation software we used did not allow for automatic separation of the hi-hats from the snare and kick; in the occasional instances when the onset detection plugin created two markers for a single beat, we analyzed only the broader-spectrum snare attack.
+footnote_5: >
+  Eighth notes on the hi-hat are a fundamental component of the standard rock backbeat pattern, but comments on Watts's drumming have tended to focus on the presence or absence of delay or anticipation of the backbeats and the kick drum rather than the hi-hat eighths. Additionally, Watts typically did not play the hi-hat on beats two and four (see footnote 19, below). Given that blues-influenced Rolling Stones songs employed swing, potential future research could examine Watts's use of swung eighths on the hi-hat or ride cymbal.
+footnote_6: >
+  We input data from all quarter-note attacks, even if there was a brief departure from the usual pattern of kick on beats 1 and 3 and snare on beats 2 and 4. For instance, if there was a bar in which the snare or hi-hat, but not the kick, played on beat 1, we would still encode that beat. If no attack occurred on a beat, we did not insert a marker; there would just be a gap in our table. We avoided analyzing songs or parts of songs without a fairly steady stream of quarter-note attacks, so there were rarely a large number of gaps in the passages we analyzed.
+footnote_7: >
+  For this reason, many microtiming studies, such as Kilchenmann and Senn (2015), have drummers record to a click track when creating recordings for analysis.
+footnote_8: >
+  More recent musical stimuli have a greater effect on listener expectations than ones further in the past, but scientific estimates differ as to how quickly listeners disregard earlier information (Bailes et al. 2013, 1).
+footnote_9: >
+  Butterfield evaluates timing based both on the current measure and on the previous measure. Frane, as a secondary method of measurement, uses only the previous *beat* as the basis for determining listener expectation. Hellmer and Madison also use previous attacks to predict future ones but rely on the BeatRoot beat tracking system (2015, 152, 154). The BeatRoot system does not examine a fixed past time when making beat predictions, but instead creates initial tempo hypotheses and then reacts to subsequent onset information to adjust the hypotheses (Dixon 2001; Dixon 2007). BeatRoot, however, problematically sometimes snaps beats to actual onsets and often generates beat tracking errors.
+footnote_10: >
+  If there was no attack on a downbeat, then that bar could not be used as the basis for a "prior bar" calculation, and the subsequent bar would be excluded from analysis. For beat-one attacks analyzed using this method, we compared the length of the just-completed bar with the length of the preceding bar, on the logic that the length of the latter would generate an expectation for where the following downbeat would fall.
+footnote_11: >
+  When asked about playing behind the beat, renowned session drummer John Robinson said that he would keep the bass drum exactly on time but adjust the other attacks around it (Miller 1994, 21--22).
+footnote_12: >
+  The asymmetric placement of quarter-note attacks within a relatively steady tempo can be compared to swung eighth notes, where the *beat* is steady but there is an unequal division of the beat. As Iyer points out, the timing of the kick and that of the snare are interrelated, such that referring to a microtiming deviation as a late snare or as an early kick "is a matter of perspective" (2002, 407). Relatedly, Danielsen discusses how downbeats are expected to be played slightly early in soul and other genres (2006, Chapter 5). Still, the fact that asymmetric division of the bar is more often described as a "delayed backbeat" than an "early downbeat" reflects how the downbeat serves as a point of reference for most listeners.
+footnote_13: >
+  Our focus on the drums does not encompass the contributions to rhythmic feel of the other members of the band. Watts was just one part of the band and reacted to the playing of the other musicians. Individual band members can have contrasting microrhythmic feels (Benadon 2006, 82), and it has been theorized that microrhythmic discrepancies between the drums and bass are crucial to groove in jazz (Butterfield 2010, 157--158). We focused on drums in this project for the sake of simplicity and because the precise timing of drum attacks can more reliably be specified than that of bass or guitar attacks.
+footnote_14: >
+  There was a fairly strong correlation between the mean beat 2 and mean beat 4 deviations in a song; see footnote 17 below.
+footnote_15: >
+  Madison and Merker's finding (2004, 71) that musicians can react to deviations from isochrony as small as 1.5 milliseconds suggests that discrepancies smaller than 2.5 percent of IOI could change the "feel" of a Stones recording for a listener even if they would not be able to consciously recognize such small deviations.
+footnote_16: >
+  In most instances, the microtiming analysis we did for a given song is of a subset of the song's entire length. This was in large part to focus on passages where there is a standard rock backbeat pattern or variant and where there were not too many fills or syncopations that would interfere with marking quarter-note attacks. This approach prioritized obtaining samples of more songs over doing analyses of a smaller number of full songs.
+footnote_17: >
+  Considering the entirety of Watts's career, there was a fairly strong correlation between the average amount of delay of beat 2 in songs and that of beat 4, with *r* = .81 for the 62 Watts studio recordings and *r =* .84 for the 59 non-Watts recordings. The recordings with the most consistent beat 2 delays, however, were not always those with the most consistent beat 4 delays. "Monkey Man" and "Sister Morphine," for instance, showed strong tendencies towards beat 2 delay but not for beat 4, while the reverse was true of "All Down the Line."
+footnote_18: >
+  In his 2012 review of "One More Shot," Neil McCormick wrote that Watts's "swinging beat \[was\] just that micro-fraction behind where you might expect it to be."
+footnote_19: >
+  Stones guitarist Keith Richards has linked the practice of delaying the backbeat to Watts's idiosyncratic habit of not playing the hi-hat when he hits the snare (Richards 2010, 121). Despite Richards's claim, there is little evidence that Watts's habit of not hitting the hi-hat on beats 2 and 4 caused him to play behind the beat. The fact that Watts did not always play behind the beat when using the technique calls into question Richards's contention. Video of the Stones playing "I Got the Blues" ([The](The) Rolling Stones 2022), for instance, clearly shows Watts using this technique, but analysis of this performance reveals that he played the backbeats consistently *early*. Also undermining Richards's theory is the fact that the snare is at times delayed when Watts uses the ride cymbal instead of the hi-hats for eighth-note subdivisions, as in the studio recordings of "Angie" (1:43--1:56) and "No Use in Crying" (0:40--1:00); Watts typically played all eighth-note subdivisions when playing the ride.
+footnote_20: >
+  The mean standard deviations in these studies ranged between 11 and 19 ms, with smaller standard deviations at faster tempos. The standard deviations in Watts's playing shown in Example 11 tend to be somewhat greater, which is unsurprising given that Watts was not playing with a click track (see section V, below), while the drummers in the Câmara et al. and Danielsen et al. studies were playing with either a metronome or a tempo invariant backing track.
+footnote_21: >
+  The syncopated kick patterns in "Sister Morphine" and "One More Shot" provide additional examples. While syncopated kick patterns tended to be associated with backbeat delay in our study, songs with simple, unsyncopated kick patterns tended towards early backbeats; see our discussion of early backbeats, below.
+footnote_22: >
+  This is despite the overall pattern of acceleration in the song (see section IV, below).
+footnote_23: >
+  Butterfield writes that "competent" drummers tend to "fairly consistently" place their attacks either on top of or behind the beat (2006, 36). Looking at the microtiming of "Monkey Man" and other songs in detail suggests that, while consistent placement behind or ahead of the beat is possible for a drummer playing without mechanical assistance, the *amount* of displacement may be highly variable even with an expert drummer.
+footnote_24: >
+  In his study of microtiming in famous breakbeats, Frane found significantly more tendency to delay beat 2 than beat 4 (2017, 299), but we did not find this to a statistically significant extent with either Watts or the group of other artists.
+footnote_25: >
+  "In the Midnight Hour" is famous as a supposed example of a delayed backbeat (Bowman 1995, 308--309; Covach and Flory 2018, 235--236). But the analyses of Smialek (2020) and Hosken (2021) concur with ours that the snare in this recording does *not* have a consistent pattern of delay. One possible reason for the perception of backbeat delay in this track is the playing of the horn section on the backbeats, sounding slightly later than the snare hits.
+footnote_26: >
+  Watts also delayed backbeats more than other drummers when playing the same song. While Watts's studio version of "Heart of Stone" substantially delays 25 percent of the second beats, beat 2 attacks in the *Metamorphosis* version of the song with substitute drummer Clem Cattini are on average slightly ahead of expectation. The Stones' cover of "I'm a King Bee" substantially delays 50 percent of the second beats, while the original shows no statistically significant tendency towards beat 2 delay. Similarly, covers of Stones songs by Linda Ronstadt ("Tumbling Dice") and Blackberry Smoke ("All Down the Line") do not show the same propensity for delayed backbeats as the originals.
+footnote_27: >
+  Tempo fluctuations in Watts's drumming occur within the context of the Rolling Stones as a band, so it is necessary to look at the band as a whole in this regard. Because one aspect is individual and the other is collective, one must be cautious in making direct comparisons between analysis of microtiming in Watts's drumming and analysis of the tempo variability of the entire band. We nevertheless present analyses of drum microtiming and tempo variability side by side because they are so closely interrelated and together provide a more complete picture of Watts's drumming.
+footnote_28: >
+  Polfreman (2013) evaluated the ability of an earlier version of Melodyne to track attack transients, finding that it identified percussive attacks well but showed significant discrepancy from perceptual attack times for bowed sounds (4--5).
+footnote_29: >
+  In about half of the cases, it was necessary to manually enter the correct time signature, correct "octave" errors if the algorithm misinterpreted the tempo as being half or twice as fast (Schreiber 2020, 29), or make other manual adjustments. While another analyst might end up with slightly different tempo maps, this would not substantially affect the overall shapes described in this section. See footnote 33, below, regarding potential variability in tempo coefficient of variation calculations by different analysts using Melodyne.
+footnote_30: >
+  Baur discusses the combination of increasing texture and tempo in "Salt of the Earth" (2020, 37--38). We did not find examples where the Stones significantly slowed down over the course of a song. Other artists also speed up much more commonly than they slow down, with accelerating examples including "I'm So Tired" by the Beatles, "Hells Bells" by AC/DC, and "Babies" by Pulp.
+footnote_31: >
+  Huron has noted the tendency of performers to accelerate as they approach a climactic moment (2006, 326).
+footnote_32: >
+  We used sets of two bars in order to approximate the window in which a listener perceives tempo. Schreiber points out that there is a lack of scholarly consensus on the timeframe within which tempo perception occurs. His approach is to use a 12-second window (2020, 115--117, 119).
+footnote_33: >
+  There is potential variability in different analysts' tempo CV calculations, even when our detailed method is followed, particularly in cases of songs with prominent ritardandi and/or caesuras. Analysis of the same tracks by different analysts suggests that analyses of songs with a CV of 1.0 or below will typically be identical or nearly identical, while independent analyses of recordings with tempo CVs greater than 1.0 can differ by up to 10 percent.
+footnote_34: >
+  Songs in our Billboard and non-Billboard Others corpora known to have been recorded to a click track typically have CV values ranging between 0.2 and 0.5: for instance, Nirvana\'s "Lithium," 0.20 (Coffman 2023); Sly & the Family Stone's "Family Affair," 0.27 (LeRoy 2023, 32); and Ron Wood\'s "Shirley," 0.39 (LeRoy 2023, 38).
+footnote_35: >
+  The low tempo CV measurements for the Stones tracks in Example 36 suggest the use of mechanical assistance, despite guitarist Keith Richards's vocal disapproval of the use of "hi-tech stuff" in the studio (Mattingly 1990, 21). For 1997's "Saint of Me," one of three Dust Brothers-produced tracks in Example 36, Watts played over a recording of a Roland TR-808 drum machine (Janovitz 2013, 363--364).
+
+## Figure Captions
+
+figure_1:
+  main_number: 
+  main_caption:    
+  figures:
+    - figure:
+        number: '1'
+        caption: >
+          (top) Waveform view of "Wild Horses" snare hit prior to drum isolation, including acoustic guitar and bass; (bottom) snare drum after drum isolation and placement of attack markers.
+        url: 'assets/articles/carter-von-appen/img/ex_1.png'
+        alt: 'Test'
+        border: false
+        scale: .8
+figure_2:
+  main_number: 
+  main_caption:    
+  figures:
+    - figure:
+        number: '2'
+        caption: >
+          Calculation of deviation from average beat length in the current bar (analyzing "Wild Horses," 5:24--5:27); values rounded for demonstration.
+        url: 'assets/articles/carter-von-appen/img/ex_2.png'
+        alt: 'Test'
+        border: true
+        scale: .7
+figure_3:
+  main_number: 
+  main_caption:    
+  figures:
+    - figure:
+        number: '3'
+        caption: >
+          Calculation of deviation from average beat length in the previous bar (analyzing "Wild Horses," 5:24--5:27); values rounded for demonstration.
+        url: 'assets/articles/carter-von-appen/img/ex_3.png'
+        alt: 'Test'
+        border: true
+        scale: .7
+figure_4:
+  main_number: 
+  main_caption:    
+  figures:
+    - figure:
+        number: '4'
+        caption: >
+          Accumulated delay in relation to the downbeat (analyzing a bar from "Wild Horses," 5:14--5:18). Assuming a constant tempo and delayed backbeats, interonset intervals from 2 to 3 and 4 to 1 must be negative (left); because beat 2 is delayed more than beat 3 is early, beat 3 may also be perceived as late (right).
+        url: 'assets/articles/carter-von-appen/img/ex_4.png'
+        alt: 'Test'
+        border: false
+        scale: 1
+figure_5:
+  main_number: 
+  main_caption:    
+  figures:
+    - figure:
+        number: '5'
+        caption: >
+          Microtiming calculations for "Wild Horses," starting from 1:17 (listed "attack times" are offset).
+        url: 'assets/articles/carter-von-appen/img/ex_5.png'
+        alt: 'Test'
+        border: false
+        scale: 1
+figure_6:
+  main_number: 
+  main_caption:    
+  figures:
+    - figure:
+        number: '6'
+        caption: >
+          Distribution by decade of the 62 Rolling Stones studio recordings analyzed for microtiming, including the total number of studio albums the band released in each decade (excluding albums prior to 1968 that were duplicates created for an alternate market).
+        url: 'assets/articles/carter-von-appen/img/ex_6.png'
+        alt: 'Test'
+        border: false
+        scale: .9
+figure_7:
+  main_number: 
+  main_caption:    
+  figures:
+    - figure:
+        number: '7'
+        caption: >
+          Distribution by decade of the 59 recordings by other artists analyzed for microtiming.
+        url: 'assets/articles/carter-von-appen/img/ex_7.png'
+        alt: 'Test'
+        border: false
+        scale: .9
+figure_8:
+  main_number: 
+  main_caption:    
+  figures:
+    - figure:
+        number: '8'
+        caption: >
+          Percentage of Rolling Stones songs by era that have at least 40 percent of their backbeat attacks delayed at least 2.5 percent of mean IOI. The ratio above each bar indicates the number of songs meeting this standard versus the total number of songs analyzed from that era.
+        url: 'assets/articles/carter-von-appen/img/ex_8.png'
+        alt: 'Test'
+        border: false
+        scale: .9
+figure_9:
+  main_number: 
+  main_caption:    
+  figures:
+    - figure:
+        number: '9'
+        caption: >
+          The 19 Rolling Stones studio recordings with the greatest percentage of beat 2 attacks delayed at least 2.5 percent of mean IOI ("Bt. 2 JND Late %"). The "Bt. 2 % of IOI" translates the raw beat 2 mean delay number into a percentage of the mean IOI for the song. The *p*-values for beat 2 deviation means are the result of two-sided one-sample *t*-tests with a null hypothesis of a mean of zero; "*n*" indicates the number of beat two attacks analyzed in the song.
+        url: 'assets/articles/carter-von-appen/img/ex_9.png'
+        alt: 'Test'
+        border: false
+        scale: 1
+figure_10:
+  main_number: 
+  main_caption:    
+  figures:
+    - figure:
+        number: '10'
+        caption: >
+          Comparison of the microtiming means for analyzed Rolling Stones songs in the 1967--73 period with those outside of this period. "Bt. 2 % of IOI" and "Bt. 4 % of IOI" translate the mean beat 2 deviation into a percentage of mean beat length; "#m." indicates the mean number of measures analyzed in the songs. Comparing the data in these two time periods, *p* \< .001 for both Bt. 2 JND Late % and for Bt. 2 % of IOI.
+        url: 'assets/articles/carter-von-appen/img/ex_10.png'
+        alt: 'Test'
+        border: false
+        scale: 1
+figure_11:
+  main_number: 
+  main_caption:    
+  figures:
+    - figure:
+        number: '11'
+        caption: >
+          The 13 analyzed Rolling Stones studio recordings with a mean beat 2 delay of at least 2.5 percent of the average beat length (accumulated delay; expected attacks determined by tempo of previous bar), ordered by highest percentage of beat 2 attacks that are delayed at least 2.5 percent of mean IOI; "*n*" indicates the number of beat 2 locations analyzed. "Bt. 2 % of IOI" translates the raw beat 2 delay into a percentage of the mean beat length. "Bt. 2 *p*" compares the mean beat 2 delay with 0.
+        url: 'assets/articles/carter-von-appen/img/ex_11.png'
+        alt: 'Test'
+        border: false
+        scale: 1
+figure_12:
+  main_number: 
+  main_caption:    
+  figures:
+    - figure:
+        number: '12'
+        caption: >
+          Primary kick drum patterns in "2000 Light Years from Home" and "Monkey Man."
+        url: 'assets/articles/carter-von-appen/img/ex_12.png'
+        alt: 'Test'
+        border: false
+        scale: .8
+figure_13:
+  main_number: 
+  main_caption:    
+  figures:
+    - figure:
+        number: '13'
+        caption: >
+          Deviation in "Monkey Man" of beat 2 from expected position based on average beat length in the previous bar (audio example, 0:50--1:50).
+        url: 'assets/articles/carter-von-appen/img/ex_13.png'
+        alt: 'Test'
+        border: false
+        scale: 1
+figure_14:
+  main_number: 
+  main_caption:    
+  figures:
+    - figure:
+        number: '14'
+        caption: >
+          Deviation of beat 2 from expected position (based on average beat length in the previous bar) in the first four minutes of "Let It Loose." Gaps in the graph indicate no drum part at that moment (audio example, 2:25--3:23).
+        url: 'assets/articles/carter-von-appen/img/ex_14.png'
+        alt: 'Test'
+        border: false
+        scale: .8
+figure_15:
+  main_number: 
+  main_caption:    
+  figures:
+    - figure:
+        number: '15'
+        caption: >
+          Microtiming in 19 Rolling Stones live recordings, ordered by percentage of beat 2 attacks that are 2.5% or more of the mean IOI late. The "Beat 2 JND Early" and "Late" percentages refer to the frequency of deviations that are 2.5% of the average IOI or larger. "Bt. 2 %" translates the raw beat 2 delay into a percentage of the mean IOI for the song; "*n*" refers to the number of beat 2 attacks analyzed. The *p*-value is the result of a one-sample *t* test with a null hypothesis that the beat 2 mean deviation is 0. (For *p*-values less than .05, the mean beat 2 and 4 delay is in bold.)
+        url: 'assets/articles/carter-von-appen/img/ex_15.png'
+        alt: 'Test'
+        border: false
+        scale: 1
+figure_16:
+  main_number: 
+  main_caption:    
+  figures:
+    - figure:
+        number: '16'
+        caption: >
+          Comparison of microtiming means in other drummers and in Charlie Watts. "Bt. JND Early %" and "Late" refer to the mean percentage of second or fourth beats that are at least 2.5 percent of mean IOI early or late. "Bt. 2 %" translates mean beat 2 deviation into a percentage of mean beat length; "#m." indicates the mean number of second beats analyzed in the songs.
+        url: 'assets/articles/carter-von-appen/img/ex_16.png'
+        alt: 'Test'
+        border: false
+        scale: 1
+figure_17:
+  main_number: 
+  main_caption:    
+  figures:
+    - figure:
+        number: '17'
+        caption: >
+          Songs by other artists with the largest percentage of beat 2 attacks that are delayed at least 2.5 percent of the average IOI, sorted by percentage of delayed attacks meeting that standard. "Bt. %" translates raw beat delay into a percentage of the mean beat length. The *p*-values for beat 2 deviation means are the result of two-sided one-sample *t*-tests as compared to a null hypothesis value of zero; *n* indicates the number of beat 2 attacks analyzed in the song.
+        url: 'assets/articles/carter-von-appen/img/ex_17.png'
+        alt: 'Test'
+        border: false
+        scale: 1
+figure_18:
+  main_number: 
+  main_caption:    
+  figures:
+    - figure:
+        number: '18'
+        caption: >
+          Comparison of microtiming means in other drummers and in Charlie Watts (all years). "Bt. 2 JND Early %" and "Late" refer to the mean percentage of second beats that are at least 2.5 percent of mean IOI early or late. "Bt. 2 % of IOI" translates mean beat 2 deviation into a percentage of mean beat length; "#m." indicates the mean number of second beats analyzed in the songs.
+        url: 'assets/articles/carter-von-appen/img/ex_18.png'
+        alt: 'Test'
+        border: false
+        scale: 1
+figure_19:
+  main_number: 
+  main_caption:    
+  figures:
+    - figure:
+        number: '19'
+        caption: >
+          A tempo map in Melodyne.
+        url: 'assets/articles/carter-von-appen/img/ex_19.png'
+        alt: 'Test'
+        border: false
+        scale: 1
+figure_20:
+  main_number: 
+  main_caption:    
+  figures:
+    - figure:
+        number: '20'
+        caption: >
+          Distribution by decade of the 133 Rolling Stones studio recordings with Charlie Watts analyzed for tempo variability, including the total number of studio albums the band released in each decade (excluding albums prior to 1968 that were duplicates created for an alternate market).
+        url: 'assets/articles/carter-von-appen/img/ex_20.png'
+        alt: 'Test'
+        border: false
+        scale: .9
+figure_21:
+  main_number: 
+  main_caption:    
+  figures:
+    - figure:
+        number: '21'
+        caption: >
+          Tempo map for "Terrifying" (1989), showing a relatively flat line (Low: 142 BPM; High: 145 BPM; Range: 2%).
+        url: 'assets/articles/carter-von-appen/img/ex_21.png'
+        alt: 'Test'
+        border: false
+        scale: 1
+figure_22:
+  main_number: 
+  main_caption:    
+  figures:
+    - figure:
+        number: '22'
+        caption: >
+          Tempo map of "Sweet Virginia" (1972), illustrating a pronounced early acceleration followed by relative steadiness afterwards (audio example, 0:00--0:55).
+        url: 'assets/articles/carter-von-appen/img/ex_22.png'
+        alt: 'Test'
+        border: false
+        scale: 1
+figure_23:
+  main_number: 
+  main_caption:    
+  figures:
+    - figure:
+        number: '23'
+        caption: >
+          Tempo map for "You Got the Silver" (audio example, 1:25--2:15).
+        url: 'assets/articles/carter-von-appen/img/ex_23.png'
+        alt: 'Test'
+        border: false
+        scale: 1
+figure_24:
+  main_number: 
+  main_caption:    
+  figures:
+    - figure:
+        number: '24'
+        caption: >
+          Tempo map of the Rolling Stones' cover of "You Can Make It If You Try" (1964), illustrating sectional acceleration in an AABA form.
+        url: 'assets/articles/carter-von-appen/img/ex_24.png'
+        alt: 'Test'
+        border: false
+        scale: 1
+figure_25:
+  main_number: 
+  main_caption:    
+  figures:
+    - figure:
+        number: '25'
+        caption: >
+          Tempo map of "Shine a Light" (1972; Jimmy Miller on drums), illustrating a slowing of tempo from 85 BPM to 73 BPM followed by a gradual rebuild.
+        url: 'assets/articles/carter-von-appen/img/ex_25.png'
+        alt: 'Test'
+        border: false
+        scale: 1
+figure_26:
+  main_number: 
+  main_caption:    
+  figures:
+    - figure:
+        number: '26'
+        caption: >
+          Tempo map for the Rolling Stones' 2004 live recording of "Start Me Up" (*Live Licks*, 2004), illustrating tempo acceleration during drum fills.
+        url: 'assets/articles/carter-von-appen/img/ex_26.png'
+        alt: 'Test'
+        border: false
+        scale: 1
+figure_27:
+  main_number: 
+  main_caption:    
+  figures:
+    - figure:
+        number: '27'
+        caption: >
+          Tempo map of the Rolling Stones' "Monkey Man" (audio example, 2:25--3:18).
+        url: 'assets/articles/carter-von-appen/img/ex_27.png'
+        alt: 'Test'
+        border: false
+        scale: 1
+figure_28:
+  main_number: 
+  main_caption:    
+  figures:
+    - figure:
+        number: '28'
+        caption: >
+          The Rolling Stones studio tracks with the largest accelerations, calculated as a percentage increase from the slowest to the fastest tempo in the song.
+        url: 'assets/articles/carter-von-appen/img/ex_28.png'
+        alt: 'Test'
+        border: false
+        scale: .5
+figure_29:
+  main_number: 
+  main_caption:    
+  figures:
+    - figure:
+        number: '29'
+        caption: >
+          Distribution by decade of 154 recordings with other drummers (excluding the *Billboard* Top 10 sample) analyzed for tempo variability (CV).
+        url: 'assets/articles/carter-von-appen/img/ex_29.png'
+        alt: 'Test'
+        border: false
+        scale: .9
+figure_30:
+  main_number: 
+  main_caption:    
+  figures:
+    - figure:
+        number: '30'
+        caption: >
+          Tempo CV measurements of Rolling Stones songs with Watts by year, showing division into three periods.
+        url: 'assets/articles/carter-von-appen/img/ex_30.png'
+        alt: 'Test'
+        border: false
+        scale: 1
+figure_31:
+  main_number: 
+  main_caption:    
+  figures:
+    - figure:
+        number: '31'
+        caption: >
+          The 13 Rolling Stones songs on which Charlie Watts played with the highest tempo CV measurements found for the band. Songs with substantial passages without drums or percussion are in gray on the list.
+        url: 'assets/articles/carter-von-appen/img/ex_31.png'
+        alt: 'Test'
+        border: false
+        scale: 1
+figure_32:
+  main_number: 
+  main_caption:    
+  figures:
+    - figure:
+        number: '32'
+        caption: >
+          Tempo CV for Rolling Stones ballads (high) and dance tracks (disco, funk, and Caribbean; low).
+        url: 'assets/articles/carter-von-appen/img/ex_32.png'
+        alt: 'Test'
+        border: false
+        scale: .9
+figure_33:
+  main_number: 
+  main_caption:    
+  figures:
+    - figure:
+        number: '33'
+        caption: >
+          The 23 tracks on the Rolling Stones' 2022 live album *Live at the El Mocambo*, recorded in March 1977 in Toronto, ordered by greatest percentage increase in tempo from the start to the end of the song.
+        url: 'assets/articles/carter-von-appen/img/ex_33.png'
+        alt: 'Test'
+        border: false
+        scale: .8
+figure_34:
+  main_number: 
+  main_caption:    
+  figures:
+    - figure:
+        number: '34'
+        caption: >
+          Tempo CV measurements for 28 Rolling Stones live tracks, ordered by year of recording. The five 2023 tracks were performed after Watts's death, with Steve Jordan on drums.
+        url: 'assets/articles/carter-von-appen/img/ex_34.png'
+        alt: 'Test'
+        border: false
+        scale: .8
+figure_35:
+  main_number: 
+  main_caption:    
+  figures:
+    - figure:
+        number: '35'
+        caption: >
+          Comparison of Rolling Stones tempo variability (overall mean CV = 1.62; songs on which Charlie Watts drummed only) with that of the year-end *Billboard* Top 10 (overall mean CV = 0.90) over time. Comparing the overall means of the two corpora (using a two-sample *t*-test), *p* \< .001.
+        url: 'assets/articles/carter-von-appen/img/ex_35.png'
+        alt: 'Test'
+        border: false
+        scale: .8
+figure_36:
+  main_number: 
+  main_caption:    
+  figures:
+    - figure:
+        number: '36'
+        caption: >
+          The six analyzed Rolling Stones songs with a tempo CV of less than 0.5.
+        url: 'assets/articles/carter-von-appen/img/ex_36.png'
+        alt: 'Test'
+        border: false
+        scale: .7
+
+app_figure_1:
+  main_number: 
+  main_caption:    
+  figures:
+    - figure:
+        number: '1'
+        caption: >
+          Microtiming in 62 Rolling Stones studio recordings, ordered by year of release. The beat 2 and beat 4 "JND Early" and "JND Late" percentages refer to the frequency of deviations of 2.5 percent of the average IOI or larger. "Bt. 2 % of IOI" translates the raw beat 2 delay into a percentage of the mean IOI for the song. The *p*-values for beat deviation means are the result of two-sided one-sample *t*-tests with a null hypothesis of a mean of zero. Red highlighting indicates beat 2 or 4 JND Early or Late percentages of 40 percent or greater; "*n*" refers to the number of second beat attacks analyzed for each song. \*The summary statistics at the bottom of the chart incorporate "Emotional Rescue" as a single song.
+        url: 'assets/articles/carter-von-appen/img/app_ex_1.png'
+        alt: 'Test'
+        border: false
+        scale: 1
+app_figure_2:
+  main_number: 
+  main_caption:    
+  figures:
+    - figure:
+        number: '2'
+        caption: >
+          Microtiming in other drummers (59 recordings), ordered by year of release of recording. The beat 2 and beat 4 "JND Early" and "JND Late" percentages refer to the frequency of deviations of 2.5 percent of the average IOI or larger. "Bt. 2 % of IOI" translates the raw beat 2 delay into a percentage of the mean IOI for the song. The *p*-values for beat deviation means are the result of two-sided one-sample *t*-tests with a null hypothesis of a mean of zero. Red highlighting indicates beat 2 or 4 JND Early or Late percentages of 40 percent or greater; "*n*" refers to the number of second beat attacks analyzed for each song. Three Rolling Stones songs with drummers other than Charlie Watts were also included.
+        url: 'assets/articles/carter-von-appen/img/app_ex_2.png'
+        alt: 'Test'
+        border: false
+        scale: 1
+app_figure_3:
+  main_number: 
+  main_caption:    
+  figures:
+    - figure:
+        number: '3'
+        caption: >
+          The 133 Rolling Stones studio recordings with Charlie Watts that were analyzed for tempo variability, shown with their tempo coefficient of variation (CV). Calculations exclude closing ritardandi, and songs in compound meter were analyzed in 12/8. Red shading indicates a tempo CV of 3.0 or higher, indicating great tempo variability; yellow shading indicates a tempo CV of less than 0.5, suggesting the use of a click track, drum machine, or looped sample. \*"Salt of the Earth" switches to a double-time feel in the outro; the tempo CV was calculated treating that portion as if the tactus had not changed.
+        url: 'assets/articles/carter-von-appen/img/app_ex_3.png'
+        alt: 'Test'
+        border: false
+        scale: 1
+app_figure_4:
+  main_number: 
+  main_caption:    
+  figures:
+    - figure:
+        number: '4'
+        caption: >
+          The 150 songs from year-end *Billboard* Top 10 rankings that were analyzed for tempo variability, shown with their tempo coefficient of variation (CV). Songs in compound meter have been analyzed in 12/8. Ending ritardandi are excluded from calculations.
+        url: 'assets/articles/carter-von-appen/img/app_ex_4.png'
+        alt: 'Test'
+        border: false
+        scale: 1
+app_figure_5:
+  main_number: 
+  main_caption:    
+  figures:
+    - figure:
+        number: '5'
+        caption: >
+          154 additional songs by other artists analyzed for tempo variability (CV). Songs in compound meter have been analyzed in 12/8. The table includes Rolling Stones songs on which Charlie Watts did not play drums. Closing ritardandi are excluded from calculations. \*"You Can't Always Get What You Want" switches to a double-time feel at the end of the outro; the tempo CV was calculated treating that portion as if the tactus had not changed.
+        url: 'assets/articles/carter-von-appen/img/app_ex_5.png'
+        alt: 'Test'
+        border: false
+        scale: 1
+
+## Works Cited
+
+citations:
+- name: Attas_2015
+  citation: >
+    Attas, Robin. 2015. "Form as Process: The Buildup Introduction in Popular Music." *Music Theory Spectrum* 37 (2): 275--296.
+- name: Bailes_2013
+  citation: >
+    Bailes, Freya, Roger T. Dean, and Marcus T. Pearce. 2013. "Music Cognition as Mental Time Travel." *Scientific Reports* 3 (1): 2690.
+- name: Baume_2013
+  citation: >
+    Baume, Chris. 2013. MIREX 2013 Onset Detection Submission: M4 Rhythmic Features. <https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=7d6b51bb9407e017616c3eae832348c0cd2af288>.
+- name: Baur_2020
+  citation: >
+    Baur, Steven. 2020. "'And the Drummer, He's So Shattered . . .': The Percussive Core of Beggars Banquet." In *Beggars Banquet and the Rolling Stones' Rock and Roll Revolution*, edited by Russell Reising, 26--40. New York: Routledge.
+- name: Beaumont-Thomas_2021
+  citation: >
+    Beaumont-Thomas, Ben. 2021. "'Not Just a Drummer---a Genre': Stewart Copeland and Max Weinberg on Charlie Watts." *The Guardian*, August 26. <https://www.theguardian.com/music/2021/aug/26/stewart-copeland-max-weinberg-on-charlie-watts-rolling-stones#.>
+- name: Benadon_2006
+  citation: >
+    Benadon, Fernando. 2006. "Slicing the Beat: Jazz Eighth-Notes as Expressive Microrhythm." *Ethnomusicology* 50 (1): 73--98.
+- name: Bowman_1995
+  citation: >
+    Bowman, Rob. 1995. "The Stax Sound: A Musicological Analysis." *Popular Music* 14 (3): 285--320.
+- name: Butterfield_2006
+  citation: >
+    Butterfield, Matthew W. 2006.(https://mtosmt.org/issues/mto.06.12.4/mto.06.12.4.butterfield.php#AUTHORNOTE1) 2006. "The Power of Anacrusis: Engendered Feeling in Groove-Based Musics." *Music Theory Online* 12 (4). <https://mtosmt.org/issues/mto.06.12.4/mto.06.12.4.butterfield.html>.
+- name: Butterfield_2007
+  citation: >
+    Butterfield, Matthew W. 2007. "Response to Fernando Benadon." *Music Theory Online* 13 (3). <https://mtosmt.org/issues/mto.07.13.3/mto.07.13.3.butterfield.html>.
+- name: Butterfield_2010
+  citation: >
+    Butterfield, Matthew W. 2010. "Participatory Discrepancies and the Perception of Beats in Jazz." *Music Perception* 27 (3): 157--176.
+- name: Câmara_2021
+  citation: >
+    Câmara, Guilherme Schmidt. 2021. "Timing Is Everything . . . Or Is It? Investigating Timing and Sound Interactions in the Performance of Groove-Based Microrhythm." PhD diss., University of Oslo.
+- name: Câmara_2020
+  citation: >
+    Câmara, Guilherme Schmidt, Kristian Nymoen, Olivier Lartillot, and Anne Danielsen. "Timing Is Everything . . . Or Is It? Effects of Instructed Timing Style, Reference, and Pattern on Drum Kit Sound in Groove-Based Performance." 2020. *Music Perception* 38 (1): 1--26.
+- name: Coffman_2023
+  citation: >
+    Coffman, Tim. 2023. "The Classic Nirvana Song That Forced Dave Grohl to Use a Click Track." *Far Out Magazine*, May 13.
+- name: Condit-Schultz_2024
+  citation: >
+    Condit-Schultz, Nathaniel, and Beach Clark. 2024. "Have We Sold Our Souls to the Drum Machine? A Historical Analysis of Tempo Stability in Western Music Recordings." *Musicae Scientiae* 28 (3): 451--477.
+- name: Covach_2018
+  citation: >
+    Covach, John, and Andrew Flory. 2018. *What's That Sound?: An Introduction to Rock and Its History*. Fifth Edition. New York: W. W. Norton & Company.
+- name: Danielsen_2006
+  citation: >
+    Danielsen, Anne. 2006. *Presence and Pleasure: The Funk Grooves of James Brown and Parliament.* Middletown: Wesleyan University Press.
+- name: Danielsen_2015
+  citation: >
+    Danielsen, Anne, Carl Haakon Waadeland, Henrik G. Sundt, and Maria AG Witek. 2015. "Effects of Instructed Timing and Tempo on Snare Drum Sound in Drum Kit Performance." *The Journal of the Acoustical Society of America* 138 (4): 2301--2316.
+- name: Danielsen_2019
+  citation: >
+    Danielsen, Anne, Kristian Nymoen, Evan Anderson, Guilherme Schmidt Câmara, Martin Torvik Langerød, Marc R. Thompson, and Justin London. 2019. "Where Is the Beat in That Note? Effects of Attack, Duration and Frequency on the Perceived Timing of Musical and Quasi-Musical Sounds." *Journal of Experimental Psychology: Human Perception and Performance* 45: 402--418.
+- name: Davies_2012
+  citation: >
+    Davies, Matthew, Guy Madison, Pedro Silva, and Fabien Gouyon. 2012. "The Effect of Microtiming Deviations on the Perception of Groove in Short Rhythms." *Music Perception* 30 (5): 497--510.
+- name: Dixon_2001
+  citation: >
+    Dixon, Simon. 2001. "An Interactive Beat Tracking and Visualisation System." In *Proceedings of the International Computer Music Conference,* Havana, Cuba: 215--218.
+- name: Dixon_2007
+  citation: >
+    Dixon, Simon. 2007. "Evaluation of the Audio Beat Tracking System BeatRoot." *Journal of New Music Research* 36 (1): 39--50.
+- name: Dodson_2011
+  citation: >
+    Dodson, Alan. 2011. "Expressive Asynchrony in a Recording of Chopin's Prelude No. 6 in B Minor by Vladimir de Pachmann." *Music Theory Spectrum* 33 (1): 59--64.
+- name: Frane_2017
+  citation: >
+    Frane, Andrew V. 2017. "Swing Rhythm in Classic Drum Breaks from Hip-Hop's Breakbeat Canon." *Music Perception* 34 (3): 291--302.
+- name: Frane_2017
+  citation: >
+    Frane, Andrew V., and Ladan Shams. 2017. "Effects of Tempo, Swing Density, and Listener's Drumming Experience, on Swing Detection Thresholds for Drum Rhythms." *The Journal of the Acoustical Society of America* 141 (6): 4200--4208.
+- name: Freeman_2022
+  citation: >
+    Freeman, Peter, and Lachman Lacey. 2002. "Swing and Groove: Contextual Rhythmic Nuance in Live Performance." In *Proceedings of the 7th International Conference on Music Perception and Cognition, Sydney*, edited by Catherine J. Stevens, Denis K. Burnham, Gary McPherson, Emery Schubert, and James Renwick, 548--550. Adelaide: Causal.
+- name: Friberg_1995
+  citation: >
+    Friberg, Anders, and Johan Sundberg. 1995. "Time Discrimination in a Monotonic, Isochronous Sequence." *The Journal of the Acoustical Society of America* 98 (5): 2524--2531.
+- name: Hellmer_2015
+  citation: >
+    Hellmer, Kahl, and Guy Madison. 2015. "Quantifying Microtiming Patterning and Variability in Drum Kit Recordings: A Method and Some Data." *Music Perception* 33 (2): 147--162.
+- name: Hennequin_2020
+  citation: >
+    Hennequin, Romain, Anis Khlif, Felix Voituret, and Manuel Moussallam. 2020. "Spleeter: A Fast and Efficient Music Source Separation Tool with Pre-Trained Models." *Journal of Open Source Software* 5 (50): 2154.
+- name: Hepworth_2021
+  citation: >
+    Hepworth, David. 2021. "Charlie Watts's Style of Playing Would Make Drum Machines Weep." *The Times*, August 25. <https://www.thetimes.co.uk/article/charlie-watts-tribute-the-sort-of-playing-that-would-make-drum-machines-weep-w3rkbcvgs>.
+- name: Hesselink_2023
+  citation: >
+    Hesselink, Nathan. 2023. *Finding the Beat: Entrainment, Rhythmic Play, and Social Meaning in Rock Music*. New York: Bloomsbury Academic.
+- name: Hofmann_2017
+  citation: >
+    Hofmann, Alex, Brian C. Wesolowski, and Werner Goebl[.]{.mark} 2017. ["]{.mark}The Tight-Interlocked Rhythm Section: Production and Perception of Synchronisation in Jazz Trio Performance." []{.mark}*Journal of New Music Research* []{.mark}46 (4): []{.mark}329--341.
+- name: Hosken_2021
+  citation: >
+    Hosken, Fred. 2021. "Characterizing a Signature Metric 'Feel': The Stax Sound." Presentation at the Society for Music Theory Annual Meeting, held online, November 4. <https://osf.io/8apxs>.
+- name: Hove_2007
+  citation: >
+    Hove, Michael J., Peter E. Keller, and Carol L. Krumhansl. 2007. "Sensorimotor Synchronization with Chords Containing Tone-Onset Asynchronies." *Perception & Psychophysics* 69 (5): 699--708.
+- name: Huron_2006
+  citation: >
+    Huron, David. 2006. *Sweet Anticipation: Music and the Psychology of Expectation*. Cambridge: MIT Press.
+- name: Iyer_2002
+  citation: >
+    Iyer, Vijay. 2002. "Embodied Mind, Situated Cognition, and Expressive Microtiming in African-American Music." *Music Perception* 19 (3): 387--414.
+- name: Janovitz_2013
+  citation: >
+    Janovitz, Bill. 2013. *Rocks Off: 50 Tracks that Tell the Story of the Rolling Stones*. New York: St. Martin's Press.
+- name: Keil_1987
+  citation: >
+    Keil, Charles. 1987. "Participatory Discrepancies and the Power of Music." *Cultural Anthropology* 2 (3): 275--283.
+- name: Kilchenmann_2015
+  citation: >
+    Kilchenmann, Lorenz, and Olivier Senn. 2015. "Microtiming in Swing and Funk Affects the Body Movement Behavior of Music Expert Listeners." *Frontiers in Psychology* 6: 1232.
+- name: LeRoy_2023
+  citation: >
+    LeRoy, Dan. 2023. *Dancing to the Drum Machine: How Electronic Percussion Conquered the World.* New York: Bloomsbury.
+- name: Madison_2022
+  citation: >
+    Madison, Guy, and Björn Merker. 2002. "On the Limits of Anisochrony in Pulse Attribution." *Psychological Research* 66: 201--207.
+- name: Madison_2004
+  citation: >
+    Madison, Guy, and Björn Merker. 2004. "Human Sensorimotor Tracking of Continuous Subliminal Deviations from Isochrony." *Neuroscience Letters* 370 (1): 69--73.
+- name: Madison_2011
+  citation: >
+    Madison, Guy, Fabien Gouyon, Fredrik Ullén, and Kalle Hörnström. 2011. "Modeling the Tendency for Music to Induce Movement in Humans: First Correlations with Low-Level Audio Descriptors Across Music Genres." *Journal of Experimental Psychology: Human Perception and Performance* 37 (5): 1578.
+- name: Mattingly_1990
+  citation: >
+    Mattingly, Rick. 1990. "Charlie Watts." *Modern Drummer*, February.
+- name: McCormick_2012
+  citation: >
+    McCormick, Neil. 2012. "Rolling Stones: One More Shot, Review." *The Telegraph*, November 8. <https://www.telegraph.co.uk/culture/music/rolling-stones/9663741/Rolling-Stones-One-More-Shot-review.html>.
+- name: Merker_2009
+  citation: >
+    Merker, Bjorn H., Guy S. Madison, and Patricia Eckerdal. 2009. "On the Role and Origin of Isochrony in Human Rhythmic Entrainment." *Cortex* 45 (1): 4--17.
+- name: Miller_1994
+  citation: >
+    Miller, William F. 1994. "John Robinson: Going for the Throat." *Modern Drummer*, November.
+- name: Nelias_2022
+  citation: >
+    Nelias, Corentin, Eva Marit Sturm, Thorsten Albrecht, York Hagmayer, and Theo Geisel. 2022. "Downbeat Delays Are a Key Component of Swing in Jazz." *Communications Physics* 5 (1): 237.
+- name: Pang_2019
+  citation: >
+    Pang, Keagan. 2019. "Deezer's Spleeter: Deconstructing Music with AI." Digital Innovation and Transformation: MBA Student Perspectives. Harvard Business School, November 25. <https://d3.harvard.edu/platform-digit/submission/deezers-spleeter-deconstructing-music-with-ai/>.
+- name: Pareles_2023
+  citation: >
+    Pareles, Jon. 2023. "The Rolling Stones on Starting Up Again." *The New York Times,* September 14. <https://www.nytimes.com/2023/09/14/arts/music/rolling-stones-hackney-diamonds.html>.
+- name: Polfreman_2013
+  citation: >
+    Polfreman, Richard. 2013. "Comparing Onset Detection & Perceptual Attack Time." In *Proceedings of the 14th International Society for Music Information Retrieval Conference (ISMIR 2013),* edited by Alceu de Souza Britto Junior, Fabien Gouyon, and Simon Dixon, 523--8. Curitiba: International Society for Music Information Retrieval.
+- name: Räsänen_2015
+  citation: >
+    Räsänen, Esa, Otto Pulkkinen, Tuomas Virtanen, Manfred Zollner, and Holger Hennig. 2015. "Fluctuations of Hi-Hat Timing and Dynamics in a Virtuoso Drum Track of a Popular Music Recording." *PLoS One* 10 (6). <https://doi.org/10.1371/journal.pone.0127902>.
+- name: Repp_1995
+  citation: >
+    Repp, Bruno H. 1995. "Quantitative Effects of Global Tempo on Expressive Timing in Music Performance: Some Perceptual Evidence." *Music Perception* 13 (1): 39--57.
+- name: Richards_2010
+  citation: >
+    Richards, Keith, with James Fox. 2010. *Life.* New York: Little, Brown and Company.
+- name: Roessner_2017
+  citation: >
+    Roessner, Stephen F. 2017. "The Beat Goes Static: A Tempo Analysis of US Billboard Hot 100 #1 Songs from 1955--2015." In *Proceedings of the* *Audio Engineering Society Convention 143.* Audio Engineering Society.
+- name: Stones_2022
+  citation: >
+    The Rolling Stones. 2022. "Rolling Stones 'I Got The Blues' Sticky Fingers Fonda Theatre CA USA 2015 HD." Amazing Kalifha's Channel, July 23. YouTube video, 4:30. https://www.youtube.com/watch?v=HpUEfMXpf20.
+- name: Schreiber_2020
+  citation: >
+    Schreiber, Hendrik. 2020. "Data-Driven Approaches for Tempo and Key Estimation of Music Recordings*.*" PhD diss., Friedrich-Alexander-Universität Erlangen-Nürnberg.
+- name: Senn_2023
+  citation: >
+    Senn, Olivier. 2023. "Revisiting Charles Keil: Commentary on Câmara et al. (2023)." *Empirical Musicology Review* 18 (1): 37--41.
+- name: Senn_2017
+  citation: >
+    Senn, Olivier, Claudia Bullerjahn, Lorenz Kilchenmann, and Richard von Georgi. 2017. "Rhythmic Density Affects Listeners' Emotional Response to Microtiming." *Frontiers in Psychology* 8: 1709.
+- name: Senn_2012
+  citation: >
+    Senn, Olivier, Lorenz Kilchenmann, and Marc-Antoine Camp. 2012. "A Turbulent Acceleration into the Stretto: Martha Argerich Plays Chopin's Prelude Op. 28/4 in E Minor." *Dissonance* 120: 31--35.
+- name: 2016
+  citation: >
+    Senn, Olivier, Lorenz Kilchenmann, Richard Von Georgi, and Claudia Bullerjahn. 2016. "The Effect of Expert Performance Microtiming on Listeners' Experience of Groove in Swing or Funk Music." *Frontiers in Psychology* 7: 1487.
+- name: Smialek_2020
+  citation: >
+    Smialek, Eric. 2020. "The Myth of the Delayed Backbeat in Southern Soul: Discourses of Rhythmic, Corporeal, and Racial Authenticity." Poster presented at the Society for American Music Annual Meeting, held online, July 17. <https://www.dropbox.com/s/7mj4lnt0s7isqx4/6E_SmialekEric_Poster.PDF?dl=0>.
+- name: Troes_2017
+  citation: >
+    Troes, Tessy. 2017. "Measuring Groove: A Computational Analysis of Timing and Dynamics in Drum Recordings." Master's thesis, Universitat Pompeu Fabra. <https://zenodo.org/record/3770023/files/2017-TessyTroes.pdf>.
+- name: Ward_2018
+  citation: >
+    Ward, David. 2018. "Darryl Jones on Charlie Watts." Musicians on the Record, April 20. YouTube video, 2:33. <https://www.youtube.com/watch?v=3jQJUQda590>.

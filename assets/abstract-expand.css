@@ -1,0 +1,21 @@
+.abstract-full {
+  display: none;
+}
+
+.abstract-full.visible {
+  display: block;
+}
+
+.read-more, .read-less {
+  cursor: pointer;
+  color: blue;
+}
+
+.arrow {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.arrow.rotate-up {
+  transform: rotate(180deg);
+}

@@ -2,43 +2,42 @@
 layout: default
 ---
 
-	{% include toc.html %} 
 
 <div class="title-author-wrapper">
-		<h1> {{ page.title}}</h1>
-
-{% for book in page.reviewed %}
-      <div class="reviewed-book">
-		  <h2><em>{{ book.title}}</em></h2>
-		  <p>{{ book.author }}<br>{{ book.publisher }}</p>
-	</div>
+	<h1> {{ page.title}}</h1>
+    {% for book in page.reviewed %}
+<div class="reviewed-book">
+	<h2><em>{{ book.title}}</em></h2>
+	<p>{{ book.author }}<br>{{ book.publisher }}</p>
+</div>
 	{% endfor %}
-      
+</div>
+	{% include toc.html %} 
+
+<div class="abstract-wrapper">
+    
 	{%- if page.author -%}
 <p class="author">
-    <span class="author-name">Reviewed by <a href=#{{page.short-name}}>{{ page.author }}</a></span>
+    <a href=#{{page.short-name}}><span class="author-name">Reviewed by {{ page.author }}</span></a>
+    		{% include marginnote.html marginnote_number='0' footnote_text=page.author-info-short%}
 </p>
 	{%- endif -%}
-</div>
-
-
-{%- if page.abstract -%}
-<div class="abstract-wrapper">
+	
+    {%- if page.abstract -%}
   <abstract>
     {{ page.abstract }}<br><br>
   </abstract>
     <hr>
     <hr>
-{%- endif -%}  
+    {%- endif -%}  
 </div>
 
 <article class="main-article">
   {{ content }}</section>
 
-<div class="author-bio" id="{{page.short-name}}"> 
-		<hr style="color: #6d6360;">
-    <span>{{ page.author-info }}</span>
-  <hr style="color: #6d6360;">
+<div class="author-bio" id="{{page.short-name}}-full-bio"> 
+		<hr style="color: #6d6360;"><hr style="color: #6d6360;"><br>
+    <span>{{ page.author-info-long }}</span>
 </div>
 
 <section id="works-cited" markdown="1" >

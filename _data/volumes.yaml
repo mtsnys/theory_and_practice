@@ -1,0 +1,16 @@
+volumes:
+  - id: "vol47-48"
+    name: "Volume 47-48 (2024)"
+    editors:
+      - name: "Trevor de Clercq"
+      - name: "Kyle Hutchinson"
+    reviews_editor:
+      name: "Daphne Tan"
+
+  - id: "vol49-50"
+    name: "Volume 49-50 (2025)"
+    editors:
+      - name: "Trevor de Clercq"
+      - name: "Kyle Hutchinson"
+    reviews_editor:
+      name: "Daphne Tan"

@@ -2,6 +2,8 @@
 /* Import ET Book styles
    adapted from https://github.com/edwardtufte/et-book/blob/gh-pages/et-book.css */
 
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&display=swap');
+
 @font-face {
 	font-family: "et-book";
 	src: url("serif/et-book-roman-line-figures/et-book-roman-line-figures.eot");
@@ -104,9 +106,10 @@ body {
 /* Remove or modify conflicting styles for header elements (h1, h2, etc.) */
 
 header h1, header h2, header h3, header a {
-	font-family: "trade-gothic-lt", sans-serif;
+	font-family: "trade-gothic-lt","Alexandria" sans-serif;
 	/* Your font for header text */
 	/* Add other styles as needed */
+	text-decoration: none;
 }
 /* Mobile Menu (add these styles) */
 
@@ -139,7 +142,8 @@ header h1, header h2, header h3, header a {
 }
 
 .title-author-wrapper h1 {
-    font-family: trade-gothic-lt-bold-ext;
+    font-family: trade-gothic-lt-bold-ext, 'Alexandria';
+    font-weight: 500;
 }
 
 .abstract-wrapper {
@@ -211,7 +215,7 @@ h1 {
 	}
 }
 h2 {
-	font-family: trade-gothic-lt-bold-ext;
+	font-family: trade-gothic-lt-bold-ext, "Alexandria";
 	font-weight: 400;
 	margin-top: 2.1rem;
 	margin-bottom: 1.4rem;
@@ -370,9 +374,10 @@ article.main-article section p {
 
 abstract {
 	padding-top: 1rem;
-	font-family: trade-gothic-lt;
+	font-family: trade-gothic-lt, 'Alexandria';
 	text-align: justify;
 	display: block;
+	font-weight: 300;
 }
 abstract>p {
 	font-size: 1.2rem;
@@ -388,7 +393,7 @@ div header.toc {
     padding: 0;
     float: right;
     clear: right;
-/* 
+    /* 
     margin-right: -20vw;
  */
     width: 16vw;
@@ -396,6 +401,7 @@ div header.toc {
     line-height: 1.3;
     font-size: .87rem;
     vertical-align: baseline;
+    margin-top: 4.35em;
 }
 
 
@@ -407,8 +413,9 @@ div header.toc {
 
 
 .toc nav ul>li {
-    font-family: trade-gothic-lt;
+    font-family: trade-gothic-lt, "Alexandria";
     font-size: 1rem;
+	font-weight: 300;
     margin-bottom: 1rem;
     list-style: none;
     		color: #6d6360;
@@ -434,9 +441,9 @@ div header.toc {
 
 .toc a.active {
     text-decoration: none;
-    font-family: trade-gothic-lt-bold;
+    font-family: trade-gothic-lt-bold, 'Alexandria';
     font-size: 1.2rem;
-
+    font-weight: 400;
     }
     
 @media (max-width: 1024px) and (orientation: portrait) { /* Adjust the breakpoint as needed */
@@ -508,13 +515,13 @@ header {
 	/* Adjust as needed */
 	margin: 0 auto;
 	/* Center the header */
-}
 .header-content {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	/* Space elements evenly */
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Space logo and nav */
+  /* Space elements evenly */
 }
+
 header a:link {
 	color: black;
 	/* Or your preferred color for unvisited links */
@@ -525,6 +532,13 @@ header a:visited {
 	/* Or the same color as unvisited links if you don't want a distinction */
 	text-decoration: none;
 }
+
+header select {
+    font-family: "trade-gothic-lt", sans-serif;
+	font-size: 17px;
+	border: none;
+}
+
 /* Logo styling */
 
 .logo {
@@ -552,9 +566,9 @@ header a:visited {
 
 
 .row3 {
-  font-size: 1em;
-  font-family: "trade-gothic-lt", sans-serif;
-
+  font-size: 1.3em;
+  font-family: "trade-gothic-l", sans-serif;
+  line-height: 2em;
 }
 
 
@@ -583,7 +597,7 @@ nav ul {
 	margin: 0;
 	padding: 0;
 	display: flex;
-	font-size: 17px;
+	font-size: 1.2rem;
 	align-items: center;
 }
 nav li {
@@ -612,8 +626,8 @@ nav.desktop-nav .nav-grid {
   grid-template-columns: repeat(3, .5fr); /* Three columns on larger screens */
   gap: 20px; /* Adjust gap as needed */
   align-items: center;
-    text-align: center;
-
+  text-align: center;
+  justify-content: flex-end;
 }
 
 nav.desktop-nav .nav-grid li {
@@ -648,9 +662,9 @@ nav.desktop-nav .nav-grid li {
 li a.join-button {
     font-family: "trade-gothic-lt-bold-ext", sans-serif;
     color: #656C85;
-    -webkit-text-stroke: 1px black;
+    -webkit-text-stroke: .25px black;
     text-decoration: none;
-    font-size: 1em;
+    font-size: 1.1em;
 }
 .join-button:hover {
 	background-color: #333;
@@ -873,7 +887,7 @@ body .masthead {
 	text-align: right;
 	/* Align the entire section to the right */
 }
-.left-section p {
+.left-section select {
 	/* Adjust if using a different element */
 	margin: 0;
 	/* Remove default margin for tighter spacing */
@@ -881,7 +895,8 @@ body .masthead {
 	/* Adjust line height as needed */
 	font-family: "trade-gothic-lt";
 	font-weight: 400;
-	font-size: 17px;
+	font-size: 1.2em;
+	border: none;
 }
 
 .right-section p {
@@ -939,6 +954,11 @@ body .masthead {
 blockquote {
 	font-size: 1.4rem;
 }
+
+blockquote {
+    padding-left: 2em;
+}
+
 blockquote p {
 	width: 100%;
 }
@@ -1047,7 +1067,8 @@ a:link::-moz-selection {
 
 .sidenote, .marginnote {
 	float: left;
-	font-family: trade-gothic-lt;
+	font-family: trade-gothic-lt, Alexandria;
+	font-weight: 300;
 	clear: left;
 	margin-left: -20vw;
 	/* Default value for larger screens */
@@ -1061,8 +1082,9 @@ a:link::-moz-selection {
 	text-align: right;
 	color: #6d6360;
 }
-/* Sidenote adjustment for iPads */
-
+.authornote {
+	margin-top: 4.35em;
+}
 @media (max-width: 1024px) and (orientation: portrait) { 
   /* ... other styles ... */
 
@@ -1134,9 +1156,10 @@ a:link::-moz-selection {
 
 
 blockquote .sidenote, blockquote .marginnote {
-	margin-right: -82%;
-	min-width: 59%;
-	text-align: left;
+    margin-right: unset;
+    min-width: unset;
+    text-align: right;
+    margin-left: calc(-52% - 2em); /* Adjust for blockquote */
 }
 .small-screen {
 	display: none;
@@ -1265,6 +1288,7 @@ figcaption>p {
 
 .with-border { /* Border style for figures */
   border: 1px solid black;
+  padding: 12px;
 }
 
 
@@ -1483,4 +1507,179 @@ article {
 @media (min-width: 1024px) and (max-width: 1366px) {
 
 
+}
+
+.toc-item {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    column-gap: 1rem;
+    padding-bottom: 10px;
+}
+
+@media (max-width: 768px) { /* Adjust breakpoint as needed */
+    .toc-item {
+        flex-direction: column; /* Stack title and author vertically */
+        align-items: center; /* Center items horizontally */
+        justify-content: flex-start; /* Align items to the start of the flex container */
+    }
+
+    .toc-item .title {
+        text-align: center !important; /* Center title text, with !important */
+        margin-right: 0; /* Remove right margin */
+    }
+
+    .toc-item .author {
+        text-align: center !important; /* Center author text */
+        margin-top: 5px; /* Add some space between title and author */
+    }
+
+    .toc-container {
+        width: 100%; /* Make toc-container full width on mobile */
+        margin: 20px 0; /* Adjust margins for mobile */
+    }
+
+    .abstract-container {
+        width: 95%; /* Adjust width for smaller screens */
+    }
+}
+
+.toc-item .title {
+    text-align: left;
+    flex-grow: 1;
+    margin-right: 0px;
+    font-family: "trade-gothic-lt-bold-ext", 'Alexandria';
+    font-size: 1.25rem;
+    text-decoration: none;
+}
+
+.toc-item .author {
+    text-align: right;
+    white-space: nowrap;
+    font-family: "trade-gothic-lt";
+    font-size: 1.25rem;
+}
+
+.toc-container {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    width: 85%;
+    margin: 20px auto;
+    font-family: sans-serif;
+}
+
+  .abstract {
+    text-align: left;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    font-family: "et-book";
+    font-style: italic;
+  }
+
+  .abstract-intro {
+    font-family: trade-gothic-lt, 'Alexandria';
+    font-style: normal;
+    font-weight: 300;
+  }
+
+  .toc-container {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items horizontally */
+  width: 80%;
+  margin: 20px auto;
+  font-family: sans-serif;
+  }
+
+  .title {
+      text-decoration: none;
+      color: inherit;
+  }
+
+  .more {
+      text-decoration: none;
+      color: blue;
+  }
+
+.abstract-container {
+  text-align: left;
+  margin-bottom: 20px;
+  font-family: "et-book", Georgia, serif;
+  font-style: italic;
+  width: 75%;
+  padding: 0 20px;
+  	border-top: 1px solid #eee;
+
+}  
+
+@media (max-width: 768px) { /* For screens smaller than 768px */
+  .abstract-container {
+    width: 95%; /* Adjust width for smaller screens */
+  }
+}
+  
+.abstract-full {
+  display: none;
+  
+}
+
+.abstract-short {
+  font-size: 1rem;
+  font-family: trade-gothic-lt;
+  font-style: normal;
+      line-height: 1.5rem;
+
+  
+}
+
+.abstract-full.visible {
+  display: block;
+    font-size: 1rem;
+  font-family: trade-gothic-lt;
+    font-style: normal;
+    line-height: 1.5rem;
+
+}
+
+
+.toc-item-container.reviews {
+	width: 100%;
+}
+
+.toc-item-container.reviews.review-author {
+	padding: 0 20px;
+	margin-bottom: 20px;
+}
+
+.toc-item-container.reviews.review-author .toc-item .author {
+	width: 100%;
+	text-align: left;
+	color: black;
+	border-top: 1px solid #eee;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.read-more, .read-less {
+  cursor: pointer;
+  color: #FAF4A7;
+  -webkit-text-stroke: 1px black;
+}
+
+.read-more-text, .read-less-text {
+  cursor: pointer;
+  color: black;
+  -webkit-text-stroke: 0px black;
+
+}
+
+.arrow {
+  display: inline-block;
+  transition: transform 0.3s ease; /* Smooth arrow rotation */
+}
+
+.arrow.rotate-up {
+  transform: rotate(0deg);
 }

@@ -1,0 +1,318 @@
+## Footnotes
+
+footnote_1: >
+  Wang Amao (王阿毛, b. 1986) studied composition with Chen Yi, Zhou Long, James Mobberley, and Paul Rudy at the University of Missouri-Kansas City, where she received both her MA and PhD in composition. She is now Associate Professor of Composition at the Xinhai Conservatory of Music in Guangzhou, China. This piece was commissioned by Hu Yu (胡瑜, b. 1981), Associate Professor of Chinese board fiddle and Associate Dean of the Department of Chinese Music at the Beijing Central Conservatory, who also premiered the same piece on December 10, 2021. A recording of this premiere is available online (Wang Amao \[2023\]). This paper adheres to the Chinese naming convention, listing surname followed by the given name for the composer and the performer. An earlier version of this paper was presented at the 13th Biennial International Conference on Music Since 1900 in Leuven, Belgium and the 2024 Annual Meeting of the Society for Music Theory in Jacksonville, Florida. I am grateful for the insightful and constructive feedback provided by the reviewers during the development of this research. I also thank Trevor de Clercq and Kyle Hutchinson for their support throughout the writing process.
+footnote_2: >
+  The board fiddle (板胡), less known than the popular Chinese violin, the *erhu*, is noted for its piercing sound quality and ability to simultaneously play two strings, which inspired Wang to explore its auditory potentials. For comparison between the erhu and board fiddle, see Stock (1993, 277--80).
+footnote_3: >
+  The recording referenced in this article refers to Wang Amao (2023).
+footnote_4: >
+  My interviews were conducted over multiple days from September 2023 to June 2024. I will specify each interview date for different quotations.
+footnote_5: >
+  Pentatonic scales are the primary pitch foundation for traditional Chinese art and folk musics. Many Chinese composers of the twentieth and twenty-first centuries continue to embrace pentatonicism in their works. For a general survey of pentatonic usage, see Antokoletz (2014, 466--75). For a more focused examination of the integration between pentatonicism and serialism, see Rao (2002).
+footnote_6: >
+  For related discussion on infinite changes, see Wang, "Philosophizing Time in Sinitic Opera" (2023).
+footnote_7: >
+  I borrow the English translation for these four stages in Nancy Yunhwa Rao's 2020 article, where she examines the influence of Tang poetry narrative techniques on musical structure and momentum in Chen Yi's chamber work *Happy Rain on a Spring Night*.
+footnote_8: >
+  Interestingly, during the 2024 SMT Annual Meeting (November 9, 2024), Philip Stoecker and Matthew Arndt enthusiastically shared with me that they perceive this phrase as more closely aligned with a Western sentential structure, where disposition establishes presentation, development suggests continuation, and turn and end together create closure.
+footnote_9: >
+  The reader can go online to experience this 6/8 interpretation (Wang Amao \[2023\], 0:37--0:52).
+footnote_10: >
+  The reader can go ahead first to Example 7(b) for the construction of the pentatonic E-*shang* mode, derived from the pentatonic collection on D. Like Western diatonic modal structures, the pentatonic scale can generate five distinct modes through successive rotations: *gong* mode (宮調式, original position), *shang* mode (商調式, first rotation), *jue* mode (角調式, second rotation), *zhi* mode (徵調式, third rotation), and *yu* mode (羽調式, fourth rotation). For details on Chinese modal theory, see Ho and Han (1982, 133--35).
+footnote_11: >
+  Horlacher (2011) also examines how varied iterations of a melody sectionalize different formal blocks in Stravinsky's works from his Russian and Neo-Classic periods. My alignments of the narrative segments in Example 5 draws inspiration from Horlacher's graphical representations.
+footnote_12: >
+  Pitch-wise, the B~5~--A~5~ (m. 12) and Fƒ~5~--A~5~ (m. 13) in B´ are motivically derived from the descending major second and ascending minor third in segment C (mm. 3--4). Rhythmically, however, Hu defines mm. 12--13 as the development segment B´ because it follows A´ and initiates minor rhythmic activities, similar to the situation in segment B, block 1.
+footnote_13: >
+  Such as different dynamic markings in C/C´ or tremolos in C´´.
+footnote_14: >
+  Horlacher (1995, 300).
+footnote_15: >
+  Sullivan also claims that the absent attacks can include rests (2023, \[4.3\]).
+footnote_16: >
+  Mirka (2009, 39), based on various forms of accents and changes in music, further classifies the rules into six different types that influence metric perception: subjective, phenomenal, structural, grouping, streaming, and parallelism. The groupings discussed in this paper correspond to her subjective category (e.g., strong beat early), phenomenal category (e.g., dynamic and durational stress), and parallelism category (e.g., thematic parallelisms).
+footnote_17: >
+  Following Sullivan's system, the quarter-note level is indicated with solid arrows, as it has been subconsciously elaborated in the preceding measures and now surfaces for the first time.
+footnote_18: >
+  The original non-rotated form is called the pentatonic D-*gong* mode (D 宮調式). For constructions on various Chinese modal pentatonic forms, review footnote no. 10.
+footnote_19: >
+  It is crucial to emphasize that the ƒ and ß signs used for scale-degrees are intended to *conceptually* highlight the strong semitonal relationship linking the chromatic pitches to their closest pentatonic scale-degrees. They abstractly correspond to the accidentals of the actual pitches as notated in the score.
+footnote_20: >
+  The other three hypermetrically strong beats are emphasized by either strong dynamics (m. 15 and m. 19) or the breakdown of the B--D motivic parallelism (m. 16).
+footnote_21: >
+  The voice-leading notes are drawn from those shaded pitches in Example 8(a).
+footnote_22: >
+  I must clarify that I treat these projections as if the performance were strictly in time, because Hu puts so much rubato that it adds a level of fluidity and irregularity, which obscure the projections. They may delineate the first kind of Sullivan's ameter (the unconfirmed), where attacks are spaced unevenly and do not confirm the initial hypothesis. I appreciate one of the reviewers for pointing this out to me.
+footnote_23: >
+  Based on melodic parallelism, I also use solid arrows to indicate the 6/8 at the beginning of segment a´´. This segment repeats the melodic and intervallic components of descending major seconds and ascending minor thirds, while omitting the initial eighth-note and dotted-note pattern present in the original segment a.
+footnote_24: >
+  Additionally, Sullivan (2024) extends his concept of moment-to-moment rhythmic structure by drawing parallels to the meter of poetic texts, which he describes as "rhyme-oriented reading" (338) or "poetic phenomenal accents" (340).
+
+## Figure Captions
+
+figure_1a:
+  main_number: 
+  main_caption:    
+  figures:
+    - figure:
+        number: '1a'
+        caption: >
+          The alto *board fiddle*. On the front side, the soundbox is covered by a piece of flat, thin wooden soundboard, giving rise to the instrument's name, the *board* fiddle. On the reverse side, the resonater is made by a coconut shell. The combination of these two wooden components enable the performer to produce exceptionally high-pitched, penerating, and crisp sounds (photos credit: Hu Yu).
+        url: 'assets/articles/wu/img/ex_1a.png'
+        alt: 'Test'
+        border: false
+        scale: .8
+figure_1b:
+  main_number: 
+  main_caption:    
+  figures:
+    - figure:
+        number: '1b'
+        caption: >
+          The seated posture of playing the instrument (photo credit: Hu Yu). Note the two-string fiddle does not contain a finger board.
+        url: 'assets/articles/wu/img/ex_1b.png'
+        alt: 'Test'
+        border: false
+        scale: .7
+figure_2:
+  main_number: 
+  main_caption:    
+  figures:
+    - figure:
+        number: '2'
+        caption: >
+          Wang Amao, *One Person's Stage* (2021), for the Chinese solo alto board fiddle.
+        url: 'assets/articles/wu/img/ex_2.png'
+        alt: 'Test'
+        border: false
+        scale: 1
+figure_3a:
+  main_number: 
+  main_caption:    
+  figures:
+    - figure:
+        number: '3a'
+        caption: >
+          Wang Amao's non-isochronous metrical design. © Copyright by People's Music Publishing House. Reproduced by permission.
+        url: 'assets/articles/wu/img/ex_3a.png'
+        alt: 'Test'
+        border: false
+        scale: 1
+figure_3b:
+  main_number: 
+  main_caption:    
+  figures:
+    - figure:
+        number: '3b'
+        caption: >
+          Hu Yu's interpretation of the phrase structure based on a four-stage developmental approach (b.1) and my 6/8 perception based on his 2021 premier recording (b.2).
+        url: 'assets/articles/wu/img/ex_3b.png'
+        alt: 'Test'
+        border: false
+        scale: 1
+figure_4:
+  main_number: 
+  main_caption:    
+  figures:
+    - figure:
+        number: '4'
+        caption: >
+          Pitch centricity on E articulated by the long-held note on the upper string in the beginning of the Introduction (mm. 1--6) and part (mm. 29--35). © Copyright by People's Music Publishing House. Reproduced by permission.
+        url: 'assets/articles/wu/img/ex_4.png'
+        alt: 'Test'
+        border: false
+        scale: 1
+figure_5:
+  main_number: 
+  main_caption:    
+  figures:
+    - figure:
+        number: '5'
+        caption: >
+          Thematic parallelisms among the narrative segments across the three parts. The uppercase letters are for the segments from the slow sections, and the lowercase ones are for those from the fast sections. © Copyright by People's Music Publishing House. Reproduced by permission.
+        url: 'assets/articles/wu/img/ex_5.png'
+        alt: 'Test'
+        border: false
+        scale: 1
+figure_6:
+  main_number: 
+  main_caption:    
+  figures:
+    - figure:
+        number: '6'
+        caption: >
+          Problem of rebarring in mm. 26--27 (fast section from block 3) due to the expansion of the motivic parallelism from 4 sixteenth notes (unit i) to 6 sixteenth notes (unit ii). © Copyright by People's Music Publishing House. Reproduced by permission.
+        url: 'assets/articles/wu/img/ex_6.png'
+        alt: 'Test'
+        border: false
+        scale: 1
+figure_7a:
+  main_number: 
+  main_caption:    
+  figures:
+    - figure:
+        number: '7a'
+        caption: >
+          Block 1; projection analysis. © Copyright by People's Music Publishing House. Reproduced by permission.
+        url: 'assets/articles/wu/img/ex_7a.png'
+        alt: 'Test'
+        border: false
+        scale: 1
+figure_7b:
+  main_number: 
+  main_caption:    
+  figures:
+    - figure:
+        number: '7b'
+        caption: >
+          Pentatonic E-*shang* mode, the first rotation of pentatonic scale on D.
+        url: 'assets/articles/wu/img/ex_7b.png'
+        alt: 'Test'
+        border: false
+        scale: 1
+figure_7c:
+  main_number: 
+  main_caption:    
+  figures:
+    - figure:
+        number: '7c'
+        caption: >
+          Block 1; voice-leading sketches. © Copyright by People's Music Publishing House. Reproduced by permission.
+        url: 'assets/articles/wu/img/ex_7c.png'
+        alt: 'Test'
+        border: false
+        scale: 1
+figure_7d:
+  main_number: 
+  main_caption:    
+  figures:
+    - figure:
+        number: '7d'
+        caption: >
+          Block 1; interaction between voice-leading and metrical pulses. The pitches highlighted in grey rectangles are metrically punctuated. For the sake of clarity, I separate the voice-leading sketches and projection analysis for the fast section. © Copyright by People's Music Publishing House. Reproduced by permission.
+        url: 'assets/articles/wu/img/ex_7d.png'
+        alt: 'Test'
+        border: false
+        scale: 1
+figure_8a:
+  main_number: 
+  main_caption:    
+  figures:
+    - figure:
+        number: '8a'
+        caption: >
+          Block 2; projection analysis. The small, dark grey rectangles highlight the metrically accentuated pitches, which will be considered as primary components for the voice-leading charts in (b). © Copyright by People's Music Publishing House. Reproduced by permission.
+        url: 'assets/articles/wu/img/ex_8a.png'
+        alt: 'Test'
+        border: false
+        scale: 1
+figure_8b:
+  main_number: 
+  main_caption:    
+  figures:
+    - figure:
+        number: '8b'
+        caption: >
+          Voice-leading foreground sketches. The white barline separates the block into slow and fast sections.
+        url: 'assets/articles/wu/img/ex_8b.png'
+        alt: 'Test'
+        border: false
+        scale: 1
+figure_9a:
+  main_number: 
+  main_caption:    
+  figures:
+    - figure:
+        number: '9a'
+        caption: >
+          Block 3; projection analysis. The small, dark grey rectangles highlight the metrically accentuated pitches, which will be considered as primary components for the voice-leading charts in (b). © Copyright by People's Music Publishing House. Reproduced by permission.
+        url: 'assets/articles/wu/img/ex_9a.png'
+        alt: 'Test'
+        border: false
+        scale: 1
+figure_9b:
+  main_number: 
+  main_caption:    
+  figures:
+    - figure:
+        number: '9b'
+        caption: >
+          Voice-leading foreground sketches. The white barline separates the block into slow and fast sections.
+        url: 'assets/articles/wu/img/ex_9b.png'
+        alt: 'Test'
+        border: false
+        scale: 1
+figure_10:
+  main_number: 
+  main_caption:    
+  figures:
+    - figure:
+        number: '10'
+        caption: >
+          Background sketches of the entire Introduction (mm. 1--29). The open noteheads represents a repeated <span style="font-family: music;">&#xEF00;</span>--<span style="font-family: music;">&#xEF04;</span>--<span style="font-family: music;">&#xEF00;</span> in the upper voice, which is supported by an inner voice that moves symmetrical down-up perfect fifth along the pentatonic scale-degrees from <span style="font-family: music;">&#xEF00;</span> to <span style="font-family: music;">&#xEF02;</span> and then back to <span style="font-family: music;">&#xEF00;</span>.
+        url: 'assets/articles/wu/img/ex_10.png'
+        alt: 'Test'
+        border: false
+        scale: 1
+figure_11:
+  main_number: 
+  main_caption:    
+  figures:
+    - figure:
+        number: '11'
+        caption: >
+          Block 3, slow section; temporary fleeting pulses. © Copyright by People's Music Publishing House. Reproduced by permission.
+        url: 'assets/articles/wu/img/ex_11.png'
+        alt: 'Test'
+        border: false
+        scale: 1
+
+## Works Cited
+
+citations:
+- name: Antokoletz_2014
+  citation: >
+    Antokoletz, Elliot. 2014. *A History of Twentieth-Century Music in a Theoretic-Analytical Context*. New York: Routledge.
+- name: Ho_1982
+  citation: >
+    Ho, Lu-Ting and Han Kuo-Huang. 1982. "On Chinese Scales and National Modes." *Asian Music* 14 (1): 132--54.
+- name: Horlacher_1995
+  citation: >
+    Horlacher, Gretchen. 1995. "Metric Irregularities in 'Les Noces': The Problem of Periodicity." *Journal of Music Theory* 29 (1): 285--309.
+- name: Horlacher_2011
+  citation: >
+    Horlacher, Gretchen. 2011. *Building Blocks: Repetition and Continuity in the Music of Stravinsky*. Oxford: Oxford University Press.
+- name: Lerdhal_1983
+  citation: >
+    Lerdahl, Fred, and Ray Jackendoff. 1983. *A Generative Theory of Tonal Music*. Cambridge, MA: MIT Press.
+- name: Mirka_2009
+  citation: >
+    Mirka, Danuta. 2009. *Metric Manipulations in Haydn and Mozart: Chamber Music for String, 1787--91*. Oxford: Oxford University Press.
+- name: Park_2006
+  citation: >
+    Park, Christopher. 2006. "Eß and its Extra-Musical Meaning to Two Bach Cello Suites." In *Essays from the Fourth International Schenker Symposium*, Vol. 1, edited by Allen Cadwallader, 65--84. Hildesheim: Georg Olms Verlag.
+- name: Plum_1988
+  citation: >
+    Plum, Karl-Otto. 1988. "Towards a Methodology of Schenkerian Analysis." Translated and edited by William Drabkin. *Music Analysis* 7 (2): 143--64.
+- name: Rao_2002
+  citation: >
+    Rao, Nancy Yunhwa. 2002. "Hearing Pentatonicism through Serialism: Integrating Different Traditions in Chinese Contemporary Music." *Perspectives of New Music* 40 (2): 190--231.
+- name: Rao_2020
+  citation: >
+    Rao, Nancy Yunhwa. 2020. "The Concept of *Shi*: Chinese Aesthetics and *Happy Rain on a Spring Night* (2004)." *Music Theory Online* 26 (3).
+- name: Stock_1993
+  citation: >
+    Stock, Jonathan P. J. 1993. "An Ethnomusicological Perspective on Musical Style, with Reference to Music for Chinese Two-Stringed Fiddles." *Journal of the Royal Musical Association* 118 (2): 276--99.
+- name: Sullivan_2023
+  citation: >
+    Sullivan, James. 2023. "Extending the Parallel Multiple-Analysis Processor: Perceived Meter in Post-Tonal Music." *Music Theory Online* 29 (4).
+- name: Sullivan_2024
+  citation: >
+    Sullivan, James. 2024. "Review of *Lines and Lyrics: An Introduction to Poetry and Song*, by Matt BaileyShea (Yale University Press, 2021)." *Music Theory Spectrum* 46 (2): 333--42.
+- name: Wang_2023
+  citation: >
+    Wang, Amao. 王阿毛. 2023. "One Person's Stage." Banhu: Hu Yu. Soundcloud Recording. <https://soundcloud.com/wangamao/hgqcnkhgfqdy?si=bf46a545675e46d3873fad8dbad8c64b&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing>.
+- name: Wang_2023
+  citation: >
+    Wang, Anna Yu. 2023. "Philosophizing Time in Sinitic Opera." *Music Theory Online* 29 (3).
