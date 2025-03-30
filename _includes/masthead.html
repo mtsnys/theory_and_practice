@@ -1,7 +1,7 @@
 {% assign volume_data = site.data.volumes.volumes %}
 
 <div class="masthead">
-    <div class="left-section">
+    <div class="left-section"><!--
         <select id="volume-select" onchange="location = this.value;">
             <option value="" selected disabled hidden>Volumes</option>
             {% for volume in volume_data %}
@@ -9,7 +9,7 @@
                     {{ volume.name }}
                 </option>
             {% endfor %}
-        </select>
+        </select>-->
     </div>
 
     {% unless page.layout == 'article' or page.layout == 'review_article' %}
