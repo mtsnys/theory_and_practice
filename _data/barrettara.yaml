@@ -125,41 +125,7 @@ figure_1b:
         url: 'assets/articles/barrettara/img/ex_1b.png'
         alt: 'Test'
         border: true
-        scale: .8
-
-figure_2:
-  main_number: 2
-  main_caption: >
-    Mozart, "Wer hungrig bei der Tafel sitzt," mm. 21--54.
-  figures:  
-    - figure:
-        number: "2_0"
-        caption: 
-        url: "assets/articles/barrettara/img/ex_2_0.png"
-        alt: "Test"
-        border: false
-        scale: 1
-    - figure:
-        number: "2_1"
-        caption: 
-        url: "assets/articles/barrettara/img/ex_2_1.png"
-        alt: "Test"
-        border: false
-        scale: 1
-    - figure:
-        number: "2_2"
-        caption: 
-        url: "assets/articles/barrettara/img/ex_2_2.png"
-        alt: "Test"
-        border: false
-        scale: 1        
-    - figure:
-        number: "2_3"
-        caption: 
-        url: "assets/articles/barrettara/img/ex_2_3.png"
-        alt: "Test"
-        border: false
-        scale: 1        
+        scale: .8    
                 
 figure_2:
   main_number: 2
@@ -167,28 +133,28 @@ figure_2:
     Mozart, "Wer hungrig bei der Tafel sitzt," mm. 21--54.
   figures:  
     - figure:
-        number: "2_0"
+        number: 
         caption: 
         url: "assets/articles/barrettara/img/ex_2_0.png"
         alt: "Test"
         border: false
         scale: 1
     - figure:
-        number: "2_1"
+        number: 
         caption: 
         url: "assets/articles/barrettara/img/ex_2_1.png"
         alt: "Test"
         border: false
         scale: 1
     - figure:
-        number: "2_2"
+        number: 
         caption: 
         url: "assets/articles/barrettara/img/ex_2_2.png"
         alt: "Test"
         border: false
         scale: 1        
     - figure:
-        number: "2_3"
+        number: "
         caption: 
         url: "assets/articles/barrettara/img/ex_2_3.png"
         alt: "Test"

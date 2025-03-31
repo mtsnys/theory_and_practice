@@ -63,14 +63,14 @@ figure_2:
     Mozart, "Wer ein Liebchen hat gefunden" (piano-vocal reduction), mm. 1--20.
   figures:  
     - figure:
-        number: "2_0"
+        number: 
         caption: 
         url: "assets/articles/bastone-barrettara/img/ex_2_0.png"
         alt: "Test"
         border: false
         scale: 1
     - figure:
-        number: "2_1"
+        number: 
         caption: 
         url: "assets/articles/bastone-barrettara/img/ex_2_1.png"
         alt: "Test"
