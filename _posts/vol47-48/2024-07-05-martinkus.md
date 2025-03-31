@@ -2,7 +2,7 @@
 layout: review_article
 volume: vol47-48
 categories: vol47-48
-title: Review-article
+title: Review
 reviewed: 
 - title: Journeys Through Galant Expositions
   author: L. Poundie Burstein
