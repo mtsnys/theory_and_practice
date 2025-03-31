@@ -130,28 +130,28 @@ figure_6:
     Mozart, "Solche hergelauf'ne Laffen," mm. 8--31.  
   figures:  
     - figure:
-        number: "6_0"
+        number: 
         caption: 
         url: "assets/articles/bastone-barrettara/img/ex_6_0.png"
         alt: "Test"
         border: false
         scale: 1
     - figure: 
-        number: "6_1"
+        number: 
         caption: 
         url: "assets/articles/bastone-barrettara/img/ex_6_1.png"
         alt: "Test"
         border: false
         scale: 1
     - figure:
-        number: "6_2"
+        number: 
         caption: 
         url: "assets/articles/bastone-barrettara/img/ex_6_2.png"
         alt: "Test"
         border: false
         scale: 1
     - figure:
-        number: "6_3"
+        number: 
         caption: 
         url: "assets/articles/bastone-barrettara/img/ex_6_3.png"
         alt: "Test"
@@ -235,14 +235,14 @@ figure_10:
     Mozart, "O! wie will ich triumphieren" (piano-vocal reduction), mm. 20--41.
   figures:
     - figure:
-        number: "10_0"
+        number: 
         caption:       
         url: "assets/articles/bastone-barrettara/img/ex_10_0.png"
         alt: "Test"
         border: false
         scale: 1
     - figure:
-        number: "10_1"
+        number: 
         caption: 
         url: "assets/articles/bastone-barrettara/img/ex_10_1.png"
         alt: "Test"
@@ -254,35 +254,35 @@ figure_11:
     Mozart, "O! wie will ich triumphieren," mm. 87--132 (wind parts omitted).
   figures:
     - figure:
-        number: "11_0"
+        number: 
         caption: 
         url: "assets/articles/bastone-barrettara/img/ex_11_0.png"
         alt: "Test"
         border: false
         scale: 1
     - figure:
-        number: "11_1"
+        number: 
         caption:       
         url: "assets/articles/bastone-barrettara/img/ex_11_1.png"
         alt: "Test"
         border: false
         scale: 1
     - figure:
-        number: "11_2"
+        number: 
         caption: 
         url: "assets/articles/bastone-barrettara/img/ex_11_2.png"
         alt: "Test"
         border: false
         scale: 1     
     - figure:
-        number: "11_3"
+        number: 
         caption:       
         url: "assets/articles/bastone-barrettara/img/ex_11_3.png"
         alt: "Test"
         border: false
         scale: 1
     - figure:
-        number: "11_4"
+        number: 
         caption:
         url: "assets/articles/bastone-barrettara/img/ex_11_4.png"
         alt: "Test"

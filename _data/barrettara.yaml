@@ -154,7 +154,7 @@ figure_2:
         border: false
         scale: 1        
     - figure:
-        number: "
+        number: 
         caption: 
         url: "assets/articles/barrettara/img/ex_2_3.png"
         alt: "Test"
