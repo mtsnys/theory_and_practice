@@ -34,6 +34,11 @@
                     {{ current_volume.reviews_editor.name }}, Reviews Editor
                 </p>
             {% endif %}
+            {% if current_volume.awards_editor %}
+                <p class="reviews-editor">
+                    {{ current_volume.awards_editor.name }}, Awards Editor
+                </p>
+            {% endif %}
         </div>
     {% endunless %}
 </div>

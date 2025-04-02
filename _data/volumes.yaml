@@ -11,6 +11,8 @@ volumes:
     name: "Volume 49-50 (2025)"
     editors:
       - name: "Trevor de Clercq"
-      - name: "Kyle Hutchinson"
+      - name: "Kyl Hutchinson"
     reviews_editor:
       name: "Daphne Tan"
+    awards_editor:
+      name: "Eron Smith"

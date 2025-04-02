@@ -24,8 +24,7 @@ footnote_11: >
   Most recently, Sullivan (2024b) explores how performers shape the listening experience in passages of motive-driven metric manipulation in post-tonal music.
 footnote_12: >
   Horlacher (2011) also examines how varied iterations of a melody sectionalize different formal blocks in Stravinsky's works from his Russian and Neo-Classic periods. My alignments of the narrative segments in Example 5 draws inspiration from Horlacher's graphical representations.
-footnote_13: >
-  Pitch-wise, the B~5~--A~5~ (m. 12) and Fƒ~5~--A~5~ (m. 13) in B´ are motivically derived from the descending major second and ascending minor third in segment C (mm. 3--4). Rhythmically, however, Hu defines mm. 12--13 as the development segment B´ because it follows A´ and initiates minor rhythmic activities, similar to the situation in segment B, block 1.
+footnote_13: "Pitch-wise, the B<sub>5</sub>--A<sub>5</sub> (m. 12) and F<span style=\"font-family: music;\">&#x266F;</span><sub>5</sub>--A<sub>5</sub> (m. 13) in B´ are motivically derived from the descending major second and ascending minor third in segment C (mm. 3--4). Rhythmically, however, Hu defines mm. 12--13 as the development segment B´ because it follows A´ and initiates minor rhythmic activities, similar to the situation in segment B, block 1."
 footnote_14: >
   Such as different dynamic markings in C/C´ or tremolos in C´´.
 footnote_15: >
@@ -38,8 +37,7 @@ footnote_18: >
   Following Sullivan's system, the quarter-note level is indicated with solid arrows, as it has been subconsciously elaborated in the preceding measures and now surfaces for the first time.
 footnote_19: >
   The original non-rotated form is called the pentatonic D-*gong* mode (D 宮調式). For constructions on various Chinese modal pentatonic forms, review footnote no. 10.
-footnote_20: >
-  It is crucial to emphasize that the ƒ and ß signs used for scale-degrees are intended to *conceptually* highlight the strong semitonal relationship linking the chromatic pitches to their closest pentatonic scale-degrees. They abstractly correspond to the accidentals of the actual pitches as notated in the score.
+footnote_20: "It is crucial to emphasize that the <span style=\"font-family: music;\">&#x266F;</span> and <span style=\"font-family: music;\">&#x266D;</span> signs used for scale-degrees are intended to *conceptually* highlight the strong semitonal relationship linking the chromatic pitches to their closest pentatonic scale-degrees. They abstractly correspond to the accidentals of the actual pitches as notated in the score."
 footnote_21: >
   The other three hypermetrically strong beats are emphasized by either strong dynamics (m. 15 and m. 19) or the breakdown of the B--D motivic parallelism (m. 16).
 footnote_22: >
@@ -313,7 +311,7 @@ citations:
     Sullivan, James. 2024a. "Review of *Lines and Lyrics: An Introduction to Poetry and Song*, by Matt BaileyShea (Yale University Press, 2021)." *Music Theory Spectrum* 46 (2): 333--42.
 - name: Sullivan_2024b
   citation: >
-    Sullivan, James. 2024b. "Performing Meter: Toward A Motive-Oriented Performance Practice For Post-Tonal Music." Music Theory Online 30 (4).
+    Sullivan, James. 2024b. "Performing Meter: Toward A Motive-Oriented Performance Practice For Post-Tonal Music." *Music Theory Online* 30 (4).
 - name: Wang_2023
   citation: >
     Wang, Amao. 王阿毛. 2023. "One Person's Stage." Banhu: Hu Yu. Soundcloud Recording. <https://soundcloud.com/wangamao/hgqcnkhgfqdy?si=bf46a545675e46d3873fad8dbad8c64b&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing>.
