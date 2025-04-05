@@ -37,6 +37,54 @@ permalink: vol49-50/carter_von_appen
 ---
 
 <section markdown="1">
+
+Fans often discuss the "feels" of popular music drummers, making claims
+about the particular features that characterize their sound. The
+drumming of Charlie Watts of the Rolling Stones has especially been the
+subject of intense debate. When Watts died in August 2021, a headline in
+*The* *Times* *of London* proclaimed that his drumming "would make drum
+machines weep" (Hepworth 2021), with the majority of commentators
+describing his playing as "behind the beat." For example, Bruce
+Springsteen's drummer Max Weinberg wrote: "Charlie became a
+proponent---as I am---of a style of rock drumming popularised by the
+late, great Al Jackson, the famous Stax drummer, where you deliberately
+play behind the direct backbeat" (Beaumont-Thomas 2021). Others have
+made a different assessment, with podcast host and drummer Monte Mallin
+claiming in 2012 that it was Watts being "slightly ahead of the beat"
+that gave the band its characteristic rhythmic feel.{% assign author_key = page.short-name %}{% assign footnote_text = site.data[author_key].footnote_1 %}{% include footnote.html footnote_number='1' footnote_text=footnote_text %} Discussions of
+Watts's approach to *tempo variability* have also differed, with some
+claiming he is "metronomic" while others asserting that the band's tempo
+ebbed and flowed. Bassist Darryl Jones, who has played with the band for
+thirty years, said of Watts: "He has a way of being very, very steady
+without being metronome-like . . . there should be some breathing, you
+know, and he's great at that" (Ward 2018, 2:29--3:04).
+
+In order to investigate these claims, we engaged in an empirical study
+focused on microtiming and tempo variability in the drumming of Watts
+with the Rolling Stones. Besides its value for close musical analysis,
+our study examines value judgments connected to popular music:
+descriptions praising Watts's style of playing as "human," "natural," or
+"organic" seem informed by an ideology of authenticity, while other
+drummers or sequencers are described negatively as "mechanical,"
+"lifeless," "cold," or "robotic." Different ways of dealing with rhythm
+are thus connected to larger philosophies and ways of seeing the world.
+
+In what follows, we first review prior scholarship on microtiming in
+popular music drumming. We then explain the methodology we developed for
+analyzing microtiming in the drumming of Charlie Watts. Our third
+section discusses the results of our microtiming study, revealing the
+extent to which Watts delayed backbeats in comparison with other
+drummers. We then turn to tempo variability, identifying common tempo
+curves in Rolling Stones songs. We present our method of measuring tempo
+variability with a single number (the coefficient of variation) and
+apply it to corpora of Rolling Stones songs and songs by other artists,
+showing trends over time. Finally, we review our findings and discuss
+how they connect with larger questions of genre and authenticity in
+popular music.
+
+</section>
+
+<section markdown="1">
 <h2 id='i.-prior-scholarship-on-microtiming-in-popular-music-drumming'>I. Prior Scholarship on Microtiming in Popular Music Drumming</h2>
 In 1987, Charles Keil referred to microtiming deviations as "participatory discrepancies" (or "PDs"), which he argued were essential elements of groove in jazz and other popular genres (275, 277). Studies of swing ratios in jazz eventually inspired scholarly interest in microscopically delayed backbeats in rock, with Iyer contending that playing the snare slightly behind the backbeat is a crucial component of African American music and the music it has inspired, contributing to a "relaxed" and "laid back" feel (2002, 406; see also Butterfield 2006, 33, 39--41). Drummers instructed to play in a "laid-back" manner with a click track at a moderate tempo of 96 BPM delayed snare attacks by 17.4 ms on average (Danielsen et al. 2015, 2306; see also similar findings by Câmara et al. 2020, 11).
 
