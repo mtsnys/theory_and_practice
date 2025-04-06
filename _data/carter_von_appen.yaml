@@ -567,6 +567,91 @@ app_figure_5:
         border: false
         scale: 1
 
+
+audio_13:
+  main_number: 
+  main_caption: >    
+  figures:
+    - figure:
+        number: '13'
+        caption: 
+        url: 'assets/articles/carter-von-appen/audio/ex_13.mp3'
+        alt: 'Test'
+        border: false
+        scale: 1
+
+audio_14:
+  main_number: 
+  main_caption: >    
+  figures:
+    - figure:
+        number: '14'
+        caption: 
+        url: 'assets/articles/carter-von-appen/audio/ex_14.mp3'
+        alt: 'Test'
+        border: false
+        scale: 1
+
+audio_23:
+  main_number: 
+  main_caption: >    
+  figures:
+    - figure:
+        number: '23'
+        caption: 
+        url: 'assets/articles/carter-von-appen/audio/ex_23.mp3'
+        alt: 'Test'
+        border: false
+        scale: 1
+
+audio_27:
+  main_number: 
+  main_caption: >    
+  figures:
+    - figure:
+        number: '27'
+        caption: 
+        url: 'assets/articles/carter-von-appen/audio/ex_27.mp3'
+        alt: 'Test'
+        border: false
+        scale: 1
+
+video_22:
+  main_number: 
+  main_caption: >    
+  figures:
+    - figure:
+        number: '22'
+        caption: 
+        url: 'assets/articles/carter-von-appen/video/ex_22.mp4'
+        alt: 'Test'
+        border: false
+        scale: 1
+
+video_25:
+  main_number: 
+  main_caption: >    
+  figures:
+    - figure:
+        number: '25'
+        caption: 
+        url: 'assets/articles/carter-von-appen/video/ex_25.mp4'
+        alt: 'Test'
+        border: false
+        scale: 1
+    
+video_26:
+  main_number: 
+  main_caption: >    
+  figures:
+    - figure:
+        number: '26'
+        caption: 
+        url: 'assets/articles/carter-von-appen/video/ex_26.mp4'
+        alt: 'Test'
+        border: false
+        scale: 1
+
 ## Works Cited
 
 citations:

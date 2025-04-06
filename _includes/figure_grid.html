@@ -9,10 +9,17 @@
           <audio controls src="{{ site.baseurl }}/{{ item.figure.url }}">
             Your browser does not support the audio element.
           </audio>
+        {% elsif include.figure_key contains "video_" %}
+          <video controls src="{{ site.baseurl }}/{{ item.figure.url }}"
+                 {% if item.figure.width %}width="{{ item.figure.width }}"{% endif %}
+                 {% if item.figure.height %}height="{{ item.figure.height }}"{% endif %}
+                 style="width: {{ item.figure.scale | default: 1 | times: 100 }}%; height: auto;">
+            Your browser does not support the video tag.
+          </video>
         {% else %}
           <img src="{{ site.baseurl }}/{{ item.figure.url }}" alt="{{ item.figure.alt }}"
                {% if item.figure.border %}class="with-border"{% endif %}
-               style="width: {{ item.figure.scale | times: 100 }}%; height: auto;">
+               style="width: {{ item.figure.scale | default: 1 | times: 100 }}%; height: auto;">
         {% endif %}
 
         {% assign figure_type = "Example" %}
@@ -20,6 +27,8 @@
           {% assign figure_type = "Table" %}
         {% elsif include.figure_key contains "audio_" %}
           {% assign figure_type = "Audio Example" %}
+        {% elsif include.figure_key contains "video_" %}
+           {% assign figure_type = "Video Example" %}
         {% endif %}
 
         <figcaption>
@@ -39,6 +48,8 @@
       {% assign figure_type = "Table" %}
     {% elsif include.figure_key contains "audio_" %}
       {% assign figure_type = "Audio Example" %}
+    {% elsif include.figure_key contains "video_" %}
+      {% assign figure_type = "Video Example" %}
     {% endif %}
     <div class="main-caption-wrapper">
       <figcaption>
@@ -56,14 +67,21 @@
     {% assign anchor_id = "ex-" | append: item.figure.number %}
     <a href="#{{ anchor_id }}" class="figure-grid-item-link">
       <figure class="figure-grid-item" id="{{ anchor_id }}">
-        {% if include.figure_key contains "audio_" %}
+         {% if include.figure_key contains "audio_" %}
           <audio controls src="{{ site.baseurl }}/{{ item.figure.url }}">
             Your browser does not support the audio element.
           </audio>
+        {% elsif include.figure_key contains "video_" %}
+           <video controls src="{{ site.baseurl }}/{{ item.figure.url }}"
+                 {% if item.figure.width %}width="{{ item.figure.width }}"{% endif %}
+                 {% if item.figure.height %}height="{{ item.figure.height }}"{% endif %}
+                 style="width: {{ item.figure.scale | default: 1 | times: 100 }}%; height: auto;">
+            Your browser does not support the video tag.
+          </video>
         {% else %}
           <img src="{{ site.baseurl }}/{{ item.figure.url }}" alt="{{ item.figure.alt }}"
                {% if item.figure.border %}class="with-border"{% endif %}
-               style="width: {{ item.figure.scale | times: 100 }}%; height: auto;">
+               style="width: {{ item.figure.scale | default: 1 | times: 100 }}%; height: auto;">
         {% endif %}
 
         {% assign figure_type = "Example" %}
@@ -71,6 +89,8 @@
           {% assign figure_type = "Table" %}
         {% elsif include.figure_key contains "audio_" %}
           {% assign figure_type = "Audio Example" %}
+        {% elsif include.figure_key contains "video_" %}
+           {% assign figure_type = "Video Example" %}
         {% endif %}
 
         <figcaption>
@@ -85,11 +105,13 @@
   {% endfor %}
 
   {% if site.data[page.short-name][include.figure_key].main_caption %}
-    {% assign figure_type = "Example" %}
+     {% assign figure_type = "Example" %}
     {% if include.figure_key contains "table_" %}
       {% assign figure_type = "Table" %}
     {% elsif include.figure_key contains "audio_" %}
       {% assign figure_type = "Audio Example" %}
+     {% elsif include.figure_key contains "video_" %}
+      {% assign figure_type = "Video Example" %}
     {% endif %}
     <div class="main-caption-wrapper">
       <figcaption class="main-caption">

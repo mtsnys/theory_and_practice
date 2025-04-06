@@ -9,7 +9,7 @@ abstract: "Building on an earlier study of the dramaturgic phrase structures in
 Osmin&#39;s arias from <em>Die Entführung aus dem Serail</em>, this article
 presents analyses of two other Mozart Singspiel servant arias: the
 like-named Osmin&#39;s &quot;Wer hungrig bei der Tafel sitzt&quot; (<em>Zaide</em>,
-1779--1780) and Monostatos&#39;s &quot;Alles fühlt der Liebe Freude&quot; (<em>Die
+1779&ndash;1780) and Monostatos&#39;s &quot;Alles fühlt der Liebe Freude&quot; (<em>Die
 Zauberflöte</em>, 1791). In the former, Mozart uses two different barring
 styles to underscore Osmin&#39;s descriptions of reasonable and unreasonable
 behavior; in the latter, he uses a pattern-avoidant phrase structure to
