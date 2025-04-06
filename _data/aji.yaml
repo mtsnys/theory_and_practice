@@ -112,6 +112,28 @@ figure_6:
         border: false
         scale: 1
 
+audio_2:
+  main_number: 
+  main_caption: >    
+  figures:
+    - figure:
+        number: '2a'
+        caption: >
+          Bambi
+        url: 'assets/articles/aji/audio/ex_2a.m4a'
+        alt: 'Test'
+        border: false
+        scale: 1
+    - figure:
+        number: '2b'
+        caption: >
+          Maqsum 
+        url: 'assets/articles/aji/audio/ex_2b.m4a'
+        alt: 'Test'
+        border: false
+        scale: 1
+
+
 ## Works Cited
 citations:
 - name: Berliner_1994

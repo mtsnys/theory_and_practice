@@ -218,7 +218,6 @@ Another recording with a nearly continuous pattern of acceleration is "Monkey Ma
 {% include figure_grid.html columns=1 figure_key='figure_27' %}
 {% include figure_grid.html columns=1 figure_key='audio_27' %}
 
-
 </section>
 
 <section markdown="1">
