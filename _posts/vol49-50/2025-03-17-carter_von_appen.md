@@ -2,6 +2,7 @@
 layout: article
 volume: vol49-50
 categories: vol49-50
+order: 5
 title: "Measuring the Myth: Microtiming and Tempo Variability in the Music of the Rolling Stones"
 author: "David S. Carter and Ralf von Appen"
 short-name: "carter_von_appen"

@@ -2,6 +2,7 @@
 layout: article
 volume: vol49-50
 categories: vol49-50
+order: 3
 title: "Phrase Structures in the Arias of Two Mozart Singspiel Servants"
 author: "Danielle Bastone Barrettara"
 short-name: "barrettara"

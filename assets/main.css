@@ -130,7 +130,7 @@ header h1, header h2, header h3, header a {
 	/* Limit the main content width */
 	margin-left: auto;
 	margin-right: auto;
-	padding-bottom: 150px;
+	padding-bottom: 50px;
 	padding-top: 0;
 	/* Remove top padding (adjust as needed) */
 }
@@ -1699,3 +1699,9 @@ article {
       width: 100%;
       height: 100%;
     }
+    
+    /* Allow the reviewed item author text to wrap */
+.toc-item .author.reviewed-author {
+  white-space: normal; /* Override the nowrap */
+  /* text-align: right; /* Optional: Re-apply if needed, but likely inherited */
+}
