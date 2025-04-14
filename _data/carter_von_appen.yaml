@@ -3,13 +3,13 @@
 footnote_1: >
   MrMonte (Monte Mallin), reply to "Musicians: How Do You Explain Charlie's Technique to Drummers?," *It's Only Rock'n Roll* forum, March 9, 2012, <https://iorr.org/talk/read.php?1,1579013,page=1>.
 footnote_2: >
-  See https://www.izotope.com/ and http://moises.ai. We initially used iZotope RX 9's Music Rebalance tool to isolate the drums, but subsequently found that Moises could do the same job more efficiently, so we switched tools early in the study. Moises, built using a Python library called Spleeter, derives time-frequency masks using machine learning in order to perform source separation (Hennequin et al. 2020; Pang 2019).
+  See <https://www.izotope.com/> and <http://moises.ai.> We initially used iZotope RX 9's Music Rebalance tool to isolate the drums, but subsequently found that Moises could do the same job more efficiently, so we switched tools early in the study. Moises, built using a Python library called Spleeter, derives time-frequency masks using machine learning in order to perform source separation (Hennequin et al. 2020; Pang 2019).
 footnote_3: >
   See <https://www.sonicvisualiser.org/> and <https://www.vamp-plugins.org/download.html>. In the BBC Rhythm: Onsets plugin, we used a Hann window shape, an FFT window size of 128 samples, and a window increment of 32. These settings allowed for a time resolution of 0.7 milliseconds. We started with a threshold setting of 3 and then increased or decreased it to automatically mark the quarter notes. In cases where the algorithm did not detect an attack that actually occurred, we lowered the threshold in a second layer and copied the resulting markers into the first layer. See Baume (2013) for a description of the plugin.
 footnote_4: >
   Danielsen and others have discussed how there is not always a visual point in the representation of a waveform that will consistently align with human perception of the moment of attack---this is variable between instruments and versions of the same instrument (see also Hellmer and Madison 2015, 150). Identifying the moment of attack is easier with percussive attacks like drums, yet there is still no single timepoint that can be objectively identified. Identifying the moment of attack can also be complicated when there are near-simultaneous hits on multiple instruments within a drum kit (Hove et al. 2007; see also Câmara 2021, 35--41). The separation software we used did not allow for automatic separation of the hi-hats from the snare and kick; in the occasional instances when the onset detection plugin created two markers for a single beat, we analyzed only the broader-spectrum snare attack.
 footnote_5: >
-  Eighth notes on the hi-hat are a fundamental component of the standard rock backbeat pattern, but comments on Watts's drumming have tended to focus on the presence or absence of delay or anticipation of the backbeats and the kick drum rather than the hi-hat eighths. Additionally, Watts typically did not play the hi-hat on beats two and four (see footnote 19, below). Given that blues-influenced Rolling Stones songs employed swing, potential future research could examine Watts's use of swung eighths on the hi-hat or ride cymbal.
+  Eighth notes on the hi-hat are a fundamental component of the standard rock backbeat pattern, but comments on Watts's drumming have tended to focus on the presence or absence of delay or anticipation of the backbeats and the kick drum rather than the hi-hat eighths. Additionally, Watts typically did not play the hi-hat on beats two and four (see footnote 19, below). Given that some blues-influenced Rolling Stones songs employed swing, potential future research could examine Watts's use of swung eighths on the hi-hat or ride cymbal.
 footnote_6: >
   We input data from all quarter-note attacks, even if there was a brief departure from the usual pattern of kick on beats 1 and 3 and snare on beats 2 and 4. For instance, if there was a bar in which the snare or hi-hat, but not the kick, played on beat 1, we would still encode that beat. If no attack occurred on a beat, we did not insert a marker; there would just be a gap in our table. We avoided analyzing songs or parts of songs without a fairly steady stream of quarter-note attacks, so there were rarely a large number of gaps in the passages we analyzed.
 footnote_7: >
@@ -19,7 +19,7 @@ footnote_8: >
 footnote_9: >
   Butterfield evaluates timing based both on the current measure and on the previous measure. Frane, as a secondary method of measurement, uses only the previous *beat* as the basis for determining listener expectation. Hellmer and Madison also use previous attacks to predict future ones but rely on the BeatRoot beat tracking system (2015, 152, 154). The BeatRoot system does not examine a fixed past time when making beat predictions, but instead creates initial tempo hypotheses and then reacts to subsequent onset information to adjust the hypotheses (Dixon 2001; Dixon 2007). BeatRoot, however, problematically sometimes snaps beats to actual onsets and often generates beat tracking errors.
 footnote_10: >
-  If there was no attack on a downbeat, then that bar could not be used as the basis for a "prior bar" calculation, and the subsequent bar would be excluded from analysis. For beat-one attacks analyzed using this method, we compared the length of the just-completed bar with the length of the preceding bar, on the logic that the length of the latter would generate an expectation for where the following downbeat would fall.
+  If there was no attack on a downbeat, then that bar could not be used as the basis for a "prior bar" calculation, and the subsequent bar would be excluded from analysis.
 footnote_11: >
   When asked about playing behind the beat, renowned session drummer John Robinson said that he would keep the bass drum exactly on time but adjust the other attacks around it (Miller 1994, 21--22).
 footnote_12: >
@@ -33,7 +33,7 @@ footnote_15: >
 footnote_16: >
   In most instances, the microtiming analysis we did for a given song is of a subset of the song's entire length. This was in large part to focus on passages where there is a standard rock backbeat pattern or variant and where there were not too many fills or syncopations that would interfere with marking quarter-note attacks. This approach prioritized obtaining samples of more songs over doing analyses of a smaller number of full songs.
 footnote_17: >
-  Considering the entirety of Watts's career, there was a fairly strong correlation between the average amount of delay of beat 2 in songs and that of beat 4, with *r* = .81 for the 62 Watts studio recordings and *r =* .84 for the 59 non-Watts recordings. The recordings with the most consistent beat 2 delays, however, were not always those with the most consistent beat 4 delays. "Monkey Man" and "Sister Morphine," for instance, showed strong tendencies towards beat 2 delay but not for beat 4, while the reverse was true of "All Down the Line."
+  Considering the entirety of Watts's career, there was a fairly strong correlation between the average amount of delay of beat 2 in songs and that of beat 4, with *r* = .81 for the 62 Watts studio recordings. The recordings with the most consistent beat 2 delays, however, were not always those with the most consistent beat 4 delays. "Monkey Man" and "Sister Morphine," for instance, showed strong tendencies towards beat 2 delay but not for beat 4, while the reverse was true of "All Down the Line." There was a similar correlation between delay of beat 2 and beat 4 in the 59 analyzed recordings with other drummers, with *r* = .84.
 footnote_18: >
   In his 2012 review of "One More Shot," Neil McCormick wrote that Watts's "swinging beat \[was\] just that micro-fraction behind where you might expect it to be."
 footnote_19: >
@@ -67,7 +67,7 @@ footnote_32: >
 footnote_33: >
   There is potential variability in different analysts' tempo CV calculations, even when our detailed method is followed, particularly in cases of songs with prominent ritardandi and/or caesuras. Analysis of the same tracks by different analysts suggests that analyses of songs with a CV of 1.0 or below will typically be identical or nearly identical, while independent analyses of recordings with tempo CVs greater than 1.0 can differ by up to 10 percent.
 footnote_34: >
-  Songs in our Billboard and non-Billboard Others corpora known to have been recorded to a click track typically have CV values ranging between 0.2 and 0.5: for instance, Nirvana\'s "Lithium," 0.20 (Coffman 2023); Sly & the Family Stone's "Family Affair," 0.27 (LeRoy 2023, 32); and Ron Wood\'s "Shirley," 0.39 (LeRoy 2023, 38).
+  Songs in our *Billboard* and non-Billboard Others corpora known to have been recorded to a click track typically have CV values ranging between 0.2 and 0.5: for instance, Nirvana\'s "Lithium," 0.20 (Coffman 2023); Sly & the Family Stone's "Family Affair," 0.27 (LeRoy 2023, 32); and Ron Wood\'s "Shirley," 0.39 (LeRoy 2023, 38).
 footnote_35: >
   The low tempo CV measurements for the Stones tracks in Example 36 suggest the use of mechanical assistance, despite guitarist Keith Richards's vocal disapproval of the use of "hi-tech stuff" in the studio (Mattingly 1990, 21). For 1997's "Saint of Me," one of three Dust Brothers-produced tracks in Example 36, Watts played over a recording of a Roland TR-808 drum machine (Janovitz 2013, 363--364).
 
@@ -128,7 +128,7 @@ figure_5:
     - figure:
         number: '5'
         caption: >
-          Microtiming calculations for "Wild Horses," starting from 1:17 (listed "attack times" are offset).
+          Microtiming calculations for "Wild Horses," starting from 1:17 (listed "attack times" are numbered from this point).
         url: 'assets/articles/carter-von-appen/img/ex_5.png'
         alt: 'Test'
         border: false
@@ -248,7 +248,7 @@ figure_15:
     - figure:
         number: '15'
         caption: >
-          Microtiming in 19 Rolling Stones live recordings, ordered by percentage of beat 2 attacks that are 2.5% or more of the mean IOI late. The "Beat 2 JND Early" and "Late" percentages refer to the frequency of deviations that are 2.5% of the average IOI or larger. "Bt. 2 %" translates the raw beat 2 delay into a percentage of the mean IOI for the song; "*n*" refers to the number of beat 2 attacks analyzed. The *p*-value is the result of a one-sample *t* test with a null hypothesis that the beat 2 mean deviation is 0. (For *p*-values less than .05, the mean beat 2 and 4 delay is in bold.)
+          Microtiming in 19 Rolling Stones live recordings, ordered by percentage of beat 2 attacks that are 2.5% or more of the mean IOI late. The "Beat 2 JND Early" and "Late" percentages refer to the frequency of deviations that are 2.5% of the average IOI or larger. "Bt. 2 %" translates the raw beat 2 delay into a percentage of the mean IOI for the song; "*n*" refers to the number of beat 2 attacks analyzed. The *p*-value is the result of a one-sample *t* test with a null hypothesis that the beat 2 mean deviation is 0. For *p*-values less than .05, the mean beat 2 and 4 delay is in bold.
         url: 'assets/articles/carter-von-appen/img/ex_15.png'
         alt: 'Test'
         border: false
@@ -332,7 +332,7 @@ figure_22:
     - figure:
         number: '22'
         caption: >
-          Tempo map of "Sweet Virginia" (1972), illustrating a pronounced early acceleration followed by relative steadiness afterwards (audio example, 0:00--0:55).
+          Tempo map of "Sweet Virginia" (1972), illustrating a pronounced early acceleration followed by relative steadiness afterwards (video example, 0:00--0:55).
         url: 'assets/articles/carter-von-appen/img/ex_22.png'
         alt: 'Test'
         border: false
@@ -368,7 +368,7 @@ figure_25:
     - figure:
         number: '25'
         caption: >
-          Tempo map of "Shine a Light" (1972; Jimmy Miller on drums), illustrating a slowing of tempo from 85 BPM to 73 BPM followed by a gradual rebuild.
+          Tempo map of “Shine a Light” (1972; Jimmy Miller on drums), illustrating a slowing of tempo from 85 to 73 BPM during the instrumental breakdown, followed by a gradual rebuild (2:52–3:27).
         url: 'assets/articles/carter-von-appen/img/ex_25.png'
         alt: 'Test'
         border: false
@@ -380,7 +380,7 @@ figure_26:
     - figure:
         number: '26'
         caption: >
-          Tempo map for the Rolling Stones' 2004 live recording of "Start Me Up" (*Live Licks*, 2004), illustrating tempo acceleration during drum fills.
+          Tempo map for the Rolling Stones' 2004 live recording of "Start Me Up" (*Live Licks*, 2004), illustrating tempo acceleration during drum fills (1:09-1:33).
         url: 'assets/articles/carter-von-appen/img/ex_26.png'
         alt: 'Test'
         border: false
@@ -404,7 +404,7 @@ figure_28:
     - figure:
         number: '28'
         caption: >
-          The Rolling Stones studio tracks with the largest accelerations, calculated as a percentage increase from the slowest to the fastest tempo in the song.
+          The Rolling Stones studio tracks with the largest accelerations, calculated as a percentage increase from the slowest to the fastest tempo in the song. "Salt of the Earth" calculation assumes a normal-time feel in the coda.
         url: 'assets/articles/carter-von-appen/img/ex_28.png'
         alt: 'Test'
         border: false
@@ -747,7 +747,7 @@ citations:
     Hesselink, Nathan. 2023. *Finding the Beat: Entrainment, Rhythmic Play, and Social Meaning in Rock Music*. New York: Bloomsbury Academic.
 - name: Hofmann_2017
   citation: >
-    Hofmann, Alex, Brian C. Wesolowski, and Werner Goebl[.]{.mark} 2017. ["]{.mark}The Tight-Interlocked Rhythm Section: Production and Perception of Synchronisation in Jazz Trio Performance." []{.mark}*Journal of New Music Research* []{.mark}46 (4): []{.mark}329--341.
+    Hofmann, Alex, Brian C. Wesolowski, and Werner Goebl. 2017. "The Tight-Interlocked Rhythm Section: Production and Perception of Synchronisation in Jazz Trio Performance." *Journal of New Music Research* 46 (4): 329--341.
 - name: Hosken_2021
   citation: >
     Hosken, Fred. 2021. "Characterizing a Signature Metric 'Feel': The Stax Sound." Presentation at the Society for Music Theory Annual Meeting, held online, November 4. <https://osf.io/8apxs>.
@@ -819,7 +819,7 @@ citations:
     Roessner, Stephen F. 2017. "The Beat Goes Static: A Tempo Analysis of US Billboard Hot 100 #1 Songs from 1955--2015." In *Proceedings of the* *Audio Engineering Society Convention 143.* Audio Engineering Society.
 - name: Stones_2022
   citation: >
-    The Rolling Stones. 2022. "Rolling Stones 'I Got The Blues' Sticky Fingers Fonda Theatre CA USA 2015 HD." Amazing Kalifha's Channel, July 23. YouTube video, 4:30. https://www.youtube.com/watch?v=HpUEfMXpf20.
+    The Rolling Stones. 2022. "Rolling Stones 'I Got The Blues' Sticky Fingers Fonda Theatre CA USA 2015 HD." Amazing Kalifha's Channel, July 23. YouTube video, 4:30. <https://www.youtube.com/watch?v=HpUEfMXpf20>.
 - name: Schreiber_2020
   citation: >
     Schreiber, Hendrik. 2020. "Data-Driven Approaches for Tempo and Key Estimation of Music Recordings*.*" PhD diss., Friedrich-Alexander-Universität Erlangen-Nürnberg.
