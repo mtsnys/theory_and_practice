@@ -280,23 +280,28 @@ figure_6:
   main_number: 6 
   main_caption: >
     Mozart, "Alles fühlt der Liebe Freuden" (piano-vocal reduction), mm. 10--43.    
-  figures:
+  figures:  
     - figure:
-        number: '6_0'
-        caption:
-        url: 'assets/articles/barrettara/img/ex_6_0.png'
-        alt: 'Test'
+        number: 
+        caption: 
+        url: "assets/articles/barrettara/img/ex_6_0.png"
+        alt: "Test"
         border: false
         scale: 1
-  figures:
-    - figure:
-        number: '6_1'
-        caption:
-        url: 'assets/articles/barrettara/img/ex_6_1.png'
-        alt: 'Test'
+    - figure: 
+        number: 
+        caption: 
+        url: "assets/articles/barrettara/img/ex_6_1.png"
+        alt: "Test"
         border: false
         scale: 1
-
+    - figure:
+        number: 
+        caption: 
+        url: "assets/articles/barrettara/img/ex_6_2.png"
+        alt: "Test"
+        border: false
+        scale: 1
 
 ## Works Cited
 
@@ -315,7 +320,7 @@ citations:
     Bent, Ian. 1994. *Music Analysis in the Nineteenth Century.* Cambridge: Cambridge University Press.
 - name: Berke_2003
   citation: >
-    Berke, Dietrich. 2003. "Vorwort." In *Zaide (Das Serail), KV 344 (336^b^)*, composed by Wolfgang Amadeus Mozart. Vocal score based on the *NMA* Urtext (edited by Heinz Moehn). Kassel: Bärenreiter.
+    Berke, Dietrich. 2003. "Vorwort." In *Zaide (Das Serail), KV 344 (336<sup>b</sup>)*, composed by Wolfgang Amadeus Mozart. Vocal score based on the *NMA* Urtext (edited by Heinz Moehn). Kassel: Bärenreiter.
 - name: Caplin_2011
   citation: >
     Caplin, William. 2011. "Criteria for Analysis: Perspectives on Riemann's Mature Theory of Meter." In *The Oxford Handbook of Neo-Riemannian Music Theories*, edited by Edward Gollin and Alexander Rehding, 419--39. Oxford: Oxford University Press.

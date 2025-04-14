@@ -1,8 +1,20 @@
 <div class="figure-container">
 {% if include.columns %}
 <div class="figure-grid" style="--columns: {{ include.columns }};">
-  {% for item in site.data[page.short-name][include.figure_key].figures %}
-    {% assign anchor_id = "ex-" | append: item.figure.number %} {%- comment -%} Create a unique ID for each anchor {%- endcomment -%}
+  {% assign group_data = site.data[page.short-name][include.figure_key] %} {%- comment -%} Store group data for easier access {%- endcomment -%}
+  {% for item in group_data.figures %}
+    {% comment %} --- REVISED MODIFICATION START --- {% endcomment %}
+    {% comment %} Prioritize specific item number, then main number, then fallback {% endcomment %}
+    {% if item.figure.number %}
+      {% assign anchor_id = "ex-" | append: item.figure.number %}
+    {% elsif group_data.main_number %}
+      {% assign anchor_id = "ex-" | append: group_data.main_number %}
+    {% else %}
+      {% comment %} Fallback if both item.figure.number and group_data.main_number are empty {% endcomment %}
+      {% assign anchor_id = include.figure_key | append: "-item-" | append: forloop.index %}
+    {% endif %}
+    {% comment %} --- REVISED MODIFICATION END --- {% endcomment %}
+
     <a href="#{{ anchor_id }}" class="figure-grid-item-link"> {%- comment -%} Wrap the entire figure in an anchor tag {%- endcomment -%}
       <figure class="figure-grid-item" id="{{ anchor_id }}"> {%- comment -%} Add the ID to the figure itself {%- endcomment -%}
         {% if include.figure_key contains "audio_" %}
@@ -28,7 +40,7 @@
         {% elsif include.figure_key contains "audio_" %}
           {% assign figure_type = "Audio Example" %}
         {% elsif include.figure_key contains "video_" %}
-           {% assign figure_type = "Video Example" %}
+            {% assign figure_type = "Video Example" %}
         {% endif %}
 
         <figcaption>
@@ -37,12 +49,11 @@
           {% endif %}
           {% if item.figure.caption %}{{ item.figure.caption | markdownify }}{% endif %}
         </figcaption>
-
       </figure>
     </a>
   {% endfor %}
 
-  {% if site.data[page.short-name][include.figure_key].main_caption %}
+  {% if group_data.main_caption %}
     {% assign figure_type = "Example" %}
     {% if include.figure_key contains "table_" %}
       {% assign figure_type = "Table" %}
@@ -53,75 +64,86 @@
     {% endif %}
     <div class="main-caption-wrapper">
       <figcaption>
-        {% if site.data[page.short-name][include.figure_key].main_number %}
-          <span class="fig-number">{{ figure_type }} {{ site.data[page.short-name][include.figure_key].main_number }}.</span>
+        {% if group_data.main_number %}
+          <span class="fig-number">{{ figure_type }} {{ group_data.main_number }}.</span>
         {% endif %}
-        {{ site.data[page.short-name][include.figure_key].main_caption | markdownify }}
+        {{ group_data.main_caption | markdownify }}
       </figcaption>
     </div>
   {% endif %}
 </div>
 {% else %}
 <div class="figure-grid" style="--columns: 1;">
-  {% for item in site.data[page.short-name][include.figure_key].figures %}
-    {% assign anchor_id = "ex-" | append: item.figure.number %}
+  {% assign group_data = site.data[page.short-name][include.figure_key] %} {%- comment -%} Store group data for easier access {%- endcomment -%}
+  {% for item in group_data.figures %}
+    {% comment %} --- REVISED MODIFICATION START --- {% endcomment %}
+    {% comment %} Prioritize specific item number, then main number, then fallback {% endcomment %}
+    {% if item.figure.number %}
+      {% assign anchor_id = "ex-" | append: item.figure.number %}
+    {% elsif group_data.main_number %}
+      {% assign anchor_id = "ex-" | append: group_data.main_number %}
+    {% else %}
+      {% comment %} Fallback if both item.figure.number and group_data.main_number are empty {% endcomment %}
+      {% assign anchor_id = include.figure_key | append: "-item-" | append: forloop.index %}
+    {% endif %}
+    {% comment %} --- REVISED MODIFICATION END --- {% endcomment %}
+
     <a href="#{{ anchor_id }}" class="figure-grid-item-link">
       <figure class="figure-grid-item" id="{{ anchor_id }}">
          {% if include.figure_key contains "audio_" %}
-          <audio controls src="{{ site.baseurl }}/{{ item.figure.url }}">
-            Your browser does not support the audio element.
-          </audio>
-        {% elsif include.figure_key contains "video_" %}
-           <video controls src="{{ site.baseurl }}/{{ item.figure.url }}"
-                 {% if item.figure.width %}width="{{ item.figure.width }}"{% endif %}
-                 {% if item.figure.height %}height="{{ item.figure.height }}"{% endif %}
-                 style="width: {{ item.figure.scale | default: 1 | times: 100 }}%; height: auto;">
-            Your browser does not support the video tag.
-          </video>
-        {% else %}
-          <img src="{{ site.baseurl }}/{{ item.figure.url }}" alt="{{ item.figure.alt }}"
-               {% if item.figure.border %}class="with-border"{% endif %}
-               style="width: {{ item.figure.scale | default: 1 | times: 100 }}%; height: auto;">
-        {% endif %}
+           <audio controls src="{{ site.baseurl }}/{{ item.figure.url }}">
+             Your browser does not support the audio element.
+           </audio>
+         {% elsif include.figure_key contains "video_" %}
+            <video controls src="{{ site.baseurl }}/{{ item.figure.url }}"
+                   {% if item.figure.width %}width="{{ item.figure.width }}"{% endif %}
+                   {% if item.figure.height %}height="{{ item.figure.height }}"{% endif %}
+                   style="width: {{ item.figure.scale | default: 1 | times: 100 }}%; height: auto;">
+             Your browser does not support the video tag.
+            </video>
+         {% else %}
+           <img src="{{ site.baseurl }}/{{ item.figure.url }}" alt="{{ item.figure.alt }}"
+                {% if item.figure.border %}class="with-border"{% endif %}
+                style="width: {{ item.figure.scale | default: 1 | times: 100 }}%; height: auto;">
+         {% endif %}
 
-        {% assign figure_type = "Example" %}
-        {% if include.figure_key contains "table_" %}
-          {% assign figure_type = "Table" %}
-        {% elsif include.figure_key contains "audio_" %}
-          {% assign figure_type = "Audio Example" %}
-        {% elsif include.figure_key contains "video_" %}
-           {% assign figure_type = "Video Example" %}
-        {% endif %}
+         {% assign figure_type = "Example" %}
+         {% if include.figure_key contains "table_" %}
+           {% assign figure_type = "Table" %}
+         {% elsif include.figure_key contains "audio_" %}
+           {% assign figure_type = "Audio Example" %}
+         {% elsif include.figure_key contains "video_" %}
+            {% assign figure_type = "Video Example" %}
+         {% endif %}
 
-        <figcaption>
-          {% if item.figure.number %}
-            <span class="fig-number">{{ figure_type }} {{ item.figure.number | markdownify }}.</span>
-          {% endif %}
-          {% if item.figure.caption %}{{ item.figure.caption }}{% endif %}
-        </figcaption>
-
+         <figcaption>
+           {% if item.figure.number %}
+             <span class="fig-number">{{ figure_type }} {{ item.figure.number | markdownify }}.</span>
+           {% endif %}
+           {% if item.figure.caption %}{{ item.figure.caption }}{% endif %}
+         </figcaption>
       </figure>
     </a>
   {% endfor %}
 
-  {% if site.data[page.short-name][include.figure_key].main_caption %}
+  {% if group_data.main_caption %}
      {% assign figure_type = "Example" %}
-    {% if include.figure_key contains "table_" %}
-      {% assign figure_type = "Table" %}
-    {% elsif include.figure_key contains "audio_" %}
-      {% assign figure_type = "Audio Example" %}
-     {% elsif include.figure_key contains "video_" %}
-      {% assign figure_type = "Video Example" %}
-    {% endif %}
-    <div class="main-caption-wrapper">
-      <figcaption class="main-caption">
-        {% if site.data[page.short-name][include.figure_key].main_number %}
-          <span class="fig-number">{{ figure_type }} {{ site.data[page.short-name][include.figure_key].main_number }}.</span>
-        {% endif %}
-        {{ site.data[page.short-name][include.figure_key].main_caption | markdownify }}
-      </figcaption>
-    </div>
-  {% endif %}
+     {% if include.figure_key contains "table_" %}
+       {% assign figure_type = "Table" %}
+     {% elsif include.figure_key contains "audio_" %}
+       {% assign figure_type = "Audio Example" %}
+      {% elsif include.figure_key contains "video_" %}
+       {% assign figure_type = "Video Example" %}
+     {% endif %}
+     <div class="main-caption-wrapper">
+       <figcaption class="main-caption">
+         {% if group_data.main_number %}
+           <span class="fig-number">{{ figure_type }} {{ group_data.main_number }}.</span>
+         {% endif %}
+         {{ group_data.main_caption | markdownify }}
+       </figcaption>
+     </div>
+   {% endif %}
 </div>
 {% endif %}
 </div>
