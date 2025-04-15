@@ -1,5 +1,7 @@
 ## Footnotes
 
+marginnote_1: >
+  We are grateful for the work of our research assistants Mira Perusich, Jonas Kastenhuber, Alexis Cantelme, and Monserrat Torres Guillen, as well as for the feedback of Trevor de Clercq and the anonymous peer reviewers.
 footnote_1: >
   MrMonte (Monte Mallin), reply to "Musicians: How Do You Explain Charlie's Technique to Drummers?," *It's Only Rock'n Roll* forum, March 9, 2012, <https://iorr.org/talk/read.php?1,1579013,page=1>.
 footnote_2: >
@@ -67,7 +69,7 @@ footnote_32: >
 footnote_33: >
   There is potential variability in different analysts' tempo CV calculations, even when our detailed method is followed, particularly in cases of songs with prominent ritardandi and/or caesuras. Analysis of the same tracks by different analysts suggests that analyses of songs with a CV of 1.0 or below will typically be identical or nearly identical, while independent analyses of recordings with tempo CVs greater than 1.0 can differ by up to 10 percent.
 footnote_34: >
-  Songs in our *Billboard* and non-Billboard Others corpora known to have been recorded to a click track typically have CV values ranging between 0.2 and 0.5: for instance, Nirvana\'s "Lithium," 0.20 (Coffman 2023); Sly & the Family Stone's "Family Affair," 0.27 (LeRoy 2023, 32); and Ron Wood\'s "Shirley," 0.39 (LeRoy 2023, 38).
+  Songs in our *Billboard* and non-*Billboard* Others corpora known to have been recorded to a click track typically have CV values ranging between 0.2 and 0.5: for instance, Nirvana\'s "Lithium," 0.20 (Coffman 2023); Sly & the Family Stone's "Family Affair," 0.27 (LeRoy 2023, 32); and Ron Wood\'s "Shirley," 0.39 (LeRoy 2023, 38).
 footnote_35: >
   The low tempo CV measurements for the Stones tracks in Example 36 suggest the use of mechanical assistance, despite guitarist Keith Richards's vocal disapproval of the use of "hi-tech stuff" in the studio (Mattingly 1990, 21). For 1997's "Saint of Me," one of three Dust Brothers-produced tracks in Example 36, Watts played over a recording of a Roland TR-808 drum machine (Janovitz 2013, 363--364).
 

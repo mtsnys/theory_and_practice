@@ -7,6 +7,7 @@ title: "Measuring the Myth: Microtiming and Tempo Variability in the Music of th
 author: "David S. Carter and Ralf von Appen"
 short-name: "carter_von_appen"
 abstract: "In this article, we empirically examine microtiming and tempo variability in the drumming of the Rolling Stones’ Charlie Watts. We present a new method for microtiming analysis and use it to examine 81 Rolling Stones recordings and 59 songs by other artists. Our study finds that Watts delayed backbeats more consistently than his contemporaries, particularly in releases dating from 1967 to 1973. We also analyze tempo variability in 133 Rolling Stones studio recordings with Watts, finding that tempo variation often reflected song structure and that the band had a general tendency to accelerate in recordings from this same 1967–73 period. After 1973, the music of the Rolling Stones became much steadier, to some extent aligning with trends in mainstream pop. Ultimately, our study provides some evidence for claims commonly made about Watts, but also suggests that much of the discussion may be colored by romanticized notions of authenticity."
+marginnote_1: "We are grateful for the work of our research assistants Mira Perusich, Jonas Kastenhuber, Alexis Cantelme, and Monserrat Torres Guillen, as well as for the feedback of Trevor de Clercq and the anonymous peer reviewers."
 sections:  
     - header: 
         text: "I. Prior Scholarship on Microtiming in Popular Music Drumming"  
@@ -39,7 +40,7 @@ permalink: vol49-50/carter_von_appen
 
 <section markdown="1">
 
-Fans often discuss the "feels" of popular music drummers, making claims
+{% include marginnote.html marginnote_number='1' footnote_text=page.marginnote_1%}Fans often discuss the "feels" of popular music drummers, making claims
 about the particular features that characterize their sound. The
 drumming of Charlie Watts of the Rolling Stones has especially been the
 subject of intense debate. When Watts died in August 2021, a headline in
@@ -189,7 +190,7 @@ In the first model, the tempo is a relatively flat line (**[Example 21](#ex-21)*
 
 {% include figure_grid.html columns=1 figure_key='figure_21' %}
 
-The second shape can be found more often in their '60s and '70s recordings: here the band significantly increases the tempo within the first handful of bars, then is relatively steady after that point. This pattern is heard in "Sweet Virginia" (**[Example 22](#ex-22)**), where the guitars start at 93 BPM and quickly reach 106 BPM within just 12 bars. This kind of early acceleration occurs also in "Stray Cat Blues," "Dancing with Mr. D," and in 1970s live versions of "Honky Tonk Women," "Brown Sugar," "Jumping Jack Flash," and "Tumbling Dice." We observed early acceleration in other artists' studio recordings as well, including in the Jimi Hendrix Experience's "All Along the Watchtower" and Creedence Clearwater Revival's "Born on the Bayou."
+The second shape can be found more often in their '60s and '70s recordings: here the band significantly increases the tempo within the first handful of bars, then is relatively steady after that point. This pattern is heard in "Sweet Virginia" (**[Example 22](#ex-22)**), where the guitars start at 93 BPM and quickly reach 106 BPM within just 12 bars. This kind of early acceleration occurs also in "Stray Cat Blues," "Dancing with Mr. D," and in 1970s live versions of "Honky Tonk Women," "Brown Sugar," "Jumpin’ Jack Flash," and "Tumbling Dice." We observed early acceleration in other artists' studio recordings as well, including in the Jimi Hendrix Experience's "All Along the Watchtower" and Creedence Clearwater Revival's "Born on the Bayou."
 
 {% include figure_grid.html columns=1 figure_key='figure_22' %}
 {% include figure_grid.html columns=1 figure_key='video_22' %}
