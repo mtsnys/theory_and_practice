@@ -1643,6 +1643,10 @@ article {
 
 }
 
+.toc-item-container.articles {
+	width: 100%;
+}
+
 
 .toc-item-container.reviews {
 	width: 100%;

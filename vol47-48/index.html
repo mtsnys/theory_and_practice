@@ -13,7 +13,7 @@ volume: vol47-48
   {% assign sorted_articles = volume_posts | where: "layout", "article" | sort: "order" %}
 
   {% for post in sorted_articles %}
-  <div class="toc-item-container">
+  <div class="toc-item-container articles">
       <div class="toc-item">
         <div class="title"><a class="title" href="{{ post.url | relative_url }}">{{ post.title }}</a></div>
         <div class="author">{{ post.author }}</div>

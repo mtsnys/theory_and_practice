@@ -12,7 +12,7 @@ layout: default
   {% assign sorted_articles = volume_posts | where: "layout", "article" | sort: "order" %}
 
   {% for post in sorted_articles %}
-  <div class="toc-item-container">
+  <div class="toc-item-container articles">
       <div class="toc-item">
         <div class="title"><a class="title" href="{{ post.url | relative_url }}">{{ post.title }}</a></div>
         <div class="author">{{ post.author }}</div>
@@ -41,7 +41,6 @@ layout: default
 
   {% for post in sorted_reviews %}
     {% comment %} The outer container for the review block (title, reviewed author, reviewer) {% endcomment %}
-    <div class="review-block-container"> 
         {% for reviewed_item in post.reviewed %}
           <div class="toc-item-container reviews">
             <div class="toc-item">
@@ -56,7 +55,6 @@ layout: default
           </div>
         </div>
         <br>
-    </div> {% comment %} End review-block-container {% endcomment %}
   {% else %}
      <p>No reviews found for this volume.</p> {% comment %} Optional: Handle case with no reviews {% endcomment %}
   {% endfor %}
