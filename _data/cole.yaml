@@ -82,7 +82,7 @@ figure_1:
         url: 'assets/articles/cole/img/ex_1.png'
         alt: 'Test'
         border: false
-        scale: 1
+        scale: .6
 figure_2:
   main_number:
   main_caption:
