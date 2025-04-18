@@ -24,7 +24,6 @@ permalink: /about/
 		<li><strong>Editors</strong>: <a href="mailto:tdeclercq@mtsu.edu">Trevor de Clercq</a> (Middle Tennessee State) and <a href="mailto:khutchinson1@colgate.edu">Kyle Hutchinson</a> (Colgate)</li>
 		<li><strong>Reviews Editor</strong>: <a href="mailto:daphne.tan@utoronto.ca">Daphne Tan</a> (University of Toronto)</li>
 		<li><strong>Subscriptions Manager</strong>: <a href="mailto:wmarvin@esm.rochester.edu">William Marvin</a> (Eastman School of Music)</li>
-		<li><strong>Awards Editor</strong>: <a href="mailto:esmith9@oberlin.edu">Eron Smith</a> (Oberlin College & Conservatory of Music)</li>
 	</ul>
 
 
@@ -45,14 +44,14 @@ permalink: /about/
 
 <div><h2>MTSNYS Board of Directors</h2>
 	<ul style="list-style: none;">
-		<li>Philip S. Stoecker, President (Hofstra University)</li>
+		<li>Peter Silberman, President (Ithaca College)</li>
 		<li>Loretta Terrigno, Vice President (Eastman School of Music)</li>
-		<li>Sarah Marlowe, Secretary (Eastman School of Music)</li>
+		<li>Stephanie Venturino, Secretary (Yale University)</li>
 		<li>Anna Stephan-Robinson, Treasurer (West Liberty University)</li>
 		<li>Ruka Shironishi, Member-at-large (Mannes School of Music)</li>
-		<li>Lukas Perry, Member-at-large (University of Nevada, Las Vegas)</li>
-		<li>Nathan Lam, Member-at-large (Eastman School of Music)</li>
-		<li>Stephanie Venturino, Member-at-large (Yale School of Music)</li>
+		<li>Hanisha Kulothparan, Member-at-large (University of Rochester)</li>
+		<li>Jacob Eichhorn, Member-at-large (Eastman School of Music)</li>
+
 	</ul>
 </div>
 </div>
