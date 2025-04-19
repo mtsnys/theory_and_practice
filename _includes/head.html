@@ -7,7 +7,15 @@
   				<title>{{ site.title}}</title> 
   		{% endif %}		
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
-  <script src="{{site.baseurl}}/assets/js/jquery-3.7.1.min.js"></script> 
+  <script src="{{site.baseurl}}/assets/js/jquery-3.7.1.min.js"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-5M94HRVD41"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-5M94HRVD41');
+</script> 
 
   {%- feed_meta -%}
   {%- include analytics.html -%}
