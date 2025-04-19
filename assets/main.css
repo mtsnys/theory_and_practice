@@ -567,7 +567,7 @@ header select {
 
 .row3 {
   font-size: 1.3em;
-  font-family: "trade-gothic-l", sans-serif;
+  font-family: "trade-gothic-lt", sans-serif;
   line-height: 2em;
 }
 
@@ -597,7 +597,7 @@ nav ul {
 	margin: 0;
 	padding: 0;
 	display: flex;
-	font-size: 1.2rem;
+	font-size: 1.3 em;
 	align-items: center;
 }
 nav li {
@@ -650,7 +650,7 @@ nav.desktop-nav .nav-grid li {
     margin-right: 0px;
   }
   
-  .join-button {
+  .support-button {
   		padding: 10px 20px;
   }
   
@@ -659,16 +659,15 @@ nav.desktop-nav .nav-grid li {
 
 /* Button styling */
 
-li a.join-button {
+li a.support-button {
     font-family: "trade-gothic-lt-bold-ext", sans-serif;
     color: #656C85;
     -webkit-text-stroke: .25px black;
     text-decoration: none;
     font-size: 1.1em;
 }
-.join-button:hover {
+.join-support:hover {
 	background-color: #333;
-	/* Optional: Darken the background on hover */
 }
 
 
@@ -871,10 +870,9 @@ body .article-grid .grid-item .more {
 body .masthead {
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
+	align-items: flex-start;
 	padding-top: 10px;
-		padding-bottom: 10px;
-
+	padding-bottom: 10px;
 	width: 90%;
 	margin: 0 auto;
 	line-height: 1;
@@ -882,6 +880,7 @@ body .masthead {
 .left-section {
 	text-align: center;
 	/* Center text within sections */
+	/* vertical-align: text-top; */
 }
 .right-section {
 	text-align: right;
@@ -907,7 +906,7 @@ body .masthead {
 	/* Adjust line height as needed */
 	font-family: "trade-gothic-lt";
 	font-weight: 400;
-	font-size: 17px;
+	font-size: 1.2em;
 }
 @media (max-width: 768px) {
 	.logo-column.journal-title {
