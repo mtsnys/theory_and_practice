@@ -49,7 +49,7 @@ permalink: /about/
 		<li>Stephanie Venturino, Secretary (Yale University)</li>
 		<li>Anna Stephan-Robinson, Treasurer (West Liberty University)</li>
 		<li>Ruka Shironishi, Member-at-large (Mannes School of Music)</li>
-		<li>Lukas Perry, Member-at-large (University of Nevada, Las Vegas)(</li>)
+		<li>Lukas Perry, Member-at-large (University of Nevada, Las Vegas)</li>
 		<li>Hanisha Kulothparan, Member-at-large (University of Rochester)</li>
 		<li>Jacob Eichhorn, Member-at-large (Eastman School of Music)</li>
 
