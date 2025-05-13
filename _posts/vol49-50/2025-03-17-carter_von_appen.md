@@ -5,7 +5,7 @@ categories: vol49-50
 order: 5
 title: "Measuring the Myth: Microtiming and Tempo Variability in the Music of the Rolling Stones"
 author: "David S. Carter and Ralf von Appen"
-short-name: "carter_von_appen"
+short-name: "carter-von-appen"
 abstract: "In this article, we empirically examine microtiming and tempo variability in the drumming of the Rolling Stones’ Charlie Watts. We present a new method for microtiming analysis and use it to examine 81 Rolling Stones recordings and 59 songs by other artists. Our study finds that Watts delayed backbeats more consistently than his contemporaries, particularly in releases dating from 1967 to 1973. We also analyze tempo variability in 133 Rolling Stones studio recordings with Watts, finding that tempo variation often reflected song structure and that the band had a general tendency to accelerate in recordings from this same 1967–73 period. After 1973, the music of the Rolling Stones became much steadier, to some extent aligning with trends in mainstream pop. Ultimately, our study provides some evidence for claims commonly made about Watts, but also suggests that much of the discussion may be colored by romanticized notions of authenticity."
 marginnote_1: "We are grateful for the work of our research assistants Mira Perusich, Jonas Kastenhuber, Alexis Cantelme, and Monserrat Torres Guillen, as well as for the feedback of Trevor de Clercq and the anonymous peer reviewers."
 sections:  

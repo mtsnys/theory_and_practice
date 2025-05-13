@@ -13,7 +13,6 @@
       {% comment %} Fallback if both item.figure.number and group_data.main_number are empty {% endcomment %}
       {% assign anchor_id = include.figure_key | append: "-item-" | append: forloop.index %}
     {% endif %}
-    {% comment %} --- REVISED MODIFICATION END --- {% endcomment %}
 
     <a href="#{{ anchor_id }}" class="figure-grid-item-link"> {%- comment -%} Wrap the entire figure in an anchor tag {%- endcomment -%}
       <figure class="figure-grid-item" id="{{ anchor_id }}"> {%- comment -%} Add the ID to the figure itself {%- endcomment -%}
