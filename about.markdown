@@ -37,7 +37,6 @@ permalink: /about/
 		<li>John Peterson (James Madison University)</li>
 		<li>Cara Stroud (Michigan State University)</li>
 		<li>Fred Hosken (Butler University)</li>
-		<li>Chris Segall (University of Cincinnati)</li>
 		<li>Landon Morrison (Eastman School of Music)</li>
 		<li>Matthew Poon (University of Wisconsin Eau Claire)</li>
 	</ul>
