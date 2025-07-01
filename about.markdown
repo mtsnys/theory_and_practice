@@ -32,6 +32,7 @@ permalink: /about/
 	<ul style="list-style: none;">
 		<li>Knar Abrahamyan (Columbia University)</li>
 		<li>Guy Capuzzo (University of North Carolina Greensboro)</li>
+		<li>Trevor de Clercq (Middle Tennessee State University)</li>
 		<li>Leah Frederick (University of Colorado Boulder)</li>
 		<li>Samuel Ng (University of Cincinnati)</li>
 		<li>John Peterson (James Madison University)</li>
