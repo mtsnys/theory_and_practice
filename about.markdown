@@ -21,9 +21,9 @@ permalink: /about/
 <div class="about-page">
 <div><h2>Theory and Practice Staff</h2>
 	<ul style="list-style: none;">
-		<li><strong>Editors</strong>: <a href="mailto:khutchinson1@colgate.edu">Kyle Hutchinson</a> (Colgate) and <a href="mailto:segallcr@ucmail.uc.edu">Christopher Segall</a> (University of Cincinnati)</li>
+		<li><strong>Editors</strong>: <a href="mailto:khutchinson1@colgate.edu">Kyle Hutchinson</a> (Colgate University) and <a href="mailto:segallcr@ucmail.uc.edu">Christopher Segall</a> (University of Cincinnati)</li>
 		<li><strong>Reviews Editor</strong>: <a href="mailto:stephanie.venturino@yale.edu">Stephanie Venturino</a> (Yale University)</li>
-		<li><strong>Awards Editor</strong>: <a href="mailto:esmith9@oberlin.edu">Eron Smith</a> (Oberlin College</li>
+		<li><strong>Awards Editor</strong>: <a href="mailto:esmith9@oberlin.edu">Eron Smith</a> (Oberlin College)</li>
 		<li><strong>Subscriptions Manager</strong>: <a href="mailto:wmarvin@esm.rochester.edu">William Marvin</a> (Eastman School of Music)</li>
 	</ul>
 
