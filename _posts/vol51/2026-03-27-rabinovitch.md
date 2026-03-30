@@ -6,7 +6,7 @@ order: 3
 title: "Rational Deceptions? An Analytical Exploration of Tonality, Meter, and Form in C. P. E. Bach&#39;s Symphony in D Major, Wq. 183/1"
 author: "Gilad Rabinovitch"
 short-name: "rabinovitch"
-abstract: "[ABSTRACT PLACEHOLDER — please fill in from manuscript]"
+abstract: "[abstract placeholder]"
 marginnote_1: >
   I would like to thank my students Armin Akhavian, Trevor Hofelich, and Claire Terrell for bearing with me and providing feedback as I workshopped some of these ideas in preliminary stages in a rhythm and meter course and to students and colleagues at Florida State University for their feedback on a more formal presentation. Thanks to Poundie Burstein, William Rothstein, and Jason Yust for discussing various aspects of this project at later stages. I am grateful to the team of *Carl Philipp Emanuel Bach: The Complete Works* for their kind permission to rely on their text and to Benjamin Schweitzer for his assistance engraving the musical examples. The Symphony Wq. 183/1 appears in Volume III/3, *Orchester-Sinfonien mit zwölf obligaten Stimmen*, edited by David Kidger; the Symphony Wq. 179 appears in Volume III/1, *Berlin Symphonies*, edited by Ekkehard Krüger and Tobias Schwinger. Last but not least, I would like to thank the two anonymous reviewers for their detailed and helpful critiques of an earlier version of this manuscript.
   <br><br>The opening of Bach's symphony is analyzed briefly in Yust (2018, 187--88); my article offers a complementary, informal analysis of tonality, meter, and form in this piece.
