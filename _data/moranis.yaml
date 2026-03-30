@@ -1,0 +1,850 @@
+## Footnotes
+
+footnote_1: >
+  David Yaffe (2023) wrote about Mitchell's 2022 Newport performance, "While her voice remained deeper, it has gotten much clearer, and much more supple." In a review of *Taming the Tiger*, Stuart Maconie wrote, "She's never sung better, either, the clear and precise enunciations now gone nicely husky" (\[1998\] 2017, 211). In a 2014 article, Renee Montagne wrote, "She's luxuriated in a voice that got deeper with age" (Mitchell 2014).
+
+footnote_2: >
+  Betty Clarke (2002) writes the following in her review of *Travelogue*: "If the health warning isn't enough to put you off cigarettes, the nicotine-ravaged vocals of the once angelic, now gasping Joni Mitchell should. Mitchell's voice is a husky shadow of its formal feather-light glory."
+
+footnote_3: >
+  Mitchell has written and performed political songs throughout her career, such as "Big Yellow Taxi" (1970). Notably, these topics became the focus of later music, especially on *Shine* (Gumbel 2007).
+
+footnote_4: >
+  The term "formant" will be defined in part 3 of the article.
+
+footnote_5: >
+  Fitting a linear trendline to the midpoints of the vocal range in each of Mitchell's songs shows that the midpoints trend downwards from approximately Fƒ~4~ to C~4~.
+
+footnote_6: >
+  Mitchell has sung lower notes outside of her studio albums; on "A Case of You" from *Live at Newport* (2023), she sings Aß~2~.
+
+footnote_7: >
+  Mitchell's ranges in the re-recordings of "Amelia" and "Hejira" match those of the original recordings.
+
+footnote_8: >
+  By vocal agility, I mean the ability to traverse wide pitch ranges with speed. Mitchell's vocal agility in earlier albums was not without criticism, either; Tom Nolan (1975) wrote of her 1974 live album *Miles of Aisles* that her voice "leapt all over the place in a shrill demonstration of technique. ('Congratulations to Joni Mitchell upon her conquest of the octave,' Richard Goldstein wrote sarcastically of her first album.)"
+
+footnote_9: >
+  Reymore built this model by conducting interviews (*n* = 23) and rating tasks (*n* = 460) "based on imagined instrument timbres" (2020, ii).
+
+footnote_10: >
+  Others have written about the evolution of certain Joni Mitchell songs: Lloyd Whitesell (2008) conducts an analysis of the "evolution of Mitchell's own conception of 'Woodstock'" (34), Timothy Koozin (2024) analyzes recordings of Mitchell's "Both Sides Now" from 1969, 2000, and 2022, and Joanne Winning (2019) compares versions of "Both Sides Now" from 1969 and 2000. Beyond Mitchell, Steven Rings (2013) analyzes Bob Dylan's vocal evolution through performances of the song "It's Alright, Ma (I'm Only Bleeding)" from 1964 until 2009.
+
+footnote_11: >
+  Mitchell performs lead vocals and Appalachian dulcimer, James Taylor performs on acoustic guitar, and Russ Kunkel performs on percussion.
+
+footnote_12: >
+  Mitchell performs lead vocals, lush strings provide the harmonies, individual woodwind instruments (e.g., flute, oboe) play solo lines, and a snare drum is played with brushes in a jazz style. This version was arranged and conducted by Vince Mendoza and performed by members of the London Symphony Orchestra alongside jazz musicians such as Wayne Shorter on saxophone.
+
+footnote_13: >
+  Perfect fourth transpositions are not unusual; several Genesis songs on their farewell tour (2021--22) were also lowered in key to accommodate Phil Collins's changing vocal range, including their most successful hit, "Invisible Touch" (US #1, 1986), which was similarly lowered by a perfect fourth. Mark Spicer posits that this transposition distance around the circle of fifths is likely not a coincidence and may be less drastic for audiences (personal communication).
+
+footnote_14: >
+  Mitchell performs lead vocals, Brandi Carlile and Marcus Mumford perform backup vocals, piano replaces dulcimer and guitar, and electric strings are featured.
+
+footnote_15: >
+  These observations were made while personally attending the live Joni Mitchell and the Joni Jam performance at the Hollywood Bowl on October 19, 2024.
+
+footnote_16: >
+  Mitchell's agency is apparent when contrasting this performance with her 2022 performance from the Newport Folk Festival, where she mostly sang the harmony below Brandi Carlile's melody.
+
+footnote_17: >
+  I limited my investigation to Mitchell's 19 studio albums and the 2023 recording of Mitchell's 2022 appearance at the Newport Folk Festival (entitled *Joni Mitchell at Newport*).
+
+footnote_18: >
+  Formant frequencies are increasingly being used as tools to analyze instrumental timbres in addition to those of the voice (Reuter et al. 2024; Reuter, forthcoming).
+
+footnote_19: >
+  Others compare formant frequencies over time to chart the phonetic change of a specific individual: Josiane Riverin-Coutlée and Jonathan Harrington (2022) conduct a longitudinal analysis of public French speaker Michaëlle Jean, charting specific vowels present in Québécois French that are absent from other French-speaking regions.
+
+footnote_20: >
+  I used LALAL.AI to extract an isolated vocal track from the song's original audio. In the absence of the real isolated vocals (i.e., from the producer or record company themselves), vocal tracks created using source separation software allow for reasonably accurate analysis. I then used the speech analysis software Praat to obtain the mean frequency for each formant. Praat estimates the first five formant frequencies, but I only analyzed formants 1 and 2.
+
+footnote_21: >
+  These vowels are from the word "feel" in "Willy" (*Ladies of the Canyon*) and "Both Sides Now" (*Both Sides Now*).
+
+footnote_22: >
+  These vowels are from the word "road" in "All I Want" (*Blue*) and "Wild Things Run Fast" (*Wild Things Run Fast*). I limited my analysis to a stable section of the diphthong: I selected only the /o/ component of the diphthong vowel by ear.
+
+footnote_23: >
+  These vowels are from the word "feet" in two different recordings of "A Case of You" (*Blue*, *Joni Mitchell at Newport*).
+
+footnote_24: >
+  These vowels are from the word "you" in "See You Sometime" (*For the Roses*), "Down to You" (*Court and Spark*), "Jericho" (*Don Juan's Reckless Daughter*), "My Best to You" (*Taming the Tiger*), "For the Roses" (*Travelogue*), and "Both Sides Now" (*Joni Mitchell at Newport*). I listened to each vowel to ensure that I chose sections of the diphthong that were sonically equivalent.
+
+footnote_25: >
+  These vowels are from various words: "plane" in "Nathan La Freneer" (*Song to a Seagull*), "lady" in "Willy" (*Ladies of the Canyon*), "plane" in "Black Crow" (*Hejira*), and "plane" in "Dreamland" (*Don Juan's Reckless Daughter*). I listened to each vowel by ear to ensure that I chose components of the diphthong that were sonically equivalent.
+
+footnote_26: >
+  An exception to this is the word "feet" in "A Case of You" from 1971 and 2022. Mitchell maintained the same key but sung an octave lower in 2022. "Feet" was sung on Dß~4~ as the low tonic note in 1971 and as the high tonic note in 2022.
+
+footnote_27: >
+  Accent may also play a role here; Mitchell's Canadian accent, which she still holds onto, is sometimes more or less present in her singing voice depending on the genre at hand. Mitchell said that singing with David Crosby, Stephen Stills, and Graham Nash specifically influenced her accent: "In order to blend with them you had to adopt a kind of vocal affectation to get the blend. . . . Suddenly I have kind of an overt American accent, to my ear anyway, being Canadian, on the second album which kind of dies down by the time you get to the third" (Mitchell \[1986\] 2002).
+
+footnote_28: >
+  Mitchell said, "There are showy, fun songs that will accommodate a certain amount of winky-wink, nod-nod from the stage, but on these intimate things you almost have to sing with a method acting kind of way---you have to find your sincerity like an actor does" (Mitchell \[1997\] 2000).
+
+footnote_29: >
+  Karppinen asserts that audiences may have criticized Mitchell's voice in her jazz records because she is not a "natural jazz singer" in terms of her identity, like "Ella Fitzgerald and Billie Holiday---black female singers of the big band era" (2016, 150).
+
+footnote_30: >
+  Vocal damage and race are sometimes intertwined. Rudolph Fisher, a medical student in the 1920s, wrote that singers in Harlem "wore themselves ragged trying to rise above the inattentive din of conversation, and soon, literally, yelled themselves hoarse; eventually they lost whatever music there was in their voices and acquired that familiar throaty roughness which is so frequent among blues singers, and which, though admired as characteristically African, is as a matter of fact nothing but a form of chronic laryngitis" (Fisher \[1987\] 2008, 334; Stras 2006). While Mitchell sang in a jazz rather than blues style, her vocal style, a combination of creative choice and vocal damage, can be heard as her trying to emulate Black blues voices.
+
+footnote_31: >
+  Of her voice on the 1974 *Miles of Aisles* album, Mitchell said, "My voice is gone . . . I sound like an old spade" (Monk 2012, 244). Mitchell may have used this phrase as code for a Black person, slang that emerged in the 1920s during the Harlem Renaissance (O'Conner and Kellerman 2009, 126--29). By using this term to refer to her voice, Mitchell seems to consider her voice as sounding Black; the statement also seems to carry a derogatory connotation, criticizing the sound of her changing (or failing) voice.
+
+footnote_32: >
+  When asked, "Why do you hate critics so much?," Mitchell responded, "They hold you in your decade" (Eggar 2007).
+
+footnote_33: >
+  Straus argues that late style "may in some cases be more richly understood as disability style: a perspective composers may adopt at any age, often in response to a personal experience of disability" (2008, 6).
+
+footnote_34: >
+  Kinney calls attention to reception differences of aging voices across genres: "While older voices in popular musics can index themes such as authenticity, wisdom, and experience, the sounds of aging in opera are virtually always heard as deficits that detract and distract from the aesthetic appreciation of a performance" (2023, 8).
+
+footnote_35: >
+  Holiday and Sinatra performed into their forties and seventies respectively. While Holiday passed away at the age of 44, her voice underwent an extreme evolution, so much so that in her last years, such as on *Lady in Satin* (1958), her voice sounded like it belonged to someone much older.
+
+footnote_36: >
+  Michelle Mercer (2009) includes Holiday and Sinatra as singers that Joni Mitchell said she loved. Mitchell said, "Billie Holiday was more than a singer; Frank Sinatra was more than a singer. There were a lot that were Method actor singers" (Mercer 2009, 214). Mitchell putting these singers in the same breath and calling them "more than" singers may mean she was talking about age and vocal evolution.
+
+footnote_37: >
+  Elliott writes, "Decay is modelled in Mitchell's voice . . . to become a harsh chronicle of the traces life leaves on the body" (2015, 227).
+
+footnote_38: >
+  Conversely, asserting that Mitchell's creative vision was the sole factor in her vocal evolution also ascribes one's own judgments onto her vocal transformation.
+
+footnote_39: >
+  For fans who were young when Mitchell released her first albums, Mitchell's evolution as an aging performer may parallel certain elements of their own lives as they have grown older themselves (Bennett 2013).
+
+footnote_40: >
+  Of her Newport performance, Lindsay Zoladz (2022) writes, "There was an intergenerational tenderness to the performance, the way that some of the younger musicians (Marcus Mumford, Blake Mills, Jess Wolfe and Holly Laessig of Lucius) appeared to be in palpable awe of what was happening even as they kept time and in tune." Brandi Carlile, 38 years Mitchell's junior and the inspiration for Mitchell's comeback at Newport, and other young artists such as Jon Batiste and Jacob Collier, joined Mitchell at her Hollywood Bowl performances.
+
+footnote_41: >
+  Mitchell began to write her own songs in 1964, four years before *Song to a Seagull* was released (Mitchell 1968a).
+
+## Figure Captions
+
+audio_0:
+  main_number:
+  main_caption:
+  figures:
+    - figure:
+        number: '0'
+        caption: >
+          Interview excerpt of Joni Mitchell saying the above quotation.
+        url: 'assets/articles/moranis/audio/Audio Example 0.mp3'
+        alt: 'Interview excerpt'
+        border: false
+        scale: 1
+figure_1:
+  main_number: 
+  main_caption:    
+  figures:
+    - figure:
+        number: '1'
+        caption: >
+          Titles and years of release of Joni Mitchell's 19 studio albums.
+        url: 'assets/articles/moranis/img/ex_1.png'
+        alt: 'Test'
+        border: false
+        scale: .5
+figure_2:
+  main_number: 
+  main_caption:    
+  figures:
+    - figure:
+        number: '2'
+        caption: >
+          Pitch ranges of Joni Mitchell's songs, ordered by album. Each set of lines in a single color represents an album. I excluded seven spoken or instrumental tracks, or tracks where Mitchell's voice was difficult to discern independently, resulting in 204 songs analyzed. The yellow band indicates the range of pitches that are sung throughout Mitchell's entire output (Fƒ~3~ to A~4~). Here and in all subsequent examples, A~4~ is equal to 440 Hz.
+        url: 'assets/articles/moranis/img/ex_2.png'
+        alt: 'Test'
+        border: false
+        scale: 1
+figure_3:
+  main_number: 
+  main_caption:    
+  figures:
+    - figure:
+        number: '3'
+        caption: >
+          Joni Mitchell, "That Song About the Midway" (*Clouds*, 1969), 0:29--0:46.
+        url: 'assets/articles/moranis/img/ex_3.png'
+        alt: 'Test'
+        border: false
+        scale: 1
+figure_4:
+  main_number: 
+  main_caption:    
+  figures:
+    - figure:
+        number: '4'
+        caption: >
+          Pitch ranges of Joni Mitchell's re-recorded songs on her studio albums. The *x*-axis song titles are ordered by date of original recording. The brown ranges are from the first release, and the blue ranges are from the later release.
+        url: 'assets/articles/moranis/img/ex_4.png'
+        alt: 'Test'
+        border: false
+        scale: 1
+figure_5:
+  main_number: 
+  main_caption:    
+  figures:
+    - figure:
+        number: '5'
+        caption: >
+          Range size of Joni Mitchell's songs, ordered chronologically by album. (P stands for perfect interval.)
+        url: 'assets/articles/moranis/img/ex_5.png'
+        alt: 'Test'
+        border: false
+        scale: 1
+figure_6:
+  main_number: 
+  main_caption:    
+  figures:
+    - figure:
+        number: '6'
+        caption: >
+          Joni Mitchell, "Big Yellow Taxi" (*Ladies of the Canyon*, 1970), 2:06--2:12.
+        url: 'assets/articles/moranis/img/ex_6.png'
+        alt: 'Test'
+        border: false
+        scale: 1
+figure_7:
+  main_number: 
+  main_caption:    
+  figures:
+    - figure:
+        number: '7'
+        caption: >
+          Joni Mitchell, "The Circle Game" (*Travelogue*, 2002), 5:16­--5:40.
+        url: 'assets/articles/moranis/img/ex_7.png'
+        alt: 'Test'
+        border: false
+        scale: 1
+figure_8:
+  main_number: 
+  main_caption:    
+  figures:
+    - figure:
+        number: '8'
+        caption: >
+          Timbre qualia model from Reymore (2020).
+        url: 'assets/articles/moranis/img/ex_8.png'
+        alt: 'Test'
+        border: false
+        scale: .9
+figure_9:
+  main_number: 
+  main_caption:    
+  figures:
+    - figure:
+        number: '9'
+        caption: >
+          Joni Mitchell, "A Case of You": timbre descriptors for three versions, with invariant descriptors in bold.
+        url: 'assets/articles/moranis/img/ex_9.png'
+        alt: 'Test'
+        border: false
+        scale: 1
+figure_10:
+  main_number: 
+  main_caption:    
+  figures:
+    - figure:
+        number: '10'
+        caption: >
+          Joni Mitchell, "A Case of You" (*Blue*, 1971), 1:14--1:37, end of first chorus. Mitchell's long held notes, which she omits on the 2000 recording and in the 2024 performance, demonstrate her vocal stamina and breath support.
+        url: 'assets/articles/moranis/img/ex_10.png'
+        alt: 'Test'
+        border: false
+        scale: 1
+figure_11:
+  main_number: 
+  main_caption:    
+  figures:
+    - figure:
+        number: '11'
+        caption: >
+          Joni Mitchell, "A Case of You" (*Both Sides Now*, 2000), 2:09--2:26, end of first chorus.
+        url: 'assets/articles/moranis/img/ex_11.png'
+        alt: 'Test'
+        border: false
+        scale: 1
+figure_12:
+  main_number: 
+  main_caption:    
+  figures:
+    - figure:
+        number: '12'
+        caption: >
+          Joni Mitchell, "A Case of You" (Joni Mitchell and the Joni Jam, October 19, 2024), end of first chorus.
+        url: 'assets/articles/moranis/img/ex_12.png'
+        alt: 'Test'
+        border: false
+        scale: 1
+figure_13:
+  main_number: 
+  main_caption:    
+  figures:
+    - figure:
+        number: '13'
+        caption: >
+          Graphical representation of the locations of vowel sounds corresponding to their first two formant frequencies (Riverin-Coutlée, Roy, and Gubian 2023). (Both axes go from high to low, from left to right and from bottom to top, to match the location of the tongue in the mouth. Higher tongue and bottom jaw positions have higher *y* values, and further back tongue positions have higher *x* values, as shown in Example 14.) This vowel space corresponds to French vowels by female speakers from Québec. The F1 and F2 of these vowels are close to those of English vowels, so in the absence of a comparable chart for English female speakers, I use this vowel space in my analysis.
+        url: 'assets/articles/moranis/img/ex_13.png'
+        alt: 'Test'
+        border: false
+        scale: .7
+figure_14:
+  main_number: 
+  main_caption:    
+  figures:
+    - figure:
+        number: '14'
+        caption: >
+          Representation of the locations of vowel sounds in the mouth, based on an illustration from Hickey (\[2005\] 2026), with vowel space representation from Riverin-Coutlée, Roy, and Gubian (2023).
+        url: 'assets/articles/moranis/img/ex_14.png'
+        alt: 'Test'
+        border: false
+        scale: .85
+figure_15:
+  main_number: 
+  main_caption:    
+  figures:
+    - figure:
+        number: '15'
+        caption: >
+          Location of formants 1 and 2 on the vowel /iː/ in the word "feel" on D~4~ from 1970 and 2000, visualized in vowel space and as a spectrogram.
+        url: 'assets/articles/moranis/img/ex_15.png'
+        alt: 'Test'
+        border: false
+        scale: 1
+figure_16:
+  main_number: 
+  main_caption:    
+  figures:
+    - figure:
+        number: '16'
+        caption: >
+          Location of formants 1 and 2 on the /o/ vowel in the word "road" on F~4~ from 1971 and 1982.
+        url: 'assets/articles/moranis/img/ex_16.png'
+        alt: 'Test'
+        border: false
+        scale: 1
+figure_17:
+  main_number: 
+  main_caption:    
+  figures:
+    - figure:
+        number: '17'
+        caption: >
+          Location of formants 1 and 2 on the /iː/ vowel in the word "feet" on Dß~4~ from 1971 to 2022.
+        url: 'assets/articles/moranis/img/ex_17.png'
+        alt: 'Test'
+        border: false
+        scale: 1
+figure_18:
+  main_number: 
+  main_caption:    
+  figures:
+    - figure:
+        number: '18'
+        caption: >
+          Location of formants 1 and 2 on the /uː/ vowel in the word "you" on D~4~ in 1972, 1974, 1977, 1998, 2002, and 2022.
+        url: 'assets/articles/moranis/img/ex_18.png'
+        alt: 'Test'
+        border: false
+        scale: .85
+figure_19:
+  main_number: 
+  main_caption:    
+  figures:
+    - figure:
+        number: '19'
+        caption: >
+          Location of formants 1 and 2 on the /ei/ vowel in various lyrics that precede the vowel with an "l" on F~4~ in 1968, 1970, 1976, and 1977.
+        url: 'assets/articles/moranis/img/ex_19.png'
+        alt: 'Test'
+        border: false
+        scale: 1
+
+audio_3:
+  main_number:
+  main_caption:
+  figures:
+    - figure:
+        number: '3'
+        caption:
+        url: 'assets/articles/moranis/audio/Audio Example 3.mp3'
+        alt: 'Audio Example 3'
+        border: false
+        scale: 1
+
+audio_6:
+  main_number:
+  main_caption:
+  figures:
+    - figure:
+        number: '6'
+        caption:
+        url: 'assets/articles/moranis/audio/Audio Example 6.mp3'
+        alt: 'Audio Example 6'
+        border: false
+        scale: 1
+
+audio_7:
+  main_number:
+  main_caption:
+  figures:
+    - figure:
+        number: '7'
+        caption:
+        url: 'assets/articles/moranis/audio/Audio Example 7.mp3'
+        alt: 'Audio Example 7'
+        border: false
+        scale: 1
+
+audio_10:
+  main_number:
+  main_caption:
+  figures:
+    - figure:
+        number: '10'
+        caption:
+        url: 'assets/articles/moranis/audio/Audio Example 10.mp3'
+        alt: 'Audio Example 10'
+        border: false
+        scale: 1
+
+audio_11:
+  main_number:
+  main_caption:
+  figures:
+    - figure:
+        number: '11'
+        caption:
+        url: 'assets/articles/moranis/audio/Audio Example 11.mp3'
+        alt: 'Audio Example 11'
+        border: false
+        scale: 1
+
+audio_12:
+  main_number:
+  main_caption:
+  figures:
+    - figure:
+        number: '12'
+        caption:
+        url: 'assets/articles/moranis/audio/Audio Example 12.mp3'
+        alt: 'Audio Example 12'
+        border: false
+        scale: 1
+
+audio_15:
+  main_number:
+  main_caption:
+  figures:
+    - figure:
+        number: '15a'
+        caption:
+        url: 'assets/articles/moranis/audio/Audio Example 15a.mp3'
+        alt: 'Audio Example 15a'
+        border: false
+        scale: 1
+    - figure:
+        number: '15b'
+        caption:
+        url: 'assets/articles/moranis/audio/Audio Example 15b.mp3'
+        alt: 'Audio Example 15b'
+        border: false
+        scale: 1
+
+audio_16:
+  main_number:
+  main_caption:
+  figures:
+    - figure:
+        number: '16a'
+        caption:
+        url: 'assets/articles/moranis/audio/Audio Example 16a.mp3'
+        alt: 'Audio Example 16a'
+        border: false
+        scale: 1
+    - figure:
+        number: '16b'
+        caption:
+        url: 'assets/articles/moranis/audio/Audio Example 16b.mp3'
+        alt: 'Audio Example 16b'
+        border: false
+        scale: 1
+
+audio_17:
+  main_number:
+  main_caption:
+  figures:
+    - figure:
+        number: '17a'
+        caption:
+        url: 'assets/articles/moranis/audio/Audio Example 17a.mp3'
+        alt: 'Audio Example 17a'
+        border: false
+        scale: 1
+    - figure:
+        number: '17b'
+        caption:
+        url: 'assets/articles/moranis/audio/Audio Example 17b.mp3'
+        alt: 'Audio Example 17b'
+        border: false
+        scale: 1
+
+audio_18:
+  main_number:
+  main_caption:
+  figures:
+    - figure:
+        number: '18a'
+        caption:
+        url: 'assets/articles/moranis/audio/Audio Example 18a.mp3'
+        alt: 'Audio Example 18a'
+        border: false
+        scale: 1
+    - figure:
+        number: '18b'
+        caption:
+        url: 'assets/articles/moranis/audio/Audio Example 18b.mp3'
+        alt: 'Audio Example 18b'
+        border: false
+        scale: 1
+    - figure:
+        number: '18c'
+        caption:
+        url: 'assets/articles/moranis/audio/Audio Example 18c.mp3'
+        alt: 'Audio Example 18c'
+        border: false
+        scale: 1
+    - figure:
+        number: '18d'
+        caption:
+        url: 'assets/articles/moranis/audio/Audio Example 18d.mp3'
+        alt: 'Audio Example 18d'
+        border: false
+        scale: 1
+    - figure:
+        number: '18e'
+        caption:
+        url: 'assets/articles/moranis/audio/Audio Example 18e.mp3'
+        alt: 'Audio Example 18e'
+        border: false
+        scale: 1
+    - figure:
+        number: '18f'
+        caption:
+        url: 'assets/articles/moranis/audio/Audio Example 18f.mp3'
+        alt: 'Audio Example 18f'
+        border: false
+        scale: 1
+
+audio_19:
+  main_number:
+  main_caption:
+  figures:
+    - figure:
+        number: '19a'
+        caption:
+        url: 'assets/articles/moranis/audio/Audio Example 19a.mp3'
+        alt: 'Audio Example 19a'
+        border: false
+        scale: 1
+    - figure:
+        number: '19b'
+        caption:
+        url: 'assets/articles/moranis/audio/Audio Example 19b.mp3'
+        alt: 'Audio Example 19b'
+        border: false
+        scale: 1
+    - figure:
+        number: '19c'
+        caption:
+        url: 'assets/articles/moranis/audio/Audio Example 19c.mp3'
+        alt: 'Audio Example 19c'
+        border: false
+        scale: 1
+    - figure:
+        number: '19d'
+        caption:
+        url: 'assets/articles/moranis/audio/Audio Example 19d.mp3'
+        alt: 'Audio Example 19d'
+        border: false
+        scale: 1
+
+## Works Cited
+
+citations:
+- name: Adorno_1937
+  citation: >
+    Adorno, Theodor W. \[1937\] 2002. "Late Style in Beethoven." In *Essays on Music*, edited by Richard Leppert, translated by Susan H. Gillespie, 564--68. University of California Press.
+- name: Bacon_2020
+  citation: >
+    Bacon, Tony. 2020. "The Art and Psychology of Recording Great Vocals." *Reverb*, August 27. https://reverb.com/news/art-and-psychology-of-recording-great-vocals.
+- name: Baker_2019
+  citation: >
+    Baker, Emily. 2019. "'Oh Borderline': Joni Mitchell's Aging Voice as a Site of Queer Resistance." In *Joni Mitchell: New Critical Readings*, edited by Ruth Charnock, 43--63. Bloomsbury Academic.
+- name: Bennett_2013
+  citation: >
+    Bennett, Andy. 2013. *Music, Style, and Aging: Growing Old Disgracefully?* Temple University Press.
+- name: Clarke_2002
+  citation: >
+    Clarke, Betty. 2002. Review of *Travelogue*, by Joni Mitchell. *Guardian*, November 22. https://www.theguardian.com/music/2002/nov/22/popandrock.artsfeatures2.
+- name: Eggar_2007
+  citation: >
+    Eggar, Robin. 2007. "Both Sides Now." *Word*, April. Reprint, *Joni Mitchell Library*. https://jonimitchell.com/library/view.cfm?id=1580.
+- name: Eichhorn_2018
+  citation: >
+    Eichhorn, Julie Traub, Raymond D. Kent, Diane Austin, and Houri K. Vorperian. 2018. "Effects of Aging on Vocal Fundamental Frequency and Vowel Formants in Men and Women." *Journal of Voice* 32 (5): 644.e1--9.
+- name: Elliott_2015
+  citation: >
+    Elliott, Richard. 2015. *The Late Voice: Time, Age and Experience in Popular Music.* Bloomsbury Academic.
+- name: Fant_1960
+  citation: >
+    Fant, Gunnar. 1960. *Acoustic Theory of Speech Production*. Mouton.
+- name: Fant_1965
+  citation: >
+    Fant, Gunnar. 1965. "Formants and Cavities." In *Proceedings of the Fifth International Congress of Phonetic Sciences*, edited by Eberhard Zwirner and Wolfgang Bethge, 120--41. Karger.
+- name: Fellezs_2011
+  citation: >
+    Fellezs, Kevin. 2011. *Birds of Fire: Jazz, Rock, Funk, and the Creation of Fusion*. Duke University Press.
+- name: Fisher_1987
+  citation: >
+    Fisher, Rudolph. \[1987\] 2008. *The City of Refuge: The Collected Stories of Rudolph Fisher.* Edited by John McCluskey Jr. University of Missouri Press.
+- name: Gardner_2019
+  citation: >
+    Gardner, Abigail. 2019. *Ageing and Contemporary Female Musicians*. Routledge.
+- name: Gardner_2000
+  citation: >
+    Gardner, Elysa. 2000. "Joni's Standard Approach to Singing." *Los Angeles Times*, February 6. https://www.latimes.com/archives/la-xpm-2000-feb-06-ca-61447-story.html.
+- name: Garnier_2010
+  citation: >
+    Garnier, Maëva, Nathalie Henrich, John Smith, and Joe Wolfe. 2010. "Vocal Tract Adjustments in the High Soprano Range." *Journal of the Acoustical Society of America* 127 (6): 3771--80.
+- name: Givens_1991
+  citation: >
+    Givens, Ron. \[1991\] 2000. "Joni Mitchell Updates Her Life and Times." *Stereo Review*, June. Reprint, *Joni Mitchell Library.* https://jonimitchell.com/library/view.cfm?id=288.
+- name: Grier_2012
+  citation: >
+    Grier, Miles Parks. 2012. "The Only Black Man at the Party: Joni Mitchell Enters the Rock Canon." *Genders* 56*.*
+- name: Gumbel_2007
+  citation: >
+    Gumbel, Andrew. 2007. "The Protest Goes On: They Bombed Paradise (and I Put Up a Multimedia Extravaganza)." *Independent*, February 9. https://www.independent.co.uk/news/world/americas/the-protest-goes-on-they-bombed-paradise-and-i-put-up-a-multimedia-extravaganza-435667.html.
+- name: Hickey_2005
+  citation: >
+    Hickey, Raymond. \[2005\] 2026. "Phonetics and Phonology." In *Studying the History of English*. http://www.raymondhickey.com/REV_Phonetics_Phonology.htm.
+- name: Hinton_1996
+  citation: >
+    Hinton, Brian. 1996. *Joni Mitchell: Both Sides Now*. Sanctuary.
+- name: Holden_2000
+  citation: >
+    Holden, Stephen. 2000. "Something's Lost and Something's Gained." *New York Times*, February 13. https://www.nytimes.com/2000/02/13/arts/music-something-s-lost-and-something-s-gained.html.
+- name: Ishizaki_2025
+  citation: >
+    Ishizaki, Tatsuya. 2025. "Quantification of Tenseness in English and Japanese Tense-Lax Vowels: A Lagrangian Model with Indicator θ1 and Force of Tenseness Ftense(t)." Preprint, arXiv, March 25. https://doi.org/10.48550/arXiv.2503.03681.
+- name: Jennings_2012
+  citation: >
+    Jennings, Ros, and Abigail Gardner, eds. 2012. *"Rock On": Women, Ageing and Popular Music*. Routledge.
+- name: Karppinen_2016
+  citation: >
+    Karppinen, Anne. 2016. *The Songs of Joni Mitchell: Gender, Performance and Agency.* Routledge.
+- name: Kaufman_2024
+  citation: >
+    Kaufman, Brandon. 2024. "I Expected Joni Mitchell's Hollywood Bowl Concert to Be Extraordinary. I Wasn't Prepared for the Depth of Its Emotional Impact." *Toronto Star*, November 3. https://www.thestar.com/entertainment/music/i-expected-joni-mitchells-hollywood-bowl-concert-to-be-extraordinary-i-wasnt-prepared-for-the/article_ebac9fac-96d4-11ef-99cd-7f5d52931fe3.html.
+- name: Kinney_2023
+  citation: >
+    Kinney, Michael E. 2023. "Hearing Beyond Vocal Twilight: Aging Vocalities in Contemporary American Operatic and Classical Voice Performance." PhD diss., Stanford University.
+- name: Koozin_2024
+  citation: >
+    Koozin, Timothy. 2024. *Embodied Expression in Popular Music: A Theory of Musical Gesture and Agency*. Oxford University Press.
+- name: Lortie_2017
+  citation: >
+    Lortie, Catherine L., Julie Rivard, Mélanie Thibeault, and Pascale Tremblay. 2017. "The Moderating Effect of Frequent Singing on Voice Aging." *Journal of Voice* 31 (1): 112.e1--12.
+- name: Lott_1976
+  citation: >
+    Lott, Tim. \[1976\] 2000. "The Tip of the Iceberg." *Sounds Magazine*, November 27. Reprint, *Joni Mitchell Library.* https://jonimitchell.com/library/view.cfm?id=354.
+- name: Maconie_1998
+  citation: >
+    Maconie, Stuart. \[1998\] 2017. Review of *Taming the Tiger*, by Joni Mitchell. *Q*, October. Reprint, *Joni: The Anthology*, edited by Barney Hoskyns, 210--11. Picador.
+- name: Mercer_2009
+  citation: >
+    Mercer, Michelle. 2009. *Will You Take Me as I Am: Joni Mitchell's "Blue" Period*. Free Press.
+- name: Mitchell_1968a
+  citation: >
+    Mitchell, Joni. 1968a. Interview with Dave Wilson. *Broadside* 6 (26): 5--7.
+- name: Mitchell_1974a
+  citation: >
+    Mitchell, Joni. 1974a. "Face to Face." Interview by Malka Marom. *Maclean's*, June.
+- name: Mitchell_1979a
+  citation: >
+    Mitchell, Joni. 1979a. "I Don't Feel Guilty for My Success or My Lifestyle." Interview by Cameron Crowe. *Rolling Stone*, July 26. https://www.rollingstone.com/feature/joni-mitchell-defends-herself-61890/.
+- name: Mitchell_1994a
+  citation: >
+    Mitchell, Joni. 1994a. Interview by Barney Hoskyns, September 14. https://jonimitchell.com/library/view.cfm?id=2143.
+- name: Mitchell_1997
+  citation: >
+    Mitchell, Joni. \[1997\] 2000. "A Conversation with Joni Mitchell." Interview by Daniel Levitin. *Grammy Magazine*, March. Reprint, *Joni Mitchell Library.* https://jonimitchell.com/library/view.cfm?id=460.
+- name: Mitchell_1994
+  citation: >
+    Mitchell, Joni. \[1994\] 2001. Interview by Steve Warden. Transcribed by Lindsay Moon. Q107-FM, Toronto, ON. *Joni Mitchell Library.* https://jonimitchell.com/library/view.cfm?id=583.
+- name: Mitchell_1972
+  citation: >
+    Mitchell, Joni. \[1972\] 2002. Interview by Penny Valentine. *Sounds Magazine*, June 3. Reprint, *Joni Mitchell Library*. https://jonimitchell.com/library/view.cfm?id=344.
+- name: Mitchell_1986
+  citation: >
+    Mitchell, Joni. \[1986\] 2002. Interview by Pete Fornatale. Transcribed by Lindsay Moon. *Joni Mitchell Library*. https://jonimitchell.com/library/view.cfm?id=728.
+- name: Mitchell_2004
+  citation: >
+    Mitchell, Joni. 2004. "Joni Mitchell on a Life in Music." Interview by Terry Gross. *Fresh Air*, October 20. https://freshairarchive.org/segments/joni-mitchell-life-music.
+- name: Mitchell_2014
+  citation: >
+    Mitchell, Joni. 2014. "The Music Midnight Makes: In Conversation with Joni Mitchell." Interview by Renee Montagne. *NPR*, December 9. https://www.npr.org/2014/12/09/369386571/the-music-midnight-makes-in-conversation-with-joni-mitchell.
+- name: Monk_2012
+  citation: >
+    Monk, Katherine. 2012. *Joni: The Creative Odyssey of Joni Mitchell*. Greystone Books.
+- name: Naiman_2017
+  citation: >
+    Naiman, Tiffany. 2017. "Singing at Death's Door: Late Style, Disability, and the Temporality of Illness in Popular Music." PhD diss., University of California, Los Angeles.
+- name: Naiman_2019
+  citation: >
+    Naiman, Tiffany. 2019. "Resisting the Politics of Aging: Madonna and the Value of Female Labor in Popular Music." In *Popular Music and the Politics of Hope: Queer and Feminist Interventions*, edited by Susan Fast and Craig Jennex, 267--81. Routledge.
+- name: Nash_1988
+  citation: >
+    Nash, Alanna. 1988. "Joni Mitchell Makes a New Musical Mark." *Stereo Review* 53 (7): 79.
+- name: Nolan_1975
+  citation: >
+    Nolan, Tom. 1975. "Joni Mitchell: *Miles of Aisles*." *Phonograph Record*, January. https://www.rocksbackpages.com/Library/Article/joni-mitchell-imiles-of-aislesi.
+- name: OConner_Kellerman_2009
+  citation: >
+    O'Conner, Patricia T., and Stewart Kellerman. 2009. *Origins of the Specious: Myths and Misconceptions of the English Language.* Random House.
+- name: Reuter_0000
+  citation: >
+    Reuter, Christoph. Forthcoming. "Formants: The Missing Link Between Orchestration and Post-Helmholtzian Timbre Research." In *The Oxford Handbook of Orchestration Studies*, edited by Julie Delisle, Robert Hasegawa, Jason Noble, and Moe Touizrar. Oxford University Press.
+- name: Reuter_2024
+  citation: >
+    Reuter, Christoph, Charalampos Saitis, Isabella Czedik-Eysenberg, and Kai Siedenburg. 2024. "Giving Instruments a Voice: Are There Vowel-Like Qualities in the Timbres of Musical Instruments?" In *Tagungsband/Proceedings "Fortschritte der Akustik---DAGA 2024"*, 1038--41. Deutsche Gesellschaft für Akustik.
+- name: Reymore_2020
+  citation: >
+    Reymore, Lindsey. 2020. "Empirical Approaches to Timbre Semantics as a Foundation for Musical Analysis." PhD diss., Ohio State University.
+- name: Rings_2013
+  citation: >
+    Rings, Steven. 2013. "A Foreign Sound to Your Ear: Bob Dylan Performs 'It's Alright, Ma (I'm Only Bleeding),' 1964--2009." *Music Theory Online* 19 (4).
+- name: Harrington_2022
+  citation: >
+    Riverin-Coutlée, Josiane, and Jonathan Harrington. 2022. "Phonetic Change over the Career: A Case Study." *Linguistics Vanguard* 8 (1): 41--52.
+- name: RiverinCoutle_2023
+  citation: >
+    Riverin-Coutlée, Josiane, Johanna-Pascale Roy, and Michele Gubian. 2023. "Using Mahalanobis Distances to Investigate Second Dialect Acquisition: A Study on Quebec French." *Language and Speech* 66 (2): 291--321.
+- name: Ruhlmann_1995
+  citation: >
+    Ruhlmann, William. \[1995\] 2000. "From Blue to Indigo." *Goldmine*, February 17. Reprint, *Joni Mitchell Library.* https://jonimitchell.com/library/view.cfm?id=115.
+- name: Said_2006
+  citation: >
+    Said, Edward W. 2006. *On Late Style: Music and Literature Against the Grain.* Pantheon.
+- name: Slawson_1985
+  citation: >
+    Slawson, Wayne. 1985. *Sound Color*. University of California Press.
+- name: Stras_2006
+  citation: >
+    Stras, Laurie. 2006. "The Organ of the Soul: Voice, Damage, and Affect." In *Sounding Off: Theorizing Disability in Music*, edited by Neil Lerner and Joseph N. Straus, 173--84. Routledge.
+- name: Straus_2008
+  citation: >
+    Straus, Joseph N. 2008. "Disability and 'Late Style' in Music." *Journal of Musicology* 25 (1): 3--45.
+- name: Straus_2011
+  citation: >
+    Straus, Joseph N. 2011. *Extraordinary Measures: Disability in Music*. Oxford University Press.
+- name: Straus_2024
+  citation: >
+    Straus, Joseph N. 2024. *Cultural Narratives of Old Age in the Lives, Work, and Reception of Old Musicians*. Routledge.
+- name: Strauss_1998
+  citation: >
+    Strauss, Neil. 1998. "The Hissing of a Living Legend." *New York Times*, October 4. https://www.nytimes.com/1998/10/04/magazine/the-hissing-of-a-living-legend.html.
+- name: Sundberg_1970
+  citation: >
+    Sundberg, Johan. 1970. "Formant Structure and Articulation of Spoken and Sung Vowels." *Folia Phoniatrica et Logopaedica* 22 (1): 28--48.
+- name: Sundberg_1973
+  citation: >
+    Sundberg, Johan. 1973. "The Source Spectrum in Professional Singing." *Folia Phoniatrica et Logopaedica* 25 (1--2): 71--90.
+- name: Variety_1966
+  citation: >
+    *Variety*. \[1966\] 2001. "Folksongs." Reprint, *Joni Mitchell Library*. https://jonimitchell.com/library/view.cfm?id=601.
+- name: Whitesell_2008
+  citation: >
+    Whitesell, Lloyd. 2008. *The Music of Joni Mitchell*. Oxford University Press.
+- name: Winning_2019
+  citation: >
+    Winning, Joanne. 2019. "'Both Sides, Now': Voice, Affect, and Thirdness." In *Joni Mitchell: New Critical Readings*, edited by Ruth Charnock, 65--82. Bloomsbury Academic.
+- name: Yaffe_2017
+  citation: >
+    Yaffe, David. 2017. *Reckless Daughter: A Portrait of Joni Mitchell.* Sarah Crichton.
+- name: Yaffe_2023
+  citation: >
+    Yaffe, David. 2023. "Joni Mitchell Rises Again." *Tidal*, August 7. https://tidal.com/magazine/article/joni-returns/1-92502.
+- name: Zoladz_2022
+  citation: >
+    Zoladz, Lindsay. 2022. "Joni Mitchell Reclaims Her Voice at Newport." *New York Times*, July 26. https://www.nytimes.com/2022/07/26/arts/music/joni-mitchell-performance.html.
+- name: _0000
+  citation: >
+    ## Discography
+- name: Mitchell_0000
+  citation: >
+    Mitchell, Joni. 1968b. *Song to a Seagull*. Reprise.
+- name: Mitchell_1969
+  citation: >
+    Mitchell, Joni. 1969. *Clouds*. Reprise.
+- name: Mitchell_1970
+  citation: >
+    Mitchell, Joni. 1970. *Ladies of the Canyon*. Reprise.
+- name: Mitchell_1971
+  citation: >
+    Mitchell, Joni. 1971. *Blue*. Reprise.
+- name: Mitchell_1972
+  citation: >
+    Mitchell, Joni. 1972. *For the Roses*. Asylum.
+- name: Mitchell_0000
+  citation: >
+    Mitchell, Joni. 1974b. *Court and Spark*. Asylum.
+- name: Mitchell_1975
+  citation: >
+    Mitchell, Joni. 1975. *The Hissing of Summer Lawns*. Asylum.
+- name: Mitchell_1976
+  citation: >
+    Mitchell, Joni. 1976. *Hejira*. Asylum.
+- name: Mitchell_1977
+  citation: >
+    Mitchell, Joni. 1977. *Don Juan's Reckless Daughter*. Asylum.
+- name: Mitchell_0000
+  citation: >
+    Mitchell, Joni. 1979b. *Mingus*. Asylum.
+- name: Mitchell_1982
+  citation: >
+    Mitchell, Joni. 1982. *Wild Things Run Fast*. Geffen.
+- name: Mitchell_1985
+  citation: >
+    Mitchell, Joni. 1985. *Dog Eat Dog*. Geffen.
+- name: Mitchell_1988
+  citation: >
+    Mitchell, Joni. 1988. *Chalk Mark in a Rain Storm*. Geffen.
+- name: Mitchell_1991
+  citation: >
+    Mitchell. Joni. 1991. *Night Ride Home*. Geffen.
+- name: Mitchell_0000
+  citation: >
+    Mitchell, Joni. 1994b. *Turbulent Indigo*. Reprise.
+- name: Mitchell_1998
+  citation: >
+    Mitchell, Joni. 1998. *Taming the Tiger*. Reprise.
+- name: Mitchell_2000
+  citation: >
+    Mitchell, Joni. 2000. *Both Sides Now*. Reprise.
+- name: Mitchell_2002
+  citation: >
+    Mitchell, Joni. 2002. *Travelogue*. Nonesuch.
+- name: Mitchell_2007
+  citation: >
+    Mitchell, Joni. 2007. *Shine*. Hear Music.
+- name: Mitchell_2023
+  citation: >
+    Mitchell, Joni. 2023. *Joni Mitchell at Newport (Live)*. Rhino.

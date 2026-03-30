@@ -1,0 +1,66 @@
+---
+layout: default
+volume: vol51
+---
+<body>
+
+{% assign current_volume = page.volume %}
+{% assign volume_posts = site.categories[current_volume] %}
+
+<div class="grid-heading">Articles</div>
+<div class="toc-container">
+  {% comment %} Filter for 'article' layout and sort by 'order' {% endcomment %}
+  {% assign sorted_articles = volume_posts | where: "layout", "article" | sort: "order" %}
+
+  {% for post in sorted_articles %}
+  <div class="toc-item-container articles">
+      <div class="toc-item">
+        <div class="title"><a class="title" href="{{ post.url | relative_url }}">{{ post.title }}</a></div>
+        <div class="author">{{ post.author }}</div>
+      </div>
+      <div class="abstract-container">
+        <p class="abstract-short">
+          <span class="abstract-intro"> {{ post.abstract | truncatewords: 30 }} </span>
+          <span class="read-more"><i class="arrow" style="font-style: normal;">▼</i> Abstract</span>
+        </p>
+        <p class="abstract-full hidden">
+          <span class="abstract-intro"> {{ post.abstract }} </span>
+          <span class="read-less"><i class="arrow" style="font-style: normal;">▲</i> Abstract</span>
+        </p>
+      </div>
+      <br>
+  </div>
+  {% else %}
+    <p>No articles found for this volume.</p> {% comment %} Optional: Handle case with no articles {% endcomment %}
+  {% endfor %}
+</div>
+
+<div class="grid-heading">Reviews</div>
+<div class="toc-container">
+  {% comment %} Filter for 'review_article' layout and sort by 'order' {% endcomment %}
+  {% assign sorted_reviews = volume_posts | where: "layout", "review_article" | sort: "order" %}
+
+  {% for post in sorted_reviews %}
+    {% comment %} The outer container for the review block (title, reviewed author, reviewer) {% endcomment %}
+        {% for reviewed_item in post.reviewed %}
+          <div class="toc-item-container reviews">
+            <div class="toc-item">
+              <div class="title"><a class="title" href="{{ post.url | relative_url }}"><em>{{ reviewed_item.title | escape | safe }}</em></a></div>
+              <div class="author reviewed-author">{{ reviewed_item.author }}</div>
+            </div>
+          </div>
+        {% endfor %}
+        <div class="toc-item-container reviews review-author">
+          <div class="toc-item">
+            <div class="author">Reviewed by {{ post.author }}</div>
+          </div>
+        </div>
+        <br>
+  {% else %}
+     <p>No reviews found for this volume.</p> {% comment %} Optional: Handle case with no reviews {% endcomment %}
+  {% endfor %}
+</div>
+
+</body>
+
+<script src="/assets/js/abstract-expand.js"></script>

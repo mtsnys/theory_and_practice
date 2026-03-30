@@ -11,35 +11,26 @@
             {% endfor %}
         </select>
     </div>
-
-    {% unless page.layout == 'article' or page.layout == 'review_article' %}
-        <div class="right-section">
-            {% assign current_volume = volume_data | where: "id", page.volume | first %}
-
-            {% if current_volume.editors %}
-                <p class="editors">
-                    {% if current_volume.editors.size == 1 %}
-                        {{ current_volume.editors.first.name }}, Editor
-                    {% elsif current_volume.editors.size == 2 %}
-                        {{ current_volume.editors.first.name }} and {{ current_volume.editors.last.name }}, Editors
-                    {% else %}
-                        {% for editor in current_volume.editors %}
-                            {{ editor.name }}{% unless forloop.last %}{% if forloop.rindex == 2 %}, and {% else %}, {% endif %}{% endunless %}
-                        {% endfor %}, Editors
-                    {% endif %}
-                </p>
-            {% endif %}
-            {% if current_volume.reviews_editor %}
-                <p class="reviews-editor">
-                    {{ current_volume.reviews_editor.name }}, Reviews Editor
-                </p>
-            {% endif %}
-            {% if current_volume.awards_editor %}
-                <p class="reviews-editor">
-                    {{ current_volume.awards_editor.name }}, Awards Editor
-                </p>
-            {% endif %}
-        </div>
-    {% endunless %}
 </div>
 <div class="header-divider"></div>
+
+{% unless page.layout == 'article' or page.layout == 'review_article' %}
+    {% assign current_volume = volume_data | where: "id", page.volume | first %}
+    {% if current_volume %}
+    <p class="volume-colophon">
+        {%- if current_volume.editors -%}
+            {%- if current_volume.editors.size == 1 -%}
+                {{ current_volume.editors.first.name }}, Editor
+            {%- elsif current_volume.editors.size == 2 -%}
+                {{ current_volume.editors.first.name }} and {{ current_volume.editors.last.name }}, Editors
+            {%- else -%}
+                {%- for editor in current_volume.editors -%}
+                    {{ editor.name }}{% unless forloop.last %}{% if forloop.rindex == 2 %}, and {% else %}, {% endif %}{% endunless %}
+                {%- endfor %}, Editors
+            {%- endif -%}
+        {%- endif -%}
+        {%- if current_volume.reviews_editor %} · {{ current_volume.reviews_editor.name }}, Reviews Editor{%- endif -%}
+        {%- if current_volume.awards_editor %} · {{ current_volume.awards_editor.name }}, Awards Editor{%- endif -%}
+    </p>
+    {% endif %}
+{% endunless %}

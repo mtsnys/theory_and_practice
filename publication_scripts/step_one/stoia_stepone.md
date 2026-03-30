@@ -1,0 +1,55 @@
+## Footnotes
+
+[^1]: See, for example, Cecil Brown (2003), who argues that "Stagolee is a metaphor that structures the life of black males from childhood through maturity. . . . Stagolee is an in-group catchword conveying knowledge of what it means to be a black man" (2--3).
+
+[^2]: As resources shared by many musicians, the schemes discussed here resemble the eighteenth-century schemata explored by Gjerdingen (2007) and others, but they differ from those earlier schemata in their close correspondence to the formal section of a song verse.
+
+[^3]: Others who explore the intersection of form and lyrical content in vernacular music include Evans (1982, 31--32), who argues that the blues form combines with a "blues ideology" expressed in both the lyrics and other musical characteristics; Taft (2006), who argues that the most common lyric formulas that appear with the blues form concern love, travel, and anxiety caused by change; and Bronson (1959--72, 1:265--66), who, in an exploration of the ballad "Sir Lionel," discusses ballads that become "crossed" when they share the same stanzaic pattern. Laws (1964) notes that many of the stanzaic forms in American balladry are closely related, that some ballads "even attract stanzas from other ballads" (71), and that "the versions which result present difficult problems of analysis" (76).
+
+[^4]: Charlie Poole uses two refrains in his song; the other is "He is gone, long, long time." Unless otherwise noted, the verses transcribed in the text and examples are the opening verses.
+
+[^5]: Many of the examples, including Example 1, show a rhythmically simplified representation in which stressed syllables align with strong metric positions instead of falling in their actual anticipatory positions. Temperley (1999; 2018, 72--80) describes in detail the technique of anticipatory syncopation and its ubiquity in rock music, and how we can understand many syncopated lyrics in terms of a hypothetical "de-syncopated" version. His theory applies equally well to prewar blues and country music. The grids aligning stressed syllables with strong metric positions resemble those of linguists such as Hayes (1995, 24--31), who notes that, in language, "stress patterns exhibit substantial formal parallels with extra-linguistic rhythmic structures, such as those found in music and verse" (8).
+
+[^6]: Matt BaileyShea (2021) examines comparable ways in which rhymes are "musically reinforced" (68), and he observes that "composers have been fusing cadences and rhymes for centuries" (76). Similarly, Trevor de Clercq observes that "a musical parallelism is often reinforced in the domain of lyrics through a rhyme" (2012, 121).
+
+[^7]: Here I follow the theory of hypermeter posited by Schachter (\[1987\] 1999, 80--83) and Temperley (2018, 82--84). Schachter observes that dissonances that "are strongly accented relative to their resolutions" create "conflict between accent and tonal stability" (\[1976\] 1999, 41--42).
+
+[^8]: Booker T. Sapps's recording, the basis of Example 2b, is a field recording made in Florida in 1935 whose lyrics are often unclear, so I base the words in the example---especially the B line---partly on Chapman J. Milling's (1937, 4) transcription of "Delia Holmes," which has a matching A line. The melody and phrase rhythm in Milling's transcription match the "Railroad Bill" scheme too. The title of Sapps's song is given as "Frankie and Albert (Cooney and Delia)," but the song is clearly about Delia, not Frankie.
+
+[^9]: Example 3b also shows how some musicians take a flexible approach to the meter of a scheme, often by expanding the caesuras and the spaces between the phrases. Frank Hutchison is notorious for dramatically expanding and abbreviating bars.
+
+[^10]: See, for example, Blum (2004, figure 5) and Stoia (2013, 204--5, 208--9).
+
+[^11]: Bowers and Westcott (1992) describe the variability of the "How Long Blues," especially its melodic flexibility.
+
+[^12]: Here I follow Taft (2006, 10) and other blues scholars in defining caesuras as breaks that divide phrases, excluding the pauses between phrases (those in position 8).
+
+[^13]: Even the phrase endings show more variation than the graphic illustration conveys. Skip James's "How Long Buck" (1931), for instance, entirely conforms to the graph in its phrase rhythm and harmonic progression, but his first phrase ends unusually on ß\^3.
+
+[^14]: Expansion here "resembles the rhythmic technique of 'augmentation,' in which the durational values of the individual notes of an idea are systematically increased so that the original proportional relation among the durations is retained (i.e., doubled or quadrupled)" (Caplin 1998, 20). Guthrie's second verse, shown in Examples 10b and 12b, gives the most balanced elongation of the refrain, an exact doubling; many of the verses have more irregular elongations.
+
+[^15]: On III as a tonic and VI as a subdominant, see, for example, Everett (2001, 359--60) and Biamonte (2010, 96--97, 101).
+
+[^16]: Brown (2003, 146) argues that Rainey "confused the lyrics of Stagolee with those of 'Frankie and Johnny,'" but in fact this musical pattern is the most natural setting for this refrain.
+
+[^17]: For an early and possibly unique example of the "bulldog" couplet in the twelve-bar "Frankie and Johnny" (not "Stackolee"), collected in 1909, see Perrow (1915, 178), cited in Hudson (1936, 189).
+
+[^18]: Both the Lomax and Archibald versions have additional "devil" couplets beyond those given here.
+
+## Figure Captions
+
+**Example 1**: Twelve-bar ballad meter, with ABR poetic form and 7,7,5 phrase rhythm. (a) Mississippi John Hurt, "Frankie" (1928), sixth verse; (b) Will Bennett, "Railroad Bill" (1929), third verse; (c) Charlie Poole with the North Carolina Ramblers, "Whitehouse Blues" (1926); (d) "Stagolee," after Lomax and Lomax (\[1934\] 1994, 94).
+**Example 2**: Two ballad schemes. (a) "Frankie and Johnny" scheme: Finious (Flat Foot) Rockmore, "Boll Weevil" (1940), second verse; (b) "Railroad Bill" scheme: Booker T. Sapps, "Frankie and Albert (Cooney and Delia)" (1935), lyrics partly based on Milling (1937, 4); (c) "Railroad Bill" scheme: Frank Hutchison, "Railroad Bill" (1929), second verse, with substitution of IIIƒ in bars 5--6.
+**Example 3**: Melodic designs of the "Frankie and Johnny" scheme. (a) "Frankie" tune with "Frankie" text: Gene Autry, "Frankie and Johnny" (1929), second verse; (b) "Frankie" tune with miscellaneous text: Frank Hutchison, "All Night Long" (1927); (c) original melody: Henry Thomas, "Bob McKinney" (1927), third verse.
+**Example 4**: Melodic design of the "Railroad Bill" scheme. (a) Will Bennett, "Railroad Bill" (1929); (b) Frank Hutchison, "Railroad Bill" (1929), second verse; (c) abstraction.
+**Example 5**: Downbeat accents and harmonic rhythm in the refrains of ballad schemes. (a) Two downbeat accents match two harmonic shifts in the "Frankie and Johnny" refrain; (b) three downbeat accents match three harmonic shifts in the "Railroad Bill" refrain.
+**Example 6**: Eight-bar blues with AB or ABR poetic form and 7,5 phrase rhythm. (a) "Stagolee," after Lomax and Lomax (\[1934\] 1994, 96), third verse; (b) Bertha "Chippie" Hill, "Trouble in Mind" (1926); (c) Leroy Carr and Scrapper Blackwell, "How Long---How Long Blues" (1928); (d) Big Bill Broonzy, "Key to the Highway" (1941).
+**Example 7**: Eight-bar blues schemes. (a) "Trouble in Mind" scheme: Cliff Carlisle, "Trouble Minded Blues" (1937); (b) "Key to the Highway" scheme: Charley Patton, "Jim Lee Blues---Part I" (1929); (c) "How Long" scheme: Blind Willie McTell and Ruby Glaze, "Lonesome Day Blues" (1932).
+**Example 8**: "How Long" scheme, harmonic progressions and melodic designs. (a) Leroy Carr and Scrapper Blackwell, "How Long---How Long Blues" (1928); (b) Blind Willie McTell and Ruby Glaze, "Lonesome Day Blues" (1932); (c) Peg Leg Howell, "Rolling Mill Blues" (1929), eighth verse.
+**Example 9**: Graphic illustration of the "How Long" scheme.
+**Example 10**: "Stackolee" text with "Frankie" scheme. (a) Ma Rainey, "Stack O'Lee Blues" (1925), with "Frankie" tune; (b) Woody Guthrie, "Stackolee" (1944), second verse, with original melody.
+**Example 11**: "Stackolee" text with "Railroad Bill" scheme. (a) Furry Lewis, "Billy Lyons and Stack O'Lee" (1927), with "Railroad Bill" tune and diatonic harmony; (b) Long "Cleve" Reed and Little Harvey Hull, "Original Stack O'Lee Blues" (1927), with "Railroad Bill" tune and chromatic substitution.
+**Example 12**: Two-accent refrain of the "Frankie and Johnny" scheme with two-accent "Stackolee" refrains. (a) Mississippi John Hurt, "Stack O'Lee Blues" (1928); (b) Woody Guthrie, "Stackolee" (1944), with expansion of the refrain; (c) hypothetical version of Guthrie's refrain without the expansions; (d) Guthrie's refrain interpreted on a higher metric level.
+**Example 13**: Three-accent refrain of the "Railroad Bill" scheme with three-accent "Stackolee" refrains. (a) Furry Lewis, "Billy Lyons and Stack O'Lee" (1927); (b) Long "Cleeve" Reed and Little Harvey Hull, "Original Stack O'Lee Blues" (1927).
+**Example 14**: "Stackolee" text with "How Long" scheme. (a) Lucious Curtis and Willie Ford, "Stagolee" (1940); (b) "Stagolee," Version B, after Lomax and Lomax (\[1934\] 1994, 96); (c) Archibald, "Stack A'lee (Parts I and II)" (1950), second verse; (d) Wilson Pickett, "Stagger Lee" (1968).
+

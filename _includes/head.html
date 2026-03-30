@@ -17,6 +17,7 @@
   gtag('config', 'G-5M94HRVD41');
 </script> 
 
+  {% if page.volume == 'vol51' or page.categories contains 'vol51' %}<meta name="robots" content="noindex, nofollow">{% endif %}
   {%- feed_meta -%}
   {%- include analytics.html -%}
 

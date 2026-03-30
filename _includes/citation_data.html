@@ -1,0 +1,13 @@
+{% assign cit_data = site.data[page.short-name].citations %}
+{% if cit_data %}
+<script id="citation-data">
+window.articleCitations = {};
+{% for item in cit_data %}
+{% if item.name %}
+window.articleCitations[{{ item.name | replace: '_', ' ' | jsonify }}] = {{ item.citation | markdownify | strip_newlines | jsonify }};
+{% elsif item[0] %}
+window.articleCitations[{{ item[0] | replace: '_', ' ' | jsonify }}] = {{ item[1].citation | markdownify | strip_newlines | jsonify }};
+{% endif %}
+{% endfor %}
+</script>
+{% endif %}

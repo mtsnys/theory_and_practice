@@ -1,0 +1,393 @@
+On Christmas night in 1895, two friends, William (Billy) Lyons and "Stack" Lee Shelton, stood drinking together at a bar in the "bloody Third District" of St. Louis, "a predominantly African American neighborhood filled with saloons, small shops, cheap apartments, and music halls" (Eberhart 1996, 3). What started as a friendly conversation turned into an argument and quickly escalated into murder. As George Eberhart recounts:
+
+> Something sparked a disagreement, and Shelton and Lyons began to strike each other's hats. George McFaro, a laborer who lived in the neighborhood, testified that neither man looked drunk and it seemed as if they were just goofing around instead of fighting in anger. . . . Shelton then grabbed Lyons's derby and broke it. Lyons retaliated by snatching Shelton's hat. Shelton demanded it back at least three times, but Lyons refused, saying that Stack would have to pay him 75 cents for his crushed hat. . . . Then Shelton pulled out his gun, a Smith and Wesson .44, and threatened to blow his friend's brains out unless he returned his hat. Lyons told him to go ahead, so Shelton smacked Lyons on the head with his revolver. . . . Lyons stumbled forward and reached into his pocket as if for a knife, once again demanding money and saying, "You cock-eyed son-of-a-bitch, I am going to make you kill me." . . . Shelton stepped back a pace or two and shot Billy Lyons once in the abdomen. Lyons fell back against the railing of the bar and staggered briefly, still clutching Stack's hat. . . . Shelton . . . picked up his hat and walked coolly out of the saloon. (1996, 5--7)
+
+In the following years, the character of Stack Lee Shelton became immortalized in the murder ballad "Stackolee"---or "Stagger Lee," "Stagolee," or other similar variants---about a villain so fearsome that he would kill over the merest provocation. Most versions of the song describe Billy Lyons's plea for sympathy for his wife and small children, as well as Stackolee's merciless reply that he doesn't care about Billy's family, only the stolen hat. Some songs mythologize Stackolee's other exploits---like his intimidation of the devil upon his arrival in hell---and almost all versions describe him as "cruel," "bad," or "mean." Many versions depict him as a kind of irrepressible antihero, a source of pride and even emulation for following only his own ruthless code, for his unwillingness to suffer the indignity of someone touching his hat. Eberhart and others provide detailed historical accounts of Shelton's murder of Lyons and the emergence and popularization of the ballad.[^1] This study focuses on the ballad's musical attributes, especially in early blues and country music from the 1920s to the 1940s, when the ballad first appeared on recordings. But the scope also extends further back to the ballad's earliest appearances in turn-of-the-century folklore collections and forward to postwar rhythm and blues and soul music.
+
+Unlike some other murder ballads that emerged around the turn of the twentieth century, including "Frankie and Johnny," "Railroad Bill," and "Whitehouse Blues," "Stackolee" does not associate exclusively with a particular poetic form, phrase rhythm, harmonic progression, or melodic design. Instead, the ballad intermingles multiple patterns, or *schemes*---preexisting musical frameworks, corresponding on a one-to-one basis with the verses of a song, that form part of the stock compositional repertory of early blues and country musicians.[^2] In this regard "Stackolee" resembles a "floating stanza," a verse that crops up in multiple songs (Evans 1982, 130). But "Stackolee" is a "floating ballad," because the entire song floats between different musical schemes. Like the ancient ballad "Barbara Allen," "Stackolee" is, to use Charles Seeger's (1966, 122) term, "promiscuous," because it associates with multiple musical frameworks rather than adhering to just one.
+
+"Stackolee" appears in two main forms: a twelve-bar form, which combines with the "Frankie and Johnny" and "Railroad Bill" schemes, both of which mostly support narrative songs about historical events; and an eight-bar form, which combines with the "How Long" scheme, which otherwise supports first-person lyric songs with conventional blues themes such as love and day-to-day life (Evans 1982, 27­­--31). The ballad's combination with different schemes demonstrates two different processes of lyrical development. Its association with the "Frankie" scheme shows how a musical pattern can be a vehicle for lyrical cross-pollination: lyrics easily migrate between "Frankie and Johnny" and "Stackolee" because the ballads share the same scheme. Conversely, its combination with the "How Long" scheme shows how a ballad's association with a different musical pattern can give rise to a different branch of the song with its own distinct lyrics and themes: different lyrical content consistently appears in versions of "Stackolee" that combine with the "How Long" scheme because musicians associate certain parts of the "Stackolee" myth only with the eight-bar pattern.[^3]
+
+# Twelve-Bar Ballad Meter
+
+The ballad "Stackolee" emerged around the turn of the twentieth century, at the same time as several other American murder ballads, including "Frankie and Johnny," which is based on Frankie Baker's 1899 killing of Allen Britt in St. Louis; "Railroad Bill," which describes the exploits of the martyred Black desperado Morris Slater; and "Whitehouse Blues," about the 1901 assassination of US President William McKinley in Buffalo (Morgan 2017, 24--28; Cohen, Cohen, and McLucas 2021, 145--46; Cohen 2000, 122--31, 413--25).
+
+"Frankie and Johnny," "Railroad Bill," and "Whitehouse Blues" all share a poetic form common to many early twentieth-century ballads: a rhyming AB couplet followed by a refrain. In this pattern (labeled ABR) the couplet is new in every verse, and the refrain is the same, as in the following pairs of verses:
+
+A Frankie was a good girl, everybody knows
+
+B She paid a hundred dollars for Albert's one suit of clothes
+
+R He's her man, and he done her wrong
+
+A Frankie went down to the corner saloon, didn't go to be gone long
+
+B She peeked through the keyhole in the door, spied Albert in Alice's arms
+
+R He's my man, and he done me wrong
+
+(Mississippi John Hurt, "Frankie," 1928)
+
+A Railroad Bill ought to be killed
+
+B Never worked and he never will
+
+R Now I'm 'a ride my Railroad Bill
+
+A Railroad Bill done took my wife
+
+B Threatened on me that he would take my life
+
+R Now I'm 'a ride my Railroad Bill
+
+(Will Bennett, "Railroad Bill," 1929)
+
+A McKinley hollered, McKinley squalled
+
+B Doc says, "McKinley, I can't find that ball"
+
+R From Buffalo to Washington
+
+A Hush up my little children, now don't you fret
+
+B You'll draw a pension at your papa's death
+
+R From Buffalo to Washington
+
+> (Charlie Poole with the North Carolina Ramblers, "Whitehouse Blues," 1926, first and third verses)[^4]
+
+But the similarities between "Frankie," "Railroad Bill," and "Whitehouse Blues" extend beyond their poetic forms to their rhythmic profiles. As shown in **[Example 1]{.underline}**a--1c, all three songs have twelve-bar verses divided into three four-bar groups, and each group corresponds to a line of text and a vocal phrase. There are eight metric positions on the level of the half-bar for each four-bar group, numbered 1 through 8 at the top of the example, and in all three songs the first two phrases end in position 7, on the downbeats of bars 4 and 8, and the third phrase ends in position 5, on the downbeat of bar 11---as illustrated by the brackets above the lyrics. The phrase rhythm can be labeled 7,7,5 to indicate the closing positions of its three phrases. The rhyming syllables of the couplet, shown in bold, thus fall in analogous metric positions in their four-bar groups, reinforcing the poetic rhyme with a "rhythmic rhyme." Many verses have a caesura in position 4 of the first phrase, dividing the A line; and many verses of "Frankie" have no stressed syllable in position 4 of the second phrase, even if there is no literal caesura in the vocal line (Example 1a, bar 6, on "say.").[^5]
+
+**Example 1** Twelve-bar ballad meter, with ABR poetic form and 7,7,5 phrase rhythm. (a) Mississippi John Hurt, "Frankie" (1928), sixth verse; (b) Will Bennett, "Railroad Bill" (1929), third verse; (c) Charlie Poole with the North Carolina Ramblers, "Whitehouse Blues" (1926); (d) "Stagolee," after Lomax and Lomax (\[1934\] 1994, 94).
+
+Peter Van der Merwe (2004, 447) refers to this combination of ABR poetic form and 7,7,5 phrase rhythm as "ballad meter," because it characterizes so many turn-of-the-century American ballads. From its earliest collected examples, "Stackolee" also appears in ballad meter, as in the version collected by John Lomax in 1910 and published in John Lomax and Alan Lomax's *American Ballads and Folk Songs* in 1934 (Example 1d).
+
+# Ballad Schemes
+
+Ballad *schemes* are combinations of ballad meter with specific harmonic progressions and melodic designs, patterns that support multiple songs. A ballad scheme typically takes the name of its most familiar song, as do the "Frankie and Johnny" and "Railroad Bill" schemes, but they also combine with different songs about other, usually historical, topics. For example, the "Frankie" scheme combines with the "Boll Weevil" ballad, about the devastating infestation of cotton crops in the South in the early twentieth century. And both the "Frankie" and "Railroad Bill" schemes support the ballad "Delia," about the teenager Moses Houston's murder of his girlfriend Delia Green in Savannah in 1900 (Van der Merwe 1989, 184--85, 199; Stoia 2013, 205--8; Polenberg 2015, 90--99).
+
+In addition to their divergent texts, the differences between the "Frankie and Johnny" and "Railroad Bill" schemes lie in their harmonic progressions, their melodic designs, and the details of their rhythmic profiles. The most obvious difference is harmony: although both follow the ubiquitous I--IV--I--V--I "chord row"---an abstract succession of harmonies that defines tonality in much prewar blues and country music---they distribute the chords in distinct harmonic rhythms (Blum 2004, figure 5).
+
+In the "Frankie and Johnny" scheme (**[Example 2]{.underline}**a), the subdominant opens the second phrase and resolves back to the tonic after three bars, and the dominant opens the third phrase and resolves back to the tonic after two bars (as shown under the lyrics in the example). The harmonic rhythm in the "Frankie" scheme therefore correlates closely with the phrase rhythm and poetic form: the resolution to tonic in the second phrase falls in position 7, together with the phrase ending and rhyme; and the resolution to tonic in the third phrase falls in position 5, together with the phrase ending and closing syllable of the refrain.[^6] Moreover, the placement of the non-tonic harmonies in stronger metric positions (bars 5--7 and 9--10) than their tonic resolutions emphasizes their harmonic dissonance and compulsion to resolve.[^7]
+
+**Example 2** Two ballad schemes. (a) "Frankie and Johnny" scheme: Finious (Flat Foot) Rockmore, "Boll Weevil" (1940), second verse; (b) "Railroad Bill" scheme: Booker T. Sapps, "Frankie and Albert (Cooney and Delia)" (1935), lyrics partly based on Milling (1937, 4); (c) "Railroad Bill" scheme: Frank Hutchison, "Railroad Bill" (1929), second verse, with substitution of IIIƒ in bars 5--6.
+
+In the "Railroad Bill" scheme (Example 2b), by contrast, the second phrase begins with the tonic and concludes on the subdominant; and the last phrase, the refrain, has a tonic--dominant--tonic progression.[^8] "Railroad Bill" thus places the non-tonic harmonies in weaker metric positions---bars 7--8 and 10---than their surrounding tonic harmonies. But a common substitution places IIIƒ in bars 5--6 (Example 2c), which resolves deceptively to IV in bars 7--8, emphasizing the more dissonant applied dominant through stronger metric placement.
+
+The two schemes also differ in their melodic designs. The "Frankie and Johnny" pattern combines with a more diverse array of tunes. Its most recurrent melodic design, the "Frankie" tune (**[Example 3]{.underline}**a), is characterized by arpeggiations of the tonic in bars 1--4, often with emphasis on, and upper-neighbor motion around, \^5; arpeggiation of the subdominant in bars 5--7, often with emphasis on, and upper-neighbor motion around, \^8; and a descent to \^5 on the downbeat of bar 8, where IV resolves to I with the completion of the rhyme. Naturally, the "Frankie" tune often combines with lyrics about Frankie and Johnny, but singers associate it with other ballad topics too, including the "Boll Weevil" song, and combine it with miscellaneous subjects, as in Frank Hutchison's "All Night Long" (Example 3b).[^9] But musicians also use the "Frankie" scheme as a vehicle for original melodies---whether with a ballad topic or not---as Henry Thomas does in "Bob McKinney" (Example 3c).
+
+**Example 3** Melodic designs of the "Frankie and Johnny" scheme. (a) "Frankie" tune with "Frankie" text: Gene Autry, "Frankie and Johnny" (1929), second verse; (b) "Frankie" tune with miscellaneous text: Frank Hutchison, "All Night Long" (1927); (c) original melody: Henry Thomas, "Bob McKinney" (1927), third verse.
+
+The "Railroad Bill" scheme, by contrast, has a much more uniform melodic design, and it is therefore "doubly predetermined" in its harmony and melody (Ward 1953, 415). Variants of the melodic design appear in Will Bennett's "Railroad Bill" (**[Example 4]{.underline}**a) and Frank Hutchison's "Railroad Bill" (Example 4b). As shown in the abstraction in Example 4c, the melody either prolongs \^3 over the first four bars or begins on \^5 in bar 1 before dropping to \^3 by the end of the phrase. The second phrase essentially descends from \^3 over the tonic to \^1 over the subdominant; if, however, IIIƒ substitutes in bars 5--6 then the melody typically moves through \^2, the chordal seventh, which resolves down by step to \^1 over the subdominant in bar 7. The end of the second phrase often climbs up to \^2 in bar 8, leading up to the \^3 in bar 9 that marks the first downbeat of the refrain. The last phrase essentially descends from \^3 in bar 9 to \^1 in bar 11, often passing through \^2 in bar 10 to match the shift to the dominant.
+
+**Example 4** Melodic design of the "Railroad Bill" scheme. (a) Will Bennett, "Railroad Bill" (1929); (b) Frank Hutchison, "Railroad Bill" (1929), second verse; (c) abstraction.
+
+Finally, although the "Frankie" and "Railroad Bill" schemes share the 7,7,5 phrase rhythm, they differ significantly in the rhythmic details of their refrains (**[Example 5]{.underline}**). The "Frankie" refrain has only two downbeat accents---the combination of a stressed syllable with a metrically strong downbeat position---falling in bars 9 and 11, or positions 1 and 5, for example on "man" and "wrong" in the common "Frankie" refrain line, "He was my man, but he done me wrong" (Example 5a). But the "Railroad Bill" refrain has three downbeat accents, in bars 9, 10, and 11, or positions 1, 3, and 5, for example on "ride," "Rail-," and "Bill" in the refrain, "Now I'm 'a ride my Railroad Bill" (Example 5b). The accent patterns in these refrains are in turn closely intertwined with the harmonic rhythm: the "Frankie" refrain has only two harmonic shifts, to V and then back to I, whereas the "Railroad Bill" refrain has three harmonic shifts, to I, V, and then I. (Both graphics show the harmony that precedes the refrain, in bar 8, to clarify that the harmony changes in bar 9.) In both refrains, then, each chordal shift coincides with a downbeat accent, so that the harmonic rhythm matches the rhythmic profile.
+
+**Example 5** Downbeat accents and harmonic rhythm in the refrains of ballad schemes. (a) Two downbeat accents match two harmonic shifts in the "Frankie and Johnny" refrain; (b) three downbeat accents match three harmonic shifts in the "Railroad Bill" refrain.
+
+# The Eight-Bar Blues Form and Eight-Bar Blues Schemes
+
+In addition to appearing in ballad meter, "Stackolee" also appears as a series of rhyming AB couplets without refrains. John Lomax and Alan Lomax include this form in *American Ballads and Folk Songs* (\[1934\] 1994, 93), where they describe it as a more modern variant:
+
+A Stagolee, he was a bad man, and everybody knows
+
+B He toted a stack-barreled blow gun and a blue steel forty-four
+
+A Way down in New Orleans, called the Lyon Club
+
+B Every step you walkin,' you walkin' in Billy Lyon's blood
+
+(After Lomax and Lomax \[1934\] 1994, 96)
+
+This version of "Stackolee" (**[Example 6]{.underline}**a) has a phrase rhythm common to many popular eight-bar blues songs, including "Trouble in Mind" (Example 6b), "How Long---How Long Blues" (Example 6c), and "Key to the Highway" (Example 6d). These songs have two phrases, the first ending in position 7 and the second in position 5, and they often match in their placement of caesuras in positions 2 and 4, especially in the first phrase. The eight-bar blues form usually has one rhyming AB couplet per verse, with each line corresponding to a phrase (Examples 6a, 6b, and 6d). It may also appear in the ABR form (Example 6c), where the couplet spans the first phrase, with rhymes in the analogous positions 3 and 7, and the refrain spans the second phrase.
+
+**Example 6** Eight-bar blues with AB or ABR poetic form and 7,5 phrase rhythm. (a) "Stagolee," after Lomax and Lomax (\[1934\] 1994, 96), third verse; (b) Bertha "Chippie" Hill, "Trouble in Mind" (1926); (c) Leroy Carr and Scrapper Blackwell, "How Long---How Long Blues" (1928); (d) Big Bill Broonzy, "Key to the Highway" (1941).
+
+Eight-bar blues *schemes* are combinations of the 7,5 phrase rhythm and AB or ABR poetic form with specific harmonic progressions and melodic designs. Like a ballad scheme, a blues scheme usually takes the name of its most familiar song---as do the "Trouble in Mind," "How Long," and "Key to the Highway" schemes---while also supporting songs with different lyrics and topics (**[Example 7]{.underline}**). These schemes also differ to some extent in their poetic forms: the "Trouble in Mind" and "Key to the Highway" schemes have the AB form (Examples 7a and 7b), whereas the "How Long" scheme has both this form and an ABR form (Example 7c).
+
+**Example 7** Eight-bar blues schemes. (a) "Trouble in Mind" scheme: Cliff Carlisle, "Trouble Minded Blues" (1937); (b) "Key to the Highway" scheme: Charley Patton, "Jim Lee Blues---Part I" (1929); (c) "How Long" scheme: Blind Willie McTell and Ruby Glaze, "Lonesome Day Blues" (1932).
+
+Scholars have defined the musical parameters of the "Trouble in Mind" and "Key to the Highway" schemes, which are, for the most part, fairly straightforward---the harmonic progressions shown in Examples 7a and 7b, for instance, are defining attributes, and both schemes have easily identifiable tunes.[^10] But the "How Long" scheme has proved more elusive, the eight-bar pattern whose parameters are hardest to specify, because it varies much more in its melodic design, harmonic progression, and the details of its rhythmic profile.[^11]
+
+The scheme has a recurrent melodic design, the "How Long" tune (**[Example 8]{.underline}**), but with the exception of its distinctive opening gesture much of the tune traverses more of a general contour than a singular shape. The most conspicuous characteristic of the tune is its initial stepwise descent between positions 1 and 3---either from \^8 to ß\^7, as in Leroy Carr and Scrapper Blackwell's "How Long---How Long Blues" (Example 8a), or from \^3 to \^2, as in Blind Willie McTell and Ruby Glaze's "Lonesome Day Blues" (Example 8b). The first phrase usually ends with another, typically larger, descent in bars 3--4, usually from \^8 down to \^1. But there are numerous variants. To take just one instance of melodic divergence, Carr's octave descent in bars 3--4 expands the melody into the lower register (Example 8a), whereas Glaze's expands it into the upper register (Example 8b).
+
+**Example 8** "How Long" scheme, harmonic progressions and melodic designs. (a) Leroy Carr and Scrapper Blackwell, "How Long---How Long Blues" (1928); (b) Blind Willie McTell and Ruby Glaze, "Lonesome Day Blues" (1932); (c) Peg Leg Howell, "Rolling Mill Blues" (1929), eighth verse.
+
+The most consistent characteristics of the second phrase are its landing on a member of the tonic triad in position 1 and ending on \^1 in position 5, alighting on different degrees in position 3 in the many melodic variants. Carr's melody, for instance, has \^1, \^[5]{.underline}, and \^1 marking positions 1, 3, and 5 (Example 8a; the underline indicates the degree below the final tonic), whereas Glaze's has \^5, \^4, and \^1 in those positions (Example 8b).
+
+The "How Long" scheme also shows a wider range of variation in the details of its rhythmic profile than the other eight-bar schemes. Carr's realization, for instance, has the minimum number of seven accents (the combination of a stressed syllable with a strong metric position), falling on the downbeats of bars 1--7, indicated by the boxed metric positions above the staff in Example 8a---all but the last two falling in anticipatory positions---and the maximum number of five caesuras. Glaze's melody, conversely, is more rhythmically active, with ten downbeat and mid-bar accents---including in position 6 in the first phrase and positions 2 and 4 in the second---and only two caesuras (Example 8b).[^12]
+
+The "How Long" scheme is also more flexible in its harmony. The most distinguishing harmonic characteristics are its opening two-bar tonic prolongation---which supports the opening \^8--ß\^7 or \^3--\^2 gesture, and distinguishes the progression from the opening I--V motion of the other two eight-bar schemes---and its motion to IV in bar 3. If the descending \^8--ß\^7 gesture is absent from the vocal part, it appears in the accompaniment, as shown below the staff in Example 8b, and thus forms part of the harmonic fabric of the scheme, transforming the opening I into the dominant of the following IV. The subdominant often spans bars 3--4 (Examples 8a and 8b), but in some realizations it resolves back to I in bar 4, as in Peg Leg Howell's "Rolling Mill Blues" (Example 8c). The most common progression in the second phrase is I--V--I in positions 1, 3, and 5 (Examples 8a, 8b, and 8c).
+
+**[Example 9]{.underline}**, a graphic illustration of the "How Long" scheme, is an attempt to demonstrate the pattern's defining characteristics while still allowing for its flexibility. The brackets show the obligatory 7,5 phrase rhythm, a defining element. The dots give more detail to the rhythmic profile: the un-parenthesized dots show the positions that are consistently accented, and the parenthesized ones the positions that are sometimes accented. These details show the range of the scheme's rhythmic profile within the parameters of the 7,5 phrase rhythm: some realizations are much more sparsely accented, with only seven accents, falling on the downbeats of bars 1--7, whereas others may have up to eleven accents.
+
+**Example 9** Graphic illustration of the "How Long" scheme.
+
+The most consistent harmonic and melodic attributes---including the opening \^8--ß\^7/\^3--\^2 gesture over tonic harmony, another defining attribute---appear in bold, distinguishing these elements from the more flexible ones. The example illustrates how the beginnings and endings of the phrases are more melodically defined, whereas the middles are more flexible.[^13] The two non-bold scale degrees followed by question marks---\^8 in bar 3 and \^5 in bar 6---indicate scale degrees commonly found in those positions, but without enough frequency to be considered defining attributes. The I--V--I progression in the second phrase is certainly the most common, but, as the following section demonstrates, the scheme remains recognizable even in realizations where this part of the progression is significantly different.
+
+# A Floating Ballad Text
+
+Musicians usually associate the ballad-meter form of "Stackolee" with one of the ballad schemes, taking on that pattern's harmonic progression and degree of melodic fixity. Ma Rainey's "Stack O'Lee Blues" (**[Example 10]{.underline}**a), for instance, combines the "Stackolee" lyrics with the "Frankie and Johnny" scheme, and it uses both the "Frankie" harmonic progression and the "Frankie" tune. But other combinations of this scheme and text, such as Woody Guthrie's "Stackolee" (Example 10b), have original melodic designs, in keeping with musicians' perception of the pattern as a vehicle for many tunes. (Guthrie's expansion of the refrain is discussed below.)
+
+**Example 10** "Stackolee" text with "Frankie" scheme. (a) Ma Rainey, "Stack O'Lee Blues" (1925), with "Frankie" tune; (b) Woody Guthrie, "Stackolee" (1944), second verse, with original melody.
+
+When musicians combine the "Stackolee" lyrics with the "Railroad Bill" scheme, on the other hand, they perceive the pattern as doubly predetermined by harmony and melody, and so use only close variants of the "Railroad Bill" tune. Furry Lewis, for instance, in his "Billy Lyons and Stack O'Lee" (**[Example 11]{.underline}**a), sings a veritable model of the "Railroad Bill" tune: the first phrase briefly accents \^5 before dropping to a prolonged \^3; the second phrase extends \^3 before continuing the descent to \^1 over IV in bar 7, then closes with a quick swerve back up to \^2; and the third phrase traces a clear \^3--\^2--\^1 descent. In Long "Cleve" Reed and Little Harvey Hull's "Original Stack O'Lee Blues" (Example 11b), the melody is a close variant, prolonging \^3 throughout the entire first phrase, descending to \^2 over the chromatic substitution of IIIƒ in bars 5--6, and resolving to \^1 over IV in bars 7--8. The defining degrees of the melodic contour appear above the staff.
+
+**Example 11** "Stackolee" text with "Railroad Bill" scheme. (a) Furry Lewis, "Billy Lyons and Stack O'Lee" (1927), with "Railroad Bill" tune and diatonic harmony; (b) Long "Cleve" Reed and Little Harvey Hull, "Original Stack O'Lee Blues" (1927), with "Railroad Bill" tune and chromatic substitution.
+
+In the refrain, the "Stackolee" lyrics likewise conform to the characteristic rhythmic profile of each scheme. The two-accent refrain of the "Frankie" scheme combines with two-accent "Stackolee" refrains, such as Mississippi John Hurt's "That bad man, oh, cruel Stackolee" (**[Example 12]{.underline}**a), with "bad" and "Stack-" falling on the downbeats of bars 9 and 11, together with the shifts to V and I respectively (see also Example 10a). Woody Guthrie even goes so far as to double the length of his last phrase (Example 12b), so that his relatively wordy refrain ("He was a bad man, that mean old Stackolee") avoids the sense of three equally spaced accents---that is, so that it maintains the rhythmic profile of the "Frankie" refrain and avoids the rhythmic profile of the "Railroad Bill" refrain. In a hypothetical version of the refrain without the expansion (Example 12c), there are three equally spaced downbeat accents, but the second one, on "mean," has no corresponding harmonic shift, failing to achieve the rhythmic-harmonic interplay of either twelve-bar scheme's refrain. As shown in an interpretation on a higher metric level (Example 12d), Guthrie's expansion puts both "bad" and "-lee" on hypermetric downbeats, leaving the intervening hypermetric downbeat unaccented, and keeping the proportions of the "Frankie" refrain's harmonic rhythm and accent placement entirely intact.[^14]
+
+**Example 12** Two-accent refrain of the "Frankie and Johnny" scheme with two-accent "Stackolee" refrains. (a) Mississippi John Hurt, "Stack O'Lee Blues" (1928); (b) Woody Guthrie, "Stackolee" (1944), with expansion of the refrain; (c) hypothetical version of Guthrie's refrain without the expansions; (d) Guthrie's refrain interpreted on a higher metric level.
+
+The "Railroad Bill" scheme, by contrast, combines with three-accent "Stackolee" refrains, such as Lewis's "Cryin' when you lose your money, Lyons, you lose" (**[Example 13]{.underline}**a), or Reed and Hull's "And it's oh, Stack O'Lee" (Example 13b), both of which have accents on the downbeats of bars 9, 10, and 11, together with the shifts to I, V, and I respectively.
+
+**Example 13** Three-accent refrain of the "Railroad Bill" scheme with three-accent "Stackolee" refrains. (a) Furry Lewis, "Billy Lyons and Stack O'Lee" (1927); (b) Long "Cleeve" Reed and Little Harvey Hull, "Original Stack O'Lee Blues" (1927).
+
+The AB form of "Stackolee" typically combines with the "How Long" scheme, as in Lucious Curtis and Willie Ford's "Stagolee" from 1940 (**[Example 14]{.underline}**a). The melody is clearly an example of the "How Long" tune, opening with a descending \^3--\^2 gesture over tonic harmony, with \^1--ß\^7 in the accompaniment, followed by a caesura in position 4; a later verse has the \^1--ß\^7 opening in the vocal part. But the melody also represents yet another variant: the conclusion of the first phrase on \^1 follows a descent through the narrow range of a third; and the second phrase begins again on \^3, instead of the more common \^1 or \^5. In addition to the seven obligatory downbeat accents, the melody includes all four of the "optional" accents, in positions 2 (both phrases), 6 (first phrase), and 4 (second phrase), making the maximum eleven---all but one (bar 1 position 2) falling in anticipatory positions---as indicated by the boxed metric positions above the staff. And the song further demonstrates the scheme's harmonic flexibility: the first phrase has the most common progression, I--I--IV--IV, but the second phrase has a IV--IV--I--I progression, which may be unique in realizations of the "How Long" scheme. Despite this departure from the more common progression, the song retains the defining elements of the "How Long" scheme, and is clearly recognizable as a realization of the pattern.
+
+**Example 14** "Stackolee" text with "How Long" scheme. (a) Lucious Curtis and Willie Ford, "Stagolee" (1940); (b) "Stagolee," Version B, after Lomax and Lomax (\[1934\] 1994, 96); (c) Archibald, "Stack A'lee (Parts I and II)" (1950), second verse; (d) Wilson Pickett, "Stagger Lee" (1968).
+
+The Lomaxes (\[1934\] 1994, 96) include this same combination of AB poetic form, 7,5 phrase rhythm, and "How Long" melodic design with the \^1--ß\^7 opening in *American Ballads and Folk Songs* (Example 14b); they do not provide any explicit harmonization, but based on the melodic emphasis on tonic degrees in bars 1--2 and subdominant degrees in bars 3--4, the reader can easily infer a I--I--IV--IV progression in the first phrase. This transcription also has the common caesuras in positions 2, 4, and 6 in the first phrase. Many later versions of "Stackolee" likewise combine with the "How Long" scheme, including the rhythm and blues artist Archibald's "Stack A'lee (Parts I and II)" from 1950 (Example 14c) and Wilson Pickett's "Stagger Lee" from 1968 (Example 14d). Pickett's harmonic progression is the most common one, whereas Archibald's once again demonstrates the scheme's allowance for harmonic variation. The IIIƒ in bar 2 both prolongs the opening tonic and functions as an alternative type of applied dominant to the following IV (here an alternative to I^ß7^); and the ßVI in bar 4 prolongs the subdominant.[^15] Archibald's IIIƒ in bar 2 precludes the typical \^1--ß\^7 motion, so he replaces it with a \^1--∂\^7 descent and still retains the opening \^3--\^2 motion, both gestures now in the accompaniment.
+
+# Textual Cross-Pollination and Divergence
+
+The combination of the "Stackolee" text with different schemes demonstrates two different processes of lyrical development. First, through its combination with the "Frankie and Johnny" scheme, the twelve-bar, ABR "Stackolee" ballad cross-pollinates with the "Frankie" ballad, incorporating some of the latter's lyrics and themes, and "Stackolee" in turn occasionally imparts its own themes to the "Frankie" ballad. Second, the combination of the eight-bar, AB "Stackolee" with the "How Long" scheme creates a divergent branch of the song, whereby musicians associate certain lyrics and themes only with the phrase rhythm and poetic form of the eight-bar pattern.
+
+The oldest exchanges are between "Frankie and Johnny" and "Stackolee," and some of their shared couplets go back so far that it might be impossible to tell which ballad they appeared in first. For example, one of the most common opening lines of "Frankie and Johnny," recorded as early as 1909, describes Frankie as a "good woman" or "good girl," and closes with "everybody knows" in the rhyming position; this same formulation also frequently opens "Stackolee," going at least as far back as 1911, where it appears "flipped" to describe him as a "bad man" or a "bully man" or some close variant, which, again, "everybody knowed":
+
+> Frankie was a good woman, everybody knows
+>
+> She spent one hundred dollars for to buy her man some clothes
+>
+> Oh, he was her man, but he done her wrong
+>
+> (1909; after Lomax and Lomax \[1934\] 1994, 103)
+>
+> Stagolee was a bully man, and everybody knowed
+>
+> When they see Stagolee comin', to give Stagolee the road
+>
+> O that man, bad man, Stagolee done come
+>
+> (After Odum 1911, 288)
+
+Similarly, early versions of both ballads often have a couplet near the end describing the victim's final trip to the cemetery or graveyard in a "hack" (a taxi), which falls in the rhyming position:
+
+> And now it's rubber-tired carriages, and a rubber-tired hack
+>
+> Took old Albert to the graveyard and brought his mother back
+>
+> His soul's in hell, his soul's in hell
+>
+> (After Lomax and Lomax \[1934\] 1994, 105; Laws 1964, 91)
+>
+> Forty-dollar coffin, eighty-dollar hack,
+>
+> Carried poor man to the cemetery but failed to bring him back
+>
+> Everybody been dodgin' Stagolee
+>
+> (After Odum 1911, 289; Laws 1964, 91)
+
+Other lyrical exchanges first appear on recordings, and the direction of the exchange is easier to identify, especially in combinations of the "Stackolee" text with the "Frankie" scheme. Ma Rainey, for instance, simply inserts the most common "Frankie" refrain---"He was my man, but he done me wrong"---directly into her "Stack O'Lee Blues":
+
+> Stack O'Lee was a bad man, everybody knowed
+>
+> And when they see Stack O'Lee comin' they give him the road
+>
+> He was my man, but he done me wrong
+>
+> (Ma Rainey, "Stack O'Lee Blues," 1925)
+
+It's a remarkable substitution, given that the refrain has nothing to do with the conventional "Stackolee" ballad. The combination of "Stackolee" couplets with the "Frankie" refrain shows how strongly Rainey associates both sets of lyrics with the scheme, rather than with either particular song, and how she feels free to fuse their lyrical elements together, because they fit organically within the same musical pattern.[^16]
+
+Woody Guthrie's "Stackolee" likewise borrows lyrics from "Frankie." As mentioned, one of the most common opening "Frankie" lines mentions her goodness, which "everybody knows." The most common rhyming line expounds upon her virtue by noting how much she paid for Johnny's (or Albert's) "suit of clothes," which forms the rhyme:
+
+> Frankie was a good girl, everybody knows
+>
+> She paid a hundred dollars for Albert's one suit of clothes
+>
+> He's her man, and he done her wrong
+>
+> (Mississippi John Hurt, "Frankie," 1928)
+
+As was also mentioned, some versions of "Stackolee" flip this opening line to convey his malevolence, which, again, "everybody knowed." And the rhyming line explains that Stackolee is so intimidatingly fearsome that everyone "gives him the road," as in Odum's and Rainey's couplets, transcribed above. But Guthrie retains the second line of the "Frankie" couplet, concerning the price of the "suit of clothes," the profligate spending now evidence of Stackolee's badness instead of Frankie's goodness:
+
+> Stackolee was a bad man, and everybody knows
+>
+> Spent a hundred dollars for just one suit of clothes
+>
+> He was a bad man, that mean old Stackolee
+>
+> (Woody Guthrie, "Stackolee," 1944)
+
+Conversely, there are also some, if seemingly fewer, instances where the "Stackolee" lyrics rub off on the "Frankie" song---a result of the "Stackolee" ballad's long association with the "Frankie" scheme. In the fifth verse of Big Bill Broonzy's "Frankie and Johnny," for instance, Stackolee's trademark Stetson hat now belongs to Johnny:
+
+> Johnny pulled off his Stetson hat, hollered "Now, baby, don't shoot"
+>
+> Frankie pressed her finger on the trigger and that gun went rooty toot
+>
+> She killed her man 'cause he done her wrong
+>
+> (Big Bill Broonzy, "Frankie and Johnny," 1957, fifth verse)
+
+These borrowings and amalgamations demonstrate that musicians link words and lines not only to particular ballads but also to specific musical patterns. The lyrical formulations easily cross from one ballad to the other because "Frankie" and "Stackolee" combine with the same scheme, which becomes the site of lyrical exchange.
+
+The eight-bar "How Long" scheme, on the other hand, is so different from ballad meter in its rhythmic profile that its combination with the "Stackolee" text engenders a corresponding divergence in lyrical content. Singers still relate the key elements of the "Stackolee" story in the eight-bar version---the altercation over Stackolee's hat, Billy's pleading for sympathy for his wife and children---but there are lines that characterize the eight-bar form that are apparently absent from the twelve-bar form. Among the more evocative of these lyrics are the narrator's description of their dog barking at two men gambling in the dark, becoming an eyewitness to the events;[^17] Stackolee and Billy's disagreement, while gambling at night, about the roll of a seven or an eight; and Stackolee's various hijinks with the devil upon his arrival in hell,[^18] as in the following couplets:
+
+> It was early one mornin' when I heard my little dog bark
+>
+> Stagolee and Billy Lyon was arg'in in the dark
+>
+> Stagolee and Billy Lyon was gamblin' one night late,
+>
+> Stagolee fell seven, Billy Lyon, he fell cotch eight
+>
+> Stagolee took the pitchfork an' he laid it on the shelf---
+>
+> "Stand back, Tom Devil, I'm gonna rule Hell by myself"
+>
+> (After Lomax and Lomax \[1934\] 1994, 96, 99)
+>
+> It was late last night, I heard my bulldog bark
+>
+> Stackolee and Billy Lyons they was arguing in the dark
+>
+> Stackolee, he told the devil: "Come on, let's have some fun
+>
+> You get your pitchfork, I'm gonna get my forty-one"
+>
+> (Lucious Curtis and Willie Ford, "Stagolee," 1940)
+>
+> I was standin' on the corner, when I heard my bulldog bark
+>
+> They were barkin' at the two men who were gamblin' in the dark
+>
+> It was Stack A'lee and Billy, two men who gambled late
+>
+> Stack A'lee throwed seven, Billy swore that he throwed eight
+>
+> Now the devil heard a rumbling, a mighty rumbling under the ground
+>
+> Said: "That must be mister Stack turnin' Billy upside down"
+>
+> (Archibald, "Stack A'lee \[Parts I and II\]," 1950, first, second, and thirteenth verses)
+>
+> I was standin' on the corner, when I heard my bulldog bark
+>
+> He was barkin' at two men who was gamblin' in the dark
+>
+> It was Stagger Lee and Billy, two men who gambled late
+>
+> Stagger Lee threw seven, Billy swore that he threw eight
+>
+> (Wilson Pickett, "Stagger Lee," 1968)
+
+The repeated appearance of these couplets in the eight-bar form---and their absence from the twelve-bar form---shows how the combination of "Stackolee" with the "How Long" scheme leads to a divergent branch of the song, with its own lyrics and themes.
+
+The lyrical cross-pollination and divergence that appear in the two forms of "Stackolee" demonstrate that singers associate lyrics not only with stories but also with musical patterns such as phrase rhythm, poetic form, harmonic progression, harmonic rhythm, and melodic design---that they associate lyrics with schemes. In addition to its endurance as a ballad and a legend---"a reminder of how the consequences of one simple act can reverberate through the decades in music and myth" (Eberhart 1996, 2)---"Stackolee" is a pointed example of the connection between lyrical content and form, a demonstration of the role that musical patterns can play in shaping a story told through song.
+
+# Works Cited
+
+BaileyShea, Matt. 2021. *Lines and Lyrics: An Introduction to Poetry and Song*. Yale University Press.
+
+Biamonte, Nicole. 2010. "Triadic Modal and Pentatonic Patterns in Rock Music." *Music Theory Spectrum* 32 (2): 95--110.
+
+Blum, Stephen. 2004. "Rhythmic-Harmonic Cycles in Musical Idioms of the Black Atlantic." Paper presented at the joint annual meeting of the American Musicological Society and Society for Music Theory, Seattle, WA, November 11--14.
+
+Bowers, Jane, and William Westcott. 1992. "Mama Yancey and the Revival Blues Tradition." *Black Music Research Journal* 12 (2): 171--213.
+
+Bronson, Bertrand Harris. 1959--72. *The Traditional Tunes of the Child Ballads: With Their Texts, According to the Extant Records of Great Britain and America*. 4 vols. Princeton University Press.
+
+Brown, Cecil. 2003. *Stagolee Shot Billy*. Harvard University Press.
+
+Caplin, William. 1998. *Classical Form: A Theory of Formal Functions for the Instrumental Music of Haydn, Mozart, and Beethoven*. Oxford University Press.
+
+Cohen, Norm. 2000. *Long Steel Rail: The Railroad in American Folksong*. 2nd ed. University of Illinois Press.
+
+Cohen, Norm, Carson Cohen, and Anne Dhu McLucas, eds. 2021. *An American Singing Heritage: Songs from the British-Irish-American Oral Tradition as Recorded in the Early Twentieth Century*. A-R Editions.
+
+de Clercq, Trevor. 2012. "Sections and Successions in Successful Songs: A Prototype Approach to Form in Rock Music." PhD diss., Eastman School of Music.
+
+Eberhart, George M. 1996. "Stack Lee: The Man, the Music, and the Myth." *Popular Music and Society* 20 (1): 1--70.
+
+Evans, David. 1982. *Big Road Blues: Tradition and Creativity in the Folk Blues*. Da Capo.
+
+Everett, Walter. 2001. *The Beatles as Musicians: The Quarry Men Through "Rubber Soul."* Oxford University Press.
+
+Gjerdingen, Robert O. 2007. *Music in the Galant Style*. Oxford University Press.
+
+Hayes, Bruce. 1995. *Metrical Stress Theory: Principles and Case Studies*. University of Chicago Press.
+
+Hudson, Arthur Palmer. 1936. *Folksongs of Mississippi and Their Background*. University of North Carolina Press.
+
+Laws, G. Malcolm, Jr. 1964. *Native American Balladry: A Descriptive Study and a Bibliographic Syllabus*. American Folklore Society.
+
+Lomax, John A., and Alan Lomax. \[1934\] 1994. *American Ballads and Folk Songs*. Dover.
+
+Milling, Chapman J. 1937. "Delia Holmes---A Neglected Negro Ballad." *Southern Folklore Quarterly* 1 (4): 3--8.
+
+Morgan, Stacy I. 2017. *Frankie and Johnny: Race, Gender, and the Work of African American Folklore in 1930s America*. University of Texas Press.
+
+Odum, Howard W. 1911. "Folk-Song and Folk-Poetry as Found in the Secular Songs of the Southern Negroes." *Journal of American Folklore* 24 (93): 255--94.
+
+Perrow, E. C. 1915. "Songs and Rhymes from the South." *Journal of American Folklore* 28 (108): 129--90.
+
+Polenberg, Richard. 2015. *Hear My Sad Story: The True Tales that Inspired "Stagolee," "John Henry," and Other Traditional American Folk Songs*. Cornell University Press.
+
+Schachter, Carl. \[1976\] 1999. "Rhythm and Linear Analysis: A Preliminary Study." In *Unfoldings: Essays in Schenkerian Theory and Analysis*, edited by Joseph N. Straus, 17--53. Oxford University Press.
+
+Schachter, Carl. \[1987\] 1999. "Aspects of Meter." In *Unfoldings: Essays in Schenkerian Theory and Analysis*, edited by Joseph N. Straus, 79--117. Oxford University Press.
+
+Seeger, Charles. 1966. "Versions and Variants of the Tunes of 'Barbara Allen.'" *Selected Reports in Ethnomusicology* 1 (1): 120--67.
+
+Stoia, Nicholas. 2013. "The Common Stock of Schemes in Early Blues and Country Music." *Music Theory Spectrum* 35 (2): 194--234.
+
+Taft, Michael. 2006. *The Blues Lyric Formula*. Routledge.
+
+Temperley, David. 1999. "Syncopation in Rock: A Perceptual Perspective." *Popular Music* 18 (1): 19--40.
+
+Temperley, David. 2018. *The Musical Language of Rock*. Oxford University Press.
+
+Van der Merwe, Peter. 1989. *Origins of the Popular Style: The Antecedents of Twentieth-Century Popular Music*. Oxford University Press.
+
+Van der Merwe, Peter. 2004. *Roots of the Classical: The Popular Origins of Western Music*. Oxford University Press.
+
+Ward, John. 1953. "The Folia." In *Kongressbericht: Internationale Gesellschaft für Musikwissenschaft, Utrecht 1952*, 414--22. Alsbach.
+
+[^1]: See, for example, Cecil Brown (2003), who argues that "Stagolee is a metaphor that structures the life of black males from childhood through maturity. . . . Stagolee is an in-group catchword conveying knowledge of what it means to be a black man" (2--3).
+
+[^2]: As resources shared by many musicians, the schemes discussed here resemble the eighteenth-century schemata explored by Gjerdingen (2007) and others, but they differ from those earlier schemata in their close correspondence to the formal section of a song verse.
+
+[^3]: Others who explore the intersection of form and lyrical content in vernacular music include Evans (1982, 31--32), who argues that the blues form combines with a "blues ideology" expressed in both the lyrics and other musical characteristics; Taft (2006), who argues that the most common lyric formulas that appear with the blues form concern love, travel, and anxiety caused by change; and Bronson (1959--72, 1:265--66), who, in an exploration of the ballad "Sir Lionel," discusses ballads that become "crossed" when they share the same stanzaic pattern. Laws (1964) notes that many of the stanzaic forms in American balladry are closely related, that some ballads "even attract stanzas from other ballads" (71), and that "the versions which result present difficult problems of analysis" (76).
+
+[^4]: Charlie Poole uses two refrains in his song; the other is "He is gone, long, long time." Unless otherwise noted, the verses transcribed in the text and examples are the opening verses.
+
+[^5]: Many of the examples, including Example 1, show a rhythmically simplified representation in which stressed syllables align with strong metric positions instead of falling in their actual anticipatory positions. Temperley (1999; 2018, 72--80) describes in detail the technique of anticipatory syncopation and its ubiquity in rock music, and how we can understand many syncopated lyrics in terms of a hypothetical "de-syncopated" version. His theory applies equally well to prewar blues and country music. The grids aligning stressed syllables with strong metric positions resemble those of linguists such as Hayes (1995, 24--31), who notes that, in language, "stress patterns exhibit substantial formal parallels with extra-linguistic rhythmic structures, such as those found in music and verse" (8).
+
+[^6]: Matt BaileyShea (2021) examines comparable ways in which rhymes are "musically reinforced" (68), and he observes that "composers have been fusing cadences and rhymes for centuries" (76). Similarly, Trevor de Clercq observes that "a musical parallelism is often reinforced in the domain of lyrics through a rhyme" (2012, 121).
+
+[^7]: Here I follow the theory of hypermeter posited by Schachter (\[1987\] 1999, 80--83) and Temperley (2018, 82--84). Schachter observes that dissonances that "are strongly accented relative to their resolutions" create "conflict between accent and tonal stability" (\[1976\] 1999, 41--42).
+
+[^8]: Booker T. Sapps's recording, the basis of Example 2b, is a field recording made in Florida in 1935 whose lyrics are often unclear, so I base the words in the example---especially the B line---partly on Chapman J. Milling's (1937, 4) transcription of "Delia Holmes," which has a matching A line. The melody and phrase rhythm in Milling's transcription match the "Railroad Bill" scheme too. The title of Sapps's song is given as "Frankie and Albert (Cooney and Delia)," but the song is clearly about Delia, not Frankie.
+
+[^9]: Example 3b also shows how some musicians take a flexible approach to the meter of a scheme, often by expanding the caesuras and the spaces between the phrases. Frank Hutchison is notorious for dramatically expanding and abbreviating bars.
+
+[^10]: See, for example, Blum (2004, figure 5) and Stoia (2013, 204--5, 208--9).
+
+[^11]: Bowers and Westcott (1992) describe the variability of the "How Long Blues," especially its melodic flexibility.
+
+[^12]: Here I follow Taft (2006, 10) and other blues scholars in defining caesuras as breaks that divide phrases, excluding the pauses between phrases (those in position 8).
+
+[^13]: Even the phrase endings show more variation than the graphic illustration conveys. Skip James's "How Long Buck" (1931), for instance, entirely conforms to the graph in its phrase rhythm and harmonic progression, but his first phrase ends unusually on ß\^3.
+
+[^14]: Expansion here "resembles the rhythmic technique of 'augmentation,' in which the durational values of the individual notes of an idea are systematically increased so that the original proportional relation among the durations is retained (i.e., doubled or quadrupled)" (Caplin 1998, 20). Guthrie's second verse, shown in Examples 10b and 12b, gives the most balanced elongation of the refrain, an exact doubling; many of the verses have more irregular elongations.
+
+[^15]: On III as a tonic and VI as a subdominant, see, for example, Everett (2001, 359--60) and Biamonte (2010, 96--97, 101).
+
+[^16]: Brown (2003, 146) argues that Rainey "confused the lyrics of Stagolee with those of 'Frankie and Johnny,'" but in fact this musical pattern is the most natural setting for this refrain.
+
+[^17]: For an early and possibly unique example of the "bulldog" couplet in the twelve-bar "Frankie and Johnny" (not "Stackolee"), collected in 1909, see Perrow (1915, 178), cited in Hudson (1936, 189).
+
+[^18]: Both the Lomax and Archibald versions have additional "devil" couplets beyond those given here.

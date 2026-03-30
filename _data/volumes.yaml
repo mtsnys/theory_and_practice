@@ -16,3 +16,13 @@ volumes:
       name: "Daphne Tan"
     awards_editor:
       name: "Eron Smith"
+
+  - id: "vol51"
+    name: "Volume 51 (2026)"
+    editors:
+      - name: "Kyle Hutchinson"
+      - name: "Christopher Segall"
+    reviews_editor:
+      name: "Daphne Tan"
+    awards_editor:
+      name: "Eron Smith"
