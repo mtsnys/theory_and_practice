@@ -136,9 +136,10 @@ header h1, header h2, header h3, header a {
 }
 
 .title-author-wrapper {
-    max-width: 73%;
+    width: 55%;
+    max-width: 100%;
     margin: auto;
-    text-align: center;
+    text-align: left;
 }
 
 .title-author-wrapper h1 {
@@ -147,7 +148,8 @@ header h1, header h2, header h3, header a {
 }
 
 .abstract-wrapper {
-    max-width: 53%;
+    width: 55%;
+    max-width: 100%;
     margin: auto;
     /* display: flex; */
 }
@@ -155,9 +157,10 @@ header h1, header h2, header h3, header a {
 
 /* Media query for smaller screens */
 @media (max-width: 1024px) { /* Adjust the breakpoint as needed */
-    .title-author-wrapper, 
+    .title-author-wrapper,
     .abstract-wrapper {
-        max-width: 90%; /* Or a different percentage to control the width */
+        width: 90%;
+        max-width: 100%;
     }
     .abstract-wrapper {
          text-align: justify;
@@ -263,6 +266,10 @@ p.subtitle {
 	text-align: center;
 }
 
+.abstract-wrapper .author {
+	text-align: left;
+}
+
 .author a {
 		text-decoration: none;
 }
@@ -327,8 +334,8 @@ article.about {
 }
 
 	
-@media (max-width: 1024px) and (orientation: portrait) { 
-article {
+@media (max-width: 1024px) and (orientation: portrait) {
+article, .breadcrumb {
 		width: 90%;
 		max-width: 100%;
 		/* Adjust for smaller screens */
@@ -904,10 +911,38 @@ body .masthead {
     font-family: trade-gothic-lt, 'Alexandria';
     font-size: 1rem;
     font-weight: 300;
-    color: #6d6360;
+    color: #4d4643;
     text-align: left;
     width: 90%;
     margin: 1.2rem auto 0;
+}
+
+.breadcrumb {
+  font-family: trade-gothic-lt, sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  color: #4d4643;
+  margin: 1rem auto 0.5rem;
+  width: 55%;
+  max-width: 100%;
+}
+
+.breadcrumb a {
+  color: #4d4643;
+  text-decoration: none;
+}
+
+.breadcrumb a:hover {
+  text-decoration: underline;
+}
+
+.breadcrumb-sep {
+  margin: 0 0.3em;
+  color: #6d6360;
+}
+
+.breadcrumb-current {
+  color: #4d4643;
 }
 
 .right-section p {
@@ -1521,8 +1556,9 @@ label.margin-toggle:not(.sidenote-number) {
         text-decoration: underline;
     }
    
-.abstract-wrapper,  
-article {
+.abstract-wrapper,
+article,
+.breadcrumb {
 			width: 90%;
 			max-width: 100%;
 			margin: 0 auto;

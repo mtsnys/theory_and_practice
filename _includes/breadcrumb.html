@@ -1,0 +1,12 @@
+{% assign vol = site.data.volumes.volumes | where: "id", page.volume | first %}
+<nav class="breadcrumb" aria-label="breadcrumb">
+  <a href="{{ '/' | relative_url }}"><em>Theory &amp; Practice</em></a>
+  <span class="breadcrumb-sep">›</span>
+  {% if vol %}
+    <a href="{{ page.volume | relative_url }}">{{ vol.name }}</a>
+  {% else %}
+    <span>{{ page.volume }}</span>
+  {% endif %}
+  <span class="breadcrumb-sep">›</span>
+  <span class="breadcrumb-current">{{ page.author }}</span>
+</nav>
