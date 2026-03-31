@@ -985,10 +985,8 @@ body .masthead {
 		padding-bottom: 0.5rem;
 	}
 	.left-section, .right-section {
-		text-align: center;
-		/* Align text to the left */
+		text-align: left;
 		width: 100%;
-		/* Make sections full width */
 	}
 	.left-section p, .right-section p {
 		margin: 0;
@@ -1437,6 +1435,12 @@ label.margin-toggle:not(.sidenote-number) {
 @media (max-width: 760px) {
 	hr, section>p, section>footer, section>table {
 		width: 100%;
+	}
+	.breadcrumb,
+	.title-author-wrapper,
+	.abstract-wrapper {
+		width: 90%;
+		max-width: 100%;
 	}
 	pre>code {
 		width: 97%;

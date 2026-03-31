@@ -6,7 +6,9 @@ $(document).ready(function () {
         var y = $(this).scrollTop();
 
         $('.link').each(function (event) {
-            if (y >= $($(this).attr('href')).offset().top - 40) {
+            var id = ($(this).attr('href') || '').replace(/^#/, '');
+            var el = id ? document.getElementById(id) : null;
+            if (el && y >= $(el).offset().top - 40) {
                 $('.link').not(this).removeClass('active');
                 $(this).addClass('active');
             }
@@ -20,11 +22,12 @@ $(document).ready(function () {
 $(function () {
     $('a[href*="#"]:not([href="#"])').click(function () {
         if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-            var target = $(this.hash);
-            target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-            if (target.length) {
+            var id = this.hash.slice(1);
+            var el = id ? document.getElementById(id) : null;
+            if (!el) el = document.getElementsByName(id)[0] || null;
+            if (el) {
                 $('html,body').animate({
-                    scrollTop: (target.offset().top - 40)
+                    scrollTop: ($(el).offset().top - 40)
                 }, 850);
                 return false;
             }
