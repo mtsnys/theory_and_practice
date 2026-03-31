@@ -10,6 +10,7 @@ reviewed:
   - title: "Key Constellations: Interpreting Tonality in Film"
     author: Táhirih Motazedian
     publisher: University of California Press, 2024, 198pp
+    cover: assets/articles/lofthouse/cover_image.avif
 abstract: ""
 sections:
   - header:

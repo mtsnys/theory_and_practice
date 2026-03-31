@@ -4,23 +4,28 @@ layout: default
 
 
 {%- include breadcrumb.html -%}
+	{%- include bio-panel.html -%}
+	{% include toc.html %}
 <div class="title-author-wrapper">
+  {% for book in page.reviewed %}{% if book.cover %}
+  <img class="book-cover" src="{{ book.cover | prepend: '/' | relative_url }}" alt="Cover of {{ book.title | escape }}">
+  {% endif %}{% endfor %}
 	<h1> {{ page.title}}</h1>
     {% for book in page.reviewed %}
-<div class="reviewed-book">
-	<h2><em>{{ book.title}}</em></h2>
-	<p>{{ book.author }}<br>{{ book.publisher }}</p>
+<div class="reviewed-book{% if book.cover %} reviewed-book--with-cover{% endif %}">
+  <div class="reviewed-book-info">
+    <h2><em>{{ book.title }}</em></h2>
+    <p>{{ book.author }}<br>{{ book.publisher }}</p>
+  </div>
 </div>
 	{% endfor %}
-</div>
-	{% include toc.html %} 
+</div> 
 
 <div class="abstract-wrapper">
     
 	{%- if page.author -%}
 <p class="author">
     <a href=#{{page.short-name}}><span class="author-name">Reviewed by {{ page.author }}</span></a>
-    		{% include marginnote.html marginnote_number='0' footnote_text=page.author-info-short%}
 </p>
 	{%- endif -%}
 	

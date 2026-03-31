@@ -7,9 +7,11 @@ reviewed:
 - title: Journeys Through Galant Expositions
   author: L. Poundie Burstein
   publisher: Oxford University Press, 2020, 312 pages.
+  cover: assets/articles/martinkus/cover_image1.jpg
 - title: How Sonata Forms A Bottom-Up Approach to Musical Form
   author: Yoel Greenberg
-  publisher: Oxford University Press, 2022, 264 pages.    
+  publisher: Oxford University Press, 2022, 264 pages.
+  cover: assets/articles/martinkus/cover_image2.jpg    
 author: "Caitlin Martinkus"
 short-name: "martinkus"
 abstract: ""

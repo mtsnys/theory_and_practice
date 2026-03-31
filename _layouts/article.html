@@ -9,14 +9,14 @@ layout: default
 	<h3><a href="https://mtsnys.org/conferences/patricia-carpenter-award">{{ page.carpenter-year }} Patricia Carpenter Award Winner</a></h3>
 	{%- endif -%}
 </div>
-	{% include toc.html %} 
+	{%- include bio-panel.html -%}
+	{% include toc.html %}
 
 <div class="abstract-wrapper">
-	
+
 		{%- if page.author -%}
 		<p class="author">
             <a href=#{{page.short-name}}><span class="author-name">{{ page.author }}</span></a>
-    		{% include authornote.html marginnote_number='0' footnote_text=page.author-info-short%}
 		</p>
 	    {%- endif -%}
 	<abstract>
