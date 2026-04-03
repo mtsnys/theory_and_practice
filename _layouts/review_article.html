@@ -4,9 +4,12 @@ layout: default
 
 
 {%- include breadcrumb.html -%}
-	{%- include bio-panel.html -%}
-	{% include toc.html %}
 <div class="title-author-wrapper">
+  {% if page.short-name %}
+  <div class="pdf-download">
+    <a href="{{ site.baseurl }}/assets/articles/{{ page.short-name }}/{{ page.short-name }}.pdf">Download a PDF</a>
+  </div>
+  {% endif %}
   {% for book in page.reviewed %}{% if book.cover %}
   <img class="book-cover" src="{{ book.cover | prepend: '/' | relative_url }}" alt="Cover of {{ book.title | escape }}">
   {% endif %}{% endfor %}
@@ -19,38 +22,41 @@ layout: default
   </div>
 </div>
 	{% endfor %}
-</div> 
-
-<div class="abstract-wrapper">
-    
 	{%- if page.author -%}
 <p class="author">
     <a href=#{{page.short-name}}><span class="author-name">Reviewed by {{ page.author }}</span></a>
 </p>
 	{%- endif -%}
-	
+</div>
+
+{%- include bio-panel.html -%}
+<div class="abstract-wrapper">
+
     {%- if page.abstract -%}
   <abstract>
     {{ page.abstract }}<br><br>
   </abstract>
     <hr>
     <hr>
-    {%- endif -%}  
+    {%- endif -%}
 </div>
 
-<article class="main-article">
-  {{ content }}</section>
+{% include toc.html %}
 
-<div class="author-bio" id="{{page.short-name}}-full-bio"> 
+<article class="main-article">
+  {{ content }}
+
+<div class="author-bio" id="{{page.short-name}}-full-bio">
 		<hr style="color: #6d6360;"><hr style="color: #6d6360;"><br>
     <span>{{ page.author-info-long }}</span>
 </div>
 
-<section id="works-cited" markdown="1" >
+<section id="works-cited" markdown="1">
 
 <h2 id="works-cited">Works Cited</h2>
 
 {% include citations.html %}
+</section>
 </article>
 
 

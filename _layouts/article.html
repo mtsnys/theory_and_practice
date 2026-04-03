@@ -4,21 +4,23 @@ layout: default
 
 {%- include breadcrumb.html -%}
 <div class="title-author-wrapper">
+	{% if page.short-name %}
+	<div class="pdf-download">
+	  <a href="{{ site.baseurl }}/assets/articles/{{ page.short-name }}/{{ page.short-name }}.pdf">Download a PDF</a>
+	</div>
+	{% endif %}
 	<h1>{{ page.title}}</h1>
 	{%- if page.carpenter -%}
 	<h3><a href="https://mtsnys.org/conferences/patricia-carpenter-award">{{ page.carpenter-year }} Patricia Carpenter Award Winner</a></h3>
 	{%- endif -%}
+	{%- if page.author -%}
+	<p class="author">
+		<a href=#{{page.short-name}}><span class="author-name">{{ page.author }}</span></a>
+	</p>
+	{%- endif -%}
 </div>
-	{%- include bio-panel.html -%}
-	{% include toc.html %}
-
+{%- include bio-panel.html -%}
 <div class="abstract-wrapper">
-
-		{%- if page.author -%}
-		<p class="author">
-            <a href=#{{page.short-name}}><span class="author-name">{{ page.author }}</span></a>
-		</p>
-	    {%- endif -%}
 	<abstract>
 	{{ page.abstract }}<br><br>
 	</abstract>
@@ -26,23 +28,21 @@ layout: default
  <hr>
 </div>
 
-
+{% include toc.html %}
 
 <article class="main-article">
   {{ content }}
-</section>
 
-<div class="author-bio" id="{{page.short-name}}-full-bio"> 
+<div class="author-bio" id="{{page.short-name}}-full-bio">
 		<hr style="color: #6d6360;"><hr style="color: #6d6360;"><br>
     <span>{{ page.author-info-long }}</span>
 </div>
 
-
-
-<section id="works-cited" markdown="1" >
+<section id="works-cited" markdown="1">
 
 <h2 id="works-cited">Works Cited</h2>
 
 {% include citations.html %}
+</section>
 </article>
 
