@@ -1,3 +1,15 @@
+// Detect when toc-wrapper becomes sticky and add .is-stuck so the gradient mask activates
+(function () {
+    var tocWrapper = document.querySelector('.toc-wrapper');
+    if (!tocWrapper) return;
+    var sentinel = document.createElement('div');
+    sentinel.style.cssText = 'position:absolute;height:1px;width:1px;pointer-events:none;';
+    tocWrapper.parentNode.insertBefore(sentinel, tocWrapper);
+    new IntersectionObserver(function (entries) {
+        tocWrapper.classList.toggle('is-stuck', !entries[0].isIntersecting);
+    }).observe(sentinel);
+})();
+
 // ADDS ACTIVE CLASS TO LINKS WHEN SECTION WITH THE SAME SELECTOR AS THE HREF IS REACHED (CLASS .LINK IS NEEDED ON ALL <a> TAGS)
 
 var tocScrolling = false;

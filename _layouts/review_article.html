@@ -31,14 +31,15 @@ layout: default
 
 {%- include bio-panel.html -%}
 <div class="abstract-wrapper">
-
     {%- if page.abstract -%}
   <abstract>
     {{ page.abstract }}<br><br>
   </abstract>
-    <hr>
-    <hr>
     {%- endif -%}
+</div>
+<div class="abstract-divider">
+    <hr>
+    <hr>
 </div>
 
 {% include toc.html %}
