@@ -4,7 +4,7 @@ footnote_1: >
   David Yaffe (2023) wrote about Mitchell's 2022 Newport performance, "While her voice remained deeper, it has gotten much clearer, and much more supple." In a review of *Taming the Tiger*, Stuart Maconie wrote, "She's never sung better, either, the clear and precise enunciations now gone nicely husky" (\[1998\] 2017, 211). In a 2014 article, Renee Montagne wrote, "She's luxuriated in a voice that got deeper with age" (Mitchell 2014).
 
 footnote_2: >
-  Betty Clarke (2002) writes the following in her review of *Travelogue*: "If the health warning isn't enough to put you off cigarettes, the nicotine-ravaged vocals of the once angelic, now gasping Joni Mitchell should. Mitchell's voice is a husky shadow of its formal feather-light glory."
+  Betty Clarke (2002) writes the following in her review of *Travelogue*: "If the health warning isn't enough to put you off cigarettes, the nicotine-ravaged vocals of the once angelic, now gasping Joni Mitchell should. Mitchell's voice is a husky shadow of its former feather-light glory."
 
 footnote_3: >
   Mitchell has written and performed political songs throughout her career, such as "Big Yellow Taxi" (1970). Notably, these topics became the focus of later music, especially on *Shine* (Gumbel 2007).
@@ -13,10 +13,10 @@ footnote_4: >
   The term "formant" will be defined in part 3 of the article.
 
 footnote_5: >
-  Fitting a linear trendline to the midpoints of the vocal range in each of Mitchell's songs shows that the midpoints trend downwards from approximately Fƒ~4~ to C~4~.
+  Fitting a linear trendline to the midpoints of the vocal range in each of Mitchell's songs shows that the midpoints trend downwards from approximately F<span style="font-family: music;">&#x266F;</span><sub>4</sub> to C<sub>4</sub>.
 
 footnote_6: >
-  Mitchell has sung lower notes outside of her studio albums; on "A Case of You" from *Live at Newport* (2023), she sings Aß~2~.
+  Mitchell has sung lower notes outside of her studio albums; on "A Case of You" from *Live at Newport* (2023), she sings A<span style="font-family: music;">&#x266D;</span><sub>2</sub>.
 
 footnote_7: >
   Mitchell's ranges in the re-recordings of "Amelia" and "Hejira" match those of the original recordings.
@@ -76,7 +76,7 @@ footnote_25: >
   These vowels are from various words: "plane" in "Nathan La Freneer" (*Song to a Seagull*), "lady" in "Willy" (*Ladies of the Canyon*), "plane" in "Black Crow" (*Hejira*), and "plane" in "Dreamland" (*Don Juan's Reckless Daughter*). I listened to each vowel by ear to ensure that I chose components of the diphthong that were sonically equivalent.
 
 footnote_26: >
-  An exception to this is the word "feet" in "A Case of You" from 1971 and 2022. Mitchell maintained the same key but sung an octave lower in 2022. "Feet" was sung on Dß~4~ as the low tonic note in 1971 and as the high tonic note in 2022.
+  An exception to this is the word "feet" in "A Case of You" from 1971 and 2022. Mitchell maintained the same key but sung an octave lower in 2022. "Feet" was sung on D<span style="font-family: music;">&#x266D;</span><sub>4</sub> as the low tonic note in 1971 and as the high tonic note in 2022.
 
 footnote_27: >
   Accent may also play a role here; Mitchell's Canadian accent, which she still holds onto, is sometimes more or less present in her singing voice depending on the genre at hand. Mitchell said that singing with David Crosby, Stephen Stills, and Graham Nash specifically influenced her accent: "In order to blend with them you had to adopt a kind of vocal affectation to get the blend. . . . Suddenly I have kind of an overt American accent, to my ear anyway, being Canadian, on the second album which kind of dies down by the time you get to the third" (Mitchell \[1986\] 2002).
@@ -156,7 +156,7 @@ figure_2:
     - figure:
         number: '2'
         caption: >
-          Pitch ranges of Joni Mitchell's songs, ordered by album. Each set of lines in a single color represents an album. I excluded seven spoken or instrumental tracks, or tracks where Mitchell's voice was difficult to discern independently, resulting in 204 songs analyzed. The yellow band indicates the range of pitches that are sung throughout Mitchell's entire output (Fƒ~3~ to A~4~). Here and in all subsequent examples, A~4~ is equal to 440 Hz.
+          Pitch ranges of Joni Mitchell's songs, ordered by album. Each set of lines in a single color represents an album. I excluded seven spoken or instrumental tracks, or tracks where Mitchell's voice was difficult to discern independently, resulting in 204 songs analyzed. The yellow band indicates the range of pitches that are sung throughout Mitchell's entire output (F<span style="font-family: music;">&#x266F;</span><sub>3</sub> to A<sub>4</sub>). Here and in all subsequent examples, A<sub>4</sub> is equal to 440 Hz.
         url: 'assets/articles/moranis/img/ex_2.png'
         alt: 'Test'
         border: false
@@ -312,7 +312,7 @@ figure_15:
     - figure:
         number: '15'
         caption: >
-          Location of formants 1 and 2 on the vowel /iː/ in the word "feel" on D~4~ from 1970 and 2000, visualized in vowel space and as a spectrogram.
+          Location of formants 1 and 2 on the vowel /iː/ in the word "feel" on D<sub>4</sub> from 1970 and 2000, visualized in vowel space and as a spectrogram.
         url: 'assets/articles/moranis/img/ex_15.png'
         alt: 'Test'
         border: false
@@ -324,7 +324,7 @@ figure_16:
     - figure:
         number: '16'
         caption: >
-          Location of formants 1 and 2 on the /o/ vowel in the word "road" on F~4~ from 1971 and 1982.
+          Location of formants 1 and 2 on the /o/ vowel in the word "road" on F<sub>4</sub> from 1971 and 1982.
         url: 'assets/articles/moranis/img/ex_16.png'
         alt: 'Test'
         border: false
@@ -336,7 +336,7 @@ figure_17:
     - figure:
         number: '17'
         caption: >
-          Location of formants 1 and 2 on the /iː/ vowel in the word "feet" on Dß~4~ from 1971 to 2022.
+          Location of formants 1 and 2 on the /iː/ vowel in the word "feet" on D<span style="font-family: music;">&#x266D;</span><sub>4</sub> from 1971 to 2022.
         url: 'assets/articles/moranis/img/ex_17.png'
         alt: 'Test'
         border: false
@@ -348,7 +348,7 @@ figure_18:
     - figure:
         number: '18'
         caption: >
-          Location of formants 1 and 2 on the /uː/ vowel in the word "you" on D~4~ in 1972, 1974, 1977, 1998, 2002, and 2022.
+          Location of formants 1 and 2 on the /uː/ vowel in the word "you" on D<sub>4</sub> in 1972, 1974, 1977, 1998, 2002, and 2022.
         url: 'assets/articles/moranis/img/ex_18.png'
         alt: 'Test'
         border: false
@@ -360,7 +360,7 @@ figure_19:
     - figure:
         number: '19'
         caption: >
-          Location of formants 1 and 2 on the /ei/ vowel in various lyrics that precede the vowel with an "l" on F~4~ in 1968, 1970, 1976, and 1977.
+          Location of formants 1 and 2 on the /ei/ vowel in various lyrics that precede the vowel with an "l" on F<sub>4</sub> in 1968, 1970, 1976, and 1977.
         url: 'assets/articles/moranis/img/ex_19.png'
         alt: 'Test'
         border: false

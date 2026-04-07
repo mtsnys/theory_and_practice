@@ -455,22 +455,6 @@ article.main-article section p {
     overflow-wrap: break-word;
 }
 
-article.main-article > section:first-of-type > p:first-of-type::first-letter,
-article.main-article > section:first-of-type > p:first-of-type:has(label.margin-toggle) ~ p:nth-of-type(2)::first-letter {
-    float: left;
-    font-size: 3.8em;
-    line-height: 0.75;
-    padding-right: 0.08em;
-    font-family: et-book, Palatino, "Palatino Linotype", Georgia, serif;
-}
-
-article.main-article > section:first-of-type > p:first-of-type:has(label.margin-toggle)::first-letter {
-    float: none;
-    font-size: inherit;
-    line-height: inherit;
-    padding-right: 0;
-    font-family: inherit;
-}
 
 
 abstract {
@@ -558,7 +542,7 @@ abstract>p {
     clear: right;
     width: 20vw;
     margin-right: 2vw;
-    margin-top: 4.35em;
+    margin-top: 1.4rem;
     background-color: #fdfdfd;
     z-index: 1;
 }
@@ -2040,7 +2024,7 @@ article,
    ----------------------------------------------------------------------- */
 
 .cite-ref {
-  cursor: help;
+  cursor: default;
   border-bottom: 1px dotted #6d6360;
 }
 

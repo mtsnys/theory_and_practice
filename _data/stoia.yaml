@@ -37,7 +37,7 @@ footnote_12: >
   Here I follow Taft (2006, 10) and other blues scholars in defining caesuras as breaks that divide phrases, excluding the pauses between phrases (those in position 8).
 
 footnote_13: >
-  Even the phrase endings show more variation than the graphic illustration conveys. Skip James's "How Long Buck" (1931), for instance, entirely conforms to the graph in its phrase rhythm and harmonic progression, but his first phrase ends unusually on ß<span style="font-family: music;">&#xEF02;</span>.
+  Even the phrase endings show more variation than the graphic illustration conveys. Skip James's "How Long Buck" (1931), for instance, entirely conforms to the graph in its phrase rhythm and harmonic progression, but his first phrase ends unusually on <span style="font-family: music;">&#x266D;</span><span style="font-family: music;">&#xEF02;</span>.
 
 footnote_14: >
   Expansion here "resembles the rhythmic technique of 'augmentation,' in which the durational values of the individual notes of an idea are systematically increased so that the original proportional relation among the durations is retained (i.e., doubled or quadrupled)" (Caplin 1998, 20). Guthrie's second verse, shown in Examples 10b and 12b, gives the most balanced elongation of the refrain, an exact doubling; many of the verses have more irregular elongations.
@@ -75,7 +75,7 @@ figure_2:
     - figure:
         number: '2'
         caption: >
-          Two ballad schemes. (a) "Frankie and Johnny" scheme: Finious (Flat Foot) Rockmore, "Boll Weevil" (1940), second verse; (b) "Railroad Bill" scheme: Booker T. Sapps, "Frankie and Albert (Cooney and Delia)" (1935), lyrics partly based on Milling (1937, 4); (c) "Railroad Bill" scheme: Frank Hutchison, "Railroad Bill" (1929), second verse, with substitution of IIIƒ in bars 5--6.
+          Two ballad schemes. (a) "Frankie and Johnny" scheme: Finious (Flat Foot) Rockmore, "Boll Weevil" (1940), second verse; (b) "Railroad Bill" scheme: Booker T. Sapps, "Frankie and Albert (Cooney and Delia)" (1935), lyrics partly based on Milling (1937, 4); (c) "Railroad Bill" scheme: Frank Hutchison, "Railroad Bill" (1929), second verse, with substitution of III<span style="font-family: music;">&#x266F;</span> in bars 5--6.
         url: 'assets/articles/stoia/img/ex_2.png'
         alt: 'Test'
         border: false

@@ -47,19 +47,19 @@
   // Parenthetical/inline: "Vande Moortele 2013", "Lerdahl and Jackendoff 1983",
   //   "Mehr et al. 2021", "Bach [1753] 1762"
   var AUTHOR_YEAR_RE = new RegExp(
-    '([A-Z\u00C0-\u00D6\u00D8-\u00DE][a-zA-Z\u00C0-\u00FF\\-\u2019\']+' +
+    '((?:[A-Z]\\.\\s+)?[A-Z\u00C0-\u00D6\u00D8-\u00DE][a-zA-Z\u00C0-\u00FF\\-\u2019\']+' +
     '(?:\\s+[A-Z\u00C0-\u00D6\u00D8-\u00DE][a-zA-Z\u00C0-\u00FF\\-\u2019\']+)*' +
     '(?:\\s+and\\s+[A-Z\u00C0-\u00D6\u00D8-\u00DE][a-zA-Z\u00C0-\u00FF\\-\u2019\']+' +
       '(?:\\s+[A-Z\u00C0-\u00D6\u00D8-\u00DE][a-zA-Z\u00C0-\u00FF\\-\u2019\']+)*)?' +
     '(?:\\s+et\\s+al\\.?)?)' +
-    '\\s+(?:\\[\\d[\\d\\u2013\\-]*\\]\\s*)?' +
+    '\\s+(?:\\[(\\d{4})[\\d\\u2013\\-]*\\]\\s*)?' +
     '(\\d{4}[a-z]?)',
     'g'
   );
 
   // Narrative: "Burstein (2020)", "Thomas's (2006, 43–47)", "Heyes (2018)"
   var NARRATIVE_RE = new RegExp(
-    '([A-Z\u00C0-\u00D6\u00D8-\u00DE][a-zA-Z\u00C0-\u00FF\\-\u2019\']+' +
+    '((?:[A-Z]\\.\\s+)?[A-Z\u00C0-\u00D6\u00D8-\u00DE][a-zA-Z\u00C0-\u00FF\\-\u2019\']+' +
     '(?:\\s+[A-Z\u00C0-\u00D6\u00D8-\u00DE][a-zA-Z\u00C0-\u00FF\\-\u2019\']+)*' +
     '(?:\\s+and\\s+[A-Z\u00C0-\u00D6\u00D8-\u00DE][a-zA-Z\u00C0-\u00FF\\-\u2019\']+' +
       '(?:\\s+[A-Z\u00C0-\u00D6\u00D8-\u00DE][a-zA-Z\u00C0-\u00FF\\-\u2019\']+)*)?)' +
@@ -80,8 +80,8 @@
     AUTHOR_YEAR_RE.lastIndex = 0;
     var m;
     while ((m = AUTHOR_YEAR_RE.exec(text)) !== null) {
-      var author = m[1].trim().replace(/'s\s*$/, '');
-      var ay = author + ' ' + m[2];
+      var author = m[1].trim().replace(/[\u2019']s\s*$/, '');
+      var ay = author + ' ' + (m[2] || m[3]);
       var html = fuzzyLookup(ay);
       if (html) {
         matches.push({ start: m.index, end: m.index + m[0].length, display: m[0], html: html });
@@ -91,7 +91,7 @@
     // Pass 2: narrative form Author (Year)
     NARRATIVE_RE.lastIndex = 0;
     while ((m = NARRATIVE_RE.exec(text)) !== null) {
-      var author2 = m[1].trim().replace(/'s\s*$/, '');
+      var author2 = m[1].trim().replace(/[\u2019']s\s*$/, '');
       var ay2 = author2 + ' ' + m[2];
       var html2 = fuzzyLookup(ay2);
       if (html2) {
@@ -133,6 +133,56 @@
   }
 
   // -----------------------------------------------------------------------
+  // Handle italicised periodical/title citations: <em>Variety</em> [1966] 2001
+  // These span element boundaries so the text-node walker can't see them.
+  // -----------------------------------------------------------------------
+  function processEmCitations(article) {
+    var ems = Array.prototype.slice.call(article.querySelectorAll('em'));
+    ems.forEach(function (em) {
+      // Skip works-cited, code, already-wrapped
+      var el = em;
+      while (el) {
+        if (el.id === 'works-cited') return;
+        var t = el.tagName ? el.tagName.toLowerCase() : '';
+        if (t === 'script' || t === 'style' || t === 'code' || t === 'pre') return;
+        el = el.parentNode;
+      }
+      if (em.closest && em.closest('.cite-ref')) return;
+
+      var next = em.nextSibling;
+      if (!next || next.nodeType !== 3) return;
+
+      var emText = em.textContent.trim();
+      var afterText = next.textContent;
+
+      // Match optional [orig_year] then pub_year at start of following text
+      var m = afterText.match(/^(\s*(?:\[(\d{4})[\d\u2013\-]*\]\s*)?)(\d{4}[a-z]?)/);
+      if (!m) return;
+
+      var lookupYear = m[2] || m[3];
+      var html = fuzzyLookup(emText + ' ' + lookupYear);
+      if (!html) return;
+
+      var consumed = m[0]; // e.g. " [1966] 2001"
+      var remaining = afterText.slice(consumed.length);
+
+      var span = document.createElement('span');
+      span.className = 'cite-ref';
+      span.dataset.citHtml = html;
+
+      em.parentNode.insertBefore(span, em);
+      span.appendChild(em);
+      span.appendChild(document.createTextNode(consumed));
+
+      if (remaining) {
+        next.textContent = remaining;
+      } else {
+        next.parentNode.removeChild(next);
+      }
+    });
+  }
+
+  // -----------------------------------------------------------------------
   // Walk text nodes in the article, skipping works-cited and code blocks
   // -----------------------------------------------------------------------
   function walkArticle() {
@@ -169,6 +219,8 @@
     var node;
     while ((node = walker.nextNode())) nodes.push(node);
     nodes.forEach(processNode);
+
+    processEmCitations(article);
   }
 
   // -----------------------------------------------------------------------
