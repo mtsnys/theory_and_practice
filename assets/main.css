@@ -139,7 +139,7 @@ header h1, header h2, header h3, header a {
     width: auto;
     max-width: 100%;
     margin-left: calc(5% + 20px);
-    margin-right: calc(22vw + 5% + 20px);
+    margin-right: calc(25vw + 10% + 40px);
     text-align: left;
     position: relative;
 }
@@ -170,11 +170,11 @@ header h1, header h2, header h3, header a {
 .title-author-wrapper .pdf-download {
     position: absolute;
     top: 50%;
-    right: calc(-20vw - 5vw - 20px);
+    right: calc(-25vw - 5vw - 20px);
     transform: translateY(-50%);
     float: none;
     clear: none;
-    width: 20vw;
+    width: 25vw;
     margin: 0;
 }
 
@@ -188,7 +188,7 @@ header h1, header h2, header h3, header a {
     width: auto;
     max-width: 100%;
     margin-left: calc(5% + 20px);
-    margin-right: calc(22vw + 5% + 20px);
+    margin-right: calc(25vw + 10% + 40px);
     /* display: flex; */
 }
 
@@ -396,7 +396,7 @@ article {
 	width: auto;
 	max-width: 100%;
 	margin-left: calc(5% + 20px);
-	margin-right: calc(22vw + 5% + 20px);
+	margin-right: calc(25vw + 10% + 40px);
 	overflow-wrap: break-word;
 }
 
@@ -473,8 +473,8 @@ abstract>p {
 .pdf-download {
 	float: right;
 	clear: right;
-	width: 20vw;
-	margin-right: 2vw;
+	width: 25vw;
+	margin-right: calc(5% + 20px);
 	margin-bottom: 0.75rem;
 	background-color: #fdfdfd;
 	position: relative;
@@ -507,8 +507,8 @@ abstract>p {
 .bio-panel {
 	float: right;
 	clear: right;
-	width: 20vw;
-	margin-right: 2vw;
+	width: 25vw;
+	margin-right: calc(5% + 20px);
 	font-family: trade-gothic-lt, sans-serif;
 	font-size: 0.87rem;
 	font-weight: 300;
@@ -540,8 +540,9 @@ abstract>p {
     top: 0;
     float: right;
     clear: right;
-    width: 20vw;
-    margin-right: 2vw;
+    width: 25vw;
+    margin-right: calc(5% + 20px);
+    margin-left: 0;
     margin-top: 1.4rem;
     background-color: #fdfdfd;
     z-index: 1;
@@ -578,7 +579,7 @@ div header.toc {
 }
 
 .toc-heading-rule {
-    margin: 0 3vw 0.75rem 0;
+    margin: 0 0 0.75rem 0;
 }
 
 .toc nav ul {
@@ -1160,7 +1161,7 @@ body .masthead {
   margin-top: 20px;
   margin-bottom: 0.5rem;
   margin-left: 5%;
-  margin-right: calc(22vw + 5% + 20px);
+  margin-right: calc(25vw + 10% + 40px);
   width: auto;
   max-width: 100%;
 }
@@ -1355,9 +1356,9 @@ a:link::-moz-selection {
 	font-family: trade-gothic-lt, Alexandria;
 	font-weight: 300;
 	clear: right;
-	margin-right: calc(-20vw - 5vw - 20px);
+	margin-right: calc(-25vw - 5vw - 20px);
 	margin-left: 0;
-	width: 20vw;
+	width: 25vw;
 	margin-top: 1rem;
 	margin-bottom: 0;
 	font-size: 1rem;
@@ -1403,8 +1404,8 @@ a:link::-moz-selection {
 
 @media (max-width: 1366px) and (orientation: landscape) {
 	.sidenote, .marginnote {
-		margin-right: calc(-20vw - 5vw - 20px);
-		width: 20vw;
+		margin-right: calc(-25vw - 5vw - 20px);
+		width: 25vw;
 	}
 }
 .fignote {
@@ -2079,6 +2080,7 @@ article,
 #citation-tooltip p {
   margin: 0;
   font-size: 15px;
+  overflow-wrap: break-word;
 }
 
 #citation-tooltip a {

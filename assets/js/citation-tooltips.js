@@ -15,15 +15,24 @@
 
     // 2. Strip "et al." → "Mehr et al. 2021" → "Mehr 2021"
     var stripped = authorYear.replace(/\s+et\s+al\.?\s*(\d)/, ' $1').trim();
-    if (stripped !== authorYear && citMap[stripped]) return citMap[stripped];
+    if (stripped !== authorYear) {
+      if (citMap[stripped]) return citMap[stripped];
+      // Also try last word of the stripped author + year
+      // (handles "Julie Traub Eichhorn et al. 2018" → "Eichhorn 2018")
+      var mStrip = stripped.match(/(\S+)\s+(\d{4}[a-z]?|forthcoming)\s*$/);
+      if (mStrip && citMap[mStrip[1] + ' ' + mStrip[2]]) return citMap[mStrip[1] + ' ' + mStrip[2]];
+    }
 
-    // 3. First-author + year (handles "Lerdahl and Jackendoff 1983" → "Lerdahl 1983")
-    var m3 = authorYear.match(/^(\S+).*?(\d{4}[a-z]?)\s*$/);
+    // 3. First-author + year (handles "Lerdahl and Jackendoff 1983" → "Lerdahl 1983",
+    //    "Riverin-Coutlée, Roy, and Gubian 2023" → "Riverin-Coutlée 2023")
+    var m3 = authorYear.match(/^(\S+).*?(\d{4}[a-z]?|forthcoming)\s*$/);
     if (m3) {
-      var first = m3[1], yr = m3[2];
+      var first = m3[1].replace(/,$/, ''), yr = m3[2];
+      var firstNorm = first.replace(/[\u2019']/g, '');
       for (var key in citMap) {
         var parts = key.split(' ');
-        if (parts[0] === first && parts[parts.length - 1] === yr) {
+        var keyFirst = parts[0].replace(/[\u2019']/g, '');
+        if (keyFirst === firstNorm && parts[parts.length - 1] === yr) {
           return citMap[key];
         }
       }
@@ -49,11 +58,12 @@
   var AUTHOR_YEAR_RE = new RegExp(
     '((?:[A-Z]\\.\\s+)?[A-Z\u00C0-\u00D6\u00D8-\u00DE][a-zA-Z\u00C0-\u00FF\\-\u2019\']+' +
     '(?:\\s+[A-Z\u00C0-\u00D6\u00D8-\u00DE][a-zA-Z\u00C0-\u00FF\\-\u2019\']+)*' +
-    '(?:\\s+and\\s+[A-Z\u00C0-\u00D6\u00D8-\u00DE][a-zA-Z\u00C0-\u00FF\\-\u2019\']+' +
+    '(?:,\\s+[A-Z\u00C0-\u00D6\u00D8-\u00DE][a-zA-Z\u00C0-\u00FF\\-\u2019\']+(?:\\s+[A-Z\u00C0-\u00D6\u00D8-\u00DE][a-zA-Z\u00C0-\u00FF\\-\u2019\']+)*)*' +
+    '(?:,?\\s*and\\s+[A-Z\u00C0-\u00D6\u00D8-\u00DE][a-zA-Z\u00C0-\u00FF\\-\u2019\']+' +
       '(?:\\s+[A-Z\u00C0-\u00D6\u00D8-\u00DE][a-zA-Z\u00C0-\u00FF\\-\u2019\']+)*)?' +
     '(?:\\s+et\\s+al\\.?)?)' +
-    '\\s+(?:\\[(\\d{4})[\\d\\u2013\\-]*\\]\\s*)?' +
-    '(\\d{4}[a-z]?)',
+    ',?\\s+(?:\\[(\\d{4})[\\d\\u2013\\-]*\\]\\s*)?' +
+    '(\\d{4}[a-z]?|forthcoming)',
     'g'
   );
 
@@ -61,9 +71,11 @@
   var NARRATIVE_RE = new RegExp(
     '((?:[A-Z]\\.\\s+)?[A-Z\u00C0-\u00D6\u00D8-\u00DE][a-zA-Z\u00C0-\u00FF\\-\u2019\']+' +
     '(?:\\s+[A-Z\u00C0-\u00D6\u00D8-\u00DE][a-zA-Z\u00C0-\u00FF\\-\u2019\']+)*' +
-    '(?:\\s+and\\s+[A-Z\u00C0-\u00D6\u00D8-\u00DE][a-zA-Z\u00C0-\u00FF\\-\u2019\']+' +
-      '(?:\\s+[A-Z\u00C0-\u00D6\u00D8-\u00DE][a-zA-Z\u00C0-\u00FF\\-\u2019\']+)*)?)' +
-    '\\s*\\(\\s*(\\d{4}[a-z]?)(?:\\s*,\\s*[^)]{0,60})?\\)',
+    '(?:,\\s+[A-Z\u00C0-\u00D6\u00D8-\u00DE][a-zA-Z\u00C0-\u00FF\\-\u2019\']+(?:\\s+[A-Z\u00C0-\u00D6\u00D8-\u00DE][a-zA-Z\u00C0-\u00FF\\-\u2019\']+)*)*' +
+    '(?:,?\\s*and\\s+[A-Z\u00C0-\u00D6\u00D8-\u00DE][a-zA-Z\u00C0-\u00FF\\-\u2019\']+' +
+      '(?:\\s+[A-Z\u00C0-\u00D6\u00D8-\u00DE][a-zA-Z\u00C0-\u00FF\\-\u2019\']+)*)?'+
+    '(?:\\s+et\\s+al\\.?)?)' +
+    '\\s*\\(\\s*(?:\\[(\\d{4})[\\d\\u2013\\-]*\\]\\s*)?(\\d{4}[a-z]?|forthcoming)(?:\\s*,\\s*[^)]{0,60})?\\)',
     'g'
   );
 
@@ -72,7 +84,7 @@
   // -----------------------------------------------------------------------
   function processNode(node) {
     var text = node.textContent;
-    if (!text || !/[A-Z]/.test(text) || !/\d{4}/.test(text)) return;
+    if (!text || !/[A-Z]/.test(text) || (!/\d{4}/.test(text) && !text.includes('forthcoming'))) return;
 
     var matches = [];
 
@@ -81,8 +93,17 @@
     var m;
     while ((m = AUTHOR_YEAR_RE.exec(text)) !== null) {
       var author = m[1].trim().replace(/[\u2019']s\s*$/, '');
-      var ay = author + ' ' + (m[2] || m[3]);
-      var html = fuzzyLookup(ay);
+      var html;
+      if (m[2] && m[3]) {
+        // Bracketed original year + pub year: try compound "Author orig pub" first
+        // (handles reprints where both years are needed to disambiguate, e.g. Mitchell_1972_2002),
+        // then fall back to orig year alone, then pub year alone.
+        html = fuzzyLookup(author + ' ' + m[2] + ' ' + m[3]) ||
+               fuzzyLookup(author + ' ' + m[2]) ||
+               fuzzyLookup(author + ' ' + m[3]);
+      } else {
+        html = fuzzyLookup(author + ' ' + (m[2] || m[3]));
+      }
       if (html) {
         matches.push({ start: m.index, end: m.index + m[0].length, display: m[0], html: html });
       }
@@ -92,14 +113,46 @@
     NARRATIVE_RE.lastIndex = 0;
     while ((m = NARRATIVE_RE.exec(text)) !== null) {
       var author2 = m[1].trim().replace(/[\u2019']s\s*$/, '');
-      var ay2 = author2 + ' ' + m[2];
-      var html2 = fuzzyLookup(ay2);
+      var html2;
+      if (m[2] && m[3]) {
+        html2 = fuzzyLookup(author2 + ' ' + m[2] + ' ' + m[3]) ||
+                fuzzyLookup(author2 + ' ' + m[2]) ||
+                fuzzyLookup(author2 + ' ' + m[3]);
+      } else {
+        html2 = fuzzyLookup(author2 + ' ' + (m[2] || m[3]));
+      }
       if (html2) {
         var overlaps = matches.some(function (e) {
           return m.index < e.end && m.index + m[0].length > e.start;
         });
         if (!overlaps) {
           matches.push({ start: m.index, end: m.index + m[0].length, display: m[0], html: html2 });
+        }
+      }
+    }
+
+    // Pass 3: implied same-author years — "Sundberg 1970, 1973" → also link ", 1973"
+    var IMPLIED_YEAR_RE = /^[,;]\s*(\d{4}[a-z]?)/;
+    var baseMatches = matches.slice();
+    for (var k = 0; k < baseMatches.length; k++) {
+      var base = baseMatches[k];
+      // Strip year (and optional bracket year) from end of display to get author
+      var authorPart = base.display
+        .replace(/,?\s+(?:\[\d{4}[\d\u2013\-]*\]\s*)?(?:\d{4}[a-z]?|forthcoming)\s*$/, '')
+        .trim();
+      if (!authorPart) continue;
+      var pos = base.end;
+      while (pos < text.length) {
+        var im = text.slice(pos).match(IMPLIED_YEAR_RE);
+        if (!im) break;
+        var implHtml = fuzzyLookup(authorPart + ' ' + im[1]);
+        var iStart = pos, iEnd = pos + im[0].length;
+        var covered = matches.some(function (e) { return iStart >= e.start && iEnd <= e.end; });
+        if (implHtml && !covered) {
+          matches.push({ start: iStart, end: iEnd, display: im[0], html: implHtml });
+          pos = iEnd;
+        } else {
+          break;
         }
       }
     }
