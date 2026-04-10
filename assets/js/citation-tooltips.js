@@ -113,16 +113,48 @@
     NARRATIVE_RE.lastIndex = 0;
     while ((m = NARRATIVE_RE.exec(text)) !== null) {
       var author2 = m[1].trim().replace(/[\u2019']s\s*$/, '');
+      var primaryYear = m[3] || m[2];
       var html2;
       if (m[2] && m[3]) {
         html2 = fuzzyLookup(author2 + ' ' + m[2] + ' ' + m[3]) ||
                 fuzzyLookup(author2 + ' ' + m[2]) ||
                 fuzzyLookup(author2 + ' ' + m[3]);
       } else {
-        html2 = fuzzyLookup(author2 + ' ' + (m[2] || m[3]));
+        html2 = fuzzyLookup(author2 + ' ' + primaryYear);
       }
-      if (html2) {
-        var overlaps = matches.some(function (e) {
+      if (!html2) continue;
+
+      // Check for additional years after the primary year, e.g. "Maw (2002, 2004, 2013)"
+      var parenIdx = m[0].indexOf('(');
+      var primaryOffset = m[0].indexOf(primaryYear, parenIdx);
+      var afterPrimary = m[0].slice(primaryOffset + primaryYear.length);
+      var extraYearRE = /,\s*(\d{4}[a-z]?)\b/g;
+      var extraM2;
+      var extraEntries = [];
+      while ((extraM2 = extraYearRE.exec(afterPrimary)) !== null) {
+        var extraHtml = fuzzyLookup(author2 + ' ' + extraM2[1]);
+        if (extraHtml) {
+          var yrOffset = primaryOffset + primaryYear.length + extraM2.index + extraM2[0].indexOf(extraM2[1]);
+          extraEntries.push({ year: extraM2[1], html: extraHtml, offset: yrOffset });
+        }
+      }
+
+      if (extraEntries.length > 0) {
+        // Multi-year: wrap each year token individually
+        var pStart = m.index + primaryOffset, pEnd = pStart + primaryYear.length;
+        if (!matches.some(function(e) { return pStart < e.end && pEnd > e.start; })) {
+          matches.push({ start: pStart, end: pEnd, display: primaryYear, html: html2 });
+        }
+        for (var ei = 0; ei < extraEntries.length; ei++) {
+          var ent = extraEntries[ei];
+          var eStart = m.index + ent.offset, eEnd = eStart + ent.year.length;
+          if (!matches.some(function(e) { return eStart < e.end && eEnd > e.start; })) {
+            matches.push({ start: eStart, end: eEnd, display: ent.year, html: ent.html });
+          }
+        }
+      } else {
+        // Single year: wrap the full narrative match as before
+        var overlaps = matches.some(function(e) {
           return m.index < e.end && m.index + m[0].length > e.start;
         });
         if (!overlaps) {

@@ -231,10 +231,11 @@ header h1, header h2, header h3, header a {
 	display: grid;
 	grid-template-columns: 1fr;
 	margin: 0 auto;
-	/* Center horizontally */
 	width: 95%;
-	/* Adjust width as needed */
-	text-align: center;
+	text-align: left;
+}
+.about-page ul {
+	padding-left: 0;
 }
 
 
@@ -423,11 +424,11 @@ article, .breadcrumb, .title-author-wrapper, .abstract-wrapper {
 
 
 article.about {
-	width: 95%;
+	width: 100%;
 	max-width: 100%;
-	/* Constrain article width */
+	padding: 0 3rem;
+	box-sizing: border-box;
 	margin: 0 auto;
-	/* Center the article */
 	overflow-wrap: break-word;
 }
 
@@ -593,7 +594,7 @@ div header.toc {
     font-family: trade-gothic-lt, "Alexandria";
     font-size: 1rem;
     font-weight: 300;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
     list-style: none;
     color: #4d4643;
 }
@@ -647,14 +648,11 @@ div header.toc {
 }
 
 .toc a::before {
-    content: '';
-    display: inline-block;
+    content: '›';
     flex-shrink: 0;
-    width: 6px;
-    height: 6px;
-    border-radius: 50%;
-    background-color: #4d4643;
-    margin-top: 0.3em;
+    color: #4d4643;
+    font-size: 0.9em;
+    line-height: 1;
 }
 
 .toc a.active {
@@ -666,14 +664,14 @@ div header.toc {
 }
 
 .toc a.active::before {
-    width: 0;
-    height: 0;
-    border-radius: 0;
+    content: '›';
+    font-weight: 700;
     background-color: transparent;
-    border-top: 4px solid transparent;
-    border-bottom: 4px solid transparent;
-    border-left: 7px solid #4d4643;
-    margin-top: 0.38em;
+    border: none;
+    width: auto;
+    height: auto;
+    border-radius: 0;
+    margin-top: 0;
 }
     
 @media (max-width: 1024px) and (orientation: portrait) { /* Adjust the breakpoint as needed */

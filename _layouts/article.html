@@ -5,9 +5,13 @@ layout: default
 {%- include breadcrumb.html -%}
 <div class="title-author-wrapper">
 	{% if page.short-name %}
+	{% assign pdf_path = '/assets/articles/' | append: page.short-name | append: '/' | append: page.short-name | append: '.pdf' %}
+	{% assign pdf_file = site.static_files | where: "path", pdf_path | first %}
+	{% if pdf_file %}
 	<div class="pdf-download">
-	  <a href="{{ site.baseurl }}/assets/articles/{{ page.short-name }}/{{ page.short-name }}.pdf">Download a PDF</a>
+	  <a href="{{ site.baseurl }}{{ pdf_path }}">Download a PDF</a>
 	</div>
+	{% endif %}
 	{% endif %}
 	<h1>{{ page.title}}</h1>
 	{%- if page.carpenter -%}

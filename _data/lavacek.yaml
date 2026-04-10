@@ -187,7 +187,7 @@ figure_2:
         url: 'assets/articles/lavacek/img/ex_2.png'
         alt: 'Test'
         border: false
-        scale: 1
+        scale: .8
 figure_3:
   main_number: 
   main_caption:    
@@ -271,7 +271,7 @@ figure_9:
         url: 'assets/articles/lavacek/img/ex_9.png'
         alt: 'Test'
         border: false
-        scale: .25
+        scale: .17
 figure_10:
   main_number: 
   main_caption:    
@@ -319,7 +319,7 @@ figure_13:
         url: 'assets/articles/lavacek/img/ex_13.png'
         alt: 'Test'
         border: false
-        scale: 1
+        scale: .7
 figure_14:
   main_number: 
   main_caption:    
@@ -343,7 +343,7 @@ figure_15:
         url: 'assets/articles/lavacek/img/ex_15.png'
         alt: 'Test'
         border: false
-        scale: .4
+        scale: .3
 figure_16:
   main_number: 
   main_caption:    
@@ -355,7 +355,7 @@ figure_16:
         url: 'assets/articles/lavacek/img/ex_16.png'
         alt: 'Test'
         border: false
-        scale: 1
+        scale: .8
 figure_17:
   main_number: 
   main_caption:    
@@ -611,11 +611,11 @@ citations:
     citation: >
       Stokes, Jordan. 2014. "In Search of Machaut's Poietics: Music and Rhetoric in *Le Remede de Fortune*." *Journal of Musicology* 31 (4): 395--430.
 
-  Straple_Sovers_2021:
+  Straple-Sovers_2021:
     citation: >
       Straple-Sovers, Rebecca. 2021. "Kinesic Analysis: A Theoretical Approach to Reading Bodily Movement in Literature." In *The Cursed Carolers in Context,* ed. Lynneth Miller Renberg and Bradley Phillis, 21--38. Routledge.
 
-  Straple_Sovers_2023:
+  Straple-Sovers_2023:
     citation: >
       Straple-Sovers, Rebecca. 2023. "'A Feather on the Breath of God': Medieval Legacies in Modern Choreography." *Postmedieval* 14: 593--619.
 

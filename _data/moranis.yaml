@@ -232,7 +232,7 @@ figure_8:
         url: 'assets/articles/moranis/img/ex_8.png'
         alt: 'Test'
         border: false
-        scale: .9
+        scale: .8
 figure_9:
   main_number: 
   main_caption:    
@@ -244,7 +244,7 @@ figure_9:
         url: 'assets/articles/moranis/img/ex_9.png'
         alt: 'Test'
         border: false
-        scale: 1
+        scale: .8
 figure_10:
   main_number: 
   main_caption:    
@@ -342,17 +342,24 @@ figure_17:
         border: false
         scale: 1
 figure_18:
-  main_number: 
-  main_caption:    
+  main_number: 18
+  main_caption: >
+    Location of formants 1 and 2 on the /uː/ vowel in the word "you" on D<sub>4</sub> in 1972, 1974, 1977, 1998, 2002, and 2022.
   figures:
     - figure:
-        number: '18'
-        caption: >
-          Location of formants 1 and 2 on the /uː/ vowel in the word "you" on D<sub>4</sub> in 1972, 1974, 1977, 1998, 2002, and 2022.
-        url: 'assets/articles/moranis/img/ex_18.png'
-        alt: 'Test'
+        number:
+        caption:
+        url: 'assets/articles/moranis/img/ex_18a.png'
+        alt: 'Example 18a'
         border: false
-        scale: .85
+        scale: .7
+    - figure:
+        number:
+        caption:
+        url: 'assets/articles/moranis/img/ex_18b.png'
+        alt: 'Example 18b'
+        border: false
+        scale: .7
 figure_19:
   main_number: 
   main_caption:    

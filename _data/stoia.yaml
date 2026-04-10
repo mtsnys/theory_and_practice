@@ -258,21 +258,21 @@ audio_2:
     - figure:
         number: '2a'
         caption:
-        url: 'assets/articles/stoia/audio/2a_Hill_Trouble In Mind_v1.mp3'
+        url: 'assets/articles/stoia/audio/2a_Rockmore_Boll Weevil_v2.mp3'
         alt: 'Audio Example 2a'
         border: false
         scale: 1
     - figure:
         number: '2b'
         caption:
-        url: 'assets/articles/stoia/audio/2b_Carr_How Long_v1.mp3'
+        url: 'assets/articles/stoia/audio/2b_Sapps_Delia_v1.mp3'
         alt: 'Audio Example 2b'
         border: false
         scale: 1
     - figure:
         number: '2c'
         caption:
-        url: 'assets/articles/stoia/audio/2c_Broonzy_Key To The Highway_v1.mp3'
+        url: 'assets/articles/stoia/audio/2c_Hutchison_Railroad Bill_v2.mp3'
         alt: 'Audio Example 2c'
         border: false
         scale: 1
@@ -284,21 +284,21 @@ audio_3:
     - figure:
         number: '3a'
         caption:
-        url: 'assets/articles/stoia/audio/3a_Rockwell_Boll Weevil_v2.mp3'
+        url: 'assets/articles/stoia/audio/3a_Autry_Frankie_v2.mp3'
         alt: 'Audio Example 3a'
         border: false
         scale: 1
     - figure:
         number: '3b'
         caption:
-        url: 'assets/articles/stoia/audio/3b_Sapps_Delia_v1.mp3'
+        url: 'assets/articles/stoia/audio/3b_Hutchison_All Night Long_v1.mp3'
         alt: 'Audio Example 3b'
         border: false
         scale: 1
     - figure:
         number: '3c'
         caption:
-        url: 'assets/articles/stoia/audio/3c_Hutchison_Railroad Bill_v2.mp3'
+        url: 'assets/articles/stoia/audio/3c_Thomas_Bob McKinney_v3.mp3'
         alt: 'Audio Example 3c'
         border: false
         scale: 1
@@ -310,34 +310,41 @@ audio_4:
     - figure:
         number: '4a'
         caption:
-        url: 'assets/articles/stoia/audio/4a_Autry_Frankie_v2.mp3'
+        url: 'assets/articles/stoia/audio/4a_Bennett_Railroad Bill_v1.mp3'
         alt: 'Audio Example 4a'
         border: false
         scale: 1
     - figure:
         number: '4b'
         caption:
-        url: 'assets/articles/stoia/audio/4b_Hutchison_All Night Long_v1.mp3'
+        url: 'assets/articles/stoia/audio/4b_Hutchison_Railroad Bill_v2.mp3'
         alt: 'Audio Example 4b'
         border: false
         scale: 1
-    - figure:
-        number: '4c'
-        caption:
-        url: 'assets/articles/stoia/audio/4c_Thomas_Bob McKinney_v3.mp3'
-        alt: 'Audio Example 4c'
-        border: false
-        scale: 1
 
-audio_5:
+audio_6:
   main_number:
   main_caption:
   figures:
     - figure:
-        number: '5a'
+        number: '6b'
         caption:
-        url: 'assets/articles/stoia/audio/5a_Bennett_Railroad Bill_v1.mp3'
-        alt: 'Audio Example 5a'
+        url: 'assets/articles/stoia/audio/6b_Hill_Trouble In Mind_v1.mp3'
+        alt: 'Audio Example 6b'
+        border: false
+        scale: 1
+    - figure:
+        number: '6c'
+        caption:
+        url: 'assets/articles/stoia/audio/6c_Carr_How Long_v1.mp3'
+        alt: 'Audio Example 6c'
+        border: false
+        scale: 1
+    - figure:
+        number: '6d'
+        caption:
+        url: 'assets/articles/stoia/audio/6d_Broonzy_Key To The Highway_v1.mp3'
+        alt: 'Audio Example 6d'
         border: false
         scale: 1
 
@@ -379,6 +386,13 @@ audio_8:
         border: false
         scale: 1
     - figure:
+        number: '8b'
+        caption:
+        url: 'assets/articles/stoia/audio/8b_McTell and Glaze_Lonesome Day Blues_v1.mp3'
+        alt: 'Audio Example 8b'
+        border: false
+        scale: 1
+    - figure:
         number: '8c'
         caption:
         url: 'assets/articles/stoia/audio/8c_Howell_Rolling Mill Blues_v8.mp3'
@@ -393,7 +407,7 @@ audio_10:
     - figure:
         number: '10a'
         caption:
-        url: 'assets/articles/stoia/audio/10a_Rainey_Stack O_Lee Blues_v1.mp3'
+        url: "assets/articles/stoia/audio/10a_Rainey_Stack O'Lee Blues_v1.mp3"
         alt: 'Audio Example 10a'
         border: false
         scale: 1
@@ -412,15 +426,53 @@ audio_11:
     - figure:
         number: '11a'
         caption:
-        url: 'assets/articles/stoia/audio/11a_Lewis_Billy Lyons and Stack O_Lee_v1.mp3'
+        url: "assets/articles/stoia/audio/11a_Lewis_Billy Lyons and Stack O'Lee_v1.mp3"
         alt: 'Audio Example 11a'
         border: false
         scale: 1
     - figure:
         number: '11b'
         caption:
-        url: 'assets/articles/stoia/audio/11b_Reed and Hull_Original Stack O_Lee Blues_v1.mp3'
+        url: "assets/articles/stoia/audio/11b_Reed and Hull_Original Stack O'Lee Blues_v1.mp3"
         alt: 'Audio Example 11b'
+        border: false
+        scale: 1
+
+audio_12:
+  main_number:
+  main_caption:
+  figures:
+    - figure:
+        number: '12a'
+        caption:
+        url: "assets/articles/stoia/audio/12a_Hurt_Stack O'Lee Blues.mp3"
+        alt: 'Audio Example 12a'
+        border: false
+        scale: 1
+    - figure:
+        number: '12b'
+        caption:
+        url: 'assets/articles/stoia/audio/12b_Guthrie_Stackolee_v2.mp3'
+        alt: 'Audio Example 12b'
+        border: false
+        scale: 1
+
+audio_13:
+  main_number:
+  main_caption:
+  figures:
+    - figure:
+        number: '13a'
+        caption:
+        url: "assets/articles/stoia/audio/13a_Lewis_Billy Lyons and Stack O'Lee_v1.mp3"
+        alt: 'Audio Example 13a'
+        border: false
+        scale: 1
+    - figure:
+        number: '13b'
+        caption:
+        url: "assets/articles/stoia/audio/13b_Reed and Hull_Original Stack O'Lee Blues_v1.mp3"
+        alt: 'Audio Example 13b'
         border: false
         scale: 1
 
@@ -429,9 +481,16 @@ audio_14:
   main_caption:
   figures:
     - figure:
+        number: '14a'
+        caption:
+        url: 'assets/articles/stoia/audio/14a_Curtis and Ford_Stagolee.mp3'
+        alt: 'Audio Example 14a'
+        border: false
+        scale: 1
+    - figure:
         number: '14c'
         caption:
-        url: 'assets/articles/stoia/audio/14c_Archibald_Stack A_Lee_v2.mp3'
+        url: "assets/articles/stoia/audio/14c_Archibald_Stack A'Lee_v2.mp3"
         alt: 'Audio Example 14c'
         border: false
         scale: 1
