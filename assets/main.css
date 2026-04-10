@@ -1233,11 +1233,10 @@ body .masthead {
 	}
 }
 blockquote {
-	font-size: 1.4rem;
-}
-
-blockquote {
-    padding-left: 2em;
+	font-size: 1.2rem;
+	padding-left: 1.5em;
+	border-left: 3px solid #6d6360;
+	margin-left: 0;
 }
 
 blockquote p {
