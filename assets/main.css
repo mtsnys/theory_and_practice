@@ -564,6 +564,7 @@ div header.toc {
     max-height: calc(100vh - 3rem);
     padding: 0;
     padding-top: 1rem;
+    margin-left: 0;
     text-align: left;
     line-height: 1.3;
     font-size: .87rem;
