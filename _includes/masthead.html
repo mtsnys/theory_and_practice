@@ -18,7 +18,7 @@
 
 {% unless page.layout == 'article' or page.layout == 'review_article' %}
     {% assign current_volume = volume_data | where: "id", page.volume | first %}
-    {% if current_volume %}
+    {% if current_volume and page.volume %}
     <p class="volume-colophon">
         {%- if current_volume.editors -%}
             {%- if current_volume.editors.size == 1 -%}

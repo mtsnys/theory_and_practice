@@ -30,16 +30,17 @@ permalink: /about/
 
 <h2>Editorial Board</h2>
 	<ul style="list-style: none;">
-		<li>Knar Abrahamyan (Columbia University)</li>
-		<li>Guy Capuzzo (University of North Carolina Greensboro)</li>
+		
+		<li>Brett Clement (Ball State University)</li> 
 		<li>Trevor de Clercq (Middle Tennessee State University)</li>
 		<li>Leah Frederick (University of Colorado Boulder)</li>
-		<li>Samuel Ng (University of Cincinnati)</li>
-		<li>John Peterson (James Madison University)</li>
-		<li>Cara Stroud (Michigan State University)</li>
 		<li>Fred Hosken (Butler University)</li>
-		<li>Landon Morrison (Eastman School of Music)</li>
+		<li>Wing Lau (University of Illinois Chicago)</li>
+		<li>Landon Morrison (Eastman School of Music)</li> 
+		<li>John Peterson (James Madison University)</li>
 		<li>Matthew Poon (University of Wisconsin Eau Claire)</li>
+		<li>Sam Reenan (University of Cincinnati)</li> 
+		<li>Cara Stroud (Michigan State University)</li>
 	</ul>
 </div>
 
