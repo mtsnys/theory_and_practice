@@ -50,10 +50,11 @@ permalink: /about/
 		<li>Loretta Terrigno, Vice President (Eastman School of Music)</li>
 		<li>Stephanie Venturino, Secretary (Yale University)</li>
 		<li>Anna Stephan-Robinson, Treasurer (West Liberty University)</li>
-		<li>Ruka Shironishi, Member-at-large (Mannes School of Music)</li>
-		<li>Lukas Perry, Member-at-large (University of Nevada, Las Vegas)</li>
-		<li>Hanisha Kulothparan, Member-at-large (University of Rochester)</li>
 		<li>Jacob Eichhorn, Member-at-large (Eastman School of Music)</li>
+		<li>Hanisha Kulothparan, Member-at-large (University of Rochester)</li>
+		<li>Lukas Perry, Member-at-large (University of Nevada, Las Vegas)</li>
+		<li>Ruka Shironishi, Member-at-large (Mannes School of Music)</li>
+
 
 	</ul>
 </div>
