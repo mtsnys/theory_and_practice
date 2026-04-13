@@ -652,7 +652,7 @@ div header.toc {
     content: '›';
     flex-shrink: 0;
     color: #4d4643;
-    font-size: 0.9em;
+    font-size: 1.2em;
     line-height: 1;
 }
 

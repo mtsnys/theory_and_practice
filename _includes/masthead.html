@@ -15,6 +15,24 @@
 </div>
 </div>
 <div class="header-divider"></div>
+<script>
+(function() {
+  var sel = document.getElementById('volume-select');
+  if (!sel) return;
+  function fitSelect() {
+    var tmp = document.createElement('span');
+    var cs = window.getComputedStyle(sel);
+    tmp.style.cssText = 'position:absolute;visibility:hidden;white-space:nowrap;font-family:' +
+      cs.fontFamily + ';font-size:' + cs.fontSize + ';font-weight:' + cs.fontWeight;
+    tmp.textContent = sel.options[sel.selectedIndex].text;
+    document.body.appendChild(tmp);
+    sel.style.width = (tmp.offsetWidth + 36) + 'px';
+    document.body.removeChild(tmp);
+  }
+  fitSelect();
+  sel.addEventListener('change', fitSelect);
+})();
+</script>
 
 {% unless page.layout == 'article' or page.layout == 'review_article' %}
     {% assign current_volume = volume_data | where: "id", page.volume | first %}
