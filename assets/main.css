@@ -401,6 +401,18 @@ article {
 	overflow-wrap: break-word;
 }
 
+/* Figured bass: stacked numbers inline with Roman numerals */
+.figured-bass {
+	display: inline-block;
+	vertical-align: middle;
+	line-height: 1;
+	font-size: 0.68em;
+	text-align: center;
+}
+.figured-bass span {
+	display: block;
+}
+
 article.about {
 	width: 53%;
 	max-width: 100%;

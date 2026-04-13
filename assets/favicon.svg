@@ -1,20 +1,20 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
   <!-- Thin connecting ring -->
-  <circle cx="16" cy="16" r="11" stroke="#6d6360" stroke-width="0.4" fill="none"/>
+  <circle cx="16" cy="16" r="11" stroke="#4d4643" stroke-width="0.4" fill="none"/>
 
   <!-- Non-members (pentatonic gaps / "black keys": PC 1,3,6,8,10) — small dots -->
-  <circle cx="21.5" cy="6.5"  r="1.2" fill="#FAF4A7" stroke="#6d6360" stroke-width="0.4"/>
-  <circle cx="27"   cy="16"   r="1.2" fill="#FAF4A7" stroke="#6d6360" stroke-width="0.4"/>
-  <circle cx="16"   cy="27"   r="1.2" fill="#FAF4A7" stroke="#6d6360" stroke-width="0.4"/>
-  <circle cx="6.5"  cy="21.5" r="1.2" fill="#FAF4A7" stroke="#6d6360" stroke-width="0.4"/>
-  <circle cx="6.5"  cy="10.5" r="1.2" fill="#FAF4A7" stroke="#6d6360" stroke-width="0.4"/>
+  <circle cx="21.5" cy="6.5"  r="1.2" fill="#4d4643"/>
+  <circle cx="27"   cy="16"   r="1.2" fill="#4d4643"/>
+  <circle cx="16"   cy="27"   r="1.2" fill="#4d4643"/>
+  <circle cx="6.5"  cy="21.5" r="1.2" fill="#4d4643"/>
+  <circle cx="6.5"  cy="10.5" r="1.2" fill="#4d4643"/>
 
   <!-- C major scale members (PC 0,2,4,5,7,9,11) — large filled dots -->
-  <circle cx="16"   cy="5"    r="2.5" fill="#FAF4A7" stroke="#6d6360" stroke-width="0.4"/>
-  <circle cx="25.5" cy="10.5" r="2.5" fill="#FAF4A7" stroke="#6d6360" stroke-width="0.4"/>
-  <circle cx="25.5" cy="21.5" r="2.5" fill="#FAF4A7" stroke="#6d6360" stroke-width="0.4"/>
-  <circle cx="21.5" cy="25.5" r="2.5" fill="#FAF4A7" stroke="#6d6360" stroke-width="0.4"/>
-  <circle cx="10.5" cy="25.5" r="2.5" fill="#FAF4A7" stroke="#6d6360" stroke-width="0.4"/>
-  <circle cx="5"    cy="16"   r="2.5" fill="#FAF4A7" stroke="#6d6360" stroke-width="0.4"/>
-  <circle cx="10.5" cy="6.5"  r="2.5" fill="#FAF4A7" stroke="#6d6360" stroke-width="0.4"/>
+  <circle cx="16"   cy="5"    r="2.5" fill="#4d4643"/>
+  <circle cx="25.5" cy="10.5" r="2.5" fill="#4d4643"/>
+  <circle cx="25.5" cy="21.5" r="2.5" fill="#4d4643"/>
+  <circle cx="21.5" cy="25.5" r="2.5" fill="#4d4643"/>
+  <circle cx="10.5" cy="25.5" r="2.5" fill="#4d4643"/>
+  <circle cx="5"    cy="16"   r="2.5" fill="#4d4643"/>
+  <circle cx="10.5" cy="6.5"  r="2.5" fill="#4d4643"/>
 </svg>
