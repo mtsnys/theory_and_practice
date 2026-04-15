@@ -1811,11 +1811,10 @@ label.margin-toggle:not(.sidenote-number) {
 		position: inherit;
 		text-align: left;
 	}
-
     .sidenote-number:after {
         text-decoration: underline;
     }
-   
+
 .abstract-wrapper,
 .title-author-wrapper,
 article,
