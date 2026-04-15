@@ -1390,7 +1390,7 @@ a:link::-moz-selection {
 .authornote {
 	margin-top: 4.35em;
 }
-@media (max-width: 1024px) and (orientation: portrait) { 
+@media (max-width: 1024px) and (orientation: portrait) {
   /* ... other styles ... */
 
   /* Target sidenotes and margin notes */
@@ -1784,8 +1784,14 @@ label.margin-toggle:not(.sidenote-number) {
 	}
 }
 
-@media (max-width: 1366px) and (orientation: landscape) { 
-    label.margin-toggle:not(.sidenote-number) { 
+@media (max-width: 1024px) and (orientation: portrait) {
+    label.margin-toggle:not(.sidenote-number) {
+        display: inline;
+    }
+}
+
+@media (max-width: 1366px) and (orientation: landscape) {
+    label.margin-toggle:not(.sidenote-number) {
         display: none; /* Hide the checkbox label in landscape */
     }
 
