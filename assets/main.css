@@ -1255,7 +1255,7 @@ body .masthead {
 	}
 }
 blockquote {
-	font-size: 1.2rem;
+	font-size: 0.96rem;
 	padding-left: 1.5em;
 	border-left: 3px solid #6d6360;
 	margin-left: 0;
@@ -1263,6 +1263,8 @@ blockquote {
 
 blockquote p {
 	width: 100%;
+	font-size: 1.12rem;
+	line-height: 1.6rem;
 }
 
 
