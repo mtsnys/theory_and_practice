@@ -28,7 +28,7 @@ footnote_9: >
   Reymore built this model by conducting interviews (*n* = 23) and rating tasks (*n* = 460) "based on imagined instrument timbres" (Reymore 2020, ii).
 
 footnote_10: >
-  Others have written about the evolution of certain Joni Mitchell songs: Lloyd Whitesell (2008) conducts an analysis of the "evolution of Mitchell's own conception of 'Woodstock'" (34), Timothy Koozin (2024) analyzes recordings of Mitchell's "Both Sides Now" from 1969, 2000, and 2022, and Joanne Winning (2019) compares versions of "Both Sides Now" from 1969 and 2000. Beyond Mitchell, Steven Rings (2013) analyzes Bob Dylan's vocal evolution through performances of the song "It's Alright, Ma (I'm Only Bleeding)" from 1964 until 2009.
+  Others have written about the evolution of certain Joni Mitchell songs: Lloyd Whitesell (2008) conducts an analysis of the "evolution of Mitchell's own conception of 'Woodstock'" (34), Timothy Koozin (2024) analyzes recordings of Mitchell's "Both Sides Now" from 1969, 2000, and 2022, Joanne Winning (2019) compares versions of "Both Sides Now" from 1969 and 2000, and beyond Mitchell,<span></span> Steven Rings (2013) analyzes Bob Dylan's vocal evolution through performances of the song "It's Alright, Ma (I'm Only Bleeding)" from 1964 until 2009.
 
 footnote_11: >
   Mitchell performs lead vocals and Appalachian dulcimer, James Taylor performs on acoustic guitar, and Russ Kunkel performs on percussion.
@@ -94,7 +94,7 @@ footnote_31: >
   Of her voice on the 1974 *Miles of Aisles* album, Mitchell said, "My voice is gone . . . I sound like an old spade" (Monk 2012, 244). Mitchell may have used this phrase as code for a Black person, slang that emerged in the 1920s during the Harlem Renaissance (O'Conner and Kellerman 2009, 126--29). By using this term to refer to her voice, Mitchell seems to consider her voice as sounding Black; the statement also seems to carry a derogatory connotation, criticizing the sound of her changing (or failing) voice.
 
 footnote_32: >
-  When asked, "Why do you hate critics so much?," Mitchell responded, "They hold you in your decade" (Eggar 2007).
+  When asked, "Why do you hate critics so much," Mitchell responded, "They hold you in your decade" (Eggar 2007).
 
 footnote_33: >
   Straus argues that late style "may in some cases be more richly understood as disability style: a perspective composers may adopt at any age, often in response to a personal experience of disability" (Straus 2008, 6).
@@ -300,8 +300,8 @@ figure_14:
     - figure:
         number: '14'
         caption: >
-          Representation of the locations of vowel sounds in the mouth, based on an illustration from Hickey (\[2005\] 2026), with vowel space representation from Riverin-Coutlée, Roy, and Gubian (2023).
-        url: 'assets/articles/moranis/img/ex_14.png'
+          Representation of the locations of vowel sounds in the mouth, illustrated by Greta White, after Hickey (\[2005\] 2026), with vowel space representation from Riverin-Coutlée, Roy, and Gubian (2023).
+        url: 'assets/articles/moranis/img/ex_14.svg'
         alt: 'Test'
         border: false
         scale: .85

@@ -25,6 +25,10 @@
 
     // 3. First-author + year (handles "Lerdahl and Jackendoff 1983" → "Lerdahl 1983",
     //    "Riverin-Coutlée, Roy, and Gubian 2023" → "Riverin-Coutlée 2023")
+    // Skip compound "Author orig pub" queries — the caller handles year-by-year fallback,
+    // and step 3's last-year extraction would match the wrong entry (e.g. "Mitchell 2000" album
+    // instead of the "[1997] 2000" interview).
+    if (/\d{4}[a-z]?\s+\d{4}/.test(authorYear)) return null;
     var m3 = authorYear.match(/^(\S+).*?(\d{4}[a-z]?|forthcoming)\s*$/);
     if (m3) {
       var first = m3[1].replace(/,$/, ''), yr = m3[2];
