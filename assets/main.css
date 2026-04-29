@@ -538,6 +538,15 @@ abstract>p {
     padding-top: 1rem;
 }
 
+/* In review articles the bio-panel lives inside .title-author-wrapper;
+   use absolute positioning to place it in the right column at that vertical position */
+.title-author-wrapper .bio-panel {
+    position: absolute;
+    right: calc(-25vw - 5vw - 20px);
+    float: none;
+    margin-right: 0;
+}
+
 .bio-panel p {
 	margin: 0;
 	font-size: 0.87rem;

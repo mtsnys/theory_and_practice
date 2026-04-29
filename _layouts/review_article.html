@@ -23,13 +23,12 @@ layout: default
 </div>
 	{% endfor %}
 	{%- if page.author -%}
+  {%- include bio-panel.html -%}
 <p class="author">
     <a href=#{{page.short-name}}><span class="author-name">Reviewed by {{ page.author }}</span></a>
 </p>
 	{%- endif -%}
 </div>
-
-{%- include bio-panel.html -%}
 <div class="abstract-wrapper">
     {%- if page.abstract -%}
   <abstract>
