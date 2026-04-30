@@ -2,7 +2,7 @@
 layout: article
 volume: vol51
 categories: vol51
-order: 3
+order: 2
 title: "Rational Deceptions? An Analytical Exploration of Tonality, Meter, and Form in C. P. E. Bach&#39;s Symphony in D Major, Wq. 183/1"
 author: "Gilad Rabinovitch"
 short-name: "rabinovitch"

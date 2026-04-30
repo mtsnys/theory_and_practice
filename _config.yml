@@ -5,7 +5,7 @@ description: >-
 baseurl: ""
 url: "tnp.mtsnys.org" 
 volume: "Volume 51 | 2025–2026"
-current_volume: vol49-50
+current_volume: vol51
 editors:
   - name: Kyle Hutchinson
   - name: Christopher Segall
