@@ -22,6 +22,13 @@ document.addEventListener('DOMContentLoaded', function () {
     var span = input && input.nextElementSibling;
     if (!input || !span || !span.classList.contains('marginnote')) return;
 
+    // Bail out if the marginnote is already inline within real paragraph text.
+    // Only reposition when the marginnote is the sole meaningful content of the paragraph.
+    var hasInlineText = Array.from(candidateP.childNodes).some(function (node) {
+      return node.nodeType === Node.TEXT_NODE && node.textContent.trim();
+    });
+    if (hasInlineText) return;
+
     // Find the first paragraph after all blockquotes in this section
     var blockquotes = section.querySelectorAll('blockquote');
     var targetP = null;

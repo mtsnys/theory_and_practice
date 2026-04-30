@@ -274,7 +274,7 @@ figure_14:
         url: 'assets/articles/rabinovitch/img/ex_14.png'
         alt: 'Test'
         border: false
-        scale: 1
+        scale: .9
     - figure:
         url: 'assets/articles/rabinovitch/img/ex_14b.png'
         alt: 'Example 14 continued'

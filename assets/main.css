@@ -1803,31 +1803,31 @@ label.margin-toggle:not(.sidenote-number) {
 
 @media (max-width: 1366px) and (orientation: landscape) {
     label.margin-toggle:not(.sidenote-number) {
-        display: none; /* Hide the checkbox label in landscape */
+        display: inline;
     }
 
     .sidenote, .marginnote {
-        display: none;  /* Show sidenotes and margin notes by default */
-        float: left;     
-        left: 1rem;     
-        clear: both;     
-        width: 95%;      
+        display: none;
+        float: left;
+        left: 1rem;
+        clear: both;
+        width: 95%;
         margin: 1rem 2.5%;
         vertical-align: baseline;
         position: relative;
         text-align: left;
     }
-.margin-toggle:checked+.sidenote, .margin-toggle:checked+.marginnote {
-		display: block;
-		float: left;
-		left: 1rem;
-		clear: both;
-		width: 95%;
-		margin: 1rem 2.5%;
-		vertical-align: baseline;
-		position: inherit;
-		text-align: left;
-	}
+    .margin-toggle:checked+.sidenote, .margin-toggle:checked+.marginnote {
+        display: block;
+        float: left;
+        left: 1rem;
+        clear: both;
+        width: 95%;
+        margin: 1rem 2.5%;
+        vertical-align: baseline;
+        position: inherit;
+        text-align: left;
+    }
     .sidenote-number:after {
         text-decoration: underline;
     }

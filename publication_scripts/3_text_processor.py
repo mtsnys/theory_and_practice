@@ -38,30 +38,42 @@ permalink:
     
     # Pattern to find and replace sharps, flats, naturals
     sharp = r"ƒ"
-    replacement_sharp = "<span style=\"font-family: music;\">&#x266F;</span>" 
+    replacement_sharp = "<span style=\"font-family: music;\">&#x266F;</span>"
     natural = r"∂"
-    replacement_natural = "<span style=\"font-family: music;\">&#x266E;</span>" 
+    replacement_natural = "<span style=\"font-family: music;\">&#x266E;</span>"
     flat = r"ß"
-    replacement_flat = "<span style=\"font-family: music;\">&#x266D;</span>" 
+    replacement_flat = "<span style=\"font-family: music;\">&#x266D;</span>"
+
+    # Pre-process: accidental inside scale degree notation (\^ƒ4 → ƒ\^4)
+    # Must run before accidental and scale degree processing
+    accidental_in_sd = r"\\\^([ƒß∂])(\d)"
+    def swap_accidental_in_sd(m):
+        return m.group(1) + "\\^" + m.group(2)
+
+    # Pre-process: Roman numeral followed by accidental (IIIƒ → ƒIII)
+    # Swaps order so accidental displays conventionally before the numeral
+    roman_accidental = r"([IVX]+)([ƒß∂])"
+    roman_accidental_replacement = r"\2\1"
 
     # Pattern to find and replace scale degrees
-    s_d_1 = r"\^1"
+    # Patterns match the full \^N sequence (backslash-caret-digit) from authors
+    s_d_1 = r"\\\^1"
     replacement_s_d_1 = "<span style=\"font-family: music;\">&#xEF00;</span>"
-    s_d_2 = r"\^2"
+    s_d_2 = r"\\\^2"
     replacement_s_d_2 = "<span style=\"font-family: music;\">&#xEF01;</span>"
-    s_d_3 = r"\^3"
+    s_d_3 = r"\\\^3"
     replacement_s_d_3 = "<span style=\"font-family: music;\">&#xEF02;</span>"
-    s_d_4 = r"\^4"
+    s_d_4 = r"\\\^4"
     replacement_s_d_4 = "<span style=\"font-family: music;\">&#xEF03;</span>"
-    s_d_5 = r"\^5"
+    s_d_5 = r"\\\^5"
     replacement_s_d_5 = "<span style=\"font-family: music;\">&#xEF04;</span>"
-    s_d_6 = r"\^6"
+    s_d_6 = r"\\\^6"
     replacement_s_d_6 = "<span style=\"font-family: music;\">&#xEF05;</span>"
-    s_d_7 = r"\^7"
+    s_d_7 = r"\\\^7"
     replacement_s_d_7 = "<span style=\"font-family: music;\">&#xEF06;</span>"
-    s_d_8 = r"\^8"
+    s_d_8 = r"\\\^8"
     replacement_s_d_8 = "<span style=\"font-family: music;\">&#xEF07;</span>"
-    s_d_9 = r"\^9"
+    s_d_9 = r"\\\^9"
     replacement_s_d_9 = "<span style=\"font-family: music;\">&#xEF08;</span>"
 
 
@@ -83,8 +95,12 @@ permalink:
     new_content = re.sub(pattern2, replacement2, content, flags=re.DOTALL)
     new_content = re.sub(pattern1, replacement1, new_content)
     new_content = re.sub(pattern3, replacement3, new_content)
+    # Pre-process notation order issues before converting individual symbols
+    new_content = re.sub(accidental_in_sd, swap_accidental_in_sd, new_content)
+    new_content = re.sub(roman_accidental, roman_accidental_replacement, new_content)
     new_content = re.sub(sharp, replacement_sharp, new_content)
     new_content = re.sub(flat, replacement_flat, new_content)
+    new_content = re.sub(natural, replacement_natural, new_content)
     new_content = re.sub(s_d_1, replacement_s_d_1, new_content)
     new_content = re.sub(s_d_2, replacement_s_d_2, new_content)
     new_content = re.sub(s_d_3, replacement_s_d_3, new_content)
