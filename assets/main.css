@@ -1842,6 +1842,10 @@ article,
 			overflow-wrap: break-word;
 }
 
+.breadcrumb {
+    margin-top: 2rem;
+}
+
 
 .toc,
 .toc-wrapper,
